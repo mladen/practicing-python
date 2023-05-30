@@ -52,3 +52,5 @@ Practicing Python by going through several (free and paid) courses
 - (05:34:10) Decorators
 - (05:50:29) Generators
 - (06:04:32) Context Managers
+
+# Other courses
