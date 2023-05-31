@@ -54,3 +54,12 @@ Practicing Python by going through several (free and paid) courses
 - (06:04:32) Context Managers
 
 # Other courses
+
+Check out:
+- Programming with Most
+- freeCodeCamp
+
+Also check out:
+- middle and advanced level
+- data structures
+- algorithms
