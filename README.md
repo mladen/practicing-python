@@ -55,6 +55,11 @@ Practicing Python by going through several (free and paid) courses
 
 [TechWithTim - What to learn after Python](https://www.youtube.com/watch?v=H1UKIgBSfxM&t=4s&ab_channel=TechWithTim)
 [TechWithTim - Python101: Learn the 5 Must-Known Concepts](https://www.youtube.com/watch?v=mMv6OSuitWw&ab_channel=TechWithTim)
+[TechWithTim - Create A Python API in 12 Minutes - in Flask](https://www.youtube.com/watch?v=zsYIw6RXjfM&ab_channel=TechWithTim)
+[TechWithTim (shorts) - Django VS Flask - Which Should You Learn](https://www.youtube.com/shorts/Gj02l0R1drM)
+[TechWithTim (shorts) - How to Prepare For Big Programming Projects](https://www.youtube.com/shorts/LJmv_9EV7e8)
+
+[b001 (shorts) - ALL Python Programmers Should Know This!! #python #programming #coding](https://www.youtube.com/shorts/g9fIWtSexLs)
 
 # Other courses
 
