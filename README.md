@@ -1,7 +1,7 @@
 # practicing-python
 Practicing Python by going through several (free and paid) courses
 
-# [TechWithTim Python Course](https://www.youtube.com/watch?v=sxTmJE4k0ho)
+# [TechWithTim - Python Course](https://www.youtube.com/watch?v=sxTmJE4k0ho)
 ### Price: free
 ### Platform: YouTube
 ## Content:
@@ -52,6 +52,8 @@ Practicing Python by going through several (free and paid) courses
 - (05:34:10) Decorators
 - (05:50:29) Generators
 - (06:04:32) Context Managers
+
+[TechWithTim - What to learn after Python](https://www.youtube.com/watch?v=H1UKIgBSfxM&t=4s&ab_channel=TechWithTim)
 
 # Other courses
 
