@@ -60,6 +60,9 @@ Practicing Python by going through several (free and paid) courses
 [TechWithTim (shorts) - How to Prepare For Big Programming Projects](https://www.youtube.com/shorts/LJmv_9EV7e8)
 
 [b001 (shorts) - ALL Python Programmers Should Know This!! #python #programming #coding](https://www.youtube.com/shorts/g9fIWtSexLs)
+[b001 (playlist) - How To Python](https://www.youtube.com/playlist?list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
+[b001 - How To Python - Data Types And Variables](https://www.youtube.com/watch?v=j6h5zPJPfA0&list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D&ab_channel=b001)
+[b001 - Floats and Integers | How To Python](https://www.youtube.com/watch?v=77TsTM3XxmA&list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D&index=2&ab_channel=b001)
 
 # Other courses
 
