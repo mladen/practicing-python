@@ -68,6 +68,8 @@ Practicing Python by going through several (free and paid) courses
 
 [Eye On AI - Why Attention is Crucial in AI](https://www.youtube.com/shorts/Knm8iDBL1hg)
 
+[Weights & Biases - Scaling LLMs and Accelerating Adoption: Interview with Aidan Gomez](https://www.youtube.com/watch?v=sD24pZh7pmQ&ab_channel=Weights%26Biases)
+
 # Other courses
 
 Check out:
