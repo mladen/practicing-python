@@ -64,6 +64,10 @@ Practicing Python by going through several (free and paid) courses
 [b001 - How To Python - Data Types And Variables](https://www.youtube.com/watch?v=j6h5zPJPfA0&list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D&ab_channel=b001)
 [b001 - Floats and Integers | How To Python](https://www.youtube.com/watch?v=77TsTM3XxmA&list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D&index=2&ab_channel=b001)
 
+[Python Programmer - Master python with this unique 5-in-1 python (YouTube) project](https://www.youtube.com/watch?v=dYNJrj835lc&ab_channel=PythonProgrammer)
+
+[Eye On AI - Why Attention is Crucial in AI](https://www.youtube.com/shorts/Knm8iDBL1hg)
+
 # Other courses
 
 Check out:
