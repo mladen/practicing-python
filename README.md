@@ -53,6 +53,8 @@ Practicing Python by going through several (free and paid) courses
 - (05:50:29) Generators
 - (06:04:32) Context Managers
 
+[Sundas Khalid - How to Learn Python FAST with ChatGPT?](https://www.youtube.com/watch?v=tEn5BjRY8Uw&ab_channel=SundasKhalid)
+
 [TechWithTim - What to learn after Python](https://www.youtube.com/watch?v=H1UKIgBSfxM&t=4s&ab_channel=TechWithTim)
 [TechWithTim - Python101: Learn the 5 Must-Known Concepts](https://www.youtube.com/watch?v=mMv6OSuitWw&ab_channel=TechWithTim)
 [TechWithTim - Create A Python API in 12 Minutes - in Flask](https://www.youtube.com/watch?v=zsYIw6RXjfM&ab_channel=TechWithTim)
