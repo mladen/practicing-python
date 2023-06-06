@@ -6,17 +6,17 @@ Practicing Python by going through several (free and paid) courses
 ### Platform: YouTube
 ## Content:
 📕 Beginner Python Programming 📕
-- (00:00:00) Introduction
-- (00:01:12) Variables & Data Types
-- (00:12:21) Basic Operators & Input
-- (00:24:11) Conditions
-- (00:32:54) if-elif-else
-- (00:45:56) Chained Conditionals & Nested Statements
-- (00:53:29) For Loops
-- (00:59:29) While Loops
-- (01:05:51) List's and Tuples
-- (01:14:09) Iteration by Item
-- (01:20:13) String Methods
+- 0  (00:00:00) Introduction
+- 1  (00:01:12) Variables & Data Types
+- 2  (00:12:21) Basic Operators & Input
+- 3  (00:24:11) Conditions
+- 4  (00:32:54) if-elif-else
+- 5  (00:45:56) Chained Conditionals & Nested Statements
+- 6  (00:53:29) For Loops
+- 7  (00:59:29) While Loops
+- 8  (01:05:51) List's and Tuples
+- 9  (01:14:09) Iteration by Item
+- 10 (01:20:13) String Methods
 - (01:26:38) Slice Operator
 - (01:33:41) Functions
 - (01:42:10) How to Read a Text File
@@ -75,7 +75,7 @@ Practicing Python by going through several (free and paid) courses
 # Other courses
 
 Check out:
-- Programming with Most
+- Programming with Mosh
 - freeCodeCamp
 
 Also check out:
