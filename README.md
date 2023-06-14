@@ -75,9 +75,10 @@ Practicing Python by going through several (free and paid) courses
 [Weights & Biases - Scaling LLMs and Accelerating Adoption: Interview with Aidan Gomez](https://www.youtube.com/watch?v=sD24pZh7pmQ&ab_channel=Weights%26Biases)
 
 # General advice
-[Mindset of Successful Programmers](https://www.youtube.com/watch?v=nogh434ykF0&ab_channel=bigboxSWE)
+[bigboxSWE - Mindset of Successful Programmers](https://www.youtube.com/watch?v=nogh434ykF0&ab_channel=bigboxSWE)
 
 # Other courses
+[Udemy - Al Sweigart - Automate the Boring Stuff with Python Programming](https://www.udemy.com/course/automate/)
 
 Check out:
 - Programming with Mosh
