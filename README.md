@@ -80,6 +80,7 @@ Practicing Python by going through several (free and paid) courses
 # Other courses
 [Udemy - Al Sweigart - Automate the Boring Stuff with Python Programming](https://www.udemy.com/course/automate/)
 [Udemy - ZTM, Andrei Neagoie, Daniel Bourke - Complete Machine Learning & Data Science Bootcamp 2023](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/)
+[Udemy - Jose Portilla - Python for Machine Learning & Data Science Masterclass / 2021](https://www.udemy.com/course/python-for-machine-learning-data-science-masterclass/)
 Check out:
 - Programming with Mosh
 - freeCodeCamp
