@@ -11,3 +11,5 @@ for line in f:
         newList.append(line) # dodajemo poslenji element, koji smo izuzeli sa 'if' izrazom jer nije imao simbol '\n'
 
 print(newList)
+
+file.close() # moramo i da zatvorimo fajl na kraju
