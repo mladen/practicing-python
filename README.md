@@ -76,6 +76,7 @@ Practicing Python by going through several (free and paid) courses
 
 # General advice
 [bigboxSWE - Mindset of Successful Programmers](https://www.youtube.com/watch?v=nogh434ykF0&ab_channel=bigboxSWE)
+[FASTEST Way to Become a Data Analyst and ACTUALLY Get a Job](https://www.youtube.com/watch?v=AYWLZ1lES6g&ab_channel=Stefanovic)
 
 # Other courses
 [Udemy - Al Sweigart - Automate the Boring Stuff with Python Programming](https://www.udemy.com/course/automate/)
