@@ -76,14 +76,14 @@ Practicing Python by going through several (free and paid) courses
 
 # General advice
 [bigboxSWE - Mindset of Successful Programmers](https://www.youtube.com/watch?v=nogh434ykF0&ab_channel=bigboxSWE)
-[FASTEST Way to Become a Data Analyst and ACTUALLY Get a Job](https://www.youtube.com/watch?v=AYWLZ1lES6g&ab_channel=Stefanovic)
-[How I Would Learn to be a Data Analyst](https://www.youtube.com/watch?v=CC66RXeTn_4&ab_channel=LukeBarousse)
-[FASTEST Way to Learn Data Science and ACTUALLY Get a Job](https://www.youtube.com/watch?v=AI1eKN1Eldg&ab_channel=PowerCouple)
-[FASTEST Way to become a Data Analyst and ACTUALLY get a job [2023]](https://www.youtube.com/watch?v=08DAw16x63E&t=7s&ab_channel=JoshBrindley)
+[Stefanovic - FASTEST Way to Become a Data Analyst and ACTUALLY Get a Job](https://www.youtube.com/watch?v=AYWLZ1lES6g&ab_channel=Stefanovic)
+[Luke Brtousse - How I Would Learn to be a Data Analyst](https://www.youtube.com/watch?v=CC66RXeTn_4&ab_channel=LukeBarousse)
+[Power Couple - FASTEST Way to Learn Data Science and ACTUALLY Get a Job](https://www.youtube.com/watch?v=AI1eKN1Eldg&ab_channel=PowerCouple)
+[Josh Brindley - FASTEST Way to become a Data Analyst and ACTUALLY get a job [2023]](https://www.youtube.com/watch?v=08DAw16x63E&t=7s&ab_channel=JoshBrindley)
 
 # Math in Data Science
-[How Much Math Is REALLY In Data Science | What Math Do You Need For Data Science](https://www.youtube.com/watch?v=Fzfxn8U8aMw&ab_channel=DataNash)
-[Every Data Scientist Should Read This Book](https://www.youtube.com/watch?v=ZbGbqUdjc28&t=86s&ab_channel=DataNash)
+[Data Nash - How Much Math Is REALLY In Data Science | What Math Do You Need For Data Science](https://www.youtube.com/watch?v=Fzfxn8U8aMw&ab_channel=DataNash)
+[Data Nash - Every Data Scientist Should Read This Book](https://www.youtube.com/watch?v=ZbGbqUdjc28&t=86s&ab_channel=DataNash)
 
 # Other courses
 [Udemy - Al Sweigart - Automate the Boring Stuff with Python Programming](https://www.udemy.com/course/automate/)
