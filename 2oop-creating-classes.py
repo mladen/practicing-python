@@ -4,7 +4,7 @@ class User(object):
                                    # Konstruktor stavljamo u klasu ako zelimo da se nesto
                                    # izvrsi cim se napravi klasa (valjda objekat?)
         self.name = name # Da bismo napravili atribut, moramo da koristimo "self."
-                         # "self" se odnosi na instancu koju pozivamo
+                         # "self" se odnosi na instancu klase (tj. objekat) koju pozivamo
         self.age = age
         # pass
 
