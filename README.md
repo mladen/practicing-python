@@ -58,6 +58,10 @@ Practicing Python by going through several (free and paid) courses
 [TechWithTim - What to learn after Python](https://www.youtube.com/watch?v=H1UKIgBSfxM&t=4s&ab_channel=TechWithTim)
 [TechWithTim - Python101: Learn the 5 Must-Known Concepts](https://www.youtube.com/watch?v=mMv6OSuitWw&ab_channel=TechWithTim)
 [TechWithTim - Create A Python API in 12 Minutes - in Flask](https://www.youtube.com/watch?v=zsYIw6RXjfM&ab_channel=TechWithTim)
+[TechWithTim - The Truth About Learning Python in 2023](https://www.youtube.com/watch?v=qecsnAXtms4)
+[TechWithTim - Learn Python With This ONE Project!](https://www.youtube.com/watch?v=th4OBktqK1I)
+[TechWithTim - Top-notch Coding Projects for Employment!](https://www.youtube.com/watch?v=VqO8vjh3VFI)
+[TechWithTim - Python As Fast as Possible - Learn Python in ~75 Minutes](https://www.youtube.com/watch?v=VchuKL44s6E)
 [TechWithTim (shorts) - Django VS Flask - Which Should You Learn](https://www.youtube.com/shorts/Gj02l0R1drM)
 [TechWithTim (shorts) - How to Prepare For Big Programming Projects](https://www.youtube.com/shorts/LJmv_9EV7e8)
 
@@ -70,9 +74,10 @@ Practicing Python by going through several (free and paid) courses
 
 [Dave Gray (playlist) - Python Tutorials for Beginners](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6MQri81d012LwP5jvFZ_scc)
 
-[Eye On AI - Why Attention is Crucial in AI](https://www.youtube.com/shorts/Knm8iDBL1hg)
+# Python automation
+[Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
 
-[Weights & Biases - Scaling LLMs and Accelerating Adoption: Interview with Aidan Gomez](https://www.youtube.com/watch?v=sD24pZh7pmQ&ab_channel=Weights%26Biases)
+[Udemy - Al Sweigart - Automate the Boring Stuff with Python Programming](https://www.udemy.com/course/automate/)
 
 # General advice
 [bigboxSWE - Mindset of Successful Programmers](https://www.youtube.com/watch?v=nogh434ykF0&ab_channel=bigboxSWE)
@@ -80,13 +85,25 @@ Practicing Python by going through several (free and paid) courses
 [Luke Brtousse - How I Would Learn to be a Data Analyst](https://www.youtube.com/watch?v=CC66RXeTn_4&ab_channel=LukeBarousse)
 [Power Couple - FASTEST Way to Learn Data Science and ACTUALLY Get a Job](https://www.youtube.com/watch?v=AI1eKN1Eldg&ab_channel=PowerCouple)
 [Josh Brindley - FASTEST Way to become a Data Analyst and ACTUALLY get a job [2023]](https://www.youtube.com/watch?v=08DAw16x63E&t=7s&ab_channel=JoshBrindley)
-
+[David Bombal - What are you going to do in 2023? Tops 5 skills to get!](https://www.youtube.com/watch?v=-OAa9k0zCDg)
+[projectMaria - How to Self-Study Programming](https://www.youtube.com/watch?v=YpdEJgC4PGo)
+[projectMaria - Learning is a Skill (and most of us suck at it)](https://www.youtube.com/watch?v=QZHnpIPk6kc)
+[Austin Coldiron - How to Beat Procrastination & Build Self-Discipline](https://www.youtube.com/watch?v=h22cFDz9734)
+[Elijah Oxford - OUTWORK Everyone By Being Bored](https://www.youtube.com/watch?v=1iNyqomXQt8)
 # Math in Data Science
 [Data Nash - How Much Math Is REALLY In Data Science | What Math Do You Need For Data Science](https://www.youtube.com/watch?v=Fzfxn8U8aMw&ab_channel=DataNash)
 [Data Nash - Every Data Scientist Should Read This Book](https://www.youtube.com/watch?v=ZbGbqUdjc28&t=86s&ab_channel=DataNash)
 
+# Math in general
+[Samuel Bosch - How to Understand Math Intuitively?](https://www.youtube.com/watch?v=glZLHLLalv0)
+
+# Machine Learning basics
+[Programming with Mosh - Python Machine Learning Tutorial (Data Science)](https://www.youtube.com/watch?v=7eh4d6sabA0)
+
+# Machine Learning
+[Eye On AI - Why Attention is Crucial in AI](https://www.youtube.com/shorts/Knm8iDBL1hg)
+[Weights & Biases - Scaling LLMs and Accelerating Adoption: Interview with Aidan Gomez](https://www.youtube.com/watch?v=sD24pZh7pmQ&ab_channel=Weights%26Biases)
 # Other courses
-[Udemy - Al Sweigart - Automate the Boring Stuff with Python Programming](https://www.udemy.com/course/automate/)
 [Udemy - ZTM, Andrei Neagoie, Daniel Bourke - Complete Machine Learning & Data Science Bootcamp 2023](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/)
 [Udemy - Jose Portilla - Python for Machine Learning & Data Science Masterclass / 2021](https://www.udemy.com/course/python-for-machine-learning-data-science-masterclass/)
 Check out:
