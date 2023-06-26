@@ -53,9 +53,8 @@ Practicing Python by going through several (free and paid) courses
 - (05:50:29) Generators
 - (06:04:32) Context Managers
 
-- [Sundas Khalid - How to Learn Python FAST with ChatGPT?](https://www.youtube.com/watch?v=tEn5BjRY8Uw)
-
-- [TechWithTim - What to learn after Python](https://www.youtube.com/watch?v=H1UKIgBSfxM&t=4s)
+# Python tutorials
+- [TechWithTim - What to learn after Python](https://www.youtube.com/watch?v=H1UKIgBSfxM)
 - [TechWithTim - Python101: Learn the 5 Must-Known Concepts](https://www.youtube.com/watch?v=mMv6OSuitWw)
 - [TechWithTim - Python Object Oriented Programming (OOP) - For Beginners](https://www.youtube.com/watch?v=JeznW_7DlB0)
 - [TechWithTim - Python As Fast as Possible - Learn Python in ~75 Minutes](https://www.youtube.com/watch?v=VchuKL44s6E)
@@ -67,22 +66,17 @@ Practicing Python by going through several (free and paid) courses
 - [TechWithTim - The Truth About Learning Python in 2023](https://www.youtube.com/watch?v=qecsnAXtms4)
 - [TechWithTim (shorts) - Django VS Flask - Which Should You Learn](https://www.youtube.com/shorts/Gj02l0R1drM)
 - [TechWithTim (shorts) - How to Prepare For Big Programming Projects](https://www.youtube.com/shorts/LJmv_9EV7e8)
-
 - [b001 (shorts) - ALL Python Programmers Should Know This!! #python #programming #coding](https://www.youtube.com/shorts/g9fIWtSexLs)
 - [b001 (playlist) - How To Python](https://www.youtube.com/playlist?list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
 - [b001 - How To Python - Data Types And Variables](https://www.youtube.com/watch?v=j6h5zPJPfA0&list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
 - [b001 - Floats and Integers | How To Python](https://www.youtube.com/watch?v=77TsTM3XxmA&list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D&index=2)
-
 - [Python Programmer - Master python with this unique 5-in-1 python (YouTube) project](https://www.youtube.com/watch?v=dYNJrj835lc)
-
 - [Dave Gray (playlist) - Python Tutorials for Beginners](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6MQri81d012LwP5jvFZ_scc)
-
 - [Bro Code - Python Full Course for free](https://www.youtube.com/watch?v=XKHEtdqhLK8)
-
+- [Sundas Khalid - How to Learn Python FAST with ChatGPT?](https://www.youtube.com/watch?v=tEn5BjRY8Uw)
 
 # Python automation
 - [Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
-
 - [Udemy - Al Sweigart - Automate the Boring Stuff with Python Programming](https://www.udemy.com/course/automate/)
 
 # General advice
@@ -104,24 +98,26 @@ Practicing Python by going through several (free and paid) courses
 # Math in general
 - [Samuel Bosch - How to Understand Math Intuitively?](https://www.youtube.com/watch?v=glZLHLLalv0)
 
-# Machine Learning basics
+# Machine Learning
+## Machine Learning basics
 - [Programming with Mosh - Python Machine Learning Tutorial (Data Science)](https://www.youtube.com/watch?v=7eh4d6sabA0)
 
-# Machine Learning
+## Machine Learning general
 - [Eye On AI - Why Attention is Crucial in AI](https://www.youtube.com/shorts/Knm8iDBL1hg)
 - [Weights & Biases - Scaling LLMs and Accelerating Adoption: Interview with Aidan Gomez](https://www.youtube.com/watch?v=sD24pZh7pmQ)
 
-# Machine learning courses
+## Machine learning courses
 - [Udemy - ZTM, Andrei Neagoie, Daniel Bourke - Complete Machine Learning & Data Science Bootcamp 2023](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/)
 - [Udemy - Jose Portilla - Python for Machine Learning & Data Science Masterclass / 2021](https://www.udemy.com/course/python-for-machine-learning-data-science-masterclass/)
 
-Other courses:
+# Other courses:
 - [Bro Code - Full Courses (Python, JAVA, C++, C#, C, Data Structures and Algorithms...)](https://www.youtube.com/playlist?list=PLZPZq0r_RZON03iKBjYOsOKr1-TD7z2lH)
-Check out:
+
+# Good YouTube Channels:
 - Programming with Mosh
 - freeCodeCamp
 
-Also check out:
+# Also check out:
 - middle and advanced level
 - data structures
 - algorithms
