@@ -10,21 +10,23 @@ var = 9
 loop = True
 newVar = 23
 
+
 def func(x):
     # newVar = 7  # lokalna varijabla (lokalna za funkciju func())
-                # dakle, ne moze je vidjeti niko van ove funkcije
-                # niti moze da promijeni ista van funkcije OSIM...
-                # osim ako se ne pozovemo na globalnu promjenljivu
-                # uz pomoc "global nazivGlobalnePromjenljive"
-    global newVar # dakle, ovako KORISTIMO i MIJENjAMO globalNu varijablu
+    # dakle, ne moze je vidjeti niko van ove funkcije
+    # niti moze da promijeni ista van funkcije OSIM...
+    # osim ako se ne pozovemo na globalnu promjenljivu
+    # uz pomoc "global nazivGlobalnePromjenljive"
+    global newVar  # dakle, ovako KORISTIMO i MIJENjAMO globalNu varijablu
     newVar = 8
-    print(newVar) # ovo ce da istampa vrijednost globalne varijable
+    print(newVar)  # ovo ce da istampa vrijednost globalne varijable
 
     if x == 5:
         return newVar
 
+
 func(4)
-print(newVar) # OVDJE VIDIMO VRIJEDNOST KOJU JE IZMIJENILA FUNKCIJA func()
+print(newVar)  # OVDJE VIDIMO VRIJEDNOST KOJU JE IZMIJENILA FUNKCIJA func()
 
 # def otherFunc():
 #     newVar = 5 # ova funkcija vidi i newVar = 23, ali posto je newVar
