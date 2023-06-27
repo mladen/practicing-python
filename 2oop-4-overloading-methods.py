@@ -23,8 +23,8 @@ class Point():
         return math.sqrt(self.x**2 + self.y**2)
 
     def __gt__(self, p):
-        return self.length() > p.length()
-
+        return self.length() > p.length() # length() mozemo definisati preko __len__, a u tom
+                                          # slucaju cemo u sledecim funkcijama raditi p.len()
     def __ge__(self, p):
         return self.length() >= p.length()
 
