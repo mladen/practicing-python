@@ -58,6 +58,7 @@ Practicing Python by going through several (free and paid) courses
 - [TechWithTim - Python101: Learn the 5 Must-Known Concepts](https://www.youtube.com/watch?v=mMv6OSuitWw)
 - [TechWithTim - Python Object Oriented Programming (OOP) - For Beginners](https://www.youtube.com/watch?v=JeznW_7DlB0)
 - [TechWithTim - Python As Fast as Possible - Learn Python in ~75 Minutes](https://www.youtube.com/watch?v=VchuKL44s6E)
+- [TechWithTim - Mastering Python - Everything You Need To Know To Become a Python Master](https://www.youtube.com/watch?v=p15xzjzR9j0)
 - [TechWithTim - Create A Python API in 12 Minutes - in Flask](https://www.youtube.com/watch?v=zsYIw6RXjfM)
 - [TechWithTim - Django For Beginners - Full Tutorial](https://www.youtube.com/watch?v=sm1mokevMWk)
 - [TechWithTim - Learn Python With This ONE Project!](https://www.youtube.com/watch?v=th4OBktqK1I)
@@ -73,6 +74,7 @@ Practicing Python by going through several (free and paid) courses
 - [Python Programmer - Master python with this unique 5-in-1 python (YouTube) project](https://www.youtube.com/watch?v=dYNJrj835lc)
 - [Dave Gray (playlist) - Python Tutorials for Beginners](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6MQri81d012LwP5jvFZ_scc)
 - [Bro Code - Python Full Course for free](https://www.youtube.com/watch?v=XKHEtdqhLK8)
+- [Clear Code - The complete guide to Python](https://www.youtube.com/watch?v=mDKM-JtUhhc)
 - [Sundas Khalid - How to Learn Python FAST with ChatGPT?](https://www.youtube.com/watch?v=tEn5BjRY8Uw)
 
 # Python automation
@@ -80,6 +82,7 @@ Practicing Python by going through several (free and paid) courses
 - [Udemy - Al Sweigart - Automate the Boring Stuff with Python Programming](https://www.udemy.com/course/automate/)
 
 # General advice
+- [TechWithTim - The Ultimate Self-Taught Developer Curriculum](https://www.youtube.com/watch?v=vxctuiRlmrs)
 - [bigboxSWE - Mindset of Successful Programmers](https://www.youtube.com/watch?v=nogh434ykF0)
 - [Stefanovic - FASTEST Way to Become a Data Analyst and ACTUALLY Get a Job](https://www.youtube.com/watch?v=AYWLZ1lES6g)
 - [Luke Brtousse - How I Would Learn to be a Data Analyst](https://www.youtube.com/watch?v=CC66RXeTn_4)
