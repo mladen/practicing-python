@@ -7,7 +7,7 @@ class User:
         self.users.append(self)
 
     @classmethod  # metoda KLASE (a ne objekta/instance...); DEKORATOR
-    def num_users(cls):  # Sa "cls" mi predajemo klasu tako da mozemo (unutar ove
+    def num_users(cls):  # Sa "cls" mi predajemo klasu (User) tako da mozemo (unutar ove
         return len(cls.users)  # metode) da koristimo promjenljive i metode same klase
         # Npr. ako unutar num_users() hocemo da koristimo users[]
         # ili staticnu metodu ili ako hocemo da pozovemo
@@ -49,7 +49,8 @@ print(User.num_users())  # Dakle, pozivamo num_users() nad User klasom
 # uz pomoc klase.
 
 # OVDJE RADIM SA STATICNIM METODAMA (dekorator @staticmethod)
-# Staticnim metodama NE TREBA KLASA da bismo tu metodu pozvali
+# Staticnim metodama NE TREBA KLASA da bismo tu metodu pozvali??????
 # Ne predajemo joj klasu (sa "cls", kao sto to radimo sa metodom
 # klase), pa cak ni "self" vec samo ono sto nam treba, ako treba ista.
+# Zato staticne metode ni ne mogu da pristupe ostalim clanovima klase User.
 User.speak(3)
