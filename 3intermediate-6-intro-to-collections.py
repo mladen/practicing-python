@@ -3,18 +3,24 @@ from collections import Counter
 
 # Kolekcije nam omogucavaju da imamo razlicite tipove podataka (datatypes)
 # kako bismo mogli da sortiramo informacije
+#
+#
 # Containers:
 # list
 # set
 # dict
 # tuple - immutable
 #
-# Types
+#
+# Types (ovi su iz collection modula):
 # counter <- u ovom fajlu cu o njemu
 # deque
 # namedTuple()
 # orderDict
 # defaultdict
+
+# Counter() cemo raditi sada.
+# Counter() nam omogucava da sortiramo, prolazimo kroz itd. informacije
 
 # 1. String
 c1 = Counter(
