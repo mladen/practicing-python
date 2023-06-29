@@ -39,3 +39,12 @@ print(c3)
 # Ustvari ovo prethodno je rezultat sledeceg koda? To je poenta valjda?
 c4 = Counter(["cat", "cat", "dog", "cat", "dog", "cat"])
 print(c4)
+
+# 5. Pristupanje elementima
+print(c4["cat"])
+print(c4["elephant"])  # Kod liste, kada trazimo nepostojeci clan, ovo daje nulu (0)
+
+testDict = {"dog": 2, "cat": 1}
+print(
+    testDict["rhino"]
+)  # Kod dictionary ako trazimo nepostojeci kljuc - dobijamo gresku
