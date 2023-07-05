@@ -28,9 +28,11 @@ print("------------------------------------")
 
 # 2. Razrada i zakljucak :)
 def dekor(fija):
-    def wrapper():
+    def wrapper(
+        *args, **kwargs
+    ):  # *args - positional arguments; **kwargs - keyword arguments
         print("Started")
-        fija()
+        fija(*args, **kwargs)
         print("Ended")
 
     return wrapper  # Dakle, ovdje ne vracamo wrapper() vec wrapper
@@ -40,9 +42,19 @@ def func2():
     print("Im func 2")
 
 
-def func3():
-    print("Im func 3")
-
-
+# 2.1
 func2 = dekor(func2)
 func2()  # Sada, ovo mozemo da pozovemo iz bilo kojeg dijela naseg programa
+
+print("------------------")
+
+
+# 2.2
+# Koristeci dekorator (bolja verzija)!
+# Mozemo koristiti i vise dekoratora.
+@dekor
+def func3():
+    print("Im func 3 - using decorator")
+
+
+func3()
