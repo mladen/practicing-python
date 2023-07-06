@@ -58,3 +58,16 @@ def func3():
 
 
 func3()
+
+print("------------------")
+
+
+# 2.3
+# Ako dekorator koristimo sa funkcijom kojoj se predaju argumenti
+# onda u dekoratoru moramo to rijesiti sa args i kwargs
+@dekor
+def func4(x):
+    print("Im func 4. Printing the passed argumend: ", x)
+
+
+func4()
