@@ -88,7 +88,7 @@ print("---")
 @dekor
 def func5(j, k):
     print(j)
-    return k
+    return k  # Dakle, func5() ovdje vraca neku vrijednost
 
 
 j = func5(3, 8)
