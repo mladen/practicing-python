@@ -1,4 +1,4 @@
-# Dekoratori nam omogucavaju da promijenimo posananje funkciji
+# Dekoratori nam omogucavaju da promijenimo ponasanje funkciji
 # bez mijenjanja samog koda te funkcije
 # Ovo je korisno jer nekada zelimo da dodamo i uklonimo
 # dekoratore dok debagujemo funkciju ili zelimo da
@@ -26,14 +26,16 @@ x()  # Tek ovdje izvrsavamo/pozivamo funkciju
 print("--------------------------------------------------------")
 
 
-# 2. Razrada i zakljucak :)
+##################################################################################
+# 2. Rad sa konkretnim Python dekoratorima!
 def dekor(fija):
     def wrapper(
         *args, **kwargs
     ):  # *args - positional arguments; **kwargs - keyword arguments
         print("Started")
-        fija(*args, **kwargs)
+        rv = fija(*args, **kwargs)
         print("Ended")
+        return rv
 
     return wrapper  # Dakle, ovdje ne vracamo wrapper() vec wrapper
 
@@ -43,6 +45,7 @@ def func2():
 
 
 # 2.1
+# Kako bismo bez "@<naziv dekoratora>" koristili gorenavedeni dekorator
 func2 = dekor(func2)
 func2()  # Sada, ovo mozemo da pozovemo iz bilo kojeg dijela naseg programa
 
@@ -75,3 +78,18 @@ def func4(x):  # Ovdje se moze dodati koliko god nam treba parametara
 func4(3)
 print("---")
 func4(x=None)
+
+print("---")
+
+
+# 2.4
+# Ako zelimo da sa dekoratorom prosirimo
+# funkciju koja vraca neku vrijednost
+@dekor
+def func5(j, k):
+    print(j)
+    return k
+
+
+j = func5(3, 8)
+print(j)
