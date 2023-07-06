@@ -23,7 +23,7 @@ print(x)  # Ovo ustvari stampa adresu funkcije koju je vratila funkcija func()
 
 x()  # Tek ovdje izvrsavamo/pozivamo funkciju
 
-print("------------------------------------")
+print("--------------------------------------------------------")
 
 
 # 2. Razrada i zakljucak :)
@@ -66,8 +66,12 @@ print("------------------")
 # Ako dekorator koristimo sa funkcijom kojoj se predaju argumenti
 # onda u dekoratoru moramo to rijesiti sa args i kwargs
 @dekor
-def func4(x):
+# def func4(x, y):
+def func4(x):  # Ovdje se moze dodati koliko god nam treba parametara
     print("Im func 4. Printing the passed argumend: ", x)
 
 
-func4()
+# func4(4, 6)
+func4(3)
+print("---")
+func4(x=None)
