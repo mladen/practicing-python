@@ -23,3 +23,8 @@
 # Ipak, postoji laksi i bolji nacin da ovo uradimo,
 # koji omogucava vise funkcionalnosti, a to su
 # context manager-i.
+
+with open(
+    "file.txt", "r"
+) as file:  # "with" keyword znaci da koristimo context manager-e
+    file.write("hello")
