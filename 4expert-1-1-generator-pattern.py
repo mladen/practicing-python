@@ -1,3 +1,11 @@
+# ZAKLJUCAK: Generator koristimo kada nam ne trebaju svi podaci
+# odjednom vec nam je potrebna samo trenutna vrijednost
+
+# Napomena: Generatore mozemo zaustaviti, mozemo proci (loop)
+# kroz generator nekoliko puta a onda kasnije u programu
+# nastaviti da prolazim kroz njega a on ce nastaviti gdje je stao itd.
+
+
 def gener(n):
     for i in range(n):
         yield i**2  # yield vraca vrijednost, a onda pauzira funkciju
