@@ -83,8 +83,9 @@ Practicing Python by going through several (free and paid) courses
 - [TechWithTim (shorts) - How to Prepare For Big Programming Projects](https://www.youtube.com/shorts/LJmv_9EV7e8)
 - [TechWithTim (playlist) - Python MySQL Tutorial](https://www.youtube.com/playlist?list=PLzMcBGfZo4-l5kVSNVKGO60V6RkXAVtp-)
 - [TechWithTim (playlist) - Python Selenium Tutorials](https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ)
-- [SDET- QA Automation Techie](https://www.youtube.com/playlist?list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa)
+- [freeCodeCamp - Mike Dane - Learn Python](https://www.youtube.com/watch?v=rfscVS0vtbw)
 - [freeCodeCamp - Web Scraping with Python - Beautiful Soup Crash Course](https://www.youtube.com/watch?v=XVv6mJpFOb0)
+- [SDET- QA Automation Techie](https://www.youtube.com/playlist?list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa)
 - [b001 (shorts) - ALL Python Programmers Should Know This!! #python #programming #coding](https://www.youtube.com/shorts/g9fIWtSexLs)
 - [b001 (playlist) - How To Python](https://www.youtube.com/playlist?list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
 - [b001 - How To Python - Data Types And Variables](https://www.youtube.com/watch?v=j6h5zPJPfA0&list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
@@ -104,24 +105,28 @@ Practicing Python by going through several (free and paid) courses
 
 - [TechWithTim - The Ultimate Self-Taught Developer Curriculum](https://www.youtube.com/watch?v=vxctuiRlmrs)
 - [bigboxSWE - Mindset of Successful Programmers](https://www.youtube.com/watch?v=nogh434ykF0)
-- [Stefanovic - FASTEST Way to Become a Data Analyst and ACTUALLY Get a Job](https://www.youtube.com/watch?v=AYWLZ1lES6g)
-- [Luke Brtousse - How I Would Learn to be a Data Analyst](https://www.youtube.com/watch?v=CC66RXeTn_4)
-- [Power Couple - FASTEST Way to Learn Data Science and ACTUALLY Get a Job](https://www.youtube.com/watch?v=AI1eKN1Eldg)
-- [Josh Brindley - FASTEST Way to become a Data Analyst and ACTUALLY get a job [2023]](https://www.youtube.com/watch?v=08DAw16x63E&t=7s)
 - [David Bombal - What are you going to do in 2023? Tops 5 skills to get!](https://www.youtube.com/watch?v=-OAa9k0zCDg)
 - [projectMaria - How to Self-Study Programming](https://www.youtube.com/watch?v=YpdEJgC4PGo)
 - [projectMaria - Learning is a Skill (and most of us suck at it)](https://www.youtube.com/watch?v=QZHnpIPk6kc)
 - [Austin Coldiron - How to Beat Procrastination & Build Self-Discipline](https://www.youtube.com/watch?v=h22cFDz9734)
 - [Elijah Oxford - OUTWORK Everyone By Being Bored](https://www.youtube.com/watch?v=1iNyqomXQt8)
 
-# Math in Data Science
+# Mathematics in general
+
+- [Samuel Bosch - How to Understand Math Intuitively?](https://www.youtube.com/watch?v=glZLHLLalv0)
+
+# Data Science
+
+- [freeCodeCamp - Santiago Basulto from RMOTR - Data Analysis with Python - Full Course for Beginners (Numpy, Pandas, Matplotlib, Seaborn)](https://www.youtube.com/watch?v=r-uOLxNrNk8)
+- [Stefanovic - FASTEST Way to Become a Data Analyst and ACTUALLY Get a Job](https://www.youtube.com/watch?v=AYWLZ1lES6g)
+- [Luke Brtousse - How I Would Learn to be a Data Analyst](https://www.youtube.com/watch?v=CC66RXeTn_4)
+- [Power Couple - FASTEST Way to Learn Data Science and ACTUALLY Get a Job](https://www.youtube.com/watch?v=AI1eKN1Eldg)
+- [Josh Brindley - FASTEST Way to become a Data Analyst and ACTUALLY get a job [2023]](https://www.youtube.com/watch?v=08DAw16x63E)
+
+## Math in Data Science
 
 - [Data Nash - How Much Math Is REALLY In Data Science | What Math Do You Need For Data Science](https://www.youtube.com/watch?v=Fzfxn8U8aMw)
 - [Data Nash - Every Data Scientist Should Read This Book](https://www.youtube.com/watch?v=ZbGbqUdjc28&t=86s)
-
-# Math in general
-
-- [Samuel Bosch - How to Understand Math Intuitively?](https://www.youtube.com/watch?v=glZLHLLalv0)
 
 # Machine Learning
 
