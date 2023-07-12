@@ -84,7 +84,9 @@ Practicing Python by going through several (free and paid) courses
 - [TechWithTim (playlist) - Python MySQL Tutorial](https://www.youtube.com/playlist?list=PLzMcBGfZo4-l5kVSNVKGO60V6RkXAVtp-)
 - [TechWithTim (playlist) - Python Selenium Tutorials](https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ)
 - [freeCodeCamp - Mike Dane - Learn Python](https://www.youtube.com/watch?v=rfscVS0vtbw)
+- [freeCodeCamp - Anil Kulkarni - Octallium - Learn Python by Thinking in Types - Full Course](https://www.youtube.com/watch?v=jH85McHenvw)
 - [freeCodeCamp - Web Scraping with Python - Beautiful Soup Crash Course](https://www.youtube.com/watch?v=XVv6mJpFOb0)
+- [freeCodeCamp - Aakash - Jovian - Data Structures and Algorithms in Python - Full Course for Beginners](https://www.youtube.com/watch?v=pkYVOmU3MgA)
 - [SDET- QA Automation Techie](https://www.youtube.com/playlist?list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa)
 - [b001 (shorts) - ALL Python Programmers Should Know This!! #python #programming #coding](https://www.youtube.com/shorts/g9fIWtSexLs)
 - [b001 (playlist) - How To Python](https://www.youtube.com/playlist?list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
@@ -95,6 +97,7 @@ Practicing Python by going through several (free and paid) courses
 - [Bro Code - Python Full Course for free](https://www.youtube.com/watch?v=XKHEtdqhLK8)
 - [Clear Code - The complete guide to Python](https://www.youtube.com/watch?v=mDKM-JtUhhc)
 - [Sundas Khalid - How to Learn Python FAST with ChatGPT?](https://www.youtube.com/watch?v=tEn5BjRY8Uw)
+- [Great learning - Data Structures & Algorithms (playlist) - check quality](https://www.youtube.com/playlist?list=PLlgLmuG_KgbbkdjHVm8WsQtkpiZD2ULBb)
 
 # Python automation
 
@@ -103,6 +106,7 @@ Practicing Python by going through several (free and paid) courses
 
 # General advice
 
+- [Fraz - How I started coding from 0 and cracked Google | Best Free Resources for Coding](https://www.youtube.com/watch?v=NxvS-Uzjueg)
 - [TechWithTim - The Ultimate Self-Taught Developer Curriculum](https://www.youtube.com/watch?v=vxctuiRlmrs)
 - [bigboxSWE - Mindset of Successful Programmers](https://www.youtube.com/watch?v=nogh434ykF0)
 - [David Bombal - What are you going to do in 2023? Tops 5 skills to get!](https://www.youtube.com/watch?v=-OAa9k0zCDg)
