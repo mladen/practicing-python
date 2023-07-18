@@ -145,6 +145,10 @@ Practicing Python by going through several (free and paid) courses
 - [Eye On AI - Why Attention is Crucial in AI](https://www.youtube.com/shorts/Knm8iDBL1hg)
 - [Weights & Biases - Scaling LLMs and Accelerating Adoption: Interview with Aidan Gomez](https://www.youtube.com/watch?v=sD24pZh7pmQ)
 
+## Data Science Courses
+
+- [Udemy - Jose Portilla - Python for Data Science and Machine Learning Bootcamp / 2022](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/)
+
 ## Machine learning courses
 
 - [Udemy - ZTM, Andrei Neagoie, Daniel Bourke - Complete Machine Learning & Data Science Bootcamp 2023](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/)
