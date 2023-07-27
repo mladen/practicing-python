@@ -2,68 +2,9 @@
 
 Practicing Python by going through several (free and paid) courses
 
-# [TechWithTim - Python Course](https://www.youtube.com/watch?v=sxTmJE4k0ho)
-
-### Price: free
-
-### Platform: YouTube
-
-## Course content:
-
-📕 Beginner Python Programming 📕
-
-- 0 (00:00:00) Introduction
-- 1 (00:01:12) Variables & Data Types
-- 2 (00:12:21) Basic Operators & Input
-- 3 (00:24:11) Conditions
-- 4 (00:32:54) if-elif-else
-- 5 (00:45:56) Chained Conditionals & Nested Statements
-- 6 (00:53:29) For Loops
-- 7 (00:59:29) While Loops
-- 8 (01:05:51) List's and Tuples
-- 9 (01:14:09) Iteration by Item
-- 10 (01:20:13) String Methods
-- (01:26:38) Slice Operator
-- (01:33:41) Functions
-- (01:42:10) How to Read a Text File
-- (01:50:31) Writing to a Text File
-- (01:54:50) Using .count() and .find()
-- (02:01:47) Introduction to Modular Programming
-- (02:09:28) Optional Parameters
-- (02:15:36) Try and Except (Error Handling)
-- (02:20:29) Global vs Local Variables
-
-📗 Object Oriented Programming 📗
-
-- (02:29:16) Introduction to Objects
-- (02:39:02) Creating Classes
-- (02:50:37) Inheritance
-- (03:03:13) Overloading Methods
-- (03:16:01) Static Methods and Class Methods
-- (03:25:44) Private and Public Classes
-
-📘 Intermediate Python 📘
-
-- (03:31:40) Optional Parameters
-- (03:41:13) Static and Class Methods
-- (03:50:24) Map Function
-- (03:56:15) Filter Function
-- (04:03:12) Lambda Function
-- (04:10:12) Introduction to Collections
-- (04:22:17) Named Tuple
-- (04:30:20) Deque
-
-📙 Advanced Python 📙
-
-- (04:40:12) Overview of Python
-- (04:58:34) Dunder/Magic Methods
-- (05:12:23) Metaclasses
-- (05:34:10) Decorators
-- (05:50:29) Generators
-- (06:04:32) Context Managers
-
 # Python tutorials
 
+- [TechWithTim - Python Course](https://www.youtube.com/watch?v=sxTmJE4k0ho)
 - [TechWithTim - What To Learn To Become a Python Backend Developer](https://www.youtube.com/watch?v=pbP5bqfbUPk)
 - [TechWithTim - What to learn after Python](https://www.youtube.com/watch?v=H1UKIgBSfxM)
 - [TechWithTim - Python101: Learn the 5 Must-Known Concepts](https://www.youtube.com/watch?v=mMv6OSuitWw)
@@ -101,6 +42,7 @@ Practicing Python by going through several (free and paid) courses
 - [Sundas Khalid - How to Learn Python FAST with ChatGPT?](https://www.youtube.com/watch?v=tEn5BjRY8Uw)
 - [Great learning - Data Structures & Algorithms (playlist) - check quality](https://www.youtube.com/playlist?list=PLlgLmuG_KgbbkdjHVm8WsQtkpiZD2ULBb)
 - [Udemy - Jose Portilla - The Complete Python Bootcamp From Zero to Hero in Python (Rating: 4.6 out of 5 (472,187 ratings) 1,756,928 students, 22h, Last updated 7/2023)](https://www.udemy.com/course/complete-python-bootcamp/)
+- [Udemy - Mark Winderbottom - Build a Backend REST API with Python & Django - Advanced (Bestseller, Rating: 4.7 out of 5 (7,339 ratings) 39,737 students, 23h, Last updated 1/2023)](https://www.udemy.com/course/django-python-advanced/)
 
 # Python automation
 
