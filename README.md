@@ -8,7 +8,7 @@ Practicing Python by going through several (free and paid) courses
 
 ### Platform: YouTube
 
-## Content:
+## Course content:
 
 📕 Beginner Python Programming 📕
 
@@ -100,11 +100,12 @@ Practicing Python by going through several (free and paid) courses
 - [Clear Code - The complete guide to Python](https://www.youtube.com/watch?v=mDKM-JtUhhc)
 - [Sundas Khalid - How to Learn Python FAST with ChatGPT?](https://www.youtube.com/watch?v=tEn5BjRY8Uw)
 - [Great learning - Data Structures & Algorithms (playlist) - check quality](https://www.youtube.com/playlist?list=PLlgLmuG_KgbbkdjHVm8WsQtkpiZD2ULBb)
+- [Udemy - Jose Portilla - The Complete Python Bootcamp From Zero to Hero in Python (Rating: 4.6 out of 5 (472,187 ratings) 1,756,928 students, 22h, Last updated 7/2023)](https://www.udemy.com/course/complete-python-bootcamp/)
 
 # Python automation
 
 - [Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
-- [Udemy - Al Sweigart - Automate the Boring Stuff with Python Programming](https://www.udemy.com/course/automate/)
+- [Udemy - Al Sweigart - Automate the Boring Stuff with Python Programming (Rating: 4.6 out of 5 (108,503 ratings) 1,094,672 students, 9.5h, Last updated 2/2023)](https://www.udemy.com/course/automate/)
 
 # General advice
 
@@ -129,6 +130,10 @@ Practicing Python by going through several (free and paid) courses
 - [Power Couple - FASTEST Way to Learn Data Science and ACTUALLY Get a Job](https://www.youtube.com/watch?v=AI1eKN1Eldg)
 - [Josh Brindley - FASTEST Way to become a Data Analyst and ACTUALLY get a job [2023]](https://www.youtube.com/watch?v=08DAw16x63E)
 
+## Data Science Courses
+
+- [Udemy - Jose Portilla - Python for Data Science and Machine Learning Bootcamp (Rating: 4.6 out of 5 (133,378 ratings) 654,156 students, 25h, Last updated 5/2022)](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/)
+
 ## Math in Data Science
 
 - [Data Nash - How Much Math Is REALLY In Data Science | What Math Do You Need For Data Science](https://www.youtube.com/watch?v=Fzfxn8U8aMw)
@@ -145,14 +150,10 @@ Practicing Python by going through several (free and paid) courses
 - [Eye On AI - Why Attention is Crucial in AI](https://www.youtube.com/shorts/Knm8iDBL1hg)
 - [Weights & Biases - Scaling LLMs and Accelerating Adoption: Interview with Aidan Gomez](https://www.youtube.com/watch?v=sD24pZh7pmQ)
 
-## Data Science Courses
-
-- [Udemy - Jose Portilla - Python for Data Science and Machine Learning Bootcamp / 2022](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/)
-
 ## Machine learning courses
 
-- [Udemy - ZTM, Andrei Neagoie, Daniel Bourke - Complete Machine Learning & Data Science Bootcamp 2023](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/)
-- [Udemy - Jose Portilla - Python for Machine Learning & Data Science Masterclass / 2021](https://www.udemy.com/course/python-for-machine-learning-data-science-masterclass/)
+- [Udemy - ZTM, Andrei Neagoie, Daniel Bourke - Complete Machine Learning & Data Science Bootcamp 2023 (Rating: 4.6 out of 5 (17,179 ratings) 99,450 students), 43.5h, Last updated 6/2023](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/)
+- [Udemy - Jose Portilla - Python for Machine Learning & Data Science Masterclass (4.7 out of 5 (12,599 ratings) 91,232 students, 44h, Last updated 9/2021)](https://www.udemy.com/course/python-for-machine-learning-data-science-masterclass/)
 
 # Other courses:
 
