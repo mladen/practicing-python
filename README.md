@@ -44,6 +44,11 @@ Practicing Python by going through several (free and paid) courses
 - [Udemy - Jose Portilla - The Complete Python Bootcamp From Zero to Hero in Python (Rating: 4.6 out of 5 (472,187 ratings) 1,756,928 students, 22h, Last updated 7/2023)](https://www.udemy.com/course/complete-python-bootcamp/)
 - [Udemy - Mark Winderbottom - Build a Backend REST API with Python & Django - Advanced (Bestseller, Rating: 4.7 out of 5 (7,339 ratings) 39,737 students, 23h, Last updated 1/2023)](https://www.udemy.com/course/django-python-advanced/)
 
+## Python project ideas
+
+- [Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
+- [Tina Huang - 5 Unique Python Projects (beginner to intermediate)](https://www.youtube.com/watch?v=_xf1TMs0ysk)
+
 ## Python automation
 
 - [Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
@@ -51,6 +56,7 @@ Practicing Python by going through several (free and paid) courses
 
 ## General advice
 
+- [Created by KC - How to Avoid Burnout In Your Software Job Search](https://www.youtube.com/watch?v=oWa1kG80NCI&ab_channel=CreatedByKC)
 - [Fraz - How I started coding from 0 and cracked Google | Best Free Resources for Coding](https://www.youtube.com/watch?v=NxvS-Uzjueg)
 - [TechWithTim - The Ultimate Self-Taught Developer Curriculum](https://www.youtube.com/watch?v=vxctuiRlmrs)
 - [bigboxSWE - Mindset of Successful Programmers](https://www.youtube.com/watch?v=nogh434ykF0)
