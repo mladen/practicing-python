@@ -4,26 +4,26 @@ Practicing Python by going through several (free and paid) courses
 
 ## Python tutorials
 
-- [x] [TechWithTim - The Complete Python Course For Beginners](https://www.youtube.com/watch?v=sxTmJE4k0ho)
-- [TechWithTim - What To Learn To Become a Python Backend Developer](https://www.youtube.com/watch?v=pbP5bqfbUPk)
-- [TechWithTim - What to learn after Python](https://www.youtube.com/watch?v=H1UKIgBSfxM)
-- [TechWithTim - Python101: Learn the 5 Must-Known Concepts](https://www.youtube.com/watch?v=mMv6OSuitWw)
-- [TechWithTim - Python Object Oriented Programming (OOP) - For Beginners](https://www.youtube.com/watch?v=JeznW_7DlB0)
-- [TechWithTim - Python As Fast as Possible - Learn Python in ~75 Minutes](https://www.youtube.com/watch?v=VchuKL44s6E)
-- [TechWithTim - Learn Python With This ONE Project!](https://www.youtube.com/watch?v=th4OBktqK1I)
-- [TechWithTim - Mastering Python - Everything You Need To Know To Become a Python Master](https://www.youtube.com/watch?v=p15xzjzR9j0)
-- [TechWithTim - Create A Python API in 12 Minutes - in Flask](https://www.youtube.com/watch?v=zsYIw6RXjfM)
-- [TechWithTim - Python REST API Tutorial - Building a Flask REST API](https://www.youtube.com/watch?v=GMppyAPbLYk)
-- [TechWithTim - Django For Beginners - Full Tutorial](https://www.youtube.com/watch?v=sm1mokevMWk)
-- [TechWithTim - Django Authentication & User Management - Full Tutorial](https://www.youtube.com/watch?v=WuyKxdLcw3w)
-- [TechWithTim - STOP Making These Python Mistakes](https://www.youtube.com/watch?v=sXE5298aDPw)
-- [TechWithTim - Top-notch Coding Projects for Employment!](https://www.youtube.com/watch?v=VqO8vjh3VFI)
-- [TechWithTim - My Python Development Environment Setup - Full Tutorial](https://www.youtube.com/watch?v=qI3P7zMMsgY)
-- [TechWithTim - The Truth About Learning Python in 2023](https://www.youtube.com/watch?v=qecsnAXtms4)
-- [TechWithTim (shorts) - Django VS Flask - Which Should You Learn](https://www.youtube.com/shorts/Gj02l0R1drM)
-- [TechWithTim (shorts) - How to Prepare For Big Programming Projects](https://www.youtube.com/shorts/LJmv_9EV7e8)
-- [TechWithTim (playlist) - Python MySQL Tutorial](https://www.youtube.com/playlist?list=PLzMcBGfZo4-l5kVSNVKGO60V6RkXAVtp-)
-- [TechWithTim (playlist) - Python Selenium Tutorials](https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ)
+- [x] [Tech With Tim - The Complete Python Course For Beginners](https://www.youtube.com/watch?v=sxTmJE4k0ho)
+- [Tech With Tim - What To Learn To Become a Python Backend Developer](https://www.youtube.com/watch?v=pbP5bqfbUPk)
+- [Tech With Tim - What to learn after Python](https://www.youtube.com/watch?v=H1UKIgBSfxM)
+- [Tech With Tim - Python101: Learn the 5 Must-Known Concepts](https://www.youtube.com/watch?v=mMv6OSuitWw)
+- [Tech With Tim - Python Object Oriented Programming (OOP) - For Beginners](https://www.youtube.com/watch?v=JeznW_7DlB0)
+- [Tech With Tim - Python As Fast as Possible - Learn Python in ~75 Minutes](https://www.youtube.com/watch?v=VchuKL44s6E)
+- [Tech With Tim - Learn Python With This ONE Project!](https://www.youtube.com/watch?v=th4OBktqK1I)
+- [Tech With Tim - Mastering Python - Everything You Need To Know To Become a Python Master](https://www.youtube.com/watch?v=p15xzjzR9j0)
+- [Tech With Tim - Create A Python API in 12 Minutes - in Flask](https://www.youtube.com/watch?v=zsYIw6RXjfM)
+- [Tech With Tim - Python REST API Tutorial - Building a Flask REST API](https://www.youtube.com/watch?v=GMppyAPbLYk)
+- [Tech With Tim - Django For Beginners - Full Tutorial](https://www.youtube.com/watch?v=sm1mokevMWk)
+- [Tech With Tim - Django Authentication & User Management - Full Tutorial](https://www.youtube.com/watch?v=WuyKxdLcw3w)
+- [Tech With Tim - STOP Making These Python Mistakes](https://www.youtube.com/watch?v=sXE5298aDPw)
+- [Tech With Tim - Top-notch Coding Projects for Employment!](https://www.youtube.com/watch?v=VqO8vjh3VFI)
+- [Tech With Tim - My Python Development Environment Setup - Full Tutorial](https://www.youtube.com/watch?v=qI3P7zMMsgY)
+- [Tech With Tim - The Truth About Learning Python in 2023](https://www.youtube.com/watch?v=qecsnAXtms4)
+- [Tech With Tim (shorts) - Django VS Flask - Which Should You Learn](https://www.youtube.com/shorts/Gj02l0R1drM)
+- [Tech With Tim (shorts) - How to Prepare For Big Programming Projects](https://www.youtube.com/shorts/LJmv_9EV7e8)
+- [Tech With Tim (playlist) - Python MySQL Tutorial](https://www.youtube.com/playlist?list=PLzMcBGfZo4-l5kVSNVKGO60V6RkXAVtp-)
+- [Tech With Tim (playlist) - Python Selenium Tutorials](https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ)
 - [freeCodeCamp - Mike Dane - Learn Python](https://www.youtube.com/watch?v=rfscVS0vtbw)
 - [freeCodeCamp - Anil Kulkarni - Octallium - Learn Python by Thinking in Types - Full Course](https://www.youtube.com/watch?v=jH85McHenvw)
 - [freeCodeCamp - Sanjeev Thiyagarajan - Python API Development - Comprehensive Course for Beginners](https://www.youtube.com/watch?v=0sOvCWFmrtA)
@@ -46,8 +46,50 @@ Practicing Python by going through several (free and paid) courses
 
 ## Python project ideas
 
-- [Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
+- [Tech With Tim - 15 Programming Project Ideas - From Beginner to Advanced](https://www.youtube.com/watch?v=HvjYxuU6LHk)
+  - Basic Projects:
+    - Password Generator
+    - Tic-Tac-Toe
+    - Build a website w/flask
+    - Web Scraper w/beautiful soup w/selenium
+    - Choose your own Text Adventure Game
+  - Intermediate Projects:
+    - 2D Games w/Python
+    - Microcontroller App w/rasperry pie
+    - Soduku solver
+    - Algorithm Visualizer
+    - Project Scheduler
+  - Advanced Projects:
+    - Chess/Physics/Game Engine eg Golf game with physics
+    - Build an Interpreter
+    - Machine Learning or AI project
+    - Microcontroller project, eg security system
+    - Make your own API web project
+  - [Tech With Tim - The Programming Project That Got Me a Job!](https://www.youtube.com/watch?v=7N3fQBuve3Y)
+    - Chat web app (Flask, websockets)
+- [Tech With Tim - Impressive Python Resume Projects](https://www.youtube.com/watch?v=v68woFABJ5U)
+  - Artificial Intelligence Projects
+  - Web Development Project #1
+  - Web Development Project #2
+  - Data Science Projects
+  - Data Structure and Algorithm Visualizer
+- [Farabi Hbk - Python Project | Create Python Audio Book](https://www.youtube.com/watch?v=pgUXPh5cDMY)
+- [Farabi Hbk - Python Project | Weather Forecast](https://www.youtube.com/watch?v=iy_TbtJXudk)
+- [Farabi Hbk - Python Project | Random Password Generator](https://www.youtube.com/watch?v=L8hyT1r0rFo)
 - [Tina Huang - 5 Unique Python Projects (beginner to intermediate)](https://www.youtube.com/watch?v=_xf1TMs0ysk)
+- [Internet Made Coder - 5 Amazing Ways to Automate Your Life using Python](https://www.youtube.com/watch?v=QjAHcKPUaFM)
+  - CSV manipulation
+  - Desktop cleaner
+  - Email sender
+  - Google drive file uploader
+  - Investing/wealth calculator
+- [Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
+
+### Python game ideas (PyGame)
+
+- [Tech With Tim](https://www.youtube.com/watch?v=waY3LfJhQLY)
+  - Tim has lots of tutorials for making games
+- [Goodgis - Making a Game in Python with No Experience](https://www.youtube.com/watch?v=H09PmP5tsy8)
 
 ## Python automation
 
@@ -58,7 +100,7 @@ Practicing Python by going through several (free and paid) courses
 
 - [Created by KC - How to Avoid Burnout In Your Software Job Search](https://www.youtube.com/watch?v=oWa1kG80NCI&ab_channel=CreatedByKC)
 - [Fraz - How I started coding from 0 and cracked Google | Best Free Resources for Coding](https://www.youtube.com/watch?v=NxvS-Uzjueg)
-- [TechWithTim - The Ultimate Self-Taught Developer Curriculum](https://www.youtube.com/watch?v=vxctuiRlmrs)
+- [Tech With Tim - The Ultimate Self-Taught Developer Curriculum](https://www.youtube.com/watch?v=vxctuiRlmrs)
 - [bigboxSWE - Mindset of Successful Programmers](https://www.youtube.com/watch?v=nogh434ykF0)
 - [David Bombal - What are you going to do in 2023? Tops 5 skills to get!](https://www.youtube.com/watch?v=-OAa9k0zCDg)
 - [projectMaria - How to Self-Study Programming](https://www.youtube.com/watch?v=YpdEJgC4PGo)
