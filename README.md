@@ -4,7 +4,7 @@ Practicing Python by going through several (free and paid) courses
 
 ## Python tutorials
 
-- [x] [Tech With Tim - The Complete Python Course For Beginners](https://www.youtube.com/watch?v=sxTmJE4k0ho)
+- [x] [Tech With Tim - The Complete Python Course For Beginners](https://www.youtube.com/watch?v=sxTmJE4k0ho) - [README.md](./TechWithTim%20-%20Complete%20Python%20Course/README.md)
 - [Tech With Tim - What To Learn To Become a Python Backend Developer](https://www.youtube.com/watch?v=pbP5bqfbUPk)
 - [Tech With Tim - What to learn after Python](https://www.youtube.com/watch?v=H1UKIgBSfxM)
 - [Tech With Tim - Python101: Learn the 5 Must-Known Concepts](https://www.youtube.com/watch?v=mMv6OSuitWw)
@@ -43,9 +43,34 @@ Practicing Python by going through several (free and paid) courses
 - [Great learning - Data Structures & Algorithms (playlist) - check quality](https://www.youtube.com/playlist?list=PLlgLmuG_KgbbkdjHVm8WsQtkpiZD2ULBb)
 - [Udemy - Jose Portilla - The Complete Python Bootcamp From Zero to Hero in Python (Rating: 4.6 out of 5 (472,187 ratings) 1,756,928 students, 22h, Last updated 7/2023)](https://www.udemy.com/course/complete-python-bootcamp/)
 - [Udemy - Mark Winderbottom - Build a Backend REST API with Python & Django - Advanced (Bestseller, Rating: 4.7 out of 5 (7,339 ratings) 39,737 students, 23h, Last updated 1/2023)](https://www.udemy.com/course/django-python-advanced/)
+- [mCoding - How Python Works (playlist)](https://www.youtube.com/playlist?list=PLJ_usHaf3fgNFfY4CN6-A3zYplVVqnbv2)
+
+## Playlists with various tutorials
+
+- [Patrick Loeber - Crash Courses](https://www.youtube.com/playlist?list=PLqnslRFeH2UrZtzqlXDWHjI3OV3BK0UWI)
+  - Object Oriented Programming (OOP) In Python - Beginner Crash Course
+  - NumPy Crash Course - Complete Tutorial
+  - Python Flask Beginner Tutorial - Todo App - Crash Course
+  - Regular Expressions in Python - FULL COURSE (1 HOUR) - Programming Tutorial
+  - HuggingFace Crash Course - Sentiment Analysis, Model Hub, Fine Tuning
+
+## Suggestions for a better code (Python):
+
+[mCoding - 25 nooby Python habits you need to ditch](https://www.youtube.com/watch?v=qUeud6DvOWI)
+[mCoding - 21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
+[UWCS - University of Warwick Computing Society - 5 Horrifying Python Techniques to get you fired - Andrew L](https://www.youtube.com/watch?v=t863QfAOmlY)
+
+> Notice: Check out UWCS - University of Warwick Computing Society's YouTube channell for more interesting talks
+
+## Sugestions for a better code (language agnostic):
+
+[CodeAestetic - Why You Shouldn't Nest Your Code](https://www.youtube.com/watch?v=CFRhGnuXG-4)
+[Creel - Branchless Programming: Why "If" is Sloowww... and what we can do about it!](https://www.youtube.com/watch?v=bVJ-mWWL7cE)
 
 ## Python project ideas
 
+- [Tech With Tim - Planet Simulation In Python - Tutorial](https://www.youtube.com/watch?v=WTLPmUHTPqo)
+- [Tech With Tim - Physics Simulations With Python and PyMunk](https://www.youtube.com/watch?v=tLsi2DeUsak)
 - [Tech With Tim - 15 Programming Project Ideas - From Beginner to Advanced](https://www.youtube.com/watch?v=HvjYxuU6LHk)
   - Basic Projects:
     - Password Generator
@@ -111,6 +136,42 @@ Practicing Python by going through several (free and paid) courses
 ## Mathematics in general
 
 - [Samuel Bosch - How to Understand Math Intuitively?](https://www.youtube.com/watch?v=glZLHLLalv0)
+
+## Math with Python
+
+- [Mr. P Solver - The Full Python Tutorial](https://www.youtube.com/playlist?list=PLkdGijFCNuVnGxo-1fSNcdHh5gZc17oRM)
+  - Basics of Python: Part 1 - Introduction
+  - Basics of Python: Part 2 - Lists, Tuples, Arrays
+  - Basics of Python: Part 3 - Loops, If Statements
+  - Basics of Python: Part 4 - Sample Problems
+  - NumPy Tutorial (2022): For Physicists, Engineers, and Mathematicians
+  - SciPy Tutorial (2022): For Physicists, Engineers, and Mathematicians
+  - Matplotlib Tutorial (2022): For Physicists, Engineers, and Mathematicians
+  - SymPy Tutorial (2022): For Physicists, Engineers, and Mathematicians
+  - 1st Year Calculus, But in PYTHON
+  - 2nd Year Calculus, But in PYTHON
+  - Derivatives In PYTHON (Symbolic AND Numeric)
+  - Integration in PYTHON (Symbolic AND Numeric)
+  - How to Solve Differential Equations in PYTHON
+  - All Types of Fourier Transforms in PYTHON
+  - How To Interpolate Data In Python
+  - Curve Fitting in Python (2022)
+  - How to: Monte Carlo Simulation in Python (Introduction)
+  - Spectral Analysis in Python (Introduction)
+  - You Should Be Using This For Work/Research in Python | OOP Tutorial
+  - SciPy curve_fit: What is "pcov"?
+
+## Computer science (general concepts)
+
+### Data structures
+
+- [Junmin Jee - 6 basics data structures explained in one video](https://www.youtube.com/watch?v=_9swtAph9jM)
+
+## Computer science courses
+
+- Introduction To Computer Science And Programming In Python
+  - [edX link](https://www.edx.org/learn/computer-programming/massachusetts-institute-of-technology-introduction-to-computer-science-and-programming-7)
+  - [OCW MIT link](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
 
 ## Data Science
 
