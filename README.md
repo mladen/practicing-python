@@ -4,7 +4,8 @@ Practicing Python by going through several (free and paid) courses
 
 ## Python tutorials
 
-- [x] [Tech With Tim - The Complete Python Course For Beginners](https://www.youtube.com/watch?v=sxTmJE4k0ho) - [README.md](./TechWithTim%20-%20Complete%20Python%20Course/README.md)
+- [x] [Tech With Tim - The Complete Python Course For Beginners](https://www.youtube.com/watch?v=sxTmJE4k0ho)
+  - See [README.md](./TechWithTim%20-%20Complete%20Python%20Course/README.md) for details, TOC etc.
 - [Tech With Tim - What To Learn To Become a Python Backend Developer](https://www.youtube.com/watch?v=pbP5bqfbUPk)
 - [Tech With Tim - What to learn after Python](https://www.youtube.com/watch?v=H1UKIgBSfxM)
 - [Tech With Tim - Python101: Learn the 5 Must-Known Concepts](https://www.youtube.com/watch?v=mMv6OSuitWw)
@@ -24,6 +25,8 @@ Practicing Python by going through several (free and paid) courses
 - [Tech With Tim (shorts) - How to Prepare For Big Programming Projects](https://www.youtube.com/shorts/LJmv_9EV7e8)
 - [Tech With Tim (playlist) - Python MySQL Tutorial](https://www.youtube.com/playlist?list=PLzMcBGfZo4-l5kVSNVKGO60V6RkXAVtp-)
 - [Tech With Tim (playlist) - Python Selenium Tutorials](https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ)
+- [CS50x 2023 - CS50x 2023 (part of the playlist) - Lecture 6 - Python](https://www.youtube.com/watch?v=5Jppcxc1Qzc&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=8&ab_channel=CS50)
+- [CS50P (playlist) - Introduction to Programming with Python (CS50P) 2022](https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V)
 - [freeCodeCamp - Mike Dane - Learn Python](https://www.youtube.com/watch?v=rfscVS0vtbw)
 - [freeCodeCamp - Anil Kulkarni - Octallium - Learn Python by Thinking in Types - Full Course](https://www.youtube.com/watch?v=jH85McHenvw)
 - [freeCodeCamp - Sanjeev Thiyagarajan - Python API Development - Comprehensive Course for Beginners](https://www.youtube.com/watch?v=0sOvCWFmrtA)
@@ -56,16 +59,16 @@ Practicing Python by going through several (free and paid) courses
 
 ## Suggestions for a better code (Python):
 
-[mCoding - 25 nooby Python habits you need to ditch](https://www.youtube.com/watch?v=qUeud6DvOWI)
-[mCoding - 21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
-[UWCS - University of Warwick Computing Society - 5 Horrifying Python Techniques to get you fired - Andrew L](https://www.youtube.com/watch?v=t863QfAOmlY)
+- [mCoding - 25 nooby Python habits you need to ditch](https://www.youtube.com/watch?v=qUeud6DvOWI)
+- [mCoding - 21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
+- [UWCS - University of Warwick Computing Society - 5 Horrifying Python Techniques to get you fired - Andrew L](https://www.youtube.com/watch?v=t863QfAOmlY)
 
 > Notice: Check out UWCS - University of Warwick Computing Society's YouTube channell for more interesting talks
 
 ## Sugestions for a better code (language agnostic):
 
-[CodeAestetic - Why You Shouldn't Nest Your Code](https://www.youtube.com/watch?v=CFRhGnuXG-4)
-[Creel - Branchless Programming: Why "If" is Sloowww... and what we can do about it!](https://www.youtube.com/watch?v=bVJ-mWWL7cE)
+- [CodeAestetic - Why You Shouldn't Nest Your Code](https://www.youtube.com/watch?v=CFRhGnuXG-4)
+- [Creel - Branchless Programming: Why "If" is Sloowww... and what we can do about it!](https://www.youtube.com/watch?v=bVJ-mWWL7cE)
 
 ## Python project ideas
 
@@ -176,6 +179,27 @@ Practicing Python by going through several (free and paid) courses
 ## Data Science
 
 - [freeCodeCamp - Santiago Basulto from RMOTR - Data Analysis with Python - Full Course for Beginners (Numpy, Pandas, Matplotlib, Seaborn)](https://www.youtube.com/watch?v=r-uOLxNrNk8)
+- [freeCodeCamp (playlist) - Data Science](https://www.youtube.com/playlist?list=PLWKjhJtqVAblQe2CCWqV4Zy3LY01Z8aF1)
+  - Learn Data Science Tutorial - Full Course for Beginners (2.8M views, 4 years ago)
+  - Statistics - A Full University Course on Data Science Basics (2.4M views, 4 years ago)
+  - Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib) (3.1M views, 3 years ago)
+  - Data Analysis with Python Course - Numpy, Pandas, Data Visualization (2M views, 2 years ago)
+  - Data Analysis with Python - Full Course for Beginners (Numpy, Pandas, Matplotlib, Seaborn) (2.7M views, 3 years ago)
+  - Build 12 Data Science Apps with Python and Streamlit - Full Course (1.1M views, 2 years ago)
+  - Data Science Hands-On Crash Course (96K views, 2 years ago)
+  - Data Visualization with D3.js - Full Tutorial Course (1.1M views, 4 years ago)
+  - R Shiny for Data Science Tutorial – Build Interactive Data-Driven Web Apps (127K views, 1 year ago
+  - R Programming Tutorial - Learn the Basics of Statistical Computing (3.6M views, 4 years ago)
+  - Python for Bioinformatics - Drug Discovery Using Machine Learning and Data Analysis (478K views, 2 years ago)
+  - Intro to Data Science - Crash Course for Beginners (382K views, 4 years ago)
+  - Applied Deep Learning with PyTorch - Full Course (151K views, 4 years ago)
+  - Tableau for Data Science and Data Visualization - Crash Course Tutorial (769K views, 4 years ago)
+  - jamovi for Data Analysis - Full Tutorial (119K views, 3 years ago)
+  - Data Analysis with Python: Part 1 of 6 (Live Course) (526K views, Streamed 2 years ago)
+  - Data Analytics Crash Course: Teach Yourself in 30 Days (237K views, 2 years ago)
+  - Data Analysis with Python for Excel Users - Full Course (1.1M views, 1 year ago)
+  - Data Visualization with D3 – Full Course for Beginners [2022] (233K views, 1 year ago)
+  - Data Science Job Interview – Full Mock Interview (248K views, 4 months ago)
 - [Stefanovic - FASTEST Way to Become a Data Analyst and ACTUALLY Get a Job](https://www.youtube.com/watch?v=AYWLZ1lES6g)
 - [Luke Brtousse - How I Would Learn to be a Data Analyst](https://www.youtube.com/watch?v=CC66RXeTn_4)
 - [Power Couple - FASTEST Way to Learn Data Science and ACTUALLY Get a Job](https://www.youtube.com/watch?v=AI1eKN1Eldg)
