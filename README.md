@@ -36,17 +36,33 @@ Practicing Python by going through several (free and paid) courses
 - [SDET- QA Automation Techie](https://www.youtube.com/playlist?list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa)
 - [b001 (shorts) - ALL Python Programmers Should Know This!! #python #programming #coding](https://www.youtube.com/shorts/g9fIWtSexLs)
 - [b001 (playlist) - How To Python](https://www.youtube.com/playlist?list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
+  > 2 videos 2,411 views Last updated on 27 May 2023
 - [b001 - How To Python - Data Types And Variables](https://www.youtube.com/watch?v=j6h5zPJPfA0&list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
 - [b001 - Floats and Integers | How To Python](https://www.youtube.com/watch?v=77TsTM3XxmA&list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D&index=2)
 - [Python Programmer - Master python with this unique 5-in-1 python (YouTube) project](https://www.youtube.com/watch?v=dYNJrj835lc)
 - [Dave Gray (playlist) - Python Tutorials for Beginners](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6MQri81d012LwP5jvFZ_scc)
+  > 24 videos 19,828 views Last updated on 24 Jul 2023
+  >
+  > This Python playlist will take you from absolute beginner to a Python Programmer with knowledge of all of the fundamentals of the Python programming language.
 - [Bro Code - Python Full Course for free](https://www.youtube.com/watch?v=XKHEtdqhLK8)
 - [Clear Code - The complete guide to Python](https://www.youtube.com/watch?v=mDKM-JtUhhc)
 - [Sundas Khalid - How to Learn Python FAST with ChatGPT?](https://www.youtube.com/watch?v=tEn5BjRY8Uw)
 - [Great learning - Data Structures & Algorithms (playlist) - check quality](https://www.youtube.com/playlist?list=PLlgLmuG_KgbbkdjHVm8WsQtkpiZD2ULBb)
+  > 14 videos 29,734 views Last updated on 29 Nov 2022
+  >
+  > Notice: Several videos are about Python (others are in C and Java)
 - [Udemy - Jose Portilla - The Complete Python Bootcamp From Zero to Hero in Python (Rating: 4.6 out of 5 (472,187 ratings) 1,756,928 students, 22h, Last updated 7/2023)](https://www.udemy.com/course/complete-python-bootcamp/)
 - [Udemy - Mark Winderbottom - Build a Backend REST API with Python & Django - Advanced (Bestseller, Rating: 4.7 out of 5 (7,339 ratings) 39,737 students, 23h, Last updated 1/2023)](https://www.udemy.com/course/django-python-advanced/)
 - [mCoding - How Python Works (playlist)](https://www.youtube.com/playlist?list=PLJ_usHaf3fgNFfY4CN6-A3zYplVVqnbv2)
+  > 13 videos 41,818 views Last updated on 26 Aug 2021
+  >
+  > These videos are about Python language features, quirks, weirdness, gotchas, and how to use or avoid them in order to program more effectively.
+- [Paul McWhorter (playlist) - Learn Python for Beginners](https://www.youtube.com/playlist?list=PLGs0VKk2DiYzguDvh5xk2XoX9V1VKP5Hv)
+  > 110 videos 357,067 views Last updated on 10 May 2022
+  >
+  > In this series of lessons, we present free step-by-step tutorials that will teach you python. These lessons are designed for the absolute beginners, and we do not assume you are already an expert.
+  >
+  > Notice: Includes electronics, AI basics etc.
 
 ## Playlists with various tutorials
 
@@ -62,8 +78,7 @@ Practicing Python by going through several (free and paid) courses
 - [mCoding - 25 nooby Python habits you need to ditch](https://www.youtube.com/watch?v=qUeud6DvOWI)
 - [mCoding - 21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
 - [UWCS - University of Warwick Computing Society - 5 Horrifying Python Techniques to get you fired - Andrew L](https://www.youtube.com/watch?v=t863QfAOmlY)
-
-> Notice: Check out UWCS - University of Warwick Computing Society's YouTube channell for more interesting talks
+  > Notice: Check out UWCS - University of Warwick Computing Society's YouTube channell for more interesting talks
 
 ## Sugestions for a better code (language agnostic):
 
@@ -143,6 +158,7 @@ Practicing Python by going through several (free and paid) courses
 ## Math with Python
 
 - [Mr. P Solver - The Full Python Tutorial](https://www.youtube.com/playlist?list=PLkdGijFCNuVnGxo-1fSNcdHh5gZc17oRM)
+  > 20 videos 67,841 views Last updated on 12 Feb 2023
   - Basics of Python: Part 1 - Introduction
   - Basics of Python: Part 2 - Lists, Tuples, Arrays
   - Basics of Python: Part 3 - Loops, If Statements
@@ -190,6 +206,7 @@ Practicing Python by going through several (free and paid) courses
 
 - [freeCodeCamp - Santiago Basulto from RMOTR - Data Analysis with Python - Full Course for Beginners (Numpy, Pandas, Matplotlib, Seaborn)](https://www.youtube.com/watch?v=r-uOLxNrNk8)
 - [freeCodeCamp (playlist) - Data Science](https://www.youtube.com/playlist?list=PLWKjhJtqVAblQe2CCWqV4Zy3LY01Z8aF1)
+  > 20 videos 651,868 views Last updated on 16 Apr 2023
   - Learn Data Science Tutorial - Full Course for Beginners (2.8M views, 4 years ago)
   - Statistics - A Full University Course on Data Science Basics (2.4M views, 4 years ago)
   - Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib) (3.1M views, 3 years ago)
