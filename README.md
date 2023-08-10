@@ -64,6 +64,17 @@ Practicing Python by going through several (free and paid) courses
   >
   > Notice: Includes electronics, AI basics etc.
 
+
+### Python design patterns, SOLID principles, good code architecture:
+
+- [Design Patterns in Python by Peter Ullrich](https://www.youtube.com/watch?v=bsyjSW46TDg)
+- [Classic Design Patterns: Where Are They Now - Brandon Rhodes - code::dive 2022](https://www.youtube.com/watch?v=pGq7Cr2ekVM)
+- [When Python Practices Go Wrong - Brandon Rhodes - code::dive 2019](https://www.youtube.com/watch?v=S0No2zSJmks)
+- [Talk: Conor Hoekstra - Beautiful Python Refactoring](https://www.youtube.com/watch?v=W-lZttZhsUY)
+- [Beautiful Python Refactoring II - Conor Hoekstra - code::dive 2022](https://www.youtube.com/watch?v=nXZQfdxWgh0)
+- [The Mental Game of Python - Raymond Hettinger](https://www.youtube.com/watch?v=UANN2Eu6ZnM)
+
+
 ## Playlists with various tutorials
 
 - [Patrick Loeber - Crash Courses](https://www.youtube.com/playlist?list=PLqnslRFeH2UrZtzqlXDWHjI3OV3BK0UWI)
