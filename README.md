@@ -145,6 +145,10 @@ Practicing Python by going through several (free and paid) courses
   - Tim has lots of tutorials for making games
 - [Goodgis - Making a Game in Python with No Experience](https://www.youtube.com/watch?v=H09PmP5tsy8)
 
+### Python game engines
+- https://www.pygame.org/news
+- https://www.ursinaengine.org/
+
 ## Python automation
 
 - [Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
