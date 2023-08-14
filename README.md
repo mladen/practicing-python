@@ -98,6 +98,29 @@ Practicing Python by going through several (free and paid) courses
 
 - [Tech With Tim - Planet Simulation In Python - Tutorial](https://www.youtube.com/watch?v=WTLPmUHTPqo)
 - [Tech With Tim - Physics Simulations With Python and PyMunk](https://www.youtube.com/watch?v=tLsi2DeUsak)
+- [Tech With Tim - 15 Python Projects in Under 15 Minutes (Code Included)](https://www.youtube.com/watch?v=OXi4T58PwdM)
+  1. Hangman 0:54
+  2. Drawing Program 1:19
+  3. Turtle Race 2:11
+  4. Account Storage 2:52
+  5. A Star Path Finding 3:43
+  6. Golf Game 4:39
+  7. Black Jack 5:40
+  8. Side Scroller 6:13
+  9. Snake Game 6:40
+  10. Tetris 7:13
+  11. Sudoku 7:33
+  12. Discord Bot 8:29
+  13. Online Chess Game 9:32
+  14. Tower Defense Game 10:43
+  15. Face Recognition (Only On Images) 11:44
+- [Tech With Tim - Impressive Python Resume Projects](https://www.youtube.com/watch?v=v68woFABJ5U)
+  1. Artificial Intelligence Projects 01:20
+  2. Web Development Project #1 02:53
+  3. Web Development Project #2 04:53
+  4. Data Science Projects 07:00
+  5. Data Structure and Algorithm Visualizer 08:53
+  6. Summary 10:31
 - [Tech With Tim - 15 Programming Project Ideas - From Beginner to Advanced](https://www.youtube.com/watch?v=HvjYxuU6LHk)
   - Basic Projects:
     - Password Generator
