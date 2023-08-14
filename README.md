@@ -64,7 +64,6 @@ Practicing Python by going through several (free and paid) courses
   >
   > Notice: Includes electronics, AI basics etc.
 
-
 ### Python design patterns, SOLID principles, good code architecture:
 
 - [Design Patterns in Python by Peter Ullrich](https://www.youtube.com/watch?v=bsyjSW46TDg)
@@ -73,7 +72,6 @@ Practicing Python by going through several (free and paid) courses
 - [Talk: Conor Hoekstra - Beautiful Python Refactoring](https://www.youtube.com/watch?v=W-lZttZhsUY)
 - [Beautiful Python Refactoring II - Conor Hoekstra - code::dive 2022](https://www.youtube.com/watch?v=nXZQfdxWgh0)
 - [The Mental Game of Python - Raymond Hettinger](https://www.youtube.com/watch?v=UANN2Eu6ZnM)
-
 
 ## Playlists with various tutorials
 
@@ -146,6 +144,7 @@ Practicing Python by going through several (free and paid) courses
 - [Goodgis - Making a Game in Python with No Experience](https://www.youtube.com/watch?v=H09PmP5tsy8)
 
 ### Python game engines
+
 - https://www.pygame.org/news
 - https://www.ursinaengine.org/
 
