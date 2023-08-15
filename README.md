@@ -73,6 +73,8 @@ Practicing Python by going through several (free and paid) courses
 - [Beautiful Python Refactoring II - Conor Hoekstra - code::dive 2022](https://www.youtube.com/watch?v=nXZQfdxWgh0)
 - [The Mental Game of Python - Raymond Hettinger](https://www.youtube.com/watch?v=UANN2Eu6ZnM)
 
+- [Python Design Patterns by Brandon Rhodes](https://python-patterns.guide/)
+
 ## Playlists with various tutorials
 
 - [Patrick Loeber - Crash Courses](https://www.youtube.com/playlist?list=PLqnslRFeH2UrZtzqlXDWHjI3OV3BK0UWI)
