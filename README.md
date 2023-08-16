@@ -62,7 +62,7 @@ Practicing Python by going through several (free and paid) courses
   >
   > Notice: Includes electronics, AI basics etc.
 
-### Python design patterns, SOLID principles, refactoring, good code architecture:
+### Python design patterns, SOLID principles, refactoring, best practices, good code architecture:
 
 - [Design Patterns in Python by Peter Ullrich](https://www.youtube.com/watch?v=bsyjSW46TDg)
 - [Classic Design Patterns: Where Are They Now - Brandon Rhodes - code::dive 2022](https://www.youtube.com/watch?v=pGq7Cr2ekVM)
@@ -73,6 +73,73 @@ Practicing Python by going through several (free and paid) courses
 
 - [Python Design Patterns by Brandon Rhodes](https://python-patterns.guide/)
 - [Refactoring Guru](https://refactoring.guru/)
+
+- [fozilbek - How To Master Python - Python for Beginners Roadmap](https://www.youtube.com/watch?v=ZUHP0SLAs8s)
+  - Introduction:
+    - ...
+  - Basic:
+    - ...
+  - OOP:
+    - essence of OOP
+    - objects
+    - classes
+    - abstraction
+    - encapsulation
+    - operator overloading
+    - inheritance
+    - abstract class/method
+    - polymorphism
+    -
+    - modules - packages
+    - object types & protocols
+  - Data structures:
+    - array
+    - list
+    - tuples
+    - sets
+    - dictionaries
+    - ADT
+    - stack
+    - queue
+    - map
+    -
+    - file I/O
+    - data encoding & processing
+  - Algorithms:
+    - algorithms intro
+    - complexities
+    - Big(O)
+    - sorting
+    - searching
+    -
+    - dynamic programming
+    -
+    - testing & debugging
+    - exceptions
+    - built-in functions & algorithms
+    - standard library
+  - Control flow:
+    - iterators && generators
+    - context managers
+    - coroutines
+    - concurrency && parallelism
+  - Metaprogramming:
+    - properties
+    - attribute desciptors
+    - decorators
+    - metaclasses
+  - Advanced:
+    - utility scripting
+    - system administration
+    - network & web programming
+  - Problem solving:
+    - Leetcode
+    - Codewars
+  - Books:
+    - Python Cookbook
+    - Python Distilled
+    - Fluent Python
+    - Effective Python
 
 ## Playlists with various tutorials
 
