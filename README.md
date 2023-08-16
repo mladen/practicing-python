@@ -6,8 +6,8 @@ Practicing Python by going through several (free and paid) courses
 
 - [x] [Tech With Tim - The Complete Python Course For Beginners](https://www.youtube.com/watch?v=sxTmJE4k0ho)
   - See [README.md](./TechWithTim%20-%20Complete%20Python%20Course/README.md) for details, TOC etc.
-- [x][Tech With Tim - What To Learn To Become a Python Backend Developer](https://www.youtube.com/watch?v=pbP5bqfbUPk)
-- [x][Tech With Tim - What to learn after Python](https://www.youtube.com/watch?v=H1UKIgBSfxM)
+- [x] [Tech With Tim - What To Learn To Become a Python Backend Developer](https://www.youtube.com/watch?v=pbP5bqfbUPk)
+- [x] [Tech With Tim - What to learn after Python](https://www.youtube.com/watch?v=H1UKIgBSfxM)
 - [Tech With Tim - Python101: Learn the 5 Must-Known Concepts](https://www.youtube.com/watch?v=mMv6OSuitWw)
 - [Tech With Tim - Python Object Oriented Programming (OOP) - For Beginners](https://www.youtube.com/watch?v=JeznW_7DlB0)
 - [Tech With Tim - Python As Fast as Possible - Learn Python in ~75 Minutes](https://www.youtube.com/watch?v=VchuKL44s6E)
@@ -44,7 +44,7 @@ Practicing Python by going through several (free and paid) courses
   > This Python playlist will take you from absolute beginner to a Python Programmer with knowledge of all of the fundamentals of the Python programming language.
 - [Bro Code - Python Full Course for free](https://www.youtube.com/watch?v=XKHEtdqhLK8)
 - [Clear Code - The complete guide to Python](https://www.youtube.com/watch?v=mDKM-JtUhhc)
-- [x][Sundas Khalid - How to Learn Python FAST with ChatGPT?](https://www.youtube.com/watch?v=tEn5BjRY8Uw)
+- [x] [Sundas Khalid - How to Learn Python FAST with ChatGPT?](https://www.youtube.com/watch?v=tEn5BjRY8Uw)
 - [Great learning - Data Structures & Algorithms (playlist) - check quality](https://www.youtube.com/playlist?list=PLlgLmuG_KgbbkdjHVm8WsQtkpiZD2ULBb)
   > 14 videos 29,734 views Last updated on 29 Nov 2022
   >
@@ -85,14 +85,14 @@ Practicing Python by going through several (free and paid) courses
 
 ## Suggestions for a better code (Python):
 
-- [x][mCoding - 25 nooby Python habits you need to ditch](https://www.youtube.com/watch?v=qUeud6DvOWI)
+- [x] [mCoding - 25 nooby Python habits you need to ditch](https://www.youtube.com/watch?v=qUeud6DvOWI)
 - [mCoding - 21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
 - [UWCS - University of Warwick Computing Society - 5 Horrifying Python Techniques to get you fired - Andrew L](https://www.youtube.com/watch?v=t863QfAOmlY)
   > Notice: Check out UWCS - University of Warwick Computing Society's YouTube channell for more interesting talks
 
 ## Sugestions for a better code (language agnostic):
 
-- [x][CodeAestetic - Why You Shouldn't Nest Your Code](https://www.youtube.com/watch?v=CFRhGnuXG-4)
+- [x] [CodeAestetic - Why You Shouldn't Nest Your Code](https://www.youtube.com/watch?v=CFRhGnuXG-4)
 - [Creel - Branchless Programming: Why "If" is Sloowww... and what we can do about it!](https://www.youtube.com/watch?v=bVJ-mWWL7cE)
 
 ## Python project ideas
@@ -306,6 +306,8 @@ Practicing Python by going through several (free and paid) courses
 
 ## Good YouTube Channels:
 
+- CodeAestetic
+- MollyRocket
 - Programming with Mosh
 - freeCodeCamp
 - (add more)
