@@ -31,6 +31,7 @@ Practicing Python by going through several (free and paid) courses
 - [freeCodeCamp - Web Scraping with Python - Beautiful Soup Crash Course](https://www.youtube.com/watch?v=XVv6mJpFOb0)
 - [freeCodeCamp - Aakash - Jovian - Data Structures and Algorithms in Python - Full Course for Beginners](https://www.youtube.com/watch?v=pkYVOmU3MgA)
 - [freeCodeCamp - Patrick Loeber - Intermediate Python Programming Course (IMPORTANT!)](https://www.youtube.com/watch?v=HGOBQPFzWKo)
+- [TechWorld with Nana - Python Tutorial for Beginners - Learn Python in 5 Hours [FULL COURSE]](https://www.youtube.com/watch?v=t8pPdKYpowI)
 - [SDET- QA Automation Techie](https://www.youtube.com/playlist?list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa)
 - [b001 (shorts) - ALL Python Programmers Should Know This!! #python #programming #coding](https://www.youtube.com/shorts/g9fIWtSexLs)
 - [b001 (playlist) - How To Python](https://www.youtube.com/playlist?list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
@@ -74,7 +75,7 @@ Practicing Python by going through several (free and paid) courses
 - [Python Design Patterns by Brandon Rhodes](https://python-patterns.guide/)
 - [Refactoring Guru](https://refactoring.guru/)
 
-- [fozilbek - How To Master Python - Python for Beginners Roadmap](https://www.youtube.com/watch?v=ZUHP0SLAs8s)
+- [x] [fozilbek - How To Master Python - Python for Beginners Roadmap](https://www.youtube.com/watch?v=ZUHP0SLAs8s)
   - Introduction:
     - ...
   - Basic:
@@ -258,7 +259,8 @@ Practicing Python by going through several (free and paid) courses
 - [Created by KC - How to Avoid Burnout In Your Software Job Search](https://www.youtube.com/watch?v=oWa1kG80NCI&ab_channel=CreatedByKC)
 - [Fraz - How I started coding from 0 and cracked Google | Best Free Resources for Coding](https://www.youtube.com/watch?v=NxvS-Uzjueg)
 - [Tech With Tim - The Ultimate Self-Taught Developer Curriculum](https://www.youtube.com/watch?v=vxctuiRlmrs)
-- [bigboxSWE - Mindset of Successful Programmers](https://www.youtube.com/watch?v=nogh434ykF0)
+- [x] [bigboxSWE - Mindset of Successful Programmers](https://www.youtube.com/watch?v=nogh434ykF0)
+- [x] [bigboxSWE - How To Make Coding Fun](https://www.youtube.com/watch?v=HggHXFnPOY4)
 - [David Bombal - What are you going to do in 2023? Tops 5 skills to get!](https://www.youtube.com/watch?v=-OAa9k0zCDg)
 - [projectMaria - How to Self-Study Programming](https://www.youtube.com/watch?v=YpdEJgC4PGo)
 - [projectMaria - Learning is a Skill (and most of us suck at it)](https://www.youtube.com/watch?v=QZHnpIPk6kc)
@@ -376,8 +378,19 @@ Practicing Python by going through several (free and paid) courses
 - CodeAestetic
 - MollyRocket
 - Programming with Mosh
-- freeCodeCamp
 - (add more)
+
+## Platform to practice coding on:
+
+- Project Euler
+- Codewars
+- Leetcode
+
+## Platforms for learning (coding, math etc.):
+
+- [AppAcademy Open](https://www.appacademy.io/course/app-academy-open)
+- [freeCodeCamp](https://www.freecodecamp.org/)
+- [The Odin project](https://www.theodinproject.com/)
 
 ## Also check out:
 
