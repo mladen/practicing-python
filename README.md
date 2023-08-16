@@ -71,9 +71,11 @@ Practicing Python by going through several (free and paid) courses
 - [Talk: Conor Hoekstra - Beautiful Python Refactoring](https://www.youtube.com/watch?v=W-lZttZhsUY)
 - [Beautiful Python Refactoring II - Conor Hoekstra - code::dive 2022](https://www.youtube.com/watch?v=nXZQfdxWgh0)
 - [The Mental Game of Python - Raymond Hettinger](https://www.youtube.com/watch?v=UANN2Eu6ZnM)
-
+- [NeetCode - 8 Design Patterns EVERY Developer Should Know](https://www.youtube.com/watch?v=tAuRQs_d9F8)
 - [Python Design Patterns by Brandon Rhodes](https://python-patterns.guide/)
 - [Refactoring Guru](https://refactoring.guru/)
+
+### Roadmaps:
 
 - [x] [fozilbek - How To Master Python - Python for Beginners Roadmap](https://www.youtube.com/watch?v=ZUHP0SLAs8s)
   - Introduction:
@@ -308,6 +310,23 @@ Practicing Python by going through several (free and paid) courses
   - [edX link](https://www.edx.org/learn/computer-programming/massachusetts-institute-of-technology-introduction-to-computer-science-and-programming-7)
   - [OCW MIT link](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
 
+## Databases
+
+- [Studytonight with Abhishek (playlist) - Database Normalization - 1NF, 2NF, 3NF, BCNF, 4NF and 5NF](https://www.youtube.com/playlist?list=PLLGlmW7jT-nTr1ory9o2MgsOmmx2w8FB3)
+  1. Basic Concept of Database Normalization - Simple Explanation for Beginners (1.6M views, 5 years ago, 8:11)
+  2. First Normal Form (1NF) | Database Normalization | DBMS (1M views, 5 years ago, 3:42)
+  3. Second Normal Form (2NF) | Database Normalization | DBMS (1M views, 5 years ago, 7:13)
+  4. Third Normal Form (3NF) | Database Normalization | DBMS (878K views, 5 years ago, 4:16)
+  5. Boyce-Codd Normal Form (BCNF) | Database Normalization | DBMS (655K views, 5 years ago, 4:42)
+  6. 4th Normal Form (4NF) | Multi-Valued Dependency | Database Normalization (431K views, 5 years ago, 4:51)
+  7. 5th Normal Form (5NF) | Join Dependency | Database Normalization (210K views, 4 years ago, 8:09)
+  8. Concept of Keys in DBMS - Super, Primary, Candidate, Foreign Key, etc (451K views, 3 years ago, 9:16)
+  9. How to Design DB Tables for any Application? (The Basics) (49K views, 3 years ago, 9:29)
+  10. RDBMS vs NoSQL Databases Explained! (12K views, 2 years ago, 13:35)
+  11. What is Database Transaction? | Transactions in Database | DB Transactions with Examples #dbms (8.3K views, 1 year ago, 8:29)
+  12. When to use Database Transactions? #dbms #dbmstutorials (309 views, 4 weeks ago, 13:26)
+  - https://www.studytonight.com/dbms/
+
 ## Data Science
 
 ### Data Science general (advices etc.)
@@ -388,9 +407,15 @@ Practicing Python by going through several (free and paid) courses
 
 ## Platforms for learning (coding, math etc.):
 
-- [AppAcademy Open](https://www.appacademy.io/course/app-academy-open)
+Free:
+
+- [App Academy Open](https://www.appacademy.io/course/app-academy-open)
 - [freeCodeCamp](https://www.freecodecamp.org/)
 - [The Odin project](https://www.theodinproject.com/)
+
+Paid (or mostly):
+
+- [CodeCademy](https://www.codecademy.com/)
 
 ## Also check out:
 
