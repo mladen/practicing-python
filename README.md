@@ -167,67 +167,89 @@ Practicing Python by going through several (free and paid) courses
 
 ## Python project ideas
 
-- [Tech With Tim - Top-notch Coding Projects for Employment!](https://www.youtube.com/watch?v=VqO8vjh3VFI)
-  - Overview 0:00
-  - Recipe for a Great Project 0:32
-  - Popular Tech Stacks 2:41
-  - Web Application Ideas 3:55
-  - Mobile Apps 8:26
-  - Internet of Things 11:35
-  - Libraries & Tools 14:10
+- [Tech With Tim (playlist) - Programming Projects & Ideas](https://www.youtube.com/playlist?list=PLzMcBGfZo4-lkJOu1AWab-nFtjDw7aPek)
+
+  - 5 Python Projects for Beginners (685K views, 4 years ago, 5:31)
+  - 5 Intermediate Python Projects (409K views, 3 years ago, 7:49)
+  - Quarantine Coding - 5 Programming Project Ideas (686K views, 3 years ago, 11:47)
+  - Python Resume Projects - You Can Finish in a Weekend (1.4M views, 3 years ago, 10:38)
+  - The Programming Project That Got Me a Job! (258K views, 2 years ago, 18:21)
+    - Chat web app (Flask, websockets)
+  - 15 Python Projects in Under 15 Minutes (Code Included) (2M views, 4 years ago, 12:37)
+    1. Hangman 0:54
+    2. Drawing Program 1:19
+    3. Turtle Race 2:11
+    4. Account Storage 2:52
+    5. A Star Path Finding 3:43
+    6. Golf Game 4:39
+    7. Black Jack 5:40
+    8. Side Scroller 6:13
+    9. Snake Game 6:40
+    10. Tetris 7:13
+    11. Sudoku 7:33
+    12. Discord Bot 8:29
+    13. Online Chess Game 9:32
+    14. Tower Defense Game 10:43
+    15. Face Recognition (Only On Images) 11:44
+  - Machine Learning Projects for Beginners (Datasets Included) (360K views, 3 years ago, 6:58)
+  - My Computer Science Projects/Assignments - First Year (Python & Java) (37K views, 4 years ago, 14:20)
+  - Pygame Tutorial - Creating Space Invaders (766K views, 3 years ago, 1:56:03)
+  - Choose Your Own Adventure Game in Python (Beginners) (264K views, 4 years ago, 11:44)
+  - 15 Programming Project Ideas - From Beginner to Advanced (807K views, 2 years ago, 16:52)
+    - Basic Projects:
+      - Password Generator
+      - Tic-Tac-Toe
+      - Build a website w/flask
+      - Web Scraper w/beautiful soup w/selenium
+      - Choose your own Text Adventure Game
+    - Intermediate Projects:
+      - 2D Games w/Python
+      - Microcontroller App w/rasperry pie
+      - Soduku solver
+      - Algorithm Visualizer
+      - Project Scheduler
+    - Advanced Projects:
+      - Chess/Physics/Game Engine eg Golf game with physics
+      - Build an Interpreter
+      - Machine Learning or AI project
+      - Microcontroller project, eg security system
+      - Make your own API web project
+  - Top-notch Coding Projects for Employment! (251K views, 4 months ago, 16:27)
+    - Overview 0:00
+    - Recipe for a Great Project 0:32
+    1. Popular Tech Stacks 2:41
+    2. Web Application Ideas 3:55
+    3. Mobile Apps 8:26
+    4. Internet of Things 11:35
+    5. Libraries & Tools 14:10
+
 - [Tech With Tim (shorts) - How to Prepare For Big Programming Projects](https://www.youtube.com/shorts/LJmv_9EV7e8)
 - [Tech With Tim - Planet Simulation In Python - Tutorial](https://www.youtube.com/watch?v=WTLPmUHTPqo)
 - [Tech With Tim - Physics Simulations With Python and PyMunk](https://www.youtube.com/watch?v=tLsi2DeUsak)
-- [Tech With Tim - 15 Python Projects in Under 15 Minutes (Code Included)](https://www.youtube.com/watch?v=OXi4T58PwdM)
-  1. Hangman 0:54
-  2. Drawing Program 1:19
-  3. Turtle Race 2:11
-  4. Account Storage 2:52
-  5. A Star Path Finding 3:43
-  6. Golf Game 4:39
-  7. Black Jack 5:40
-  8. Side Scroller 6:13
-  9. Snake Game 6:40
-  10. Tetris 7:13
-  11. Sudoku 7:33
-  12. Discord Bot 8:29
-  13. Online Chess Game 9:32
-  14. Tower Defense Game 10:43
-  15. Face Recognition (Only On Images) 11:44
 - [Tech With Tim - Impressive Python Resume Projects](https://www.youtube.com/watch?v=v68woFABJ5U)
+
   1. Artificial Intelligence Projects 01:20
   2. Web Development Project #1 02:53
   3. Web Development Project #2 04:53
   4. Data Science Projects 07:00
   5. Data Structure and Algorithm Visualizer 08:53
   6. Summary 10:31
-- [Tech With Tim - 15 Programming Project Ideas - From Beginner to Advanced](https://www.youtube.com/watch?v=HvjYxuU6LHk)
-  - Basic Projects:
-    - Password Generator
-    - Tic-Tac-Toe
-    - Build a website w/flask
-    - Web Scraper w/beautiful soup w/selenium
-    - Choose your own Text Adventure Game
-  - Intermediate Projects:
-    - 2D Games w/Python
-    - Microcontroller App w/rasperry pie
-    - Soduku solver
-    - Algorithm Visualizer
-    - Project Scheduler
-  - Advanced Projects:
-    - Chess/Physics/Game Engine eg Golf game with physics
-    - Build an Interpreter
-    - Machine Learning or AI project
-    - Microcontroller project, eg security system
-    - Make your own API web project
-  - [Tech With Tim - The Programming Project That Got Me a Job!](https://www.youtube.com/watch?v=7N3fQBuve3Y)
-    - Chat web app (Flask, websockets)
-- [Tech With Tim - Impressive Python Resume Projects](https://www.youtube.com/watch?v=v68woFABJ5U)
-  - Artificial Intelligence Projects
-  - Web Development Project #1
-  - Web Development Project #2
-  - Data Science Projects
-  - Data Structure and Algorithm Visualizer
+
+- [ArjanCodes - 14 Ideas for Fun Python Free Time Projects](https://www.youtube.com/watch?v=54XyRw9y8oE)
+  1. 2:22 Simple calculator
+  2. 4:03 To-do list application
+  3. 6:07 Weather application
+  4. 7:36 Web scraper
+  5. 9:03 Simple game
+  6. 11:27 Automations
+  7. 13:12 Chatbot
+  8. 15:42 Markdown editor and viewer
+  9. 17:20 Budget tracker
+  10. 19:02 Sentiment analysis tool
+  11. 20:33 Duplicate code detection
+  12. 22:01 Dependency analyzer
+  13. 23:19 Metrics collector
+  14. 25:11 Refactoring helper
 - [Farabi Hbk - Python Project | Create Python Audio Book](https://www.youtube.com/watch?v=pgUXPh5cDMY)
 - [Farabi Hbk - Python Project | Weather Forecast](https://www.youtube.com/watch?v=iy_TbtJXudk)
 - [Farabi Hbk - Python Project | Random Password Generator](https://www.youtube.com/watch?v=L8hyT1r0rFo)
@@ -239,6 +261,12 @@ Practicing Python by going through several (free and paid) courses
   - Google drive file uploader
   - Investing/wealth calculator
 - [Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
+- [JasonGoodison - These coding projects give you an unfair advantage](https://www.youtube.com/watch?v=vGxR98gI930)
+  1. Python automation script.
+  2. IOT based project.
+  3. Full Stack Application.
+  4. Game development (plus if involves physics simulation).
+  5. Scraping project.
 
 ### Python game ideas (PyGame)
 
@@ -332,7 +360,7 @@ Practicing Python by going through several (free and paid) courses
 ### Data Science general (advices etc.)
 
 - [Stefanovic - FASTEST Way to Become a Data Analyst and ACTUALLY Get a Job](https://www.youtube.com/watch?v=AYWLZ1lES6g)
-- [Luke Brtousse - How I Would Learn to be a Data Analyst](https://www.youtube.com/watch?v=CC66RXeTn_4)
+- [Luke Barousse - How I Would Learn to be a Data Analyst](https://www.youtube.com/watch?v=CC66RXeTn_4)
 - [Power Couple - FASTEST Way to Learn Data Science and ACTUALLY Get a Job](https://www.youtube.com/watch?v=AI1eKN1Eldg)
 - [Josh Brindley - FASTEST Way to become a Data Analyst and ACTUALLY get a job [2023]](https://www.youtube.com/watch?v=08DAw16x63E)
 - [DataNash - How I'd Learn Data Science In 2023 (If I Could Restart) | A Beginner's Roadmap](https://www.youtube.com/watch?v=Z79AqDouS-Y)
