@@ -284,7 +284,20 @@ Practicing Python by going through several (free and paid) courses
 - [Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
 - [Udemy - Al Sweigart - Automate the Boring Stuff with Python Programming (Rating: 4.6 out of 5 (108,503 ratings) 1,094,672 students, 9.5h, Last updated 2/2023)](https://www.udemy.com/course/automate/)
 
-## General advice
+## General
+
+### General conference talks
+
+- [NDC Conferences - The Art of Code - Dylan Beattie](https://www.youtube.com/watch?v=6avJHaC3C2U)
+- [NDC Conferences - Lambda? You Keep Using that Letter - Kevlin Henney](https://www.youtube.com/watch?v=Y7StjYhXvpE)
+- [HowieCode - 7 Software Design Concepts from John Ousterhout](https://www.youtube.com/watch?v=xneSqeac9Pk)
+- [Talks at Google - A Philosophy of Software Design | John Ousterhout](https://www.youtube.com/watch?v=bmSAYlu0NcY)
+- [Istanbul Tech Talks - ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers](https://www.youtube.com/watch?v=ZsHMHukIlJY)
+- [GOTO Conferences - Small Is Beautiful - Kevlin Henney - GOTO 2016](https://www.youtube.com/watch?v=B3b4tremI5o)
+- [GOTO Conferences - The Art of Software Development - Sander Mak - GOTO 2023](https://www.youtube.com/watch?v=fUVfkLUmII4)
+- [Agile LnL (Agile Lunch & Learn) - Can Great Programmers Be Taught? - John Ousterhout](https://www.youtube.com/watch?v=LtRWu9DErgU)
+
+### General advice
 
 - [Created by KC - How to Avoid Burnout In Your Software Job Search](https://www.youtube.com/watch?v=oWa1kG80NCI&ab_channel=CreatedByKC)
 - [Fraz - How I started coding from 0 and cracked Google | Best Free Resources for Coding](https://www.youtube.com/watch?v=NxvS-Uzjueg)
@@ -297,11 +310,9 @@ Practicing Python by going through several (free and paid) courses
 - [Austin Coldiron - How to Beat Procrastination & Build Self-Discipline](https://www.youtube.com/watch?v=h22cFDz9734)
 - [Elijah Oxford - OUTWORK Everyone By Being Bored](https://www.youtube.com/watch?v=1iNyqomXQt8)
 
-## Mathematics in general
+## Mathematics
 
-- [Samuel Bosch - How to Understand Math Intuitively?](https://www.youtube.com/watch?v=glZLHLLalv0)
-
-## Math with Python
+### Math with Python
 
 - [Mr. P Solver - The Full Python Tutorial](https://www.youtube.com/playlist?list=PLkdGijFCNuVnGxo-1fSNcdHh5gZc17oRM)
   > 20 videos 67,841 views Last updated on 12 Feb 2023
@@ -325,6 +336,10 @@ Practicing Python by going through several (free and paid) courses
   - Spectral Analysis in Python (Introduction)
   - You Should Be Using This For Work/Research in Python | OOP Tutorial
   - SciPy curve_fit: What is "pcov"?
+
+### Mathematics advice
+
+- [Samuel Bosch - How to Understand Math Intuitively?](https://www.youtube.com/watch?v=glZLHLLalv0)
 
 ## Computer science (general concepts)
 
