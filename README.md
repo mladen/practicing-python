@@ -130,6 +130,7 @@ Practicing Python by going through several (free and paid) courses
 ### Roadmaps
 
 - [x] [fozilbek - How To Master Python - Python for Beginners Roadmap](https://www.youtube.com/watch?v=ZUHP0SLAs8s)
+
   - Introduction:
     - ...
   - Basic:
@@ -195,6 +196,9 @@ Practicing Python by going through several (free and paid) courses
     - Python Distilled
     - Fluent Python
     - Effective Python
+
+- [Alex Hyett - Programming for Beginners](https://www.youtube.com/playlist?list=PLl76Nbkn-YmliBahGdtw8M5Q2hreDsn1m)
+  1.
 
 ## Playlists with various tutorials
 
@@ -350,6 +354,7 @@ Practicing Python by going through several (free and paid) courses
 - [GOTO Conferences - Small Is Beautiful - Kevlin Henney - GOTO 2016](https://www.youtube.com/watch?v=B3b4tremI5o)
 - [GOTO Conferences - The Art of Software Development - Sander Mak - GOTO 2023](https://www.youtube.com/watch?v=fUVfkLUmII4)
 - [Agile LnL (Agile Lunch & Learn) - Can Great Programmers Be Taught? - John Ousterhout](https://www.youtube.com/watch?v=LtRWu9DErgU)
+- [Concurrency is not Parallelism by Rob Pike](https://www.youtube.com/watch?v=oV9rvDllKEg)
 
 ### General advice
 
@@ -400,6 +405,18 @@ Practicing Python by going through several (free and paid) courses
 ### Data structures
 
 - [Junmin Jee - 6 basics data structures explained in one video](https://www.youtube.com/watch?v=_9swtAph9jM)
+- [Alex Hyett - 8 DATA STRUCTURES You NEED to Know](https://www.youtube.com/watch?v=SCkbQSPH--A)
+- [Alex Hyett - Domain Driven Design: What You Need To Know](https://www.youtube.com/watch?v=4rhzdZIDX_k)
+- [ForrestKnight - 4 Data Structures You Need to Know](https://www.youtube.com/watch?v=y7ksXLhuy-w)
+- [ForrestKnight - 3 More Data Structures You Need to Know](https://www.youtube.com/watch?v=2EQ9WswHJ6A)
+- [Pooja Dutt - How to ACTUALLY Master Data Structures FAST (with real coding examples)](https://www.youtube.com/watch?v=r51TRDECIw4)
+- [Pooja Dutt - How I mastered data structures and algorithms (for beginners)](https://www.youtube.com/watch?v=F7sPauKsZXw)
+- [Power Couple - I gave 127 interviews. Top 5 Algorithms they asked me](https://www.youtube.com/watch?v=EM8IgIIiOdY)
+- [Power Couple - I solved 541 Leetcode problems. But you need only 150](https://www.youtube.com/watch?v=xF554Tlzo-c)
+- [Data Structures And Algorithms in Python - Python Data Structures Full Tutorial (2020)](https://www.youtube.com/watch?v=kQDxmjfkIKY)
+- [Codebagel - Top 7 Algorithms for Coding Interviews Explained SIMPLY](https://www.youtube.com/watch?v=kp3fCihUXEg)
+- [Codebagel - Top 7 Data Structures for Interviews Explained SIMPLY](https://www.youtube.com/watch?v=cQWr9DFE1ww)
+- [Aaron Jack - DATA STRUCTURES you MUST know (as a Software Developer)](https://www.youtube.com/watch?v=sVxBVvlnJsM)
 
 ## Computer science courses
 
@@ -485,6 +502,24 @@ Practicing Python by going through several (free and paid) courses
 
 - [Udemy - ZTM, Andrei Neagoie, Daniel Bourke - Complete Machine Learning & Data Science Bootcamp 2023 (Rating: 4.6 out of 5 (17,179 ratings) 99,450 students), 43.5h, Last updated 6/2023](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/)
 - [Udemy - Jose Portilla - Python for Machine Learning & Data Science Masterclass (4.7 out of 5 (12,599 ratings) 91,232 students, 44h, Last updated 9/2021)](https://www.udemy.com/course/python-for-machine-learning-data-science-masterclass/)
+- [freeCodeCamp (playlist) - Machine Learning](https://www.youtube.com/playlist?list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s)
+  1. Machine Learning for Everybody – Full Course (1.7M views, 10 months ago, 3:53:53)
+  2. TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial (2.7M views, 3 years ago, 6:52:08)
+  3. Self-Driving Car with JavaScript Course – Neural Networks and Machine Learning (1.9M views, 1 year ago, 2:32:40)
+  4. No Black Box Machine Learning Course – Learn Without Libraries (280K views, 4 months ago, 3:51:31)
+  5. PyTorch for Deep Learning & Machine Learning – Full Course (797K views, 10 months ago, 25:37:26)
+  6. Practical Deep Learning for Coders - Full Course from fast.ai and Jeremy Howard (333K views, 2 years ago, 11:12:32)
+  7. Deep Learning Crash Course for Beginners (580K views, 3 years ago, 1:25:39)
+  8. Python TensorFlow for Machine Learning – Neural Network Text Classification Tutorial (218K views, 1 year ago, 1:54:11)
+  9. Keras with TensorFlow Course - Python Deep Learning and Neural Networks for Beginners Tutorial (784K views, 3 years ago, 2:47:55)
+  10. OpenCV Course - Full Tutorial with Python (2.5M views, 2 years ago, 3:41:42)
+  11. How Deep Neural Networks Work - Full Course for Beginners (1.4M views, 4 years ago, 3:50:57)
+  12. TensorFlow 2.0 Crash Course (497K views, 3 years ago, 2:13:17)
+  13. Scikit-Learn Course - Machine Learning in Python Tutorial (399K views, 3 years ago, 2:54:25)
+  14. Scikit-learn Crash Course - Machine Learning Library for Python (231K views, 2 years ago, 2:09:22)
+  15. Machine Learning Course for Beginners (1.3M views, 1 year ago, 9:52:19)
+  16. AlphaZero from Scratch – Machine Learning Tutorial (95K views, 5 months ago, 4:07:54)
+  17. Computer Vision and Perception for Self-Driving Cars (Deep Learning Course) (225K views, 1 year ago, 1:59:38)
 
 ## Other courses
 
