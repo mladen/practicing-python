@@ -23,6 +23,7 @@ Practicing Python by going through several (free and paid) courses
 - [Tech With Tim (shorts) - Django VS Flask - Which Should You Learn](https://www.youtube.com/shorts/Gj02l0R1drM)
 - [Tech With Tim (playlist) - Python MySQL Tutorial](https://www.youtube.com/playlist?list=PLzMcBGfZo4-l5kVSNVKGO60V6RkXAVtp-)
 - [Tech With Tim (playlist) - Python Selenium Tutorials](https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ)
+- [x] Coinis Python course
 - [CS50x 2023 - CS50x 2023 (part of the playlist) - Lecture 6 - Python](https://www.youtube.com/watch?v=5Jppcxc1Qzc&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=8&ab_channel=CS50)
 - [CS50P (playlist) - Introduction to Programming with Python (CS50P) 2022](https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V)
 - [freeCodeCamp - Mike Dane - Learn Python](https://www.youtube.com/watch?v=rfscVS0vtbw)
@@ -65,6 +66,17 @@ Practicing Python by going through several (free and paid) courses
 
 ### Python design patterns, SOLID principles, refactoring, best practices, good code architecture:
 
+- [The lost art of software design by Simon Brown](https://www.youtube.com/watch?v=36OTe7LNd6M)
+- [DevTernity Conference - The Clean Architecture (Ian Cooper)](https://www.youtube.com/watch?v=SxJPQ5qXisw)
+- [Devoxx - Victor Rentea - Evolving a Clean, Pragmatic Architecture – A Software Crafter’s Guide](https://www.youtube.com/watch?v=tMHO7_RLxgQ)
+- [DevTernity Conference - 🚀 Clean Code, Two Decades Later (Victor Rentea)](https://www.youtube.com/watch?v=6va1hAyh-M8)
+- [Clean Coders - Programming 101 with "Uncle Bob"](https://www.youtube.com/watch?v=-1CuAiKdBQs)
+- [The Principles of Clean Architecture by Uncle Bob Martin](https://www.youtube.com/watch?v=o_TH-Y78tt4)
+- [ITkonekt 2019 | Robert C. Martin (Uncle Bob), Clean Architecture and Design](https://www.youtube.com/watch?v=2dKZ-dWaCiU)
+- [CodeOpinion - Clean Architecture Example & Breakdown - Do I use it?](https://www.youtube.com/watch?v=Ys_W6MyWOCw)
+- [CoderOne - This is the Only Right Way to Write React clean-code - SOLID](https://www.youtube.com/watch?v=MSq_DCRxOxw)
+- [AlexHyett - SOLID Principles: Do You Really Understand Them?](https://www.youtube.com/watch?v=kF7rQmSRlq0)
+- [NextDayVideo - Jack Diederich - Stop Writing Classes](https://www.youtube.com/watch?v=o9pEzgHorH0)
 - [Design Patterns in Python by Peter Ullrich](https://www.youtube.com/watch?v=bsyjSW46TDg)
 - [Classic Design Patterns: Where Are They Now - Brandon Rhodes - code::dive 2022](https://www.youtube.com/watch?v=pGq7Cr2ekVM)
 - [When Python Practices Go Wrong - Brandon Rhodes - code::dive 2019](https://www.youtube.com/watch?v=S0No2zSJmks)
@@ -153,14 +165,16 @@ Practicing Python by going through several (free and paid) courses
   - Regular Expressions in Python - FULL COURSE (1 HOUR) - Programming Tutorial
   - HuggingFace Crash Course - Sentiment Analysis, Model Hub, Fine Tuning
 
-## Suggestions for a better code (Python):
+## Suggestions for a better code
+
+### Better Python code:
 
 - [x] [mCoding - 25 nooby Python habits you need to ditch](https://www.youtube.com/watch?v=qUeud6DvOWI)
 - [mCoding - 21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
 - [UWCS - University of Warwick Computing Society - 5 Horrifying Python Techniques to get you fired - Andrew L](https://www.youtube.com/watch?v=t863QfAOmlY)
   > Notice: Check out UWCS - University of Warwick Computing Society's YouTube channell for more interesting talks
 
-## Sugestions for a better code (language agnostic):
+### Language agnostic suggestions for better code:
 
 - [x] [CodeAestetic - Why You Shouldn't Nest Your Code](https://www.youtube.com/watch?v=CFRhGnuXG-4)
 - [Creel - Branchless Programming: Why "If" is Sloowww... and what we can do about it!](https://www.youtube.com/watch?v=bVJ-mWWL7cE)
@@ -369,6 +383,7 @@ Practicing Python by going through several (free and paid) courses
   11. What is Database Transaction? | Transactions in Database | DB Transactions with Examples #dbms (8.3K views, 1 year ago, 8:29)
   12. When to use Database Transactions? #dbms #dbmstutorials (309 views, 4 weeks ago, 13:26)
   - https://www.studytonight.com/dbms/
+- [LaraconEU - Things every developer absolutely, positively needs to know about database indexing - Kai Sassnowski](https://www.youtube.com/watch?v=HubezKbFL7E)
 
 ## Data Science
 
@@ -467,3 +482,4 @@ Paid (or mostly):
 - algorithms
 - best practices
 - crash course
+- george hotz (and his dabbling with biotech data for example)
