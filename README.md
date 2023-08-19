@@ -2,6 +2,46 @@
 
 Practicing Python by going through several (free and paid) courses
 
+### Table of Contents
+
+- [Practicing Python](#practicing-python)
+  - [Table of Contents](#table-of-contents)
+  - [Python tutorials](#python-tutorials)
+    - [Python design patterns, SOLID principles, refactoring, best practices, good code architecture](#python-design-patterns-solid-principles-refactoring-best-practices-good-code-architecture)
+    - [Roadmaps](#roadmaps)
+  - [Playlists with various tutorials](#playlists-with-various-tutorials)
+  - [Suggestions for a better code](#suggestions-for-a-better-code)
+    - [Better Python code](#better-python-code)
+    - [Language agnostic suggestions for better code](#language-agnostic-suggestions-for-better-code)
+  - [Python project ideas](#python-project-ideas)
+    - [Python game ideas (PyGame)](#python-game-ideas-pygame)
+    - [Python game engines](#python-game-engines)
+  - [Python automation](#python-automation)
+  - [General](#general)
+    - [General conference talks](#general-conference-talks)
+    - [General advice](#general-advice)
+  - [Mathematics](#mathematics)
+    - [Math with Python](#math-with-python)
+    - [Mathematics advice](#mathematics-advice)
+  - [Computer science (general concepts)](#computer-science-general-concepts)
+    - [Data structures](#data-structures)
+  - [Computer science courses](#computer-science-courses)
+  - [Databases](#databases)
+  - [Data Science](#data-science)
+    - [Data Science general (advices etc.)](#data-science-general-advices-etc)
+    - [Data Science courses](#data-science-courses)
+    - [Data Science Courses](#data-science-courses-1)
+    - [Data Science Mathematics](#data-science-mathematics)
+  - [Machine Learning](#machine-learning)
+    - [Machine Learning general (advices etc.)](#machine-learning-general-advices-etc)
+    - [Machine Learning basics](#machine-learning-basics)
+    - [Machine learning courses](#machine-learning-courses)
+  - [Other courses](#other-courses)
+  - [Good YouTube Channels](#good-youtube-channels)
+  - [Platform to practice coding on](#platform-to-practice-coding-on)
+  - [Platforms for learning (coding, math etc.)](#platforms-for-learning-coding-math-etc)
+  - [Also check out](#also-check-out)
+
 ## Python tutorials
 
 - [x] [Tech With Tim - The Complete Python Course For Beginners](https://www.youtube.com/watch?v=sxTmJE4k0ho)
@@ -64,7 +104,7 @@ Practicing Python by going through several (free and paid) courses
   >
   > Notice: Includes electronics, AI basics etc.
 
-### Python design patterns, SOLID principles, refactoring, best practices, good code architecture:
+### Python design patterns, SOLID principles, refactoring, best practices, good code architecture
 
 - [The lost art of software design by Simon Brown](https://www.youtube.com/watch?v=36OTe7LNd6M)
 - [DevTernity Conference - The Clean Architecture (Ian Cooper)](https://www.youtube.com/watch?v=SxJPQ5qXisw)
@@ -87,7 +127,7 @@ Practicing Python by going through several (free and paid) courses
 - [Python Design Patterns by Brandon Rhodes](https://python-patterns.guide/)
 - [Refactoring Guru](https://refactoring.guru/)
 
-### Roadmaps:
+### Roadmaps
 
 - [x] [fozilbek - How To Master Python - Python for Beginners Roadmap](https://www.youtube.com/watch?v=ZUHP0SLAs8s)
   - Introduction:
@@ -167,14 +207,14 @@ Practicing Python by going through several (free and paid) courses
 
 ## Suggestions for a better code
 
-### Better Python code:
+### Better Python code
 
 - [x] [mCoding - 25 nooby Python habits you need to ditch](https://www.youtube.com/watch?v=qUeud6DvOWI)
 - [mCoding - 21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
 - [UWCS - University of Warwick Computing Society - 5 Horrifying Python Techniques to get you fired - Andrew L](https://www.youtube.com/watch?v=t863QfAOmlY)
   > Notice: Check out UWCS - University of Warwick Computing Society's YouTube channell for more interesting talks
 
-### Language agnostic suggestions for better code:
+### Language agnostic suggestions for better code
 
 - [x] [CodeAestetic - Why You Shouldn't Nest Your Code](https://www.youtube.com/watch?v=CFRhGnuXG-4)
 - [Creel - Branchless Programming: Why "If" is Sloowww... and what we can do about it!](https://www.youtube.com/watch?v=bVJ-mWWL7cE)
@@ -446,24 +486,24 @@ Practicing Python by going through several (free and paid) courses
 - [Udemy - ZTM, Andrei Neagoie, Daniel Bourke - Complete Machine Learning & Data Science Bootcamp 2023 (Rating: 4.6 out of 5 (17,179 ratings) 99,450 students), 43.5h, Last updated 6/2023](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/)
 - [Udemy - Jose Portilla - Python for Machine Learning & Data Science Masterclass (4.7 out of 5 (12,599 ratings) 91,232 students, 44h, Last updated 9/2021)](https://www.udemy.com/course/python-for-machine-learning-data-science-masterclass/)
 
-## Other courses:
+## Other courses
 
 - [Bro Code - Full Courses (Python, JAVA, C++, C#, C, Data Structures and Algorithms...)](https://www.youtube.com/playlist?list=PLZPZq0r_RZON03iKBjYOsOKr1-TD7z2lH)
 
-## Good YouTube Channels:
+## Good YouTube Channels
 
 - CodeAestetic
 - MollyRocket
 - Programming with Mosh
 - (add more)
 
-## Platform to practice coding on:
+## Platform to practice coding on
 
 - Project Euler
 - Codewars
 - Leetcode
 
-## Platforms for learning (coding, math etc.):
+## Platforms for learning (coding, math etc.)
 
 Free:
 
@@ -475,7 +515,7 @@ Paid (or mostly):
 
 - [CodeCademy](https://www.codecademy.com/)
 
-## Also check out:
+## Also check out
 
 - middle and advanced level
 - data structures
