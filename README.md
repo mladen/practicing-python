@@ -73,6 +73,7 @@ Practicing Python by going through several (free and paid) courses
 - [freeCodeCamp - Aakash - Jovian - Data Structures and Algorithms in Python - Full Course for Beginners](https://www.youtube.com/watch?v=pkYVOmU3MgA)
 - [freeCodeCamp - Patrick Loeber - Intermediate Python Programming Course (IMPORTANT!)](https://www.youtube.com/watch?v=HGOBQPFzWKo)
 - [TechWorld with Nana - Python Tutorial for Beginners - Learn Python in 5 Hours [FULL COURSE]](https://www.youtube.com/watch?v=t8pPdKYpowI)
+- [DougMercer - The Magic that Makes Python Tick](https://www.youtube.com/watch?v=LRIUg089W2c)
 - [SDET- QA Automation Techie](https://www.youtube.com/playlist?list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa)
 - [b001 (shorts) - ALL Python Programmers Should Know This!! #python #programming #coding](https://www.youtube.com/shorts/g9fIWtSexLs)
 - [b001 (playlist) - How To Python](https://www.youtube.com/playlist?list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
@@ -124,6 +125,8 @@ Practicing Python by going through several (free and paid) courses
 - [Beautiful Python Refactoring II - Conor Hoekstra - code::dive 2022](https://www.youtube.com/watch?v=nXZQfdxWgh0)
 - [The Mental Game of Python - Raymond Hettinger](https://www.youtube.com/watch?v=UANN2Eu6ZnM)
 - [NeetCode - 8 Design Patterns EVERY Developer Should Know](https://www.youtube.com/watch?v=tAuRQs_d9F8)
+- [DreamsofCode - Turn Python BLAZING FAST with these 6 secrets](https://www.youtube.com/watch?v=YsOYMrBNGq8)
+- [DougMercer - Python doesn't need to be slow](https://www.youtube.com/watch?v=umLZphwA-dw)
 - [Python Design Patterns by Brandon Rhodes](https://python-patterns.guide/)
 - [Refactoring Guru](https://refactoring.guru/)
 
@@ -198,7 +201,24 @@ Practicing Python by going through several (free and paid) courses
     - Effective Python
 
 - [Alex Hyett - Programming for Beginners](https://www.youtube.com/playlist?list=PLl76Nbkn-YmliBahGdtw8M5Q2hreDsn1m)
-  1.
+  1. Backend Developer Roadmap - Everything you need to know in 2023 (41K views, 4 months ago, 6:52)
+  2. Stack vs Heap Memory - Simple Explanation (37K views, 8 months ago, 5:28)
+  3. Bitwise Operators and WHY we use them (11K views, 9 months ago, 8:41)
+  4. Git Flow vs GitHub Flow: What You Need to Know (5.6K views, 9 months ago, 6:16)
+  5. SOLID Principles: Do You Really Understand Them? (4.7K views, 2 months ago, 7:04)
+  6. 8 DATA STRUCTURES You NEED to Know (3.9K views, 9 months ago, 10:50)
+  7. 5 Types of Testing Software Every Developer Needs to Know! (3.4K views, 5 months ago, 6:24)
+  8. Top 5 Programming Languages to Learn in 2023 (to Get a Job) (1.4K views, 5 months ago, 5:23)
+  9. Binary Numbers: What Every Developer Should Know (but doesn't) (1.2K views, 10 months ago, 6:58)
+  10. What is Big O Notation, and Why You Should Care (1.2K views, 8 months ago, 7:30)
+  11. This is a Better Way to Understand Recursion (905 views, 3 months ago, 4:03)
+  12. Bad at MATH? Can you be a Software Developer? (853 views, 10 months ago, 4:58)
+  13. The BEST Programming Language to Learn as a Beginner in 2023 (740 views, 10 months ago, 4:17)
+  14. 6 Coding Concepts You MUST Know For Beginners (575 views, 10 months ago, 5:31)
+  15. How I would learn to code in 2023 (if I could start over) (509 views, 7 months ago, 6:00)
+  16. Finally Understand Regular Expressions - In Just 7 Minutes! (497 views, 7 months ago, 7:26)
+  17. CRUD Operations are Everywhere: DB and REST API Examples (445 views, 6 months ago, 4:31)
+  18. Why You Struggle to Learn to Code (and How To Fix It) (254 views, 6 months ago, 4:28)
 
 ## Playlists with various tutorials
 
@@ -423,6 +443,24 @@ Practicing Python by going through several (free and paid) courses
 - Introduction To Computer Science And Programming In Python
   - [edX link](https://www.edx.org/learn/computer-programming/massachusetts-institute-of-technology-introduction-to-computer-science-and-programming-7)
   - [OCW MIT link](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
+  - [A Dev' Story - Getting the basics (CS Fundamentals)](https://www.youtube.com/playlist?list=PL4JxLacgYgqTgW1-ZPLPH4pKGxX_9ma-t)
+    1. Linear Data Structures in 7 minutes! [Fundamental Data Structures (Part I)] (6.2K views, 3 years ago, 6:43)
+    2. Non Linear Data Structures in 4 minutes! [Basic Data Structures (Part II)] (2.4K views, 3 years ago, 3:47)
+    3. Complexity Analysis and Big Oh Notation (1.6K views, 3 years ago, 5:51)
+    4. Map data structure: How does a Hash Table work? (2.4K views, 3 years ago, 5:19)
+    5. Complexity Analysis: Typical Growth Rates (Tips) (798 views, 3 years ago, 5:59)
+    6. How does Merge Sort work? (Quick Explanation) (1.1K views, 3 years ago, 5:43)
+    7. How does Quicksort work? (in 6 minutes) (4.2K views, 3 years ago, 5:44)
+    8. Search algorithms: Linear Search, Binary Search, Depth First Search and Breadth First Search (2K views, 3 years ago, 5:53)
+    9. Search algorithms: Linear Search, Binary Search, Depth First Search and Breadth First Search (2K views, 3 years ago, 5:53)
+    10. Processes and Threads (Concurrency Basics) (4.7K views, 3 years ago, 5:20)
+    11. How to avoid Deadlocks with Immutability (2.2K views, 3 years ago, 5:07)
+    12. Object Oriented Programming Explained in a Nutshell (7.7K views, 3 years ago, 6:19)
+    13. SOLID Design Principles Explained in a Nutshell (127K views, 3 years ago, 6:14)
+    14. Object Oriented Design Patterns Explained (18K views, 3 years ago, 6:03)
+    15. Getting the Basics - Software Architecture Introduction (part 1) (534K views, 2 years ago, 7:48)
+    16. Scaling Distributed Systems - Software Architecture Introduction (part 2) (124K views, 2 years ago, 6:34)
+    17. Distributed Cache explained - Software Architecture Introduction (part 3) (58K views, 2 years ago, 4:00)
 
 ## Databases
 
