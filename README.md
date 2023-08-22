@@ -30,7 +30,6 @@ Practicing Python by going through several (free and paid) courses
   - [Data Science](#data-science)
     - [Data Science general (advices etc.)](#data-science-general-advices-etc)
     - [Data Science courses](#data-science-courses)
-    - [Data Science Courses](#data-science-courses-1)
     - [Data Science Mathematics](#data-science-mathematics)
   - [Machine Learning](#machine-learning)
     - [Machine Learning general (advices etc.)](#machine-learning-general-advices-etc)
@@ -492,6 +491,7 @@ Practicing Python by going through several (free and paid) courses
 
 ### Data Science courses
 
+- [Udemy - Jose Portilla - Python for Data Science and Machine Learning Bootcamp (Rating: 4.6 out of 5 (133,378 ratings) 654,156 students, 25h, Last updated 5/2022)](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/)
 - [freeCodeCamp - Santiago Basulto from RMOTR - Data Analysis with Python - Full Course for Beginners (Numpy, Pandas, Matplotlib, Seaborn)](https://www.youtube.com/watch?v=r-uOLxNrNk8)
 - [freeCodeCamp (playlist) - Data Science](https://www.youtube.com/playlist?list=PLWKjhJtqVAblQe2CCWqV4Zy3LY01Z8aF1)
   > 20 videos 651,868 views Last updated on 16 Apr 2023
@@ -515,10 +515,28 @@ Practicing Python by going through several (free and paid) courses
   - Data Analysis with Python for Excel Users - Full Course (1.1M views, 1 year ago, ~4h)
   - Data Visualization with D3 – Full Course for Beginners [2022] (233K views, 1 year ago, ~20h)
   - Data Science Job Interview – Full Mock Interview (248K views, 4 months ago, ~1.5h)
-
-### Data Science Courses
-
-- [Udemy - Jose Portilla - Python for Data Science and Machine Learning Bootcamp (Rating: 4.6 out of 5 (133,378 ratings) 654,156 students, 25h, Last updated 5/2022)](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/)
+- [Keith Galli (playlist) - Data Science](https://www.youtube.com/playlist?list=PLFCB5Dp81iNVmuoGIqcT5oF4K-7kTI5vp)
+  1. Comprehensive Python Beautiful Soup Web Scraping Tutorial! (find/find_all, css select, scrape table) (276K views, 3 years ago, 1:13:03)
+  2. Complete Python Pandas Data Science Tutorial! (Reading CSV/Excel files, Sorting, Filtering, Groupby) (2.8M views, 4 years ago, 1:00:27)
+  3. Solving Real-World Data Science Interview Questions! (with Python Pandas) (75K views, 1 year ago, 1:47:50)
+  4. 5 Jupyter Notebook Tips & Tricks to Improve your Data Science Workflow! (42K views, 1 year ago, 23:17)
+  5. Intro to Data Visualization in Python with Matplotlib! (line graph, bar chart, title, labels, size) (215K views, 4 years ago, 32:33)
+  6. Python Plotting Tutorial w/ Matplotlib & Pandas (Line Graph, Histogram, Pie Chart, Box & Whiskers) (285K views, 4 years ago, 1:01:30)
+  7. Real-World Python Machine Learning Tutorial w/ Scikit Learn (sklearn basics, NLP, classifiers, etc) (220K views, 3 years ago, 1:40:49)
+  8. Solving real world data science tasks with Python Beautiful Soup! (movie dataset creation) (270K views, 2 years ago, 3:24:18)
+  9. Complete Python NumPy Tutorial (Creating Arrays, Indexing, Math, Statistics, Reshaping) (734K views, 4 years ago, 58:41)
+  10. Solving real world data science tasks with Python Pandas! (1.3M views, 3 years ago, 1:26:07)
+  11. Generating Mock Data with Python! (NumPy, Pandas, & Datetime Libraries) (25K views, 3 years ago, 1:00:26)
+  12. Python Data Science Project Ideas! (for all skill levels) (68K views, 3 years ago, 15:45)
+  13. Complete Natural Language Processing (NLP) Tutorial in Python! (with examples) (94K views, 1 year ago, 1:37:46)
+  14. Complete Regular Expressions Tutorial! (with exercises for practice) (5.4K views, 4 months ago, 1:19:21)
+  15. Introduction to Neural Networks in Python (what you need to know) | Tensorflow/Keras (81K views, 3 years ago, 1:00:37)
+  16. Real-World Python Neural Nets Tutorial (Image Classification w/ CNN) | Tensorflow & Keras (78K views, 3 years ago, 1:01:14)
+  17. Solving real world data science problems with Python! (computer vision edition) (36K views, 1 year ago, 1:21:38)
+  18. How to Generate an Analytics Report (pdf) in Python! (136K views, 2 years ago, 49:15)
+  19. How to Schedule & Automatically Run Python Code! (116K views, 2 years ago, 1:20:23)
+  20. Solving real-world data analysis problems with Python Pandas! (Lego dataset analysis) (72K views, 1 year ago, 43:37)
+  21. Full Data Science Mock Interview! (featuring Kylie Ying) (9.8K views, 7 months ago, 1:27:34)
 
 ### Data Science Mathematics
 
