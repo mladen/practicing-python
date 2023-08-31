@@ -27,14 +27,6 @@ Practicing Python by going through several (free and paid) courses
     - [Data structures](#data-structures)
   - [Computer science courses](#computer-science-courses)
   - [Databases](#databases)
-  - [Data Science](#data-science)
-    - [Data Science general (advices etc.)](#data-science-general-advices-etc)
-    - [Data Science courses](#data-science-courses)
-    - [Data Science Mathematics](#data-science-mathematics)
-  - [Machine Learning](#machine-learning)
-    - [Machine Learning general (advices etc.)](#machine-learning-general-advices-etc)
-    - [Machine Learning basics](#machine-learning-basics)
-    - [Machine learning courses](#machine-learning-courses)
   - [Other courses](#other-courses)
   - [Good YouTube Channels](#good-youtube-channels)
   - [Platform to practice coding on](#platform-to-practice-coding-on)
@@ -241,9 +233,11 @@ Practicing Python by going through several (free and paid) courses
 
 - [x] [CodeAestetic - Why You Shouldn't Nest Your Code](https://www.youtube.com/watch?v=CFRhGnuXG-4)
 - [Creel - Branchless Programming: Why "If" is Sloowww... and what we can do about it!](https://www.youtube.com/watch?v=bVJ-mWWL7cE)
+- [In progress][Coderized - How principled coders outperform the competition](https://www.youtube.com/watch?v=q1qKv5TBaOA)
 
 ## Python project ideas
 
+- [Tech With Tim - Web Scraping 101: A Million Dollar Project Idea](https://www.youtube.com/watch?v=DJnH0jR8y5Q)
 - [Tech With Tim (playlist) - Programming Projects & Ideas](https://www.youtube.com/playlist?list=PLzMcBGfZo4-lkJOu1AWab-nFtjDw7aPek)
 
   - 5 Python Projects for Beginners (685K views, 4 years ago, 5:31)
@@ -387,6 +381,7 @@ Practicing Python by going through several (free and paid) courses
 - [projectMaria - Learning is a Skill (and most of us suck at it)](https://www.youtube.com/watch?v=QZHnpIPk6kc)
 - [Austin Coldiron - How to Beat Procrastination & Build Self-Discipline](https://www.youtube.com/watch?v=h22cFDz9734)
 - [Elijah Oxford - OUTWORK Everyone By Being Bored](https://www.youtube.com/watch?v=1iNyqomXQt8)
+- [ApplicableProgramming - How to change career to programming in 3 months, while still learning to code](https://www.youtube.com/watch?v=PjqmeK8GRyA)
 
 ## Mathematics
 
@@ -479,104 +474,6 @@ Practicing Python by going through several (free and paid) courses
   - https://www.studytonight.com/dbms/
 - [LaraconEU - Things every developer absolutely, positively needs to know about database indexing - Kai Sassnowski](https://www.youtube.com/watch?v=HubezKbFL7E)
 
-## Data Science
-
-### Data Science general (advices etc.)
-
-- [Stefanovic - FASTEST Way to Become a Data Analyst and ACTUALLY Get a Job](https://www.youtube.com/watch?v=AYWLZ1lES6g)
-- [Luke Barousse - How I Would Learn to be a Data Analyst](https://www.youtube.com/watch?v=CC66RXeTn_4)
-- [Power Couple - FASTEST Way to Learn Data Science and ACTUALLY Get a Job](https://www.youtube.com/watch?v=AI1eKN1Eldg)
-- [Josh Brindley - FASTEST Way to become a Data Analyst and ACTUALLY get a job [2023]](https://www.youtube.com/watch?v=08DAw16x63E)
-- [DataNash - How I'd Learn Data Science In 2023 (If I Could Restart) | A Beginner's Roadmap](https://www.youtube.com/watch?v=Z79AqDouS-Y)
-
-### Data Science courses
-
-- [Udemy - Jose Portilla - Python for Data Science and Machine Learning Bootcamp (Rating: 4.6 out of 5 (133,378 ratings) 654,156 students, 25h, Last updated 5/2022)](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/)
-- [freeCodeCamp - Santiago Basulto from RMOTR - Data Analysis with Python - Full Course for Beginners (Numpy, Pandas, Matplotlib, Seaborn)](https://www.youtube.com/watch?v=r-uOLxNrNk8)
-- [freeCodeCamp (playlist) - Data Science](https://www.youtube.com/playlist?list=PLWKjhJtqVAblQe2CCWqV4Zy3LY01Z8aF1)
-  > 20 videos 651,868 views Last updated on 16 Apr 2023
-  - [**In progress**] Learn Data Science Tutorial - Full Course for Beginners (2.8M views, 4 years ago, ~6h)
-  - Statistics - A Full University Course on Data Science Basics (2.4M views, 4 years ago, ~8.2h)
-  - Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib) (3.1M views, 3 years ago, ~12.2h)
-  - Data Analysis with Python Course - Numpy, Pandas, Data Visualization (2M views, 2 years ago, ~10h)
-  - [**In progress**] Data Analysis with Python - Full Course for Beginners (Numpy, Pandas, Matplotlib, Seaborn) (2.7M views, 3 years ago, ~4.5h)
-  - Build 12 Data Science Apps with Python and Streamlit - Full Course (1.1M views, 2 years ago, ~3.2h)
-  - Data Science Hands-On Crash Course (96K views, 2 years ago, ~2.5h)
-  - Data Visualization with D3.js - Full Tutorial Course (1.1M views, 4 years ago, ~13h)
-  - R Shiny for Data Science Tutorial – Build Interactive Data-Driven Web Apps (127K views, 1 year ago, ~1.5h)
-  - R Programming Tutorial - Learn the Basics of Statistical Computing (3.6M views, 4 years ago, ~2.2h)
-  - Python for Bioinformatics - Drug Discovery Using Machine Learning and Data Analysis (478K views, 2 years ago, ~2h)
-  - Intro to Data Science - Crash Course for Beginners (382K views, 4 years ago, ~2h)
-  - Applied Deep Learning with PyTorch - Full Course (151K views, 4 years ago, ~6h)
-  - Tableau for Data Science and Data Visualization - Crash Course Tutorial (769K views, 4 years ago, ~0.5h)
-  - jamovi for Data Analysis - Full Tutorial (119K views, 3 years ago, ~5h)
-  - Data Analysis with Python: Part 1 of 6 (Live Course) (526K views, Streamed 2 years ago, ~1.1h)
-  - [**In progress**] Data Analytics Crash Course: Teach Yourself in 30 Days (237K views, 2 years ago, ~0.9h)
-  - Data Analysis with Python for Excel Users - Full Course (1.1M views, 1 year ago, ~4h)
-  - Data Visualization with D3 – Full Course for Beginners [2022] (233K views, 1 year ago, ~20h)
-  - Data Science Job Interview – Full Mock Interview (248K views, 4 months ago, ~1.5h)
-- [Keith Galli (playlist) - Data Science](https://www.youtube.com/playlist?list=PLFCB5Dp81iNVmuoGIqcT5oF4K-7kTI5vp)
-  1. Comprehensive Python Beautiful Soup Web Scraping Tutorial! (find/find_all, css select, scrape table) (276K views, 3 years ago, 1:13:03)
-  2. Complete Python Pandas Data Science Tutorial! (Reading CSV/Excel files, Sorting, Filtering, Groupby) (2.8M views, 4 years ago, 1:00:27)
-  3. Solving Real-World Data Science Interview Questions! (with Python Pandas) (75K views, 1 year ago, 1:47:50)
-  4. 5 Jupyter Notebook Tips & Tricks to Improve your Data Science Workflow! (42K views, 1 year ago, 23:17)
-  5. Intro to Data Visualization in Python with Matplotlib! (line graph, bar chart, title, labels, size) (215K views, 4 years ago, 32:33)
-  6. Python Plotting Tutorial w/ Matplotlib & Pandas (Line Graph, Histogram, Pie Chart, Box & Whiskers) (285K views, 4 years ago, 1:01:30)
-  7. Real-World Python Machine Learning Tutorial w/ Scikit Learn (sklearn basics, NLP, classifiers, etc) (220K views, 3 years ago, 1:40:49)
-  8. Solving real world data science tasks with Python Beautiful Soup! (movie dataset creation) (270K views, 2 years ago, 3:24:18)
-  9. Complete Python NumPy Tutorial (Creating Arrays, Indexing, Math, Statistics, Reshaping) (734K views, 4 years ago, 58:41)
-  10. Solving real world data science tasks with Python Pandas! (1.3M views, 3 years ago, 1:26:07)
-  11. Generating Mock Data with Python! (NumPy, Pandas, & Datetime Libraries) (25K views, 3 years ago, 1:00:26)
-  12. Python Data Science Project Ideas! (for all skill levels) (68K views, 3 years ago, 15:45)
-  13. Complete Natural Language Processing (NLP) Tutorial in Python! (with examples) (94K views, 1 year ago, 1:37:46)
-  14. Complete Regular Expressions Tutorial! (with exercises for practice) (5.4K views, 4 months ago, 1:19:21)
-  15. Introduction to Neural Networks in Python (what you need to know) | Tensorflow/Keras (81K views, 3 years ago, 1:00:37)
-  16. Real-World Python Neural Nets Tutorial (Image Classification w/ CNN) | Tensorflow & Keras (78K views, 3 years ago, 1:01:14)
-  17. Solving real world data science problems with Python! (computer vision edition) (36K views, 1 year ago, 1:21:38)
-  18. How to Generate an Analytics Report (pdf) in Python! (136K views, 2 years ago, 49:15)
-  19. How to Schedule & Automatically Run Python Code! (116K views, 2 years ago, 1:20:23)
-  20. Solving real-world data analysis problems with Python Pandas! (Lego dataset analysis) (72K views, 1 year ago, 43:37)
-  21. Full Data Science Mock Interview! (featuring Kylie Ying) (9.8K views, 7 months ago, 1:27:34)
-
-### Data Science Mathematics
-
-- [Data Nash - How Much Math Is REALLY In Data Science | What Math Do You Need For Data Science](https://www.youtube.com/watch?v=Fzfxn8U8aMw)
-- [Data Nash - Every Data Scientist Should Read This Book](https://www.youtube.com/watch?v=ZbGbqUdjc28&t=86s)
-
-## Machine Learning
-
-### Machine Learning general (advices etc.)
-
-- [Eye On AI - Why Attention is Crucial in AI](https://www.youtube.com/shorts/Knm8iDBL1hg)
-- [Weights & Biases - Scaling LLMs and Accelerating Adoption: Interview with Aidan Gomez](https://www.youtube.com/watch?v=sD24pZh7pmQ)
-
-### Machine Learning basics
-
-- [Programming with Mosh - Python Machine Learning Tutorial (Data Science)](https://www.youtube.com/watch?v=7eh4d6sabA0)
-
-### Machine learning courses
-
-- [Udemy - ZTM, Andrei Neagoie, Daniel Bourke - Complete Machine Learning & Data Science Bootcamp 2023 (Rating: 4.6 out of 5 (17,179 ratings) 99,450 students), 43.5h, Last updated 6/2023](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/)
-- [Udemy - Jose Portilla - Python for Machine Learning & Data Science Masterclass (4.7 out of 5 (12,599 ratings) 91,232 students, 44h, Last updated 9/2021)](https://www.udemy.com/course/python-for-machine-learning-data-science-masterclass/)
-- [freeCodeCamp (playlist) - Machine Learning](https://www.youtube.com/playlist?list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s)
-  1. Machine Learning for Everybody – Full Course (1.7M views, 10 months ago, 3:53:53)
-  2. TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial (2.7M views, 3 years ago, 6:52:08)
-  3. Self-Driving Car with JavaScript Course – Neural Networks and Machine Learning (1.9M views, 1 year ago, 2:32:40)
-  4. No Black Box Machine Learning Course – Learn Without Libraries (280K views, 4 months ago, 3:51:31)
-  5. PyTorch for Deep Learning & Machine Learning – Full Course (797K views, 10 months ago, 25:37:26)
-  6. Practical Deep Learning for Coders - Full Course from fast.ai and Jeremy Howard (333K views, 2 years ago, 11:12:32)
-  7. Deep Learning Crash Course for Beginners (580K views, 3 years ago, 1:25:39)
-  8. Python TensorFlow for Machine Learning – Neural Network Text Classification Tutorial (218K views, 1 year ago, 1:54:11)
-  9. Keras with TensorFlow Course - Python Deep Learning and Neural Networks for Beginners Tutorial (784K views, 3 years ago, 2:47:55)
-  10. OpenCV Course - Full Tutorial with Python (2.5M views, 2 years ago, 3:41:42)
-  11. How Deep Neural Networks Work - Full Course for Beginners (1.4M views, 4 years ago, 3:50:57)
-  12. TensorFlow 2.0 Crash Course (497K views, 3 years ago, 2:13:17)
-  13. Scikit-Learn Course - Machine Learning in Python Tutorial (399K views, 3 years ago, 2:54:25)
-  14. Scikit-learn Crash Course - Machine Learning Library for Python (231K views, 2 years ago, 2:09:22)
-  15. Machine Learning Course for Beginners (1.3M views, 1 year ago, 9:52:19)
-  16. AlphaZero from Scratch – Machine Learning Tutorial (95K views, 5 months ago, 4:07:54)
-  17. Computer Vision and Perception for Self-Driving Cars (Deep Learning Course) (225K views, 1 year ago, 1:59:38)
-
 ## Other courses
 
 - [Bro Code - Full Courses (Python, JAVA, C++, C#, C, Data Structures and Algorithms...)](https://www.youtube.com/playlist?list=PLZPZq0r_RZON03iKBjYOsOKr1-TD7z2lH)
@@ -586,6 +483,7 @@ Practicing Python by going through several (free and paid) courses
 - CodeAestetic
 - MollyRocket
 - Programming with Mosh
+- Coderized
 - (add more)
 
 ## Platform to practice coding on
