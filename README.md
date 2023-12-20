@@ -64,6 +64,7 @@ Practicing Python by going through several (free and paid) courses
 - [TechWorld with Nana - Python Tutorial for Beginners - Learn Python in 5 Hours [FULL COURSE]](https://www.youtube.com/watch?v=t8pPdKYpowI)
 - [DougMercer - The Magic that Makes Python Tick](https://www.youtube.com/watch?v=LRIUg089W2c)
 - [SDET- QA Automation Techie](https://www.youtube.com/playlist?list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa)
+- [Programming with Mosh - Python for Beginners - Learn Python in 1 Hour](https://www.youtube.com/watch?v=kqtD5dpn9C8)
 - [b001 (shorts) - ALL Python Programmers Should Know This!! #python #programming #coding](https://www.youtube.com/shorts/g9fIWtSexLs)
 - [b001 (playlist) - How To Python](https://www.youtube.com/playlist?list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
   > 2 videos 2,411 views Last updated on 27 May 2023
@@ -380,6 +381,9 @@ Practicing Python by going through several (free and paid) courses
 - [Austin Coldiron - How to Beat Procrastination & Build Self-Discipline](https://www.youtube.com/watch?v=h22cFDz9734)
 - [Elijah Oxford - OUTWORK Everyone By Being Bored](https://www.youtube.com/watch?v=1iNyqomXQt8)
 - [ApplicableProgramming - How to change career to programming in 3 months, while still learning to code](https://www.youtube.com/watch?v=PjqmeK8GRyA)
+- [Tech With Tim - These 7 Coding Skills Give You an UNFAIR Advantage](https://www.youtube.com/watch?v=bYYd_IlOb9k)
+- [Tech With Tim - 5 Coding Projects That Give You An UNFAIR Advantage](https://www.youtube.com/watch?v=V1hjSeSF4xg)
+- [Tech With Tim - Coding Was HARD Until I Learned These 3 Things...](https://www.youtube.com/watch?v=IlS1aR_gfzs)
 
 ## Mathematics
 
@@ -459,6 +463,7 @@ Free:
 Paid (or mostly):
 
 - [CodeCademy](https://www.codecademy.com/)
+- [CourseCareers](https://www.coursecareers.com)
 
 ## Also check out
 
