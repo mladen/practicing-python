@@ -23,8 +23,6 @@ Practicing Python by going through several (free and paid) courses
   - [Mathematics](#mathematics)
     - [Math with Python](#math-with-python)
     - [Mathematics advice](#mathematics-advice)
-  - [Computer science (general concepts)](#computer-science-general-concepts)
-    - [Data structures](#data-structures)
   - [Other courses](#other-courses)
   - [Good YouTube Channels](#good-youtube-channels)
   - [Platform to practice coding on](#platform-to-practice-coding-on)
@@ -38,6 +36,7 @@ Practicing Python by going through several (free and paid) courses
 - [x] [Tech With Tim - What To Learn To Become a Python Backend Developer](https://www.youtube.com/watch?v=pbP5bqfbUPk)
 - [x] [Tech With Tim - What to learn after Python](https://www.youtube.com/watch?v=H1UKIgBSfxM)
 - [Tech With Tim - Python101: Learn the 5 Must-Known Concepts](https://www.youtube.com/watch?v=mMv6OSuitWw)
+- [Tech With Tim - Python 101: Learn These MUST KNOW List Features](https://www.youtube.com/watch?v=s46yyTKvl-I)
 - [Tech With Tim - Python Object Oriented Programming (OOP) - For Beginners](https://www.youtube.com/watch?v=JeznW_7DlB0)
 - [Tech With Tim - Python As Fast as Possible - Learn Python in ~75 Minutes](https://www.youtube.com/watch?v=VchuKL44s6E)
 - [Tech With Tim - Learn Python With This ONE Project!](https://www.youtube.com/watch?v=th4OBktqK1I)
@@ -52,6 +51,7 @@ Practicing Python by going through several (free and paid) courses
 - [Tech With Tim (shorts) - Django VS Flask - Which Should You Learn](https://www.youtube.com/shorts/Gj02l0R1drM)
 - [Tech With Tim (playlist) - Python MySQL Tutorial](https://www.youtube.com/playlist?list=PLzMcBGfZo4-l5kVSNVKGO60V6RkXAVtp-)
 - [Tech With Tim (playlist) - Python Selenium Tutorials](https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ)
+- [ ] [Glitcher - 🚀 Python in 20 Minutes! | Fastest Python Tutorial!](https://www.youtube.com/watch?v=T1HNtfL0R2I)
 - [x] Coinis Python course
 - [CS50x 2023 - CS50x 2023 (part of the playlist) - Lecture 6 - Python](https://www.youtube.com/watch?v=5Jppcxc1Qzc&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=8&ab_channel=CS50)
 - [CS50P (playlist) - Introduction to Programming with Python (CS50P) 2022](https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V)
@@ -415,24 +415,6 @@ Practicing Python by going through several (free and paid) courses
 ### Mathematics advice
 
 - [Samuel Bosch - How to Understand Math Intuitively?](https://www.youtube.com/watch?v=glZLHLLalv0)
-
-## Computer science (general concepts)
-
-### Data structures
-
-- [Junmin Jee - 6 basics data structures explained in one video](https://www.youtube.com/watch?v=_9swtAph9jM)
-- [Alex Hyett - 8 DATA STRUCTURES You NEED to Know](https://www.youtube.com/watch?v=SCkbQSPH--A)
-- [Alex Hyett - Domain Driven Design: What You Need To Know](https://www.youtube.com/watch?v=4rhzdZIDX_k)
-- [ForrestKnight - 4 Data Structures You Need to Know](https://www.youtube.com/watch?v=y7ksXLhuy-w)
-- [ForrestKnight - 3 More Data Structures You Need to Know](https://www.youtube.com/watch?v=2EQ9WswHJ6A)
-- [Pooja Dutt - How to ACTUALLY Master Data Structures FAST (with real coding examples)](https://www.youtube.com/watch?v=r51TRDECIw4)
-- [Pooja Dutt - How I mastered data structures and algorithms (for beginners)](https://www.youtube.com/watch?v=F7sPauKsZXw)
-- [Power Couple - I gave 127 interviews. Top 5 Algorithms they asked me](https://www.youtube.com/watch?v=EM8IgIIiOdY)
-- [Power Couple - I solved 541 Leetcode problems. But you need only 150](https://www.youtube.com/watch?v=xF554Tlzo-c)
-- [Data Structures And Algorithms in Python - Python Data Structures Full Tutorial (2020)](https://www.youtube.com/watch?v=kQDxmjfkIKY)
-- [Codebagel - Top 7 Algorithms for Coding Interviews Explained SIMPLY](https://www.youtube.com/watch?v=kp3fCihUXEg)
-- [Codebagel - Top 7 Data Structures for Interviews Explained SIMPLY](https://www.youtube.com/watch?v=cQWr9DFE1ww)
-- [Aaron Jack - DATA STRUCTURES you MUST know (as a Software Developer)](https://www.youtube.com/watch?v=sVxBVvlnJsM)
 
 ## Other courses
 
