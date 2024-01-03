@@ -6,7 +6,10 @@ Practicing Python by going through several (free and paid) courses
 
 - [Practicing Python](#practicing-python)
   - [Table of Contents](#table-of-contents)
-  - [Python tutorials](#python-tutorials)
+  - [Short Python tutorials (do these first)](#short-python-tutorials-do-these-first)
+  - [Long(er) Python tutorials](#longer-python-tutorials)
+  - [Intermediate Python tutorials](#intermediate-python-tutorials)
+  - [Advanced Python tutorials](#advanced-python-tutorials)
     - [Python design patterns, SOLID principles, refactoring, best practices, good code architecture](#python-design-patterns-solid-principles-refactoring-best-practices-good-code-architecture)
     - [Roadmaps](#roadmaps)
   - [Playlists with various tutorials](#playlists-with-various-tutorials)
@@ -29,24 +32,27 @@ Practicing Python by going through several (free and paid) courses
   - [Platforms for learning (coding, math etc.)](#platforms-for-learning-coding-math-etc)
   - [Also check out](#also-check-out)
 
-## Python tutorials
+## Short Python tutorials (do these first)
 
+- [ ] [Tech With Tim - Python As Fast as Possible - Learn Python in ~75 Minutes](https://www.youtube.com/watch?v=VchuKL44s6E)
+- [ ] [Programming with Mosh - Python for Beginners - Learn Python in 1 Hour](https://www.youtube.com/watch?v=kqtD5dpn9C8)
+
+## Long(er) Python tutorials
+
+- [Tech With Tim - My Python Development Environment Setup - Full Tutorial](https://www.youtube.com/watch?v=qI3P7zMMsgY)
 - [x] [Tech With Tim - The Complete Python Course For Beginners](https://www.youtube.com/watch?v=sxTmJE4k0ho)
   - See [README.md](./TechWithTim%20-%20Complete%20Python%20Course/README.md) for details, TOC etc.
 - [x] [Tech With Tim - What To Learn To Become a Python Backend Developer](https://www.youtube.com/watch?v=pbP5bqfbUPk)
 - [x] [Tech With Tim - What to learn after Python](https://www.youtube.com/watch?v=H1UKIgBSfxM)
-- [Tech With Tim - Python101: Learn the 5 Must-Known Concepts](https://www.youtube.com/watch?v=mMv6OSuitWw)
+- [ ] [Tech With Tim - Python101: Learn the 5 Must-Known Concepts](https://www.youtube.com/watch?v=mMv6OSuitWw)
 - [Tech With Tim - Python 101: Learn These MUST KNOW List Features](https://www.youtube.com/watch?v=s46yyTKvl-I)
 - [Tech With Tim - Python Object Oriented Programming (OOP) - For Beginners](https://www.youtube.com/watch?v=JeznW_7DlB0)
-- [Tech With Tim - Python As Fast as Possible - Learn Python in ~75 Minutes](https://www.youtube.com/watch?v=VchuKL44s6E)
 - [Tech With Tim - Learn Python With This ONE Project!](https://www.youtube.com/watch?v=th4OBktqK1I)
-- [Tech With Tim - Mastering Python - Everything You Need To Know To Become a Python Master](https://www.youtube.com/watch?v=p15xzjzR9j0)
 - [Tech With Tim - Create A Python API in 12 Minutes - in Flask](https://www.youtube.com/watch?v=zsYIw6RXjfM)
 - [Tech With Tim - Python REST API Tutorial - Building a Flask REST API](https://www.youtube.com/watch?v=GMppyAPbLYk)
 - [Tech With Tim - Django For Beginners - Full Tutorial](https://www.youtube.com/watch?v=sm1mokevMWk)
 - [Tech With Tim - Django Authentication & User Management - Full Tutorial](https://www.youtube.com/watch?v=WuyKxdLcw3w)
 - [Tech With Tim - STOP Making These Python Mistakes](https://www.youtube.com/watch?v=sXE5298aDPw)
-- [Tech With Tim - My Python Development Environment Setup - Full Tutorial](https://www.youtube.com/watch?v=qI3P7zMMsgY)
 - [Tech With Tim - The Truth About Learning Python in 2023](https://www.youtube.com/watch?v=qecsnAXtms4)
 - [Tech With Tim (shorts) - Django VS Flask - Which Should You Learn](https://www.youtube.com/shorts/Gj02l0R1drM)
 - [Tech With Tim (playlist) - Python MySQL Tutorial](https://www.youtube.com/playlist?list=PLzMcBGfZo4-l5kVSNVKGO60V6RkXAVtp-)
@@ -56,15 +62,11 @@ Practicing Python by going through several (free and paid) courses
 - [CS50x 2023 - CS50x 2023 (part of the playlist) - Lecture 6 - Python](https://www.youtube.com/watch?v=5Jppcxc1Qzc&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=8&ab_channel=CS50)
 - [CS50P (playlist) - Introduction to Programming with Python (CS50P) 2022](https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V)
 - [freeCodeCamp - Mike Dane - Learn Python](https://www.youtube.com/watch?v=rfscVS0vtbw)
-- [freeCodeCamp - Anil Kulkarni - Octallium - Learn Python by Thinking in Types - Full Course](https://www.youtube.com/watch?v=jH85McHenvw)
 - [freeCodeCamp - Sanjeev Thiyagarajan - Python API Development - Comprehensive Course for Beginners](https://www.youtube.com/watch?v=0sOvCWFmrtA)
 - [freeCodeCamp - Web Scraping with Python - Beautiful Soup Crash Course](https://www.youtube.com/watch?v=XVv6mJpFOb0)
-- [freeCodeCamp - Aakash - Jovian - Data Structures and Algorithms in Python - Full Course for Beginners](https://www.youtube.com/watch?v=pkYVOmU3MgA)
-- [freeCodeCamp - Patrick Loeber - Intermediate Python Programming Course (IMPORTANT!)](https://www.youtube.com/watch?v=HGOBQPFzWKo)
 - [TechWorld with Nana - Python Tutorial for Beginners - Learn Python in 5 Hours [FULL COURSE]](https://www.youtube.com/watch?v=t8pPdKYpowI)
 - [DougMercer - The Magic that Makes Python Tick](https://www.youtube.com/watch?v=LRIUg089W2c)
 - [SDET- QA Automation Techie](https://www.youtube.com/playlist?list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa)
-- [Programming with Mosh - Python for Beginners - Learn Python in 1 Hour](https://www.youtube.com/watch?v=kqtD5dpn9C8)
 - [b001 (shorts) - ALL Python Programmers Should Know This!! #python #programming #coding](https://www.youtube.com/shorts/g9fIWtSexLs)
 - [b001 (playlist) - How To Python](https://www.youtube.com/playlist?list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
   > 2 videos 2,411 views Last updated on 27 May 2023
@@ -78,10 +80,7 @@ Practicing Python by going through several (free and paid) courses
 - [Bro Code - Python Full Course for free](https://www.youtube.com/watch?v=XKHEtdqhLK8)
 - [Clear Code - The complete guide to Python](https://www.youtube.com/watch?v=mDKM-JtUhhc)
 - [x] [Sundas Khalid - How to Learn Python FAST with ChatGPT?](https://www.youtube.com/watch?v=tEn5BjRY8Uw)
-- [Great learning - Data Structures & Algorithms (playlist) - check quality](https://www.youtube.com/playlist?list=PLlgLmuG_KgbbkdjHVm8WsQtkpiZD2ULBb)
-  > 14 videos 29,734 views Last updated on 29 Nov 2022
-  >
-  > Notice: Several videos are about Python (others are in C and Java)
+
 - [Udemy - Jose Portilla - The Complete Python Bootcamp From Zero to Hero in Python (Rating: 4.6 out of 5 (472,187 ratings) 1,756,928 students, 22h, Last updated 7/2023)](https://www.udemy.com/course/complete-python-bootcamp/)
 - [Udemy - Mark Winderbottom - Build a Backend REST API with Python & Django - Advanced (Bestseller, Rating: 4.7 out of 5 (7,339 ratings) 39,737 students, 23h, Last updated 1/2023)](https://www.udemy.com/course/django-python-advanced/)
 - [mCoding - How Python Works (playlist)](https://www.youtube.com/playlist?list=PLJ_usHaf3fgNFfY4CN6-A3zYplVVqnbv2)
@@ -94,6 +93,20 @@ Practicing Python by going through several (free and paid) courses
   > In this series of lessons, we present free step-by-step tutorials that will teach you python. These lessons are designed for the absolute beginners, and we do not assume you are already an expert.
   >
   > Notice: Includes electronics, AI basics etc.
+
+## Intermediate Python tutorials
+
+- [freeCodeCamp - Anil Kulkarni - Octallium - Learn Python by Thinking in Types - Full Course](https://www.youtube.com/watch?v=jH85McHenvw)
+- [freeCodeCamp - Aakash - Jovian - Data Structures and Algorithms in Python - Full Course for Beginners](https://www.youtube.com/watch?v=pkYVOmU3MgA)
+- [freeCodeCamp - Patrick Loeber - Intermediate Python Programming Course (IMPORTANT!)](https://www.youtube.com/watch?v=HGOBQPFzWKo)
+- [Great learning - Data Structures & Algorithms (playlist) - check quality](https://www.youtube.com/playlist?list=PLlgLmuG_KgbbkdjHVm8WsQtkpiZD2ULBb)
+  > 14 videos 29,734 views Last updated on 29 Nov 2022
+  >
+  > Notice: Several videos are about Python (others are in C and Java)
+
+## Advanced Python tutorials
+
+- [Tech With Tim - Mastering Python - Everything You Need To Know To Become a Python Master](https://www.youtube.com/watch?v=p15xzjzR9j0)
 
 ### Python design patterns, SOLID principles, refactoring, best practices, good code architecture
 
