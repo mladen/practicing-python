@@ -19,5 +19,10 @@ print(
 )  # [4, 3] # step is negative, so we go backwards from 4 to 2; stop (2) is not inclusive
 
 # Reversing a list (or string)
-print("Reversing a list, x[::-1] =", x[::-1])  # [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+print("\nReversing a list, x[::-1] =", x[::-1])  # [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 print("Reversing a string, s[::-1] =", s[::-1])  # olleh
+
+# This also works for tuples
+t = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+print("\nReversing a tuple, t[::-1] =", t[::-1])  # (9, 8, 7, 6, 5, 4, 3, 2, 1, 0)
+# We can also write this as: reversed = (4, 5, 6)[::-1]
