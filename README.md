@@ -34,7 +34,7 @@ Practicing Python by going through several (free and paid) courses
 
 ## Short Python tutorials (do these first)
 
-- [ ] [Tech With Tim - Python As Fast as Possible - Learn Python in ~75 Minutes](https://www.youtube.com/watch?v=VchuKL44s6E)
+- [x] [Tech With Tim - Python As Fast as Possible - Learn Python in ~75 Minutes](https://www.youtube.com/watch?v=VchuKL44s6E)
   - See [this folder](./tech_with_tim-learn_python_in_75_minutes) for code
 - [ ] [Programming with Mosh - Python for Beginners - Learn Python in 1 Hour](https://www.youtube.com/watch?v=kqtD5dpn9C8)
 
