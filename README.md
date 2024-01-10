@@ -16,7 +16,7 @@ Practicing Python by going through several (free and paid) courses
   - [Suggestions for a better code](#suggestions-for-a-better-code)
     - [Better Python code](#better-python-code)
     - [Language agnostic suggestions for better code](#language-agnostic-suggestions-for-better-code)
-  - [Python project ideas](#python-project-ideas)
+  - [Python project ideas (I'll do the most interesting ones)](#python-project-ideas-ill-do-the-most-interesting-ones)
     - [Python game ideas (PyGame)](#python-game-ideas-pygame)
     - [Python game engines](#python-game-engines)
   - [Python automation](#python-automation)
@@ -136,12 +136,15 @@ Practicing Python by going through several (free and paid) courses
 
 ### Roadmaps
 
-- [x] [fozilbek - How To Master Python - Python for Beginners Roadmap](https://www.youtube.com/watch?v=ZUHP0SLAs8s)
+- [ ] [fozilbek - How To Master Python - Python for Beginners Roadmap](https://www.youtube.com/watch?v=ZUHP0SLAs8s)
 
   - Introduction:
     - ...
   - Basic:
-    - ...
+    - strings and characters (text)
+    - numbers, dates and times
+    - data manipulation
+    - functions
   - OOP:
     - essence of OOP
     - objects
@@ -248,7 +251,7 @@ Practicing Python by going through several (free and paid) courses
 - [Creel - Branchless Programming: Why "If" is Sloowww... and what we can do about it!](https://www.youtube.com/watch?v=bVJ-mWWL7cE)
 - [In progress][Coderized - How principled coders outperform the competition](https://www.youtube.com/watch?v=q1qKv5TBaOA)
 
-## Python project ideas
+## Python project ideas (I'll do the most interesting ones)
 
 - [Tech With Tim - Web Scraping 101: A Million Dollar Project Idea](https://www.youtube.com/watch?v=DJnH0jR8y5Q)
 - [Tech With Tim (playlist) - Mini Python Projects!](https://www.youtube.com/playlist?list=PLzMcBGfZo4-kBvY2DaxdSvoN_jGpzbw5V)
@@ -260,6 +263,11 @@ Practicing Python by going through several (free and paid) courses
 
   - 5 Python Projects for Beginners (685K views, 4 years ago, 5:31)
   - 5 Intermediate Python Projects (409K views, 3 years ago, 7:49)
+    - [ ] Website
+    - [ ] Web Scraper
+    - [ ] PyGame game
+    - [ ] GUI (TKinter (easier) or PyQT (more powerful)))
+    - [ ] Raspberry Pi
   - Quarantine Coding - 5 Programming Project Ideas (686K views, 3 years ago, 11:47)
   - Python Resume Projects - You Can Finish in a Weekend (1.4M views, 3 years ago, 10:38)
   - The Programming Project That Got Me a Job! (258K views, 2 years ago, 18:21)
@@ -356,6 +364,23 @@ Practicing Python by going through several (free and paid) courses
   - [ ] 3. Full Stack Application.
   - [ ] 4. Game development (plus if involves physics simulation).
   - [ ] 5. Scraping project.
+- ## [Internet Made Coder - 5 IMPRESSIVE Python Resume Projects (You Can Finish in A Weekend)](https://www.youtube.com/watch?v=O3zh_mViWbc)
+- [Internet Made Coder - 5 Python Projects That Will Make Employers Drool](https://www.youtube.com/watch?v=QjAHcKPUaFM)
+  - [ ] 1. Web Scraping
+  - [ ] 2. Data Visualization
+  - [ ] 3. Machine Learning
+  - [ ] 4. Web Development
+  - [ ] 5. Automation
+- [Coding with Steven - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS (Make Money Coding)](https://www.youtube.com/watch?v=40y9D49kMaM)
+  - [ ] 1. Weather App
+  - [ ] 2. YouTube Video Downloader
+  - [ ] 3. Password Generator
+- [Harkirat Singh - These Coding Projects Give You An Unfair Advantage](https://www.youtube.com/watch?v=UYySvyc4M68&ab_channel=HarkiratSingh)
+  - [ ] 1. YouTube Layer
+  - [ ] 2. Internationalization as a service (this one might be interesting; maybe text/video/audio translation)
+  - [ ] 3. Adding OpenAPI to Backend
+  - [ ] 4. Adding tests to a codebase (this is needed almost everywhere)
+  - [ ] 5. Moving to NextJS 13
 
 ### Python game ideas (PyGame)
 
