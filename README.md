@@ -100,6 +100,28 @@ Practicing Python by going through several (free and paid) courses
 - [freeCodeCamp - Anil Kulkarni - Octallium - Learn Python by Thinking in Types - Full Course](https://www.youtube.com/watch?v=jH85McHenvw)
 - [freeCodeCamp - Aakash - Jovian - Data Structures and Algorithms in Python - Full Course for Beginners](https://www.youtube.com/watch?v=pkYVOmU3MgA)
 - [freeCodeCamp - Patrick Loeber - Intermediate Python Programming Course (IMPORTANT!)](https://www.youtube.com/watch?v=HGOBQPFzWKo)
+  - [ ] (0:00:00) Intro
+  - [ ] (0:00:56) Lists
+  - [ ] (0:16:30) Tuples
+  - [ ] (0:29:49) Dictionaries
+  - [ ] (0:42:40) Sets
+  - [ ] (0:58:44) Strings
+  - [ ] (1:22:50) Collections
+  - [ ] (1:36:43) Itertools
+  - [ ] (1:51:50) Lambda Functions
+  - [ ] (2:04:03) Exceptions and Errors
+  - [ ] (2:20:10) Logging
+  - [ ] (2:42:20) JSON
+  - [ ] (2:59:42) Random Numbers
+  - [ ] (3:14:23) Decorators
+  - [ ] (3:35:32) Generators
+  - [ ] (3:53:29) Threading vs Multiprocessing
+  - [ ] (4:07:59) Multithreading
+  - [ ] (4:31:05) Multiprocessing
+  - [ ] (4:53:26) Function Arguments
+  - [ ] (5:17:28) The Asterisk (\*) Operator
+  - [ ] (5:30:19) Shallow vs Deep Copying
+  - [ ] (5:40:07) Context Managers
 - [Great learning - Data Structures & Algorithms (playlist) - check quality](https://www.youtube.com/playlist?list=PLlgLmuG_KgbbkdjHVm8WsQtkpiZD2ULBb)
   > 14 videos 29,734 views Last updated on 29 Nov 2022
   >
@@ -241,9 +263,22 @@ Practicing Python by going through several (free and paid) courses
 ### Better Python code
 
 - [x] [mCoding - 25 nooby Python habits you need to ditch](https://www.youtube.com/watch?v=qUeud6DvOWI)
+  - Use fstrings instead manual string formatting (using `+` operator)
+  - Use `with` statement instead of `open` and `close` methods
+  - Use context managers instead of `try` and `finally` statements
+  - Capture actual exceptions instead of `except Exception`
+  - Caret means XOR, not exponentiation
+  - If we want a mutable default argument, use `None` and set it to a default value inside the function and then check if it's `None`
+  - Use dict, list, set, generator comprehensions instead of `for` loops; use them where it makes sense
+  - We don't need to turn every single loop into a comprehension
+  - Don't check for a type with `==`, use `isinstance` instead
 - [mCoding - 21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
+- [mCoding - You should put this in all your Python scripts | if **name** == '**main**': ...](https://www.youtube.com/watch?v=g_wlZ9IhbTs)
+- [Patrick Loeber - 11 Tips And Tricks To Write Better Python Code](https://www.youtube.com/watch?v=8OKTAedgFYg)
+- [Tech With Tim - Write Python Code Properly!](https://www.youtube.com/watch?v=D4_s3q038I0)
 - [UWCS - University of Warwick Computing Society - 5 Horrifying Python Techniques to get you fired - Andrew L](https://www.youtube.com/watch?v=t863QfAOmlY)
   > Notice: Check out UWCS - University of Warwick Computing Society's YouTube channell for more interesting talks
+- [Make Tkinter Look 10x Better in 5 Minutes (CustomTkinter)](https://www.youtube.com/watch?v=Miydkti_QVE)
 
 ### Language agnostic suggestions for better code
 
