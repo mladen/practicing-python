@@ -28,3 +28,17 @@ def func(x=1, y=2):
 
 print("Calling a function with default values for parameters")
 func(2)  # Run 2 2
+
+print("========================================")
+
+# My addition - TYPES
+
+
+# Adding types to parameters and return values
+def func(x: int, y: int) -> tuple:
+    print("Run", x, y)
+    return x * y, x + y  # returns a tuple
+
+
+print("Calling a function with default values for parameters")
+func(2, 3)  # Run 2 3
