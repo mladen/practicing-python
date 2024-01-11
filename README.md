@@ -14,7 +14,7 @@ Practicing Python by going through several (free and paid) courses
     - [Roadmaps](#roadmaps)
   - [Playlists with various tutorials](#playlists-with-various-tutorials)
   - [Suggestions for a better code](#suggestions-for-a-better-code)
-    - [Better Python code](#better-python-code)
+    - [Better Python code (Advices, Pydantic etc.)](#better-python-code-advices-pydantic-etc)
     - [Language agnostic suggestions for better code](#language-agnostic-suggestions-for-better-code)
   - [Python project ideas (I'll do the most interesting ones)](#python-project-ideas-ill-do-the-most-interesting-ones)
     - [Python game ideas (PyGame)](#python-game-ideas-pygame)
@@ -26,7 +26,7 @@ Practicing Python by going through several (free and paid) courses
   - [Mathematics](#mathematics)
     - [Math with Python](#math-with-python)
     - [Mathematics advice](#mathematics-advice)
-  - [Other courses](#other-courses)
+  - [Various courses](#various-courses)
   - [Good YouTube Channels](#good-youtube-channels)
   - [Platform to practice coding on](#platform-to-practice-coding-on)
   - [Platforms for learning (coding, math etc.)](#platforms-for-learning-coding-math-etc)
@@ -260,7 +260,7 @@ Practicing Python by going through several (free and paid) courses
 
 ## Suggestions for a better code
 
-### Better Python code
+### Better Python code (Advices, Pydantic etc.)
 
 - [x] [mCoding - 25 nooby Python habits you need to ditch](https://www.youtube.com/watch?v=qUeud6DvOWI)
   - Use fstrings instead manual string formatting (using `+` operator)
@@ -279,6 +279,7 @@ Practicing Python by going through several (free and paid) courses
 - [UWCS - University of Warwick Computing Society - 5 Horrifying Python Techniques to get you fired - Andrew L](https://www.youtube.com/watch?v=t863QfAOmlY)
   > Notice: Check out UWCS - University of Warwick Computing Society's YouTube channell for more interesting talks
 - [Make Tkinter Look 10x Better in 5 Minutes (CustomTkinter)](https://www.youtube.com/watch?v=Miydkti_QVE)
+- [NeuralNice - Does Pydantic Replace Dataclasses in Python?](https://www.youtube.com/watch?v=Nlhp4EmE55I)
 
 ### Language agnostic suggestions for better code
 
@@ -495,9 +496,33 @@ Practicing Python by going through several (free and paid) courses
 
 - [Samuel Bosch - How to Understand Math Intuitively?](https://www.youtube.com/watch?v=glZLHLLalv0)
 
-## Other courses
+## Various courses
 
 - [Bro Code - Full Courses (Python, JAVA, C++, C#, C, Data Structures and Algorithms...)](https://www.youtube.com/playlist?list=PLZPZq0r_RZON03iKBjYOsOKr1-TD7z2lH)
+- [pixegami - Python Tutorials](https://www.youtube.com/playlist?list=PLZJBfja3V3RvxooZ5SNOr7CMFzURr4NBs)
+  - [ ] 1. Why You Should Learn Python in 2023 (as your first programming language) (4K views,1 months ago, 14:33)
+  - [ ] 2. How To Write Unit Tests in Python • Pytest Tutorial (106K views, year ago, 35:34)
+  - [ ] 3. PyTest • REST API Integration Testing with Python (53K views, year ago, 37:24)
+  - [ ] 4. How to Make a Discord Bot with Python (33K views, year ago, 29:17)
+  - [ ] 5. Host a Python Discord Bot on AWS Lambda (Free and Easy) (3.8K views, 4 months ago, 21:40)
+  - [ ] 6. Pydantic Tutorial • Solving Python's Biggest Problem (141K views, months ago, 11:07)
+  - [ ] 7. Python FastAPI Tutorial: Build a REST API in 15 Minutes (10K views, months ago, 15:16)
+  - [ ] 8. Python Requests Tutorial: HTTP Requests and Web Scraping (934 views, months ago, 13:41)
+  - [ ] 9. ChatGPI API in Python - How to Build a Custom AI Chat App (2.4K views, 9 months ago, 25:29)
+  - [ ] 10. Build Wordle in Python • Word Game Python Project for Beginners (20K views, year ago, 58:57)
+  - [ ] 11. How to Send SMS Text Messages with Python & Twilio - Quick and Simple! (10K views, year ago, 10:54)
+  - [ ] 12. FastAPI Python Tutorial - Learn How to Build a REST API (7.6K views, 1 year ago, 41:20)
+  - [ ] 13. How I Would Learn Python (if I had to start over) • A Roadmap for 2023 (6.2K views, 11 months ago, 19:28)
+  - [ ] 14. Top 10 Python Modules 2022 (4.5K views, 1 year ago, 8:14)
+  - [ ] 15. Decorators in Python: How to Write Your Own Custom Decorators (3.6K views, 1 year ago, 10:12)
+  - [ ] 16. Python Web Scraping Tutorial • Step by Step Beginner's Guide (4.7K views, 1 year ago, 28:21)
+  - [ ] 17. How to create 1000+ unique NFT-style images (like Cryptopunk) | Python Tutorial (19K views, year ago, 50:43)
+  - [ ] 18. Python Beginner Project: Build a Caesar Cipher Encryption App (4.5K views, 1 year ago, 25:10)
+  - [ ] 19. PyScript • How to run Python in a browser (4.2K views, 1 year ago, 6:42)
+  - [ ] 20. How to Publish a Python Package to PyPI (pip) (1.6K views, 2 months ago, 11:38)
+  - [ ] 21. Langchain: The BEST Library For Building AI Apps In Python? (1.6K views, 2 months ago, 11:41)
+  - [ ] 22. Streamlit: The Fastest Way To Build Python Apps? (7.5K views, 1 month ago, 11:57)
+  - [ ] 23. Python Dataclasses: Here's 7 Ways It Will Improve Your Code (2K views, month ago, 9:34)
 
 ## Good YouTube Channels
 
