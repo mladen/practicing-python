@@ -18,6 +18,10 @@
   - [Threading vs Multiprocessing](#threading-vs-multiprocessing)
   - [Multithreading](#multithreading)
   - [Multiprocessing](#multiprocessing)
+  - [Function arguments](#function-arguments)
+  - [The Asterisk (\*) operator](#the-asterisk--operator)
+  - [Shallow vs Deep Copying](#shallow-vs-deep-copying)
+  - [Context managers](#context-managers)
 
 ### Lists
 
@@ -499,3 +503,104 @@ These answered questions aim to provide additional clarity and context to each c
 > **3. What is inter-process communication (IPC) in multiprocessing?**
 >
 > Inter-process communication (IPC) is a mechanism for processes to communicate and share data. In multiprocessing, it's essential for coordinating tasks and exchanging information between processes.
+
+### Function arguments
+
+- **Explanation**: Values passed to a function during its invocation.
+- **Syntax**:
+  ```python
+  def my_function(arg1, arg2="default", *args, **kwargs):
+      # function body
+  ```
+- **Used**: Passing data to functions with flexibility.
+- **Avoid**: Excessive use of mutable default arguments.
+
+**Questions:**
+
+> **1. Explain the difference between positional and keyword arguments.**
+>
+> Positional arguments are passed based on the order, while keyword arguments are identified by parameter names. Mixing both is allowed.
+
+> **2. What is the purpose of the `*args` and `**kwargs` syntax in function definitions?\*\*
+>
+> `*args` allows a function to accept any number of positional arguments, and `**kwargs` allows it to accept any number of keyword arguments.
+
+> **3. How can you specify default values for function arguments?**
+>
+> Default values for function arguments can be specified in the function definition, providing a fallback when the argument is not explicitly passed.
+
+### The Asterisk (\*) operator
+
+- **Explanation**: Performs various operations, such as unpacking.
+- **Syntax**:
+  ```python
+  *my_list, last_item = [1, 2, 3, 4, 5]
+  result = sum(*my_list)
+  ```
+- **Used**: Unpacking iterables, collecting multiple arguments in functions.
+- **Avoid**: Overusing, which can lead to unclear code.
+
+**Questions:**
+
+> **1. How does the `*args` syntax differ from using a single asterisk in other contexts?**
+>
+> In function parameters, `*args` collects extra positional arguments, while in other contexts, a single asterisk unpacks iterables.
+
+> **2. What is the purpose of the `*` operator in function calls?**
+>
+> The `*` operator in function calls unpacks an iterable into separate arguments, allowing functions to accept variable numbers of arguments.
+
+> **3. How can you use the `*` operator for unpacking nested iterables?**
+>
+> The `*` operator can be nested to unpack elements from multiple nested iterables simultaneously.
+
+### Shallow vs Deep Copying
+
+- **Explanation**: Creating copies of objects with different levels of depth.
+- **Syntax**:
+  ```python
+  import copy
+  shallow_copy = copy.copy(original_list)
+  deep_copy = copy.deepcopy(original_list)
+  ```
+- **Used**: Avoiding unintended modifications to shared mutable objects.
+- **Avoid**: Deep copying large structures with circular references.
+
+**Questions:**
+
+> **1. What is the difference between shallow copy and deep copy?**
+>
+> A shallow copy creates a new object but does not recursively copy nested objects. A deep copy creates a new object and recursively copies all nested objects.
+
+> **2. When should you use a shallow copy?**
+>
+> Shallow copy is suitable when the outer structure is sufficient, and modifying nested objects won't affect the original.
+
+> **3. When should you use a deep copy?**
+>
+> Deep copy is necessary when you want a completely independent copy of an object, including all nested objects.
+
+### Context managers
+
+- **Explanation**: Objects managing resources using the `with` statement.
+- **Syntax**:
+  ```python
+  with open("file.txt", "r") as file:
+      content = file.read()
+  ```
+- **Used**: Managing resources like files, databases, or network connections.
+- **Avoid**: Overusing for simple tasks that don't require resource management.
+
+**Questions:**
+
+> **1. What is the primary purpose of a context manager?**
+>
+> A context manager is used to acquire and release resources automatically, ensuring proper setup and cleanup.
+
+> **2. How does a context manager work with the `with` statement?**
+>
+> The `with` statement simplifies resource management by ensuring that the context manager's `__enter__` and `__exit__` methods are properly invoked.
+
+> **3. Can you create your own context manager in Python?**
+>
+> Yes, you can create a context manager by defining a class with `__enter__` and `__exit__` methods or by using the `contextlib` module's `contextmanager` decorator.
