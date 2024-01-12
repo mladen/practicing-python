@@ -9,6 +9,11 @@
   - [Collections](#collections)
   - [Itertools](#itertools)
   - [Lambda Functions](#lambda-functions)
+  - [Exceptions and Errors:](#exceptions-and-errors)
+  - [Logging:](#logging)
+  - [JSON:](#json)
+  - [Random numbers:](#random-numbers)
+  - [Decorators:](#decorators)
 
 ### Lists
 
@@ -23,7 +28,7 @@ my_list.append(4)
 print(my_list)  # Output: [1, 2, 3, 4]
 ```
 
-> ### Important questions and answers
+> #### **Important questions and answers:**
 >
 > 1. **How to remove elements from a list?**
 >
@@ -51,7 +56,7 @@ my_tuple = (1, 2, 3)
 print(my_tuple[0])  # Output: 1
 ```
 
-> ### Important questions and answers
+> #### **Important questions and answers:**
 >
 > 1. **Can you modify a tuple after it has been created?**
 >
@@ -79,7 +84,7 @@ my_dict = {'name': 'John', 'age': 30}
 print(my_dict['name'])  # Output: John
 ```
 
-> ### Important questions and answers
+> #### **Important questions and answers:**
 >
 > 1. **How do you check if a key exists in a dictionary?**
 >
@@ -107,7 +112,7 @@ my_set = {1, 2, 3, 1}
 print(my_set)  # Output: {1, 2, 3}
 ```
 
-> ### Important questions and answers
+> #### **Important questions and answers:**
 >
 > 1. **What operations can you perform on sets (union, intersection, difference)?**
 >
@@ -135,7 +140,7 @@ my_string = "Hello"
 print(my_string[1])  # Output: e
 ```
 
-> ### Important questions and answers
+> #### **Important questions and answers:**
 >
 > 1. **How do you concatenate strings in Python?**
 >
@@ -165,7 +170,7 @@ counter = Counter(my_list)
 print(counter)  # Output: Counter({1: 3, 2: 2, 3: 1})
 ```
 
-> ### Important questions and answers
+> #### **Important questions and answers:**
 >
 > 1. **When would you use `namedtuple` from the `collections` module?**
 >
@@ -195,7 +200,7 @@ comb = combinations(my_list, 2)
 print(list(comb))  # Output: [(1, 2), (1, 3), (2, 3)]
 ```
 
-> ### Important questions and answers
+> #### **Important questions and answers:**
 >
 > 1. **What is the purpose of the `cycle` function in itertools?**
 >
@@ -225,7 +230,7 @@ print(multiply_by_two(3))  # Output: 6
 
 This cheat sheet provides concise information about each concept, along with examples for better understanding.
 
-> ### Important questions and answers
+> #### **Important questions and answers:**
 >
 > 1. **What are the advantages of using lambda functions over regular functions?**
 >
@@ -238,3 +243,156 @@ This cheat sheet provides concise information about each concept, along with exa
 > 3. **Are there any limitations or scenarios where lambda functions are not suitable?**
 >
 > - Lambdas are limited to a single expression, making them unsuitable for complex logic or functions with multiple statements. Use regular functions in such cases.
+
+Certainly! Here's a Python cheat sheet for the mentioned concepts:
+
+### Exceptions and Errors:
+
+- **Explanation**: Events that occur during program execution that disrupt normal flow.
+- **Syntax**:
+  ```python
+  try:
+      # code that may raise an exception
+  except SomeException as e:
+      # handle exception
+  else:
+      # executed if no exception
+  finally:
+      # always executed
+  ```
+- **Used**: Handling unexpected situations to prevent program termination.
+- **Avoid**: Using exceptions for control flow.
+
+> #### **Important questions and answers:**
+>
+> **1. What is the purpose of the `else` block in a try-except statement?**
+>
+> The `else` block in a try-except statement is executed only if no exceptions are raised in the corresponding try block. It provides a way to specify code that should run when no exceptions occur.
+
+> **2. How can you raise a custom exception in Python?**
+>
+> You can raise a custom exception using the `raise` keyword, followed by the exception class and an optional error message. For example:
+>
+> ```python
+> class CustomError(Exception):
+>     pass
+> raise CustomError("This is a custom exception.")
+> ```
+
+> **3. Explain the difference between `except Exception` and `except SomeSpecificException`.**
+>
+> `except Exception` catches any exception, including built-in and custom exceptions. On the other hand, `except SomeSpecificException` catches only instances of the specified exception class, providing more targeted exception handling.
+
+### Logging:
+
+- **Explanation**: Recording information about events for analysis.
+- **Syntax**:
+  ```python
+  import logging
+  logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+  logging.info("This is an information message.")
+  ```
+- **Used**: Debugging, monitoring, and analyzing program behavior.
+- **Avoid**: Excessive logging that impacts performance.
+
+> #### **Important questions and answers:**
+>
+> **1. How can you configure different log levels in Python?**
+>
+> Log levels in Python, from least to most severe, are DEBUG, INFO, WARNING, ERROR, and CRITICAL. You can configure the logging level using `basicConfig` or by setting the level on specific loggers or handlers.
+
+> **2. Explain the difference between `logging.info()` and `logging.debug()`.**
+>
+> `logging.info()` is used for informational messages, providing details about the program's operation. `logging.debug()` is used for debugging messages, providing more detailed information for troubleshooting.
+
+> **3. What is the purpose of log formatting?**
+>
+> Log formatting allows you to define the structure of log messages. It includes information such as the timestamp, log level, and the actual log message. Proper log formatting improves readability and consistency in logs.
+
+### JSON:
+
+- **Explanation**: Data interchange format based on JavaScript object syntax.
+- **Syntax**:
+  ```python
+  import json
+  data = {'key': 'value'}
+  json_string = json.dumps(data)
+  ```
+- **Used**: Sending and receiving data between systems.
+- **Avoid**: Storing sensitive or large binary data.
+
+**Questions:**
+
+> **1. How do you deserialize JSON data in Python?**
+>
+> Deserialization of JSON data in Python is done using the `json.loads()` function, which parses a JSON-formatted string into a Python object.
+
+> **2. What is the difference between `json.dumps()` and `json.dump()`?**
+>
+> `json.dumps()` is used to serialize a Python object to a JSON-formatted string, while `json.dump()` is used to write the serialized object directly to a file-like object, such as a file or a socket.
+
+> **3. Can JSON represent complex data structures like custom objects?**
+>
+> By default, JSON can represent basic data types like strings, numbers, lists, and dictionaries. To represent custom objects, you may need to implement custom serialization using the `default` parameter of `json.dumps()`.
+
+### Random numbers:
+
+- **Explanation**: Generating pseudo-random numbers.
+- **Syntax**:
+  ```python
+  import random
+  random_number = random.randint(1, 10)
+  ```
+- **Used**: Simulations, games, cryptographic applications.
+- **Avoid**: When true randomness is crucial.
+
+> #### **Important questions and answers:**
+>
+> **1. What is the difference between `random.randint()` and `random.random()`?**
+>
+> `random.randint(a, b)` generates a random integer in the inclusive range [a, b], while `random.random()` generates a random float in the range [0.0, 1.0).
+
+> **2. How can you generate a random float in a specific range?**
+>
+> You can use `random.uniform(a, b)` to generate a random float in the range [a, b).
+
+> **3. Explain the purpose of the `random.seed()` function.**
+>
+> `random.seed()` initializes the random number generator with a given seed value. Using a seed ensures reproducibility, meaning the same sequence of random numbers will be generated if the seed is the same.
+
+### Decorators:
+
+- **Explanation**: Modify or extend the behavior of functions or methods.
+- **Syntax**:
+
+  ```python
+  def my_decorator(func):
+      def wrapper():
+          print("Something is happening before the function is called.")
+          func()
+          print("Something is happening after the function is called.")
+      return wrapper
+
+  @my_decorator
+  def say_hello():
+      print("Hello!")
+  ```
+
+- **Used**: Code reuse, adding functionality to functions or methods.
+- **Avoid**: Overusing for simple tasks.
+
+**Questions:**
+
+> **1. How does the `@decorator` syntax work in Python?**
+>
+> The `@decorator` syntax is a convenient way to apply a decorator to a function. It is equivalent to writing `function = decorator(function)`.
+
+> **2. Can you chain multiple decorators on a single function?**
+>
+> Yes, you can chain multiple decorators on a single function by stacking them with the `@` syntax. The order of decorators matters, as they are applied from the innermost to the outermost.
+
+> **3. What is the purpose of using `functools.wraps` with decorators?**
+>
+> `functools.wraps` is used to preserve the original function's metadata (such as docstring and name) when creating a decorator. It ensures that the decorated function maintains its identity and properties.
+
+These answered questions aim to provide additional clarity and context to each concept.
