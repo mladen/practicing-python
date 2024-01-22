@@ -423,6 +423,21 @@ Practicing Python by going through several (free and paid) courses
 - [Tech With Tim](https://www.youtube.com/watch?v=waY3LfJhQLY)
   - Tim has lots of tutorials for making games
 - [Goodgis - Making a Game in Python with No Experience](https://www.youtube.com/watch?v=H09PmP5tsy8)
+- [DaFluffyPotato - ](https://www.youtube.com/playlist?list=PLX5fBCkxJmm07E9qQYYJMR2fPDkzdBZew)
+  > 12 videos 16,075 views Last updated on 17 Jul 2023
+  > Check out the Advanced playlist for even more topics: https://www.youtube.com/playlist?list=PLX5fBCkxJmm3s5GL0Cebm59m1GkAhCFoM
+  - [ ] 1. How to ACTUALLY get into Gamedev (575K views, 2 years ago, 14:01)
+  - [ ] 2. Pygame Platformer Tutorial - Full Course (161K views, 6 months ago, 6:05:12)
+  - [ ] 3. Pygame's Performance - What You Need to Know (174K views, 2 years ago, 9:11)
+  - [ ] 4. Free Gamedev Tools I Use (165K views, 4 years ago, 9:00)
+  - [ ] 5. Flipping, Rotating, Scaling, & Resizing - Pygame Tutorial (29K views, 3 years ago, 4:28)
+  - [ ] 6. Menus - Pygame Tutorial (160K views, 3 years ago, 7:37)
+  - [ ] 7. Framerate Independence - Pygame Tutorial (20K views, 3 years ago, 3:33)
+  - [ ] 8. Custom Text System in Pygame (12K views, 3 years ago, 9:41)
+  - [ ] 9. Fullscreen & Resizing - Pygame Tutorial (52K views, 3 years ago, 8:00)
+  - [ ] 10. How to Code (almost) Any Feature (551K views, 3 years ago, 9:48)
+  - [ ] 11. Pygame CE - Better & Faster (23K views, 8 months ago, 6:29)
+  - [ ] 12. Trigonometry in Game Development (49K views, 3 years ago, 11:26)
 
 ### Python game engines
 
