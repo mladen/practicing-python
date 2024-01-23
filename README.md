@@ -40,55 +40,55 @@ Practicing Python by going through several (free and paid) courses
 
 ## Long(er) Python tutorials
 
-- [Tech With Tim - My Python Development Environment Setup - Full Tutorial](https://www.youtube.com/watch?v=qI3P7zMMsgY)
+- [ ] [Tech With Tim - My Python Development Environment Setup - Full Tutorial](https://www.youtube.com/watch?v=qI3P7zMMsgY)
 - [x] [Tech With Tim - The Complete Python Course For Beginners](https://www.youtube.com/watch?v=sxTmJE4k0ho)
   - See [README.md](./TechWithTim%20-%20Complete%20Python%20Course/README.md) for details, TOC etc.
 - [x] [Tech With Tim - What To Learn To Become a Python Backend Developer](https://www.youtube.com/watch?v=pbP5bqfbUPk)
 - [x] [Tech With Tim - What to learn after Python](https://www.youtube.com/watch?v=H1UKIgBSfxM)
 - [ ] [Tech With Tim - Python101: Learn the 5 Must-Known Concepts](https://www.youtube.com/watch?v=mMv6OSuitWw)
-- [Tech With Tim - Python 101: Learn These MUST KNOW List Features](https://www.youtube.com/watch?v=s46yyTKvl-I)
-- [Tech With Tim - Python Object Oriented Programming (OOP) - For Beginners](https://www.youtube.com/watch?v=JeznW_7DlB0)
-- [Tech With Tim - Learn Python With This ONE Project!](https://www.youtube.com/watch?v=th4OBktqK1I)
-- [Tech With Tim - Create A Python API in 12 Minutes - in Flask](https://www.youtube.com/watch?v=zsYIw6RXjfM)
-- [Tech With Tim - Python REST API Tutorial - Building a Flask REST API](https://www.youtube.com/watch?v=GMppyAPbLYk)
-- [Tech With Tim - Django For Beginners - Full Tutorial](https://www.youtube.com/watch?v=sm1mokevMWk)
-- [Tech With Tim - Django Authentication & User Management - Full Tutorial](https://www.youtube.com/watch?v=WuyKxdLcw3w)
-- [Tech With Tim - STOP Making These Python Mistakes](https://www.youtube.com/watch?v=sXE5298aDPw)
-- [Tech With Tim - The Truth About Learning Python in 2023](https://www.youtube.com/watch?v=qecsnAXtms4)
-- [Tech With Tim (shorts) - Django VS Flask - Which Should You Learn](https://www.youtube.com/shorts/Gj02l0R1drM)
-- [Tech With Tim (playlist) - Python MySQL Tutorial](https://www.youtube.com/playlist?list=PLzMcBGfZo4-l5kVSNVKGO60V6RkXAVtp-)
-- [Tech With Tim (playlist) - Python Selenium Tutorials](https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ)
+- [ ] [Tech With Tim - Python 101: Learn These MUST KNOW List Features](https://www.youtube.com/watch?v=s46yyTKvl-I)
+- [ ] [Tech With Tim - Python Object Oriented Programming (OOP) - For Beginners](https://www.youtube.com/watch?v=JeznW_7DlB0)
+- [ ] [Tech With Tim - Learn Python With This ONE Project!](https://www.youtube.com/watch?v=th4OBktqK1I)
+- [ ] [Tech With Tim - Create A Python API in 12 Minutes - in Flask](https://www.youtube.com/watch?v=zsYIw6RXjfM)
+- [ ] [Tech With Tim - Python REST API Tutorial - Building a Flask REST API](https://www.youtube.com/watch?v=GMppyAPbLYk)
+- [ ] [Tech With Tim - Django For Beginners - Full Tutorial](https://www.youtube.com/watch?v=sm1mokevMWk)
+- [ ] [Tech With Tim - Django Authentication & User Management - Full Tutorial](https://www.youtube.com/watch?v=WuyKxdLcw3w)
+- [ ] [Tech With Tim - STOP Making These Python Mistakes](https://www.youtube.com/watch?v=sXE5298aDPw)
+- [ ] [Tech With Tim - The Truth About Learning Python in 2023](https://www.youtube.com/watch?v=qecsnAXtms4)
+- [ ] [Tech With Tim (shorts) - Django VS Flask - Which Should You Learn](https://www.youtube.com/shorts/Gj02l0R1drM)
+- [ ] [Tech With Tim (playlist) - Python MySQL Tutorial](https://www.youtube.com/playlist?list=PLzMcBGfZo4-l5kVSNVKGO60V6RkXAVtp-)
+- [ ] [Tech With Tim (playlist) - Python Selenium Tutorials](https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ)
 - [ ] [Glitcher - 🚀 Python in 20 Minutes! | Fastest Python Tutorial!](https://www.youtube.com/watch?v=T1HNtfL0R2I)
 - [x] Coinis Python course
-- [CS50x 2023 - CS50x 2023 (part of the playlist) - Lecture 6 - Python](https://www.youtube.com/watch?v=5Jppcxc1Qzc&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=8&ab_channel=CS50)
-- [CS50P (playlist) - Introduction to Programming with Python (CS50P) 2022](https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V)
-- [freeCodeCamp - Mike Dane - Learn Python](https://www.youtube.com/watch?v=rfscVS0vtbw)
-- [freeCodeCamp - Sanjeev Thiyagarajan - Python API Development - Comprehensive Course for Beginners](https://www.youtube.com/watch?v=0sOvCWFmrtA)
-- [freeCodeCamp - Web Scraping with Python - Beautiful Soup Crash Course](https://www.youtube.com/watch?v=XVv6mJpFOb0)
-- [TechWorld with Nana - Python Tutorial for Beginners - Learn Python in 5 Hours [FULL COURSE]](https://www.youtube.com/watch?v=t8pPdKYpowI)
-- [DougMercer - The Magic that Makes Python Tick](https://www.youtube.com/watch?v=LRIUg089W2c)
-- [SDET- QA Automation Techie](https://www.youtube.com/playlist?list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa)
-- [b001 (shorts) - ALL Python Programmers Should Know This!! #python #programming #coding](https://www.youtube.com/shorts/g9fIWtSexLs)
-- [b001 (playlist) - How To Python](https://www.youtube.com/playlist?list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
+- [ ] [CS50x 2023 - CS50x 2023 (part of the playlist) - Lecture 6 - Python](https://www.youtube.com/watch?v=5Jppcxc1Qzc&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=8&ab_channel=CS50)
+- [ ] [CS50P (playlist) - Introduction to Programming with Python (CS50P) 2022](https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V)
+- [ ] [freeCodeCamp - Mike Dane - Learn Python](https://www.youtube.com/watch?v=rfscVS0vtbw)
+- [ ] [freeCodeCamp - Sanjeev Thiyagarajan - Python API Development - Comprehensive Course for Beginners](https://www.youtube.com/watch?v=0sOvCWFmrtA)
+- [ ] [freeCodeCamp - Web Scraping with Python - Beautiful Soup Crash Course](https://www.youtube.com/watch?v=XVv6mJpFOb0)
+- [ ] [TechWorld with Nana - Python Tutorial for Beginners - Learn Python in 5 Hours [FULL COURSE]](https://www.youtube.com/watch?v=t8pPdKYpowI)
+- [ ] [DougMercer - The Magic that Makes Python Tick](https://www.youtube.com/watch?v=LRIUg089W2c)
+- [ ] [SDET- QA Automation Techie](https://www.youtube.com/playlist?list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa)
+- [ ] [b001 (shorts) - ALL Python Programmers Should Know This!! #python #programming #coding](https://www.youtube.com/shorts/g9fIWtSexLs)
+- [ ] [b001 (playlist) - How To Python](https://www.youtube.com/playlist?list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
   > 2 videos 2,411 views Last updated on 27 May 2023
-- [b001 - How To Python - Data Types And Variables](https://www.youtube.com/watch?v=j6h5zPJPfA0&list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
-- [b001 - Floats and Integers | How To Python](https://www.youtube.com/watch?v=77TsTM3XxmA&list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D&index=2)
-- [Python Programmer - Master python with this unique 5-in-1 python (YouTube) project](https://www.youtube.com/watch?v=dYNJrj835lc)
-- [Dave Gray (playlist) - Python Tutorials for Beginners](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6MQri81d012LwP5jvFZ_scc)
+- [ ] [b001 - How To Python - Data Types And Variables](https://www.youtube.com/watch?v=j6h5zPJPfA0&list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
+- [ ] [b001 - Floats and Integers | How To Python](https://www.youtube.com/watch?v=77TsTM3XxmA&list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D&index=2)
+- [ ] [Python Programmer - Master python with this unique 5-in-1 python (YouTube) project](https://www.youtube.com/watch?v=dYNJrj835lc)
+- [ ] [Dave Gray (playlist) - Python Tutorials for Beginners](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6MQri81d012LwP5jvFZ_scc)
   > 24 videos 19,828 views Last updated on 24 Jul 2023
   >
   > This Python playlist will take you from absolute beginner to a Python Programmer with knowledge of all of the fundamentals of the Python programming language.
-- [Bro Code - Python Full Course for free](https://www.youtube.com/watch?v=XKHEtdqhLK8)
-- [Clear Code - The complete guide to Python](https://www.youtube.com/watch?v=mDKM-JtUhhc)
+- [ ] [Bro Code - Python Full Course for free](https://www.youtube.com/watch?v=XKHEtdqhLK8)
+- [ ] [Clear Code - The complete guide to Python](https://www.youtube.com/watch?v=mDKM-JtUhhc)
 - [x] [Sundas Khalid - How to Learn Python FAST with ChatGPT?](https://www.youtube.com/watch?v=tEn5BjRY8Uw)
 
-- [Udemy - Jose Portilla - The Complete Python Bootcamp From Zero to Hero in Python (Rating: 4.6 out of 5 (472,187 ratings) 1,756,928 students, 22h, Last updated 7/2023)](https://www.udemy.com/course/complete-python-bootcamp/)
-- [Udemy - Mark Winderbottom - Build a Backend REST API with Python & Django - Advanced (Bestseller, Rating: 4.7 out of 5 (7,339 ratings) 39,737 students, 23h, Last updated 1/2023)](https://www.udemy.com/course/django-python-advanced/)
-- [mCoding - How Python Works (playlist)](https://www.youtube.com/playlist?list=PLJ_usHaf3fgNFfY4CN6-A3zYplVVqnbv2)
+- [ ] [Udemy - Jose Portilla - The Complete Python Bootcamp From Zero to Hero in Python (Rating: 4.6 out of 5 (472,187 ratings) 1,756,928 students, 22h, Last updated 7/2023)](https://www.udemy.com/course/complete-python-bootcamp/)
+- [ ] [Udemy - Mark Winderbottom - Build a Backend REST API with Python & Django - Advanced (Bestseller, Rating: 4.7 out of 5 (7,339 ratings) 39,737 students, 23h, Last updated 1/2023)](https://www.udemy.com/course/django-python-advanced/)
+- [ ] [mCoding - How Python Works (playlist)](https://www.youtube.com/playlist?list=PLJ_usHaf3fgNFfY4CN6-A3zYplVVqnbv2)
   > 13 videos 41,818 views Last updated on 26 Aug 2021
   >
   > These videos are about Python language features, quirks, weirdness, gotchas, and how to use or avoid them in order to program more effectively.
-- [Paul McWhorter (playlist) - Learn Python for Beginners](https://www.youtube.com/playlist?list=PLGs0VKk2DiYzguDvh5xk2XoX9V1VKP5Hv)
+- [ ] [Paul McWhorter (playlist) - Learn Python for Beginners](https://www.youtube.com/playlist?list=PLGs0VKk2DiYzguDvh5xk2XoX9V1VKP5Hv)
   > 110 videos 357,067 views Last updated on 10 May 2022
   >
   > In this series of lessons, we present free step-by-step tutorials that will teach you python. These lessons are designed for the absolute beginners, and we do not assume you are already an expert.
@@ -97,9 +97,9 @@ Practicing Python by going through several (free and paid) courses
 
 ## Intermediate Python tutorials
 
-- [freeCodeCamp - Anil Kulkarni - Octallium - Learn Python by Thinking in Types - Full Course](https://www.youtube.com/watch?v=jH85McHenvw)
-- [freeCodeCamp - Aakash - Jovian - Data Structures and Algorithms in Python - Full Course for Beginners](https://www.youtube.com/watch?v=pkYVOmU3MgA)
-- [freeCodeCamp - Patrick Loeber - Intermediate Python Programming Course (IMPORTANT!)](https://www.youtube.com/watch?v=HGOBQPFzWKo)
+- [ ] [freeCodeCamp - Anil Kulkarni - Octallium - Learn Python by Thinking in Types - Full Course](https://www.youtube.com/watch?v=jH85McHenvw)
+- [ ] [freeCodeCamp - Aakash - Jovian - Data Structures and Algorithms in Python - Full Course for Beginners](https://www.youtube.com/watch?v=pkYVOmU3MgA)
+- [ ] [freeCodeCamp - Patrick Loeber - Intermediate Python Programming Course (IMPORTANT!)](https://www.youtube.com/watch?v=HGOBQPFzWKo)
   - [ ] (0:00:00) Intro
   - [ ] (0:00:56) Lists
   - [ ] (0:16:30) Tuples
@@ -122,39 +122,39 @@ Practicing Python by going through several (free and paid) courses
   - [ ] (5:17:28) The Asterisk (\*) Operator
   - [ ] (5:30:19) Shallow vs Deep Copying
   - [ ] (5:40:07) Context Managers
-- [Great learning - Data Structures & Algorithms (playlist) - check quality](https://www.youtube.com/playlist?list=PLlgLmuG_KgbbkdjHVm8WsQtkpiZD2ULBb)
+- [ ] [Great learning - Data Structures & Algorithms (playlist) - check quality](https://www.youtube.com/playlist?list=PLlgLmuG_KgbbkdjHVm8WsQtkpiZD2ULBb)
   > 14 videos 29,734 views Last updated on 29 Nov 2022
   >
   > Notice: Several videos are about Python (others are in C and Java)
 
 ## Advanced Python tutorials
 
-- [Tech With Tim - Mastering Python - Everything You Need To Know To Become a Python Master](https://www.youtube.com/watch?v=p15xzjzR9j0)
+- [ ] [Tech With Tim - Mastering Python - Everything You Need To Know To Become a Python Master](https://www.youtube.com/watch?v=p15xzjzR9j0)
 
 ### Python design patterns, SOLID principles, refactoring, best practices, good code architecture
 
-- [The lost art of software design by Simon Brown](https://www.youtube.com/watch?v=36OTe7LNd6M)
-- [DevTernity Conference - The Clean Architecture (Ian Cooper)](https://www.youtube.com/watch?v=SxJPQ5qXisw)
-- [Devoxx - Victor Rentea - Evolving a Clean, Pragmatic Architecture – A Software Crafter’s Guide](https://www.youtube.com/watch?v=tMHO7_RLxgQ)
-- [DevTernity Conference - 🚀 Clean Code, Two Decades Later (Victor Rentea)](https://www.youtube.com/watch?v=6va1hAyh-M8)
-- [Clean Coders - Programming 101 with "Uncle Bob"](https://www.youtube.com/watch?v=-1CuAiKdBQs)
-- [The Principles of Clean Architecture by Uncle Bob Martin](https://www.youtube.com/watch?v=o_TH-Y78tt4)
-- [ITkonekt 2019 | Robert C. Martin (Uncle Bob), Clean Architecture and Design](https://www.youtube.com/watch?v=2dKZ-dWaCiU)
-- [CodeOpinion - Clean Architecture Example & Breakdown - Do I use it?](https://www.youtube.com/watch?v=Ys_W6MyWOCw)
-- [CoderOne - This is the Only Right Way to Write React clean-code - SOLID](https://www.youtube.com/watch?v=MSq_DCRxOxw)
-- [AlexHyett - SOLID Principles: Do You Really Understand Them?](https://www.youtube.com/watch?v=kF7rQmSRlq0)
-- [NextDayVideo - Jack Diederich - Stop Writing Classes](https://www.youtube.com/watch?v=o9pEzgHorH0)
-- [Design Patterns in Python by Peter Ullrich](https://www.youtube.com/watch?v=bsyjSW46TDg)
-- [Classic Design Patterns: Where Are They Now - Brandon Rhodes - code::dive 2022](https://www.youtube.com/watch?v=pGq7Cr2ekVM)
-- [When Python Practices Go Wrong - Brandon Rhodes - code::dive 2019](https://www.youtube.com/watch?v=S0No2zSJmks)
-- [Talk: Conor Hoekstra - Beautiful Python Refactoring](https://www.youtube.com/watch?v=W-lZttZhsUY)
-- [Beautiful Python Refactoring II - Conor Hoekstra - code::dive 2022](https://www.youtube.com/watch?v=nXZQfdxWgh0)
-- [The Mental Game of Python - Raymond Hettinger](https://www.youtube.com/watch?v=UANN2Eu6ZnM)
-- [NeetCode - 8 Design Patterns EVERY Developer Should Know](https://www.youtube.com/watch?v=tAuRQs_d9F8)
-- [DreamsofCode - Turn Python BLAZING FAST with these 6 secrets](https://www.youtube.com/watch?v=YsOYMrBNGq8)
-- [DougMercer - Python doesn't need to be slow](https://www.youtube.com/watch?v=umLZphwA-dw)
-- [Python Design Patterns by Brandon Rhodes](https://python-patterns.guide/)
-- [Refactoring Guru](https://refactoring.guru/)
+- [ ] [The lost art of software design by Simon Brown](https://www.youtube.com/watch?v=36OTe7LNd6M)
+- [ ] [DevTernity Conference - The Clean Architecture (Ian Cooper)](https://www.youtube.com/watch?v=SxJPQ5qXisw)
+- [ ] [Devoxx - Victor Rentea - Evolving a Clean, Pragmatic Architecture – A Software Crafter’s Guide](https://www.youtube.com/watch?v=tMHO7_RLxgQ)
+- [ ] [DevTernity Conference - 🚀 Clean Code, Two Decades Later (Victor Rentea)](https://www.youtube.com/watch?v=6va1hAyh-M8)
+- [ ] [Clean Coders - Programming 101 with "Uncle Bob"](https://www.youtube.com/watch?v=-1CuAiKdBQs)
+- [ ] [The Principles of Clean Architecture by Uncle Bob Martin](https://www.youtube.com/watch?v=o_TH-Y78tt4)
+- [ ] [ITkonekt 2019 | Robert C. Martin (Uncle Bob), Clean Architecture and Design](https://www.youtube.com/watch?v=2dKZ-dWaCiU)
+- [ ] [CodeOpinion - Clean Architecture Example & Breakdown - Do I use it?](https://www.youtube.com/watch?v=Ys_W6MyWOCw)
+- [ ] [CoderOne - This is the Only Right Way to Write React clean-code - SOLID](https://www.youtube.com/watch?v=MSq_DCRxOxw)
+- [ ] [AlexHyett - SOLID Principles: Do You Really Understand Them?](https://www.youtube.com/watch?v=kF7rQmSRlq0)
+- [ ] [NextDayVideo - Jack Diederich - Stop Writing Classes](https://www.youtube.com/watch?v=o9pEzgHorH0)
+- [ ] [Design Patterns in Python by Peter Ullrich](https://www.youtube.com/watch?v=bsyjSW46TDg)
+- [ ] [Classic Design Patterns: Where Are They Now - Brandon Rhodes - code::dive 2022](https://www.youtube.com/watch?v=pGq7Cr2ekVM)
+- [ ] [When Python Practices Go Wrong - Brandon Rhodes - code::dive 2019](https://www.youtube.com/watch?v=S0No2zSJmks)
+- [ ] [Talk: Conor Hoekstra - Beautiful Python Refactoring](https://www.youtube.com/watch?v=W-lZttZhsUY)
+- [ ] [Beautiful Python Refactoring II - Conor Hoekstra - code::dive 2022](https://www.youtube.com/watch?v=nXZQfdxWgh0)
+- [ ] [The Mental Game of Python - Raymond Hettinger](https://www.youtube.com/watch?v=UANN2Eu6ZnM)
+- [ ] [NeetCode - 8 Design Patterns EVERY Developer Should Know](https://www.youtube.com/watch?v=tAuRQs_d9F8)
+- [ ] [DreamsofCode - Turn Python BLAZING FAST with these 6 secrets](https://www.youtube.com/watch?v=YsOYMrBNGq8)
+- [ ] [DougMercer - Python doesn't need to be slow](https://www.youtube.com/watch?v=umLZphwA-dw)
+- [ ] [Python Design Patterns by Brandon Rhodes](https://python-patterns.guide/)
+- [ ] [Refactoring Guru](https://refactoring.guru/)
 
 ### Roadmaps
 
@@ -229,34 +229,34 @@ Practicing Python by going through several (free and paid) courses
     - Fluent Python
     - Effective Python
 
-- [Alex Hyett - Programming for Beginners](https://www.youtube.com/playlist?list=PLl76Nbkn-YmliBahGdtw8M5Q2hreDsn1m)
-  1. Backend Developer Roadmap - Everything you need to know in 2023 (41K views, 4 months ago, 6:52)
-  2. Stack vs Heap Memory - Simple Explanation (37K views, 8 months ago, 5:28)
-  3. Bitwise Operators and WHY we use them (11K views, 9 months ago, 8:41)
-  4. Git Flow vs GitHub Flow: What You Need to Know (5.6K views, 9 months ago, 6:16)
-  5. SOLID Principles: Do You Really Understand Them? (4.7K views, 2 months ago, 7:04)
-  6. 8 DATA STRUCTURES You NEED to Know (3.9K views, 9 months ago, 10:50)
-  7. 5 Types of Testing Software Every Developer Needs to Know! (3.4K views, 5 months ago, 6:24)
-  8. Top 5 Programming Languages to Learn in 2023 (to Get a Job) (1.4K views, 5 months ago, 5:23)
-  9. Binary Numbers: What Every Developer Should Know (but doesn't) (1.2K views, 10 months ago, 6:58)
-  10. What is Big O Notation, and Why You Should Care (1.2K views, 8 months ago, 7:30)
-  11. This is a Better Way to Understand Recursion (905 views, 3 months ago, 4:03)
-  12. Bad at MATH? Can you be a Software Developer? (853 views, 10 months ago, 4:58)
-  13. The BEST Programming Language to Learn as a Beginner in 2023 (740 views, 10 months ago, 4:17)
-  14. 6 Coding Concepts You MUST Know For Beginners (575 views, 10 months ago, 5:31)
-  15. How I would learn to code in 2023 (if I could start over) (509 views, 7 months ago, 6:00)
-  16. Finally Understand Regular Expressions - In Just 7 Minutes! (497 views, 7 months ago, 7:26)
-  17. CRUD Operations are Everywhere: DB and REST API Examples (445 views, 6 months ago, 4:31)
-  18. Why You Struggle to Learn to Code (and How To Fix It) (254 views, 6 months ago, 4:28)
+- [ ] [Alex Hyett - Programming for Beginners](https://www.youtube.com/playlist?list=PLl76Nbkn-YmliBahGdtw8M5Q2hreDsn1m)
+  - [ ] 1. Backend Developer Roadmap - Everything you need to know in 2023 (41K views, 4 months ago, 6:52)
+  - [ ] 2. Stack vs Heap Memory - Simple Explanation (37K views, 8 months ago, 5:28)
+  - [ ] 3. Bitwise Operators and WHY we use them (11K views, 9 months ago, 8:41)
+  - [ ] 4. Git Flow vs GitHub Flow: What You Need to Know (5.6K views, 9 months ago, 6:16)
+  - [ ] 5. SOLID Principles: Do You Really Understand Them? (4.7K views, 2 months ago, 7:04)
+  - [ ] 6. 8 DATA STRUCTURES You NEED to Know (3.9K views, 9 months ago, 10:50)
+  - [ ] 7. 5 Types of Testing Software Every Developer Needs to Know! (3.4K views, 5 months ago, 6:24)
+  - [ ] 8. Top 5 Programming Languages to Learn in 2023 (to Get a Job) (1.4K views, 5 months ago, 5:23)
+  - [ ] 9. Binary Numbers: What Every Developer Should Know (but doesn't) (1.2K views, 10 months ago, 6:58)
+  - [ ] 10. What is Big O Notation, and Why You Should Care (1.2K views, 8 months ago, 7:30)
+  - [ ] 11. This is a Better Way to Understand Recursion (905 views, 3 months ago, 4:03)
+  - [ ] 12. Bad at MATH? Can you be a Software Developer? (853 views, 10 months ago, 4:58)
+  - [ ] 13. The BEST Programming Language to Learn as a Beginner in 2023 (740 views, 10 months ago, 4:17)
+  - [ ] 14. 6 Coding Concepts You MUST Know For Beginners (575 views, 10 months ago, 5:31)
+  - [ ] 15. How I would learn to code in 2023 (if I could start over) (509 views, 7 months ago, 6:00)
+  - [ ] 16. Finally Understand Regular Expressions - In Just 7 Minutes! (497 views, 7 months ago, 7:26)
+  - [ ] 17. CRUD Operations are Everywhere: DB and REST API Examples (445 views, 6 months ago, 4:31)
+  - [ ] 18. Why You Struggle to Learn to Code (and How To Fix It) (254 views, 6 months ago, 4:28)
 
 ## Playlists with various tutorials
 
-- [Patrick Loeber - Crash Courses](https://www.youtube.com/playlist?list=PLqnslRFeH2UrZtzqlXDWHjI3OV3BK0UWI)
-  - Object Oriented Programming (OOP) In Python - Beginner Crash Course
-  - NumPy Crash Course - Complete Tutorial
-  - Python Flask Beginner Tutorial - Todo App - Crash Course
-  - Regular Expressions in Python - FULL COURSE (1 HOUR) - Programming Tutorial
-  - HuggingFace Crash Course - Sentiment Analysis, Model Hub, Fine Tuning
+- [ ] [Patrick Loeber - Crash Courses](https://www.youtube.com/playlist?list=PLqnslRFeH2UrZtzqlXDWHjI3OV3BK0UWI)
+  - [ ] Object Oriented Programming (OOP) In Python - Beginner Crash Course
+  - [ ] NumPy Crash Course - Complete Tutorial
+  - [ ] Python Flask Beginner Tutorial - Todo App - Crash Course
+  - [ ] Regular Expressions in Python - FULL COURSE (1 HOUR) - Programming Tutorial
+  - [ ] HuggingFace Crash Course - Sentiment Analysis, Model Hub, Fine Tuning
 
 ## Suggestions for a better code
 
@@ -272,30 +272,30 @@ Practicing Python by going through several (free and paid) courses
   - Use dict, list, set, generator comprehensions instead of `for` loops; use them where it makes sense
   - We don't need to turn every single loop into a comprehension
   - Don't check for a type with `==`, use `isinstance` instead
-- [mCoding - 21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
-- [mCoding - You should put this in all your Python scripts | if **name** == '**main**': ...](https://www.youtube.com/watch?v=g_wlZ9IhbTs)
-- [Patrick Loeber - 11 Tips And Tricks To Write Better Python Code](https://www.youtube.com/watch?v=8OKTAedgFYg)
-- [Tech With Tim - Write Python Code Properly!](https://www.youtube.com/watch?v=D4_s3q038I0)
-- [UWCS - University of Warwick Computing Society - 5 Horrifying Python Techniques to get you fired - Andrew L](https://www.youtube.com/watch?v=t863QfAOmlY)
+- [ ] [mCoding - 21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
+- [ ] [mCoding - You should put this in all your Python scripts | if **name** == '**main**': ...](https://www.youtube.com/watch?v=g_wlZ9IhbTs)
+- [ ] [Patrick Loeber - 11 Tips And Tricks To Write Better Python Code](https://www.youtube.com/watch?v=8OKTAedgFYg)
+- [ ] [Tech With Tim - Write Python Code Properly!](https://www.youtube.com/watch?v=D4_s3q038I0)
+- [ ] [UWCS - University of Warwick Computing Society - 5 Horrifying Python Techniques to get you fired - Andrew L](https://www.youtube.com/watch?v=t863QfAOmlY)
   > Notice: Check out UWCS - University of Warwick Computing Society's YouTube channell for more interesting talks
-- [Make Tkinter Look 10x Better in 5 Minutes (CustomTkinter)](https://www.youtube.com/watch?v=Miydkti_QVE)
-- [NeuralNice - Does Pydantic Replace Dataclasses in Python?](https://www.youtube.com/watch?v=Nlhp4EmE55I)
+- [ ] [Make Tkinter Look 10x Better in 5 Minutes (CustomTkinter)](https://www.youtube.com/watch?v=Miydkti_QVE)
+- [ ] [NeuralNice - Does Pydantic Replace Dataclasses in Python?](https://www.youtube.com/watch?v=Nlhp4EmE55I)
 
 ### Language agnostic suggestions for better code
 
 - [x] [CodeAestetic - Why You Shouldn't Nest Your Code](https://www.youtube.com/watch?v=CFRhGnuXG-4)
-- [Creel - Branchless Programming: Why "If" is Sloowww... and what we can do about it!](https://www.youtube.com/watch?v=bVJ-mWWL7cE)
-- [In progress][Coderized - How principled coders outperform the competition](https://www.youtube.com/watch?v=q1qKv5TBaOA)
+- [ ] [Creel - Branchless Programming: Why "If" is Sloowww... and what we can do about it!](https://www.youtube.com/watch?v=bVJ-mWWL7cE)
+- [ ] [In progress][Coderized - How principled coders outperform the competition](https://www.youtube.com/watch?v=q1qKv5TBaOA)
 
 ## Python project ideas (I'll do the most interesting ones)
 
-- [Tech With Tim - Web Scraping 101: A Million Dollar Project Idea](https://www.youtube.com/watch?v=DJnH0jR8y5Q)
-- [Tech With Tim (playlist) - Mini Python Projects!](https://www.youtube.com/playlist?list=PLzMcBGfZo4-kBvY2DaxdSvoN_jGpzbw5V)
+- [ ] [Tech With Tim - Web Scraping 101: A Million Dollar Project Idea](https://www.youtube.com/watch?v=DJnH0jR8y5Q)
+- [ ] [Tech With Tim (playlist) - Mini Python Projects!](https://www.youtube.com/playlist?list=PLzMcBGfZo4-kBvY2DaxdSvoN_jGpzbw5V)
 
   - [ ] 1. Mini Python Project Tutorial - Password Generator (61K views, 10 months ago, 18:27)
   - [ ] 2. Mini Python Project Tutorial - Alarm Clock (52K views, 10 months ago, 13:24)
 
-- [Tech With Tim (playlist) - Programming Projects & Ideas](https://www.youtube.com/playlist?list=PLzMcBGfZo4-lkJOu1AWab-nFtjDw7aPek)
+- [ ] [Tech With Tim (playlist) - Programming Projects & Ideas](https://www.youtube.com/playlist?list=PLzMcBGfZo4-lkJOu1AWab-nFtjDw7aPek)
 
   - 5 Python Projects for Beginners (685K views, 4 years ago, 5:31)
   - 5 Intermediate Python Projects (409K views, 3 years ago, 7:49)
@@ -356,10 +356,10 @@ Practicing Python by going through several (free and paid) courses
     - [ ] 4. Internet of Things 11:35
     - [ ] 5. Libraries & Tools 14:10
 
-- [Tech With Tim (shorts) - How to Prepare For Big Programming Projects](https://www.youtube.com/shorts/LJmv_9EV7e8)
-- [Tech With Tim - Planet Simulation In Python - Tutorial](https://www.youtube.com/watch?v=WTLPmUHTPqo)
-- [Tech With Tim - Physics Simulations With Python and PyMunk](https://www.youtube.com/watch?v=tLsi2DeUsak)
-- [Tech With Tim - Impressive Python Resume Projects](https://www.youtube.com/watch?v=v68woFABJ5U)
+- [ ] [Tech With Tim (shorts) - How to Prepare For Big Programming Projects](https://www.youtube.com/shorts/LJmv_9EV7e8)
+- [ ] [Tech With Tim - Planet Simulation In Python - Tutorial](https://www.youtube.com/watch?v=WTLPmUHTPqo)
+- [ ] [Tech With Tim - Physics Simulations With Python and PyMunk](https://www.youtube.com/watch?v=tLsi2DeUsak)
+- [ ] [Tech With Tim - Impressive Python Resume Projects](https://www.youtube.com/watch?v=v68woFABJ5U)
 
   - [ ] 1. Artificial Intelligence Projects 01:20
   - [ ] 2. Web Development Project #1 02:53
@@ -368,7 +368,7 @@ Practicing Python by going through several (free and paid) courses
   - [ ] 5. Data Structure and Algorithm Visualizer 08:53
   - [ ] 6. Summary 10:31
 
-- [ArjanCodes - 14 Ideas for Fun Python Free Time Projects](https://www.youtube.com/watch?v=54XyRw9y8oE)
+- [ ] [ArjanCodes - 14 Ideas for Fun Python Free Time Projects](https://www.youtube.com/watch?v=54XyRw9y8oE)
   - [ ] 1. 2:22 Simple calculator
   - [ ] 2. 4:03 To-do list application
   - [ ] 3. 6:07 Weather application
@@ -383,35 +383,35 @@ Practicing Python by going through several (free and paid) courses
   - [ ] 12. 22:01 Dependency analyzer
   - [ ] 13. 23:19 Metrics collector
   - [ ] 14. 25:11 Refactoring helper
-- [Farabi Hbk - Python Project | Create Python Audio Book](https://www.youtube.com/watch?v=pgUXPh5cDMY)
-- [Farabi Hbk - Python Project | Weather Forecast](https://www.youtube.com/watch?v=iy_TbtJXudk)
-- [Farabi Hbk - Python Project | Random Password Generator](https://www.youtube.com/watch?v=L8hyT1r0rFo)
-- [Tina Huang - 5 Unique Python Projects (beginner to intermediate)](https://www.youtube.com/watch?v=_xf1TMs0ysk)
-- [Internet Made Coder - 5 Amazing Ways to Automate Your Life using Python](https://www.youtube.com/watch?v=QjAHcKPUaFM)
+- [ ] [Farabi Hbk - Python Project | Create Python Audio Book](https://www.youtube.com/watch?v=pgUXPh5cDMY)
+- [ ] [Farabi Hbk - Python Project | Weather Forecast](https://www.youtube.com/watch?v=iy_TbtJXudk)
+- [ ] [Farabi Hbk - Python Project | Random Password Generator](https://www.youtube.com/watch?v=L8hyT1r0rFo)
+- [ ] [Tina Huang - 5 Unique Python Projects (beginner to intermediate)](https://www.youtube.com/watch?v=_xf1TMs0ysk)
+- [ ] [Internet Made Coder - 5 Amazing Ways to Automate Your Life using Python](https://www.youtube.com/watch?v=QjAHcKPUaFM)
   - CSV manipulation
   - Desktop cleaner
   - Email sender
   - Google drive file uploader
   - Investing/wealth calculator
-- [Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
-- [JasonGoodison - These coding projects give you an unfair advantage](https://www.youtube.com/watch?v=vGxR98gI930)
+- [ ] [Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
+- [ ] [JasonGoodison - These coding projects give you an unfair advantage](https://www.youtube.com/watch?v=vGxR98gI930)
   - [ ] 1. Python automation script.
   - [ ] 2. IOT based project.
   - [ ] 3. Full Stack Application.
   - [ ] 4. Game development (plus if involves physics simulation).
   - [ ] 5. Scraping project.
-- ## [Internet Made Coder - 5 IMPRESSIVE Python Resume Projects (You Can Finish in A Weekend)](https://www.youtube.com/watch?v=O3zh_mViWbc)
-- [Internet Made Coder - 5 Python Projects That Will Make Employers Drool](https://www.youtube.com/watch?v=QjAHcKPUaFM)
+- [ ] [Internet Made Coder - 5 IMPRESSIVE Python Resume Projects (You Can Finish in A Weekend)](https://www.youtube.com/watch?v=O3zh_mViWbc)
+- [ ] [Internet Made Coder - 5 Python Projects That Will Make Employers Drool](https://www.youtube.com/watch?v=QjAHcKPUaFM)
   - [ ] 1. Web Scraping
   - [ ] 2. Data Visualization
   - [ ] 3. Machine Learning
   - [ ] 4. Web Development
   - [ ] 5. Automation
-- [Coding with Steven - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS (Make Money Coding)](https://www.youtube.com/watch?v=40y9D49kMaM)
+- [ ] [Coding with Steven - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS (Make Money Coding)](https://www.youtube.com/watch?v=40y9D49kMaM)
   - [ ] 1. Weather App
   - [ ] 2. YouTube Video Downloader
   - [ ] 3. Password Generator
-- [Harkirat Singh - These Coding Projects Give You An Unfair Advantage](https://www.youtube.com/watch?v=UYySvyc4M68&ab_channel=HarkiratSingh)
+- [ ] [Harkirat Singh - These Coding Projects Give You An Unfair Advantage](https://www.youtube.com/watch?v=UYySvyc4M68&ab_channel=HarkiratSingh)
   - [ ] 1. YouTube Layer
   - [ ] 2. Internationalization as a service (this one might be interesting; maybe text/video/audio translation)
   - [ ] 3. Adding OpenAPI to Backend
@@ -420,10 +420,10 @@ Practicing Python by going through several (free and paid) courses
 
 ### Python game ideas (PyGame)
 
-- [Tech With Tim](https://www.youtube.com/watch?v=waY3LfJhQLY)
+- [ ] [Tech With Tim](https://www.youtube.com/watch?v=waY3LfJhQLY)
   - Tim has lots of tutorials for making games
-- [Goodgis - Making a Game in Python with No Experience](https://www.youtube.com/watch?v=H09PmP5tsy8)
-- [DaFluffyPotato - ](https://www.youtube.com/playlist?list=PLX5fBCkxJmm07E9qQYYJMR2fPDkzdBZew)
+- [ ] [Goodgis - Making a Game in Python with No Experience](https://www.youtube.com/watch?v=H09PmP5tsy8)
+- [ ] [DaFluffyPotato - ](https://www.youtube.com/playlist?list=PLX5fBCkxJmm07E9qQYYJMR2fPDkzdBZew)
   > 12 videos 16,075 views Last updated on 17 Jul 2023
   > Check out the Advanced playlist for even more topics: https://www.youtube.com/playlist?list=PLX5fBCkxJmm3s5GL0Cebm59m1GkAhCFoM
   - [ ] 1. How to ACTUALLY get into Gamedev (575K views, 2 years ago, 14:01)
@@ -446,45 +446,45 @@ Practicing Python by going through several (free and paid) courses
 
 ## Python automation
 
-- [Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
-- [Udemy - Al Sweigart - Automate the Boring Stuff with Python Programming (Rating: 4.6 out of 5 (108,503 ratings) 1,094,672 students, 9.5h, Last updated 2/2023)](https://www.udemy.com/course/automate/)
+- [ ] [Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
+- [ ] [Udemy - Al Sweigart - Automate the Boring Stuff with Python Programming (Rating: 4.6 out of 5 (108,503 ratings) 1,094,672 students, 9.5h, Last updated 2/2023)](https://www.udemy.com/course/automate/)
 
 ## General
 
 ### General conference talks
 
-- [NDC Conferences - The Art of Code - Dylan Beattie](https://www.youtube.com/watch?v=6avJHaC3C2U)
-- [NDC Conferences - Lambda? You Keep Using that Letter - Kevlin Henney](https://www.youtube.com/watch?v=Y7StjYhXvpE)
-- [HowieCode - 7 Software Design Concepts from John Ousterhout](https://www.youtube.com/watch?v=xneSqeac9Pk)
-- [Talks at Google - A Philosophy of Software Design | John Ousterhout](https://www.youtube.com/watch?v=bmSAYlu0NcY)
-- [Istanbul Tech Talks - ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers](https://www.youtube.com/watch?v=ZsHMHukIlJY)
-- [GOTO Conferences - Small Is Beautiful - Kevlin Henney - GOTO 2016](https://www.youtube.com/watch?v=B3b4tremI5o)
-- [GOTO Conferences - The Art of Software Development - Sander Mak - GOTO 2023](https://www.youtube.com/watch?v=fUVfkLUmII4)
-- [Agile LnL (Agile Lunch & Learn) - Can Great Programmers Be Taught? - John Ousterhout](https://www.youtube.com/watch?v=LtRWu9DErgU)
-- [Concurrency is not Parallelism by Rob Pike](https://www.youtube.com/watch?v=oV9rvDllKEg)
+- [ ] [NDC Conferences - The Art of Code - Dylan Beattie](https://www.youtube.com/watch?v=6avJHaC3C2U)
+- [ ] [NDC Conferences - Lambda? You Keep Using that Letter - Kevlin Henney](https://www.youtube.com/watch?v=Y7StjYhXvpE)
+- [ ] [HowieCode - 7 Software Design Concepts from John Ousterhout](https://www.youtube.com/watch?v=xneSqeac9Pk)
+- [ ] [Talks at Google - A Philosophy of Software Design | John Ousterhout](https://www.youtube.com/watch?v=bmSAYlu0NcY)
+- [ ] [Istanbul Tech Talks - ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers](https://www.youtube.com/watch?v=ZsHMHukIlJY)
+- [ ] [GOTO Conferences - Small Is Beautiful - Kevlin Henney - GOTO 2016](https://www.youtube.com/watch?v=B3b4tremI5o)
+- [ ] [GOTO Conferences - The Art of Software Development - Sander Mak - GOTO 2023](https://www.youtube.com/watch?v=fUVfkLUmII4)
+- [ ] [Agile LnL (Agile Lunch & Learn) - Can Great Programmers Be Taught? - John Ousterhout](https://www.youtube.com/watch?v=LtRWu9DErgU)
+- [ ] [Concurrency is not Parallelism by Rob Pike](https://www.youtube.com/watch?v=oV9rvDllKEg)
 
 ### General advice
 
-- [Created by KC - How to Avoid Burnout In Your Software Job Search](https://www.youtube.com/watch?v=oWa1kG80NCI&ab_channel=CreatedByKC)
-- [Fraz - How I started coding from 0 and cracked Google | Best Free Resources for Coding](https://www.youtube.com/watch?v=NxvS-Uzjueg)
-- [Tech With Tim - The Ultimate Self-Taught Developer Curriculum](https://www.youtube.com/watch?v=vxctuiRlmrs)
+- [ ] [Created by KC - How to Avoid Burnout In Your Software Job Search](https://www.youtube.com/watch?v=oWa1kG80NCI&ab_channel=CreatedByKC)
+- [ ] [Fraz - How I started coding from 0 and cracked Google | Best Free Resources for Coding](https://www.youtube.com/watch?v=NxvS-Uzjueg)
+- [ ] [Tech With Tim - The Ultimate Self-Taught Developer Curriculum](https://www.youtube.com/watch?v=vxctuiRlmrs)
 - [x] [bigboxSWE - Mindset of Successful Programmers](https://www.youtube.com/watch?v=nogh434ykF0)
 - [x] [bigboxSWE - How To Make Coding Fun](https://www.youtube.com/watch?v=HggHXFnPOY4)
-- [David Bombal - What are you going to do in 2023? Tops 5 skills to get!](https://www.youtube.com/watch?v=-OAa9k0zCDg)
-- [projectMaria - How to Self-Study Programming](https://www.youtube.com/watch?v=YpdEJgC4PGo)
-- [projectMaria - Learning is a Skill (and most of us suck at it)](https://www.youtube.com/watch?v=QZHnpIPk6kc)
-- [Austin Coldiron - How to Beat Procrastination & Build Self-Discipline](https://www.youtube.com/watch?v=h22cFDz9734)
-- [Elijah Oxford - OUTWORK Everyone By Being Bored](https://www.youtube.com/watch?v=1iNyqomXQt8)
-- [ApplicableProgramming - How to change career to programming in 3 months, while still learning to code](https://www.youtube.com/watch?v=PjqmeK8GRyA)
-- [Tech With Tim - These 7 Coding Skills Give You an UNFAIR Advantage](https://www.youtube.com/watch?v=bYYd_IlOb9k)
-- [Tech With Tim - 5 Coding Projects That Give You An UNFAIR Advantage](https://www.youtube.com/watch?v=V1hjSeSF4xg)
-- [Tech With Tim - Coding Was HARD Until I Learned These 3 Things...](https://www.youtube.com/watch?v=IlS1aR_gfzs)
+- [ ] [David Bombal - What are you going to do in 2023? Tops 5 skills to get!](https://www.youtube.com/watch?v=-OAa9k0zCDg)
+- [ ] [projectMaria - How to Self-Study Programming](https://www.youtube.com/watch?v=YpdEJgC4PGo)
+- [ ] [projectMaria - Learning is a Skill (and most of us suck at it)](https://www.youtube.com/watch?v=QZHnpIPk6kc)
+- [ ] [Austin Coldiron - How to Beat Procrastination & Build Self-Discipline](https://www.youtube.com/watch?v=h22cFDz9734)
+- [ ] [Elijah Oxford - OUTWORK Everyone By Being Bored](https://www.youtube.com/watch?v=1iNyqomXQt8)
+- [ ] [ApplicableProgramming - How to change career to programming in 3 months, while still learning to code](https://www.youtube.com/watch?v=PjqmeK8GRyA)
+- [ ] [Tech With Tim - These 7 Coding Skills Give You an UNFAIR Advantage](https://www.youtube.com/watch?v=bYYd_IlOb9k)
+- [ ] [Tech With Tim - 5 Coding Projects That Give You An UNFAIR Advantage](https://www.youtube.com/watch?v=V1hjSeSF4xg)
+- [ ] [Tech With Tim - Coding Was HARD Until I Learned These 3 Things...](https://www.youtube.com/watch?v=IlS1aR_gfzs)
 
 ## Mathematics
 
 ### Math with Python
 
-- [Mr. P Solver - The Full Python Tutorial](https://www.youtube.com/playlist?list=PLkdGijFCNuVnGxo-1fSNcdHh5gZc17oRM)
+- [ ] [Mr. P Solver - The Full Python Tutorial](https://www.youtube.com/playlist?list=PLkdGijFCNuVnGxo-1fSNcdHh5gZc17oRM)
   > 20 videos 67,841 views Last updated on 12 Feb 2023
   - [ ] Basics of Python: Part 1 - Introduction
   - [ ] Basics of Python: Part 2 - Lists, Tuples, Arrays
@@ -509,12 +509,12 @@ Practicing Python by going through several (free and paid) courses
 
 ### Mathematics advice
 
-- [Samuel Bosch - How to Understand Math Intuitively?](https://www.youtube.com/watch?v=glZLHLLalv0)
+- [ ] [Samuel Bosch - How to Understand Math Intuitively?](https://www.youtube.com/watch?v=glZLHLLalv0)
 
 ## Various courses
 
-- [Bro Code - Full Courses (Python, JAVA, C++, C#, C, Data Structures and Algorithms...)](https://www.youtube.com/playlist?list=PLZPZq0r_RZON03iKBjYOsOKr1-TD7z2lH)
-- [pixegami - Python Tutorials](https://www.youtube.com/playlist?list=PLZJBfja3V3RvxooZ5SNOr7CMFzURr4NBs)
+- [ ] [Bro Code - Full Courses (Python, JAVA, C++, C#, C, Data Structures and Algorithms...)](https://www.youtube.com/playlist?list=PLZPZq0r_RZON03iKBjYOsOKr1-TD7z2lH)
+- [ ] [pixegami - Python Tutorials](https://www.youtube.com/playlist?list=PLZJBfja3V3RvxooZ5SNOr7CMFzURr4NBs)
   - [ ] 1. Why You Should Learn Python in 2023 (as your first programming language) (4K views,1 months ago, 14:33)
   - [ ] 2. How To Write Unit Tests in Python • Pytest Tutorial (106K views, year ago, 35:34)
   - [ ] 3. PyTest • REST API Integration Testing with Python (53K views, year ago, 37:24)
