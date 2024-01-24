@@ -25,15 +25,133 @@
 
 ### Lists
 
-- **Explanation**: Ordered, mutable collection of elements.
+- **Explanation**: Ordered, mutable collection of elements, allowing duplicates
 - **Syntax**: `my_list = [1, 2, 3]`
 - **Used**: When you need an ordered collection of items that can be modified.
 - **Avoid**: When you need a constant collection or fast lookups.
+
+The classic way of creating a list:
+
+```python
+my_list = [1, 2, 3] # Create a list
+print(my_list)  # Output: [1, 2, 3]
+```
+
+Using list():
+
+```python
+my_list = list()
+print(my_list)  # Output: []
+
+my_list = list([1, True, "some string", True])
+print(my_list)  # Output: [1, True, 'some string', True]
+```
+
+Appending elements:
 
 ```python
 my_list = [1, 2, 3]
 my_list.append(4)
 print(my_list)  # Output: [1, 2, 3, 4]
+```
+
+Accessing elements:
+
+```python
+my_list = [1, 2, 3]
+print(my_list[0])  # Output: 1
+```
+
+With negative index we can access elements from the end:
+
+```python
+my_list = [1, 2, 3]
+print(my_list[-2])  # Output: 2 (second element from the end)
+```
+
+Iterating over a list:
+
+```python
+my_list = [1, 2, 3]
+for element in my_list:
+    print(element) # Output: 1 2 3
+```
+
+Checking if an element exists in a list:
+
+```python
+my_list = ["banana", "cherry", 3]
+if "banana" in my_list:
+    print("yes")  # Output: yes
+else:
+    print("no")
+```
+
+Creating a new list with the same elements multiple times:
+
+```python
+my_list = [0] * 5
+print(my_list)  # Output: [0, 0, 0, 0, 0]
+```
+
+Concatenating lists:
+
+```python
+my_list = [1, 2, 3]
+my_second_list = [4, 5]
+my_list += my_second_list
+print(my_list)  # Output: [1, 2, 3, 4, 5]
+```
+
+Slicing a list:
+
+```python
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+a = my_list[1:5]  # Output: [2, 3, 4, 5] (includes the first index but excludes the last)
+b = my_list[1:]  # Output: [2, 3, 4, 5, 6, 7, 8, 9] (from the first index to the end)
+c = my_list[:5]  # Output: [1, 2, 3, 4, 5] (from the start to the last index)
+d = my_list[::2]  # Output: [1, 3, 5, 7, 9] (from the start to the end, skipping one element)
+e = my_list[::-1]  # Output: [9, 8, 7, 6, 5, 4, 3, 2, 1] (from the end to the start, reversing)
+```
+
+Copying a list:
+
+```python
+original_list = [1, 2, 3]
+new_list = original_list  # new_list is a reference to original_list
+new_list.append(4) # modifying new_list affects original_list
+print(original_list)  # Output: [1, 2, 3, 4]
+```
+
+```python
+original_list = [1, 2, 3]
+new_list = original_list.copy()  # new_list is a copy of original_list
+new_list.append(4) # modifying new_list does NOT affect original_list
+print(original_list)  # Output: [1, 2, 3]
+
+# or
+
+original_list = [1, 2, 3]
+new_list = list(original_list)  # new_list is a copy of original_list
+new_list.append(4) # modifying new_list does NOT affect original_list
+print(original_list)  # Output: [1, 2, 3]
+
+# or
+
+original_list = [1, 2, 3]
+new_list = original_list[:]  # new_list is a copy of original_list
+new_list.append(4) # modifying new_list does NOT affect original_list
+print(original_list)  # Output: [1, 2, 3]
+```
+
+List comprehensions (they also create a copy):
+
+> Syntax: `[expression for item in iterable]`
+
+```python
+my_list = [1, 2, 3, 4, 5]
+squares = [x**2 for x in my_list]
+print(squares)  # Output: [1, 4, 9, 16, 25]
 ```
 
 **Questions:**
