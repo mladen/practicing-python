@@ -2,17 +2,17 @@
 
 ## Data Types and Data Structures
 
-| Type      | Mutable | Ordered | Constructor  | Example                        | Collection of   |
-| --------- | ------- | ------- | ------------ | ------------------------------ | --------------- |
-| `int`     | No      | N/A     | `int()`      | `-5`                           | N/A             |
-| `float`   | No      | N/A     | `float()`    | `3.27`                         | N/A             |
-| `complex` | No      | N/A     | `complex()`  | `1 + 2j`                       | N/A             |
-| `bool`    | No      | N/A     | `bool()`     | `True`                         | N/A             |
-| `str`     | No      | Yes     | `''` or `""` | `'hello'`                      | characters      |
-| `list`    | Yes     | Yes     | `[]`         | `[1, 'two', 3.0]`              | elements        |
-| `tuple`   | No      | Yes     | `()`         | `(1, 'two', 3.0)`              | elements        |
-| `set`     | Yes     | No      | `{}`         | `{1, 2, 3}`                    | elements        |
-| `dict`    | Yes     | No      | `{}`         | `{'key1': 1.0, 'key2': False}` | key-value pairs |
+| Type      | Mutable | Ordered | Constructor  | Example                        | Collection of   | Note                                                             |
+| --------- | ------- | ------- | ------------ | ------------------------------ | --------------- | ---------------------------------------------------------------- |
+| `int`     | No      | N/A     | `int()`      | `-5`                           | N/A             | Note: `int` is a whole number                                    |
+| `float`   | No      | N/A     | `float()`    | `3.27`                         | N/A             | Note: `float` is a decimal number                                |
+| `complex` | No      | N/A     | `complex()`  | `1 + 2j`                       | N/A             | Note: `complex` is a complex number                              |
+| `bool`    | No      | N/A     | `bool()`     | `True`                         | N/A             | Note: `bool` is a boolean value; it's a subclass of `int`        |
+| `str`     | No      | Yes     | `''` or `""` | `'hello'`                      | characters      | Note: `str` is a sequence of characters                          |
+| `list`    | Yes     | Yes     | `[]`         | `[1, 'two', 3.0]`              | elements        | Note: lists are mutable sequences                                |
+| `tuple`   | No      | Yes     | `()`         | `(1, 'two', 3.0)`              | elements        | Note: tuples are immutable lists                                 |
+| `set`     | Yes     | No      | `{}`         | `{1, 2, 3}`                    | elements        | Note: set also uses `{}` but it does not contain key-value pairs |
+| `dict`    | Yes     | No      | `{}`         | `{'key1': 1.0, 'key2': False}` | key-value pairs | Note: dict also uses `{}` but it does not contain elements       |
 
 ## Math Operations
 
