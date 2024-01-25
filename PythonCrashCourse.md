@@ -26,7 +26,7 @@
 ### Lists
 
 - **Explanation**: Ordered, mutable collection of elements, allowing duplicates
-- **Syntax**: `my_list = [1, 2, 3]`
+- **Syntax**: `my_list = [1, 2, 3]`, `my_list = list([1, 2, 3])`, `my_list = list()`, `my_list = []`
 - **Used**: When you need an ordered collection of items that can be modified.
 - **Avoid**: When you need a constant collection or fast lookups.
 
@@ -94,6 +94,13 @@ my_list = [0] * 5
 print(my_list)  # Output: [0, 0, 0, 0, 0]
 ```
 
+Creating a list using the range function:
+
+```python
+my_list = list(range(10))
+print(my_list)  # Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
 Concatenating lists:
 
 ```python
@@ -154,6 +161,46 @@ squares = [x**2 for x in my_list]
 print(squares)  # Output: [1, 4, 9, 16, 25]
 ```
 
+```python
+my_list = [1, 2, 3, 4, 5]
+even_squares = [x**2 for x in my_list if x % 2 == 0]
+print(even_squares)  # Output: [4, 16]
+```
+
+```python
+my_list = [1, 2, 3, 4, 5]
+odd_squares = [x**2 if x % 2 == 1 else x for x in my_list]
+print(odd_squares)  # Output: [1, 2, 9, 4, 25]
+```
+
+```python
+my_list = [1, 2, 3, 4, 5]
+odd_squares = [x**2 if x % 2 == 1 else x**3 for x in my_list]
+print(odd_squares)  # Output: [1, 8, 9, 64, 25]
+```
+
+Unpacking a list:
+
+> The number of variables on the left and the number of elements on the right have to match.
+
+```python
+my_list = [1, 2, 3]
+a, b, c = my_list
+print(a)  # Output: 1
+print(b)  # Output: 2
+print(c)  # Output: 3
+```
+
+We can unpack multiple elements into one variable using `*`:
+
+```python
+my_list = [1, 2, 3, 4, 5]
+a, b, *c = my_list
+print(a)  # Output: 1
+print(b)  # Output: 2
+print(c)  # Output: [3, 4, 5]
+```
+
 **Questions:**
 
 > 1. **How to remove elements from a list?**
@@ -172,14 +219,164 @@ print(squares)  # Output: [1, 4, 9, 16, 25]
 
 ### Tuples
 
-- **Explanation**: Ordered, immutable collection of elements.
-- **Syntax**: `my_tuple = (1, 2, 3)`
-- **Used**: When you need an ordered collection that shouldn't be modified.
+- **Explanation**: Ordered, immutable (cannot be modified after creation) collection of elements. Also, it allows duplicates.
+- **Syntax**: `my_tuple = (1, 2, "Max")`, `my_tuple = 1, 2, "Max"`, `my_tuple = tuple([1, 2, "Max"])`, `my_tuple = tuple()`, `my_tuple = ()`
+- **Used**: When you need an ordered collection that shouldn't be modified. Also, it's used for objects that belong together.
 - **Avoid**: When you need to modify elements frequently.
+
+Creating a tuple:
 
 ```python
 my_tuple = (1, 2, 3)
 print(my_tuple[0])  # Output: 1
+```
+
+Creating a tuple with one element:
+
+```python
+my_tuple = (1,)  # Note the comma
+print(type(my_tuple))  # Output: <class 'tuple'>
+```
+
+Creating a tuple without parentheses:
+
+```python
+my_tuple = 1, 2, 3
+print(my_tuple)  # Output: (1, 2, 3)
+```
+
+Creating a tuple from a list:
+
+```python
+my_list = [1, 2, 3]
+my_tuple = tuple(my_list)
+print(my_tuple)  # Output: (1, 2, 3)
+```
+
+Creating a tuple using the `range()` function:
+
+```python
+my_tuple = tuple(range(10))
+print(my_tuple)  # Output: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+```
+
+Iterating over a tuple:
+
+```python
+my_tuple = (1, 2, 3)
+for i in my_tuple:
+    print(i)  # Output: 1 2 3
+```
+
+Checking if an element exists in a tuple:
+
+```python
+my_tuple = ("Max", True, 123)
+if "Max" in my_tuple:
+    print("yes")  # Output: yes
+else:
+    print("no")
+```
+
+Deleting a tuple:
+
+```python
+my_tuple = (1, 2, 3)
+del my_tuple
+print(my_tuple)  # Error: NameError: name 'my_tuple' is not defined
+```
+
+Slicing a tuple:
+
+```python
+my_tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+a = my_tuple[1:5]  # Output: (2, 3, 4, 5) (includes the first index but excludes the last)
+b = my_tuple[1:]  # Output: (2, 3, 4, 5, 6, 7, 8, 9) (from the first index to the end)
+c = my_tuple[:5]  # Output: (1, 2, 3, 4, 5) (from the start to the last index)
+d = my_tuple[::2]  # Output: (1, 3, 5, 7, 9) (from the start to the end, skipping one element)
+e = my_tuple[::-1]  # Output: (9, 8, 7, 6, 5, 4, 3, 2, 1) (from the end to the start, reversing)
+```
+
+Copying a tuple:
+
+```python
+original_tuple = (1, 2, 3)
+new_tuple = original_tuple  # new_tuple is a reference to original_tuple
+print(new_tuple)  # Output: (1, 2, 3)
+```
+
+```python
+original_tuple = (1, 2, 3)
+new_tuple = original_tuple.copy()  # new_tuple is a copy of original_tuple
+print(new_tuple)  # Output: (1, 2, 3)
+
+# or
+
+original_tuple = (1, 2, 3)
+new_tuple = tuple(original_tuple)  # new_tuple is a copy of original_tuple
+print(new_tuple)  # Output: (1, 2, 3)
+```
+
+Getting the number of elements in a tuple:
+
+```python
+my_tuple = (1, 2, 3)
+print(len(my_tuple))  # Output: 3
+```
+
+Getting the index of an element:
+
+```python
+my_tuple = (1, 2, 3, 2)
+print(my_tuple.index(2))  # Output: 1 (index of the first occurrence)
+```
+
+Counting the number of occurrences of an element:
+
+```python
+my_tuple = (1, 2, 3, 2)
+print(my_tuple.count(2))  # Output: 2; 2 occurs 2 times
+```
+
+Unpacking a tuple:
+
+> The number of variables on the left and the number of elements on the right have to be the same.
+
+```python
+my_tuple = (1, 2, 3)
+a, b, c = my_tuple
+print(a)  # Output: 1
+print(b)  # Output: 2
+print(c)  # Output: 3
+```
+
+We can unpack multiple elements into one variable using `*`:
+
+```python
+my_tuple = (1, 2, 3, 4, 5)
+a, *b, c = my_tuple
+print(a)  # Output: 1
+print(b)  # Output: [2, 3, 4] (b is a list)
+print(c)  # Output: 5
+```
+
+Comparing tuples with lists (they are similar but not the same):
+
+```python
+my_tuple = (1, 2, 3)
+my_list = [1, 2, 3]
+print(my_tuple == my_list)  # Output: True
+print(my_tuple is my_list)  # Output: False
+
+# Comparing the number of bytes
+import sys
+print(sys.getsizeof(my_tuple))  # Output: 48 (bytes)
+print(sys.getsizeof(my_list))  # Output: 64 (bytes); lists are larger than tuples even though they have the same elements
+
+# Comparing the time needed to create tuples and lists
+import timeit
+print(timeit.timeit(stmt="[1, 2, 3, 4, 5]", number=1000000))  # Output: 0.038 (seconds)
+print(timeit.timeit(stmt="(1, 2, 3, 4, 5)", number=1000000))  # Output: 0.012 (seconds); tuples are faster to create than lists
 ```
 
 **Questions:**
@@ -187,6 +384,8 @@ print(my_tuple[0])  # Output: 1
 > 1. **Can you modify a tuple after it has been created?**
 >
 > - No, tuples are immutable, so their elements cannot be modified after creation.
+> - However, you can convert a tuple to a list, modify that list, and then convert it back to a tuple.
+>   Example: `my_tuple = tuple(my_list)`
 
 > 2. **How can you concatenate two tuples?**
 >
@@ -195,6 +394,26 @@ print(my_tuple[0])  # Output: 1
 > 3. **What is the purpose of using tuples as keys in a dictionary?**
 >
 > - Tuples, being immutable, can be used as keys in dictionaries when you need a composite key.
+
+> 4. **If you do mytuple = ("Max") what is the type of mytuple?**
+>
+> - It's a string, because the parentheses are interpreted as the parentheses used for grouping.
+
+> 5. **The difference between tuples and lists. Also, what is the difference in speed/iterating over one vs the other?**
+>
+> - Tuples are immutable, while lists are mutable.
+> - Tuples are faster than lists.
+> - Tuples are used when you need immutable data, e.g. for keys in a dictionary, or as a key for a set, or when you're passing data to a function and you don't want that data to be modified.
+> - Lists are used when you need mutable data, e.g. you want to be able to add or remove elements.
+> - Tuples are created using parentheses, while lists are created using square brackets.
+> - Tuples are faster than lists, because they are immutable, so Python doesn't have to do as much work behind the scenes. It is faster to iterate over a tuple than a list, because Python stops iterating over a tuple after reaching the last element, while it has to check the size of a list on every iteration.
+> - Tuples have fewer available methods than lists.
+> - Tuples are used as keys in dictionaries, while lists cannot be used as keys in dictionaries.
+> - Tuples are used in string formatting, while lists cannot be used in string formatting.
+> - Tuples are used in named tuples, while lists cannot be used in named tuples.
+> - Tuples are returned by some built-in methods, such as `enumerate()`, `zip()`, and `reversed()`.
+> - Tuples are used for parallel assignment, while lists cannot be used for parallel assignment.
+> - Tuples are used for returning multiple values from a function, while lists cannot be used for returning multiple values from a function.
 
 ---
 
