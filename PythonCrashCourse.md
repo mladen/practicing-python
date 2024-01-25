@@ -124,6 +124,7 @@ e = my_list[::-1]  # Output: [9, 8, 7, 6, 5, 4, 3, 2, 1] (from the end to the st
 Copying a list:
 
 ```python
+# NOT RECOMMENDED because it creates a reference to the original list
 original_list = [1, 2, 3]
 new_list = original_list  # new_list is a reference to original_list
 new_list.append(4) # modifying new_list affects original_list
@@ -131,6 +132,7 @@ print(original_list)  # Output: [1, 2, 3, 4]
 ```
 
 ```python
+# RECOMMENDED because it creates a copy of the original list
 original_list = [1, 2, 3]
 new_list = original_list.copy()  # new_list is a copy of original_list
 new_list.append(4) # modifying new_list does NOT affect original_list
@@ -419,14 +421,202 @@ print(timeit.timeit(stmt="(1, 2, 3, 4, 5)", number=1000000))  # Output: 0.012 (s
 
 ### Dictionaries
 
-- **Explanation**: Unordered collection of key-value pairs.
-- **Syntax**: `my_dict = {'key': 'value'}`
+- **Explanation**: Unordered collection of key-value pairs. Allows duplicates. Keys must be unique but values can be duplicated. Mutable.
+- **Syntax**: `my_dict = {'key': 'value', 'name': 'Max'}`
 - **Used**: For quick lookups based on keys.
 - **Avoid**: When order matters, or you need constant time for all operations.
 
+Creating a dictionary:
+
 ```python
 my_dict = {'name': 'John', 'age': 30}
+print(my_dict['name'])  # Output: John; notice that we use square brackets for dictionaries!
+```
+
+Creating a dictionary using the `dict()` constructor:
+
+```python
+my_dict = dict(name='John', age=30) # Note: no quotes for the keys (only for the values)
 print(my_dict['name'])  # Output: John
+```
+
+Iterating over a dictionary:
+
+```python
+my_dict = {'name': 'John', 'age': 30}
+for key in my_dict:
+    print(key, my_dict[key])  # Output: name John \n age 30
+
+# or
+
+for key, value in my_dict.items():
+    print(key, value)  # Output: name John \n age 30
+
+# or
+
+for value in my_dict.values():
+    print(value)  # Output: John \n 30
+
+# or
+
+for key in my_dict.keys():
+    print(key)  # Output: name \n age
+```
+
+Checking if a key exists:
+
+```python
+my_dict = {'name': 'John', 'age': 30}
+
+if 'name' in my_dict:
+    print(my_dict['name'])  # Output: John
+
+# or
+
+print(my_dict.get('name'))  # Output: John
+
+# or, with try-except
+
+try:
+    print(my_dict['name'])  # Output: John
+except KeyError:
+    print("Error")
+```
+
+Deleting a key-value pair:
+
+```python
+my_dict = {'name': 'John', 'age': 30}
+del my_dict['name']
+print(my_dict)  # Output: {'age': 30}
+```
+
+Deleting all elements:
+
+```python
+my_dict = {'name': 'John', 'age': 30}
+my_dict.clear()
+print(my_dict)  # Output: {}
+```
+
+Deleting the last inserted key-value pair:
+
+```python
+my_dict = {'name': 'John', 'age': 30}
+my_dict.popitem()
+print(my_dict)  # Output: {'name': 'John'}
+```
+
+Getting the number of elements:
+
+```python
+my_dict = {'name': 'John', 'age': 30}
+print(len(my_dict))  # Output: 2
+```
+
+Getting a list of keys:
+
+```python
+my_dict = {'name': 'John', 'age': 30}
+print(my_dict.keys())  # Output: dict_keys(['name', 'age'])
+```
+
+Getting a list of values:
+
+```python
+my_dict = {'name': 'John', 'age': 30}
+print(my_dict.values())  # Output: dict_values(['John', 30])
+```
+
+Getting a list of key-value pairs:
+
+```python
+my_dict = {'name': 'John', 'age': 30}
+print(my_dict.items())  # Output: dict_items([('name', 'John'), ('age', 30)])
+```
+
+Copying a dictionary:
+
+```python
+# NOT RECOMMENDED because it creates a reference to the original dictionary
+original_dict = {'name': 'John', 'age': 30}
+new_dict = original_dict  # new_dict is a reference to original_dict
+new_dict['name'] = 'Max'  # modifying new_dict affects original_dict
+print(new_dict)  # Output: {'name': 'Max', 'age': 30};
+```
+
+```python
+# RECOMMENDED because it creates a copy of the original dictionary
+original_dict = {'name': 'John', 'age': 30}
+new_dict = original_dict.copy()  # new_dict is a copy of original_dict
+print(new_dict)  # Output: {'name': 'John', 'age': 30}
+
+# or
+
+original_dict = {'name': 'John', 'age': 30}
+new_dict = dict(original_dict)  # new_dict is a copy of original_dict
+print(new_dict)  # Output: {'name': 'John', 'age': 30}
+
+# or
+
+original_dict = {'name': 'John', 'age': 30}
+new_dict = {**original_dict}  # new_dict is a copy of original_dict
+print(new_dict)  # Output: {'name': 'John', 'age': 30}
+```
+
+Merging two dictionaries:
+
+```python
+dict1 = {'name': 'John', 'age': 30}
+dict2 = {'location': 'London'}
+dict1.update(dict2)
+print(dict1)  # Output: {'name': 'John', 'age': 30, 'location': 'London'}
+
+# or
+
+dict1 = {'name': 'John', 'age': 30}
+dict2 = {'location': 'London'}
+dict3 = {**dict1, **dict2}
+print(dict3)  # Output: {'name': 'John', 'age': 30, 'location': 'London'}
+```
+
+Updating a dictionary:
+
+```python
+my_dict = {'name': 'John', 'age': 30}
+my_dict['name'] = 'Max'
+print(my_dict)  # Output: {'name': 'Max', 'age': 30}
+
+# or
+
+my_dict = {'name': 'John', 'age': 30}
+my_dict.update({'name': 'Max', 'age': 30})
+# my_dict.update(name='Max', age=30)  # same as above
+print(my_dict)  # Output: {'name': 'Max', 'age': 30}
+```
+
+Unpacking a dictionary:
+
+```python
+my_dict = {'name': 'John', 'age': 30}
+name, age = my_dict.items()
+print(name)  # Output: ('name', 'John')
+print(age)  # Output: ('age', 30)
+```
+
+Key types in dictionaries:
+
+> - Keys must be immutable (strings, numbers, or tuples with immutable elements).
+> - Lists cannot be used as keys because they are mutable.
+
+```python
+my_dict = {3: 9, 6: 36, 9: 81} # int as a key
+print(my_dict[3])  # Output: 9
+
+# or
+
+my_dict = {(1, 2, 3): 6, (4, 5): 9} # tuple as a key
+print(my_dict[(4, 5)])  # Output: 9
 ```
 
 **Questions:**
