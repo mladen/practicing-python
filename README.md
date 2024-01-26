@@ -100,29 +100,30 @@ Practicing Python by going through several (free and paid) courses
 
 - [ ] [freeCodeCamp - Anil Kulkarni - Octallium - Learn Python by Thinking in Types - Full Course](https://www.youtube.com/watch?v=jH85McHenvw)
 - [ ] [freeCodeCamp - Aakash - Jovian - Data Structures and Algorithms in Python - Full Course for Beginners](https://www.youtube.com/watch?v=pkYVOmU3MgA)
-- [ ] [freeCodeCamp - Patrick Loeber - Intermediate Python Programming Course (IMPORTANT!)](https://www.youtube.com/watch?v=HGOBQPFzWKo)
-  - [ ] (0:00:00) Intro
-  - [ ] (0:00:56) Lists
-  - [ ] (0:16:30) Tuples
-  - [ ] (0:29:49) Dictionaries
-  - [ ] (0:42:40) Sets
-  - [ ] (0:58:44) Strings
-  - [ ] (1:22:50) Collections
-  - [ ] (1:36:43) Itertools
-  - [ ] (1:51:50) Lambda Functions
-  - [ ] (2:04:03) Exceptions and Errors
-  - [ ] (2:20:10) Logging
-  - [ ] (2:42:20) JSON
-  - [ ] (2:59:42) Random Numbers
-  - [ ] (3:14:23) Decorators
-  - [ ] (3:35:32) Generators
-  - [ ] (3:53:29) Threading vs Multiprocessing
-  - [ ] (4:07:59) Multithreading
-  - [ ] (4:31:05) Multiprocessing
-  - [ ] (4:53:26) Function Arguments
-  - [ ] (5:17:28) The Asterisk (\*) Operator
-  - [ ] (5:30:19) Shallow vs Deep Copying
-  - [ ] (5:40:07) Context Managers
+- [ ] [Patrick Loeber - Intermediate Python Programming Course (IMPORTANT!)](https://www.youtube.com/playlist?list=PLqnslRFeH2UqLwzS0AwKDKLrpYBKzLBy2)
+
+  - [x] 1. Lists (187K views, 4 years ago, 15:51)
+  - [x] 2. Tuples (44K views, 4 years ago, 13:31)
+  - [x] 3. Dictionaries (82K views, 4 years ago, 13:05)
+  - [x] 4. Sets (28K views, 4 years ago, 16:19)
+  - [x] 5. Strings (34K views, 4 years ago, 24:16)
+  - [ ] 6. Collections (83K views, 4 years ago, 14:10)
+  - [ ] 7. Itertools (47K views, 4 years ago, 15:23)
+  - [ ] 8. Lambda (44K views, 4 years ago, 12:21)
+  - [ ] 9. Exceptions (22K views, 4 years ago, 16:20)
+  - [ ] 10. Logging (50K views, 4 years ago, 22:29)
+  - [ ] 11. JSON (29K views, 4 years ago, 17:35)
+  - [ ] 12. Random Numbers (10K views, 4 years ago, 14:57)
+  - [ ] 13. Decorators (37K views, 4 years ago, 21:24)
+  - [ ] 14. Generators (19K views, 4 years ago, 18:12)
+  - [ ] 15. Threading vs Multiprocessing (41K views, 4 years ago, 14:48)
+  - [ ] 16. Threading (43K views, 4 years ago, 23:42)
+  - [ ] 17. Multiprocessing (48K views, 4 years ago, 22:47)
+  - [ ] 18. Function arguments (39K views, 4 years ago, 24:21)
+  - [ ] 19. The asterisk (\*) operator (21K views, 4 years ago, 13:01)
+  - [ ] 20. Shallow vs Deep Copying (18K views, 4 years ago, 9:56)
+  - [ ] 21. Context Managers (17K views, 4 years ago, 15:44)
+
 - [ ] [Great learning - Data Structures & Algorithms (playlist) - check quality](https://www.youtube.com/playlist?list=PLlgLmuG_KgbbkdjHVm8WsQtkpiZD2ULBb)
   > 14 videos 29,734 views Last updated on 29 Nov 2022
   >
