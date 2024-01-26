@@ -847,14 +847,196 @@ my_set.add(5)  # Error: AttributeError: 'frozenset' object has no attribute 'add
 
 ### Strings
 
-- **Explanation**: Ordered collection of characters.
+- **Explanation**: Ordered, immutable collection of characters.
 - **Syntax**: `my_string = "Hello"`
 - **Used**: For representing and manipulating text.
 - **Avoid**: When dealing with highly dynamic or binary data.
 
+Creating a string:
+
 ```python
 my_string = "Hello"
-print(my_string[1])  # Output: e
+
+# Triple quotes are used for multi-line strings
+my_string = """Hello
+World""" # or '''Hello \n World'''
+```
+
+Accessing characters:
+
+```python
+my_string = "Hello"
+print(my_string[0])  # Output: H; we can also use negative indexing: my_string[-1] returns o
+```
+
+Changing a character:
+
+```python
+# CORRECT way (strings are immutable, so we need to create a new string)
+my_string = "Hello"
+my_string = my_string[:4] + "o"  # strings are immutable, so we need to create a new string
+print(my_string)  # Output: Hello
+```
+
+```python
+# INCORRECT way (strings are immutable, so we need to create a new string)
+my_string = "Hello"
+my_string[4] = "o"  # Error: TypeError: 'str' object does not support item assignment
+print(my_string)
+```
+
+Slicing:
+
+```python
+my_string = "Hello World"
+print(my_string[1:5])  # Output: ello
+print(my_string[1:])  # Output: ello World
+print(my_string[:5])  # Output: Hello
+print(my_string[:])  # Output: Hello World
+print(my_string[::2])  # Output: HloWrd
+print(my_string[::-1])  # Output: dlroW olleH
+```
+
+Concatenating strings:
+
+```python
+greeting = "Hello"
+name = "Tom"
+sentence = greeting + " " + name
+print(sentence)  # Output: Hello Tom
+```
+
+Iterating over a string:
+
+```python
+my_string = "Hello"
+for i in my_string:
+    print(i)  # Output: H e l l o
+```
+
+Checking if a substring exists:
+
+```python
+my_string = "Hello World"
+if "Hello" in my_string:
+    print("yes")  # Output: yes
+else:
+    print("no")
+```
+
+Stripping whitespace:
+
+```python
+my_string = "   Hello World   "
+print(my_string.strip())  # Output: Hello World
+# remember that strings (like the original string my_string) are immutable,
+# so we need to assign the result to a new variable if we want to keep the
+# result of the operation
+```
+
+Changing case:
+
+```python
+my_string = "Hello World"
+print(my_string.lower())  # Output: hello world
+print(my_string.upper())  # Output: HELLO WORLD
+```
+
+Checking starting/ending:
+
+```python
+my_string = "Hello World"
+print(my_string.startswith("He"))  # Output: True
+print(my_string.endswith("ld"))  # Output: True
+```
+
+Finding position:
+
+```python
+my_string = "Hello World"
+print(my_string.find("o"))  # Output: 4; returns the index of the first occurrence
+print(my_string.find("lo"))  # Output: 3
+print(my_string.find("p"))  # Output: -1; returns -1 if the substring is not found
+```
+
+Counting occurrences:
+
+```python
+my_string = "Hello World"
+print(my_string.count("o"))  # Output: 2
+print(my_string.count("or"))  # Output: 1
+print(my_string.count("p"))  # Output: 0
+```
+
+Replacing a substring:
+
+```python
+my_string = "Hello World"
+print(my_string.replace("World", "Universe"))  # Output: Hello Universe
+```
+
+Lists and strings:
+
+> Default separator is any whitespace. If you want to split by commas, you can use `my_string.split(',')`.
+
+```python
+# Splitting a string into a list of substrings separated by a delimiter
+my_string = "how are you doing"
+my_list = my_string.split() # the default separator is any whitespace
+print(my_list)  # Output: ['how', 'are', 'you', 'doing']
+
+# Joining a list of strings into a single string using a delimiter
+my_list = ['how', 'are', 'you', 'doing']
+my_string = ' '.join(my_list)
+print(my_string)  # Output: how are you doing
+```
+
+Good, and bad practice concerning the join() method; also timing the execution time of a program:
+
+```python
+from timeit import default_timer as timer
+
+my_list = ['a'] * 1000000
+print(my_list)  # Output: ['a', 'a', ... (1000000 times)]
+
+# Bad practice (using for loop)
+start = timer()
+my_string = ''
+for i in my_list:
+    my_string += i # a new string object is created at each iteration which is inefficient!
+stop = timer()
+print(stop - start)  # Output: 0.35600000000000045
+
+# Good practice (using join())
+start = timer()
+my_string = ''.join(my_list)
+stop = timer()
+print(stop - start)  # Output: 0.006999999999999559
+```
+
+Formatting strings:
+
+```python
+# Using f-strings; Python 3.6+; recommended
+var = "Tom"
+my_string = f"the variable is {var}"
+print(my_string)  # Output: the variable is Tom
+
+# or
+
+var = 3.1234567
+my_string = f"the variable is {var:.2f}" # notice that the f-string rounds the value
+print(my_string)  # Output: the variable is 3.12
+
+# or (using the format() method; old formatting style)
+var = "Tom"
+my_string = "the variable is {}".format(var)
+print(my_string)  # Output: the variable is Tom
+
+# or (using %; old formatting style)
+var = "Tom" # in case we have an integer, we can use %d instead of %s in the string below
+my_string = "the variable is %s" % var
+print(my_string)  # Output: the variable is Tom
 ```
 
 **Questions:**
