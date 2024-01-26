@@ -1057,16 +1057,119 @@ print(my_string)  # Output: the variable is Tom
 
 ### Collections
 
-- **Explanation**: Module providing specialized container datatypes.
+- **Explanation**: Collection module providing specialized container datatypes and provides alternatives (with some additional functionalities) to Python's general purpose built-in containers, dict, list, set, and tuple. Those alternatives are Counter, namedtuple, OrderedDict, defaultdict, deque (as well as UserDict and ChainMap).
 - **Syntax**: `from collections import Counter, defaultdict`
-- **Used**: When you need advanced data structures like counters or default dictionaries.
+- **Used**: When you need advanced data structures like named tuples, dictionaries with default values, or ordered dictionaries.
 - **Avoid**: For basic lists or dictionaries.
+
+Creating a Counter:
 
 ```python
 from collections import Counter
 my_list = [1, 2, 3, 1, 2, 1]
-counter = Counter(my_list)
-print(counter)  # Output: Counter({1: 3, 2: 2, 3: 1})
+counter = Counter(my_list) # This will create a dictionary with the elements of the list as keys and their occurrences as values
+print(counter)  # Output: Counter({1: 3, 2: 2, 3: 1}); 1 occurs 3 times, 2 occurs 2 times, and 3 occurs 1 time
+
+# or
+
+a = "aaaaabbbbbccccc"
+counter = Counter(a)
+print(counter)  # Output: Counter({'a': 5, 'b': 5, 'c': 5})
+```
+
+Accessing the items (key-value pairs) of a Counter:
+
+```python
+print(counter.items())  # Output: dict_items([('a', 5), ('b', 5), ('c', 5)])
+
+# Like with any dictionary, we can access the keys and values separately
+print(counter.keys())  # Output: dict_keys(['a', 'b', 'c'])
+print(counter.values())  # Output: dict_values([5, 5, 5])
+
+# We can also access the most common elements
+# This will return a list of tuples, where the first element of the tuple is the key and the second element is the value
+print(counter.most_common(2))  # Output: [('a', 5), ('b', 5)]; returns the 2 most common elements
+# The following will return the most common element
+print(counter.most_common(1)[0][0])  # Output: a
+
+print(list(my_counter.elements()))  # Output: ['a', 'a', 'a', 'a', 'a', 'b', 'b', 'b', 'b', 'b', 'c', 'c', 'c', 'c', 'c']
+# This will return a list with all the elements (keys) of the counter, each repeated as many times as its count
+```
+
+Named tuples:
+
+```python
+from collections import namedtuple
+# Let's define a 2D point (class)
+Point = namedtuple('Point', 'x,y') # or Point = namedtuple('Point', ['x', 'y']); The same name should be used for the variable name and the namedtuple
+# This created a new class named Point, which we can use to create points
+
+pt = Point(1, -4)
+print(pt)  # Output: Point(x=1, y=-4)
+print(pt.x, pt.y)  # Output: 1 -4; accessing the elements of the namedtuple
+```
+
+Ordered dictionaries:
+
+> Ordered dictionaries are dictionaries that remember the order of the keys that were inserted first.
+> Ordered dictionaries became less relevant since Python 3.7, because regular dictionaries are ordered since then.
+
+```python
+from collections import OrderedDict
+# Regular dictionary
+ordered_dict = OrderedDict() # or ordered_dict = {} as of Python 3.7
+ordered_dict['b'] = 2
+ordered_dict['c'] = 3
+ordered_dict['a'] = 1
+print(ordered_dict)  # Output: OrderedDict([('b', 2), ('c', 3), ('a', 1)]); notice that the elements are ordered
+
+# or
+
+ordered_dict = OrderedDict({'b': 2, 'c': 3, 'a': 1})
+print(ordered_dict)  # Output: OrderedDict([('b', 2), ('c', 3), ('a', 1)]); notice that the elements are ordered
+```
+
+Default dictionaries:
+
+> Default dictionaries are dictionaries that return a default value when the key does not exist (instead of raising `KeyError`).
+> For example if the key does not exist (was not set or similar), `my_dict['some_key']` will return the default value instead of raising `KeyError`.
+
+> Default dictionaries are useful when you want to avoid key errors.
+
+```python
+from collections import defaultdict
+d = defaultdict(int) # int is the default type, also works with list, set, tuple, str, dict, etc.
+# Example 1: If we set the float as the default type (defaultdict(float)), the default value will be 0.0
+# Example 2: If we set the list as the default type (defaultdict(list)), the default value will be []
+d['a'] = 1
+d['b'] = 2
+print(d['c'])  # Output: 0; returns the default value for the type (0 for int)
+```
+
+Deque:
+
+> Deque is a double-ended queue, suitable for efficiently adding and removing elements from both ends.
+
+```python
+from collections import deque
+d = deque()
+d.append(1) # add to the right
+d.appendleft(2) # add to the left
+print(d)  # Output: deque([2, 1])
+
+d.pop() # remove from the right
+d.popleft() # remove from the left
+print(d)  # Output: deque([])
+
+d.extend([4, 5, 6]) # add multiple elements to the right
+d.extendleft([1, 2, 3]) # add multiple elements to the left
+print(d)  # Output: deque([3, 2, 1, 4, 5, 6])
+
+d.rotate(1) # right rotation
+print(d)  # Output: deque([6, 3, 2, 1, 4, 5])
+
+d.rotate(-1) # left rotation
+print(d)  # Output: deque([3, 2, 1, 4, 5, 6])
 ```
 
 **Questions:**
