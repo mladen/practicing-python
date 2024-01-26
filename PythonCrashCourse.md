@@ -30,19 +30,26 @@
 - **Used**: When you need an ordered collection of items that can be modified.
 - **Avoid**: When you need a constant collection or fast lookups.
 
-The classic way of creating a list:
+Creating a list:
 
 ```python
+# The most common way (Creating a list with multiple elements)
 my_list = [1, 2, 3] # Create a list
 print(my_list)  # Output: [1, 2, 3]
-```
 
-Using list():
+# or (Creating a new list with the same elements multiple times)
+my_list = [0] * 5
+print(my_list)  # Output: [0, 0, 0, 0, 0]
 
-```python
+# or (creating a list using the range() function):
+my_list = list(range(10))
+print(my_list)  # Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# or (creating a list using the `list()` constructor):
 my_list = list()
 print(my_list)  # Output: []
 
+# or
 my_list = list([1, True, "some string", True])
 print(my_list)  # Output: [1, True, 'some string', True]
 ```
@@ -85,20 +92,6 @@ if "banana" in my_list:
     print("yes")  # Output: yes
 else:
     print("no")
-```
-
-Creating a new list with the same elements multiple times:
-
-```python
-my_list = [0] * 5
-print(my_list)  # Output: [0, 0, 0, 0, 0]
-```
-
-Creating a list using the range function:
-
-```python
-my_list = list(range(10))
-print(my_list)  # Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
 Concatenating lists:
@@ -229,35 +222,24 @@ print(c)  # Output: [3, 4, 5]
 Creating a tuple:
 
 ```python
+# The most common way (Creating a tuple with multiple elements)
 my_tuple = (1, 2, 3)
 print(my_tuple[0])  # Output: 1
-```
 
-Creating a tuple with one element:
-
-```python
+# or (Creating a tuple with one element)
 my_tuple = (1,)  # Note the comma
 print(type(my_tuple))  # Output: <class 'tuple'>
-```
 
-Creating a tuple without parentheses:
-
-```python
+# or (Creating a tuple without parentheses)
 my_tuple = 1, 2, 3
 print(my_tuple)  # Output: (1, 2, 3)
-```
 
-Creating a tuple from a list:
-
-```python
+# or (Creating a tuple from a list)
 my_list = [1, 2, 3]
 my_tuple = tuple(my_list)
 print(my_tuple)  # Output: (1, 2, 3)
-```
 
-Creating a tuple using the `range()` function:
-
-```python
+# or (Creating a tuple using the `tuple()` constructor and the `range()` function):
 my_tuple = tuple(range(10))
 print(my_tuple)  # Output: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
 ```
@@ -431,11 +413,9 @@ Creating a dictionary:
 ```python
 my_dict = {'name': 'John', 'age': 30}
 print(my_dict['name'])  # Output: John; notice that we use square brackets for dictionaries!
-```
 
-Creating a dictionary using the `dict()` constructor:
+# or (using the `dict()` constructor)
 
-```python
 my_dict = dict(name='John', age=30) # Note: no quotes for the keys (only for the values)
 print(my_dict['name'])  # Output: John
 ```
@@ -637,14 +617,26 @@ print(my_dict[(4, 5)])  # Output: 9
 
 ### Sets
 
-- **Explanation**: Unordered collection of unique elements.
-- **Syntax**: `my_set = {1, 2, 3}`
+- **Explanation**: Unordered, mutable collection of unique elements.
+- **Syntax**: `my_set = {1, 2, 3}`; notice that we use curly brackets for sets, just like for dictionaries, but sets don't have key-value pairs.
 - **Used**: When uniqueness matters, and order doesn't.
 - **Avoid**: When you need order or key-value pairs.
 
+Creating a set:
+
 ```python
 my_set = {1, 2, 3, 1}
-print(my_set)  # Output: {1, 2, 3}
+print(my_set)  # Output: {1, 2, 3}; notice that the duplicate element is removed
+
+# or
+
+my_set = set([1, 2, 3, 1])
+print(my_set)  # Output: {1, 2, 3}; notice that the duplicate element is removed
+
+# or
+
+my_set = set()
+print(my_set)  # Output: set()
 ```
 
 **Questions:**
