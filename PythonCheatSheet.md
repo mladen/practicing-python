@@ -2,17 +2,17 @@
 
 ## Data Types and Data Structures
 
-| Type      | Mutable | Ordered | Allows duplicates | Constructor  | Example                        | Collection of   | Note                                                             |
-| --------- | ------- | ------- | ----------------- | ------------ | ------------------------------ | --------------- | ---------------------------------------------------------------- |
-| `int`     | No      |         |                   | `int()`      | `-5`                           |                 | Note: `int` is a whole number                                    |
-| `float`   | No      |         |                   | `float()`    | `3.27`                         |                 | Note: `float` is a decimal number                                |
-| `complex` | No      |         |                   | `complex()`  | `1 + 2j`                       |                 | Note: `complex` is a complex number                              |
-| `bool`    | No      |         |                   | `bool()`     | `True`                         |                 | Note: `bool` is a boolean value; it's a subclass of `int`        |
-| `str`     | No      | Yes     | Yes               | `''` or `""` | `'hello'`                      | characters      | Note: `str` is a sequence of characters                          |
-| `list`    | Yes     | Yes     | Yes               | `[]`         | `[1, 'two', 3.0]`              | elements        | Note: lists are mutable sequences                                |
-| `tuple`   | No      | Yes     | Yes               | `()`         | `(1, 'two', 3.0)`              | elements        | Note: tuples are immutable lists                                 |
-| `set`     | Yes     | No      | No                | `{}`         | `{1, 2, 3}`                    | elements        | Note: set also uses `{}` but it does not contain key-value pairs |
-| `dict`    | Yes     | No      | No                | `{}`         | `{'key1': 1.0, 'key2': False}` | key-value pairs | Note: dict also uses `{}` but it does not contain elements       |
+| Type      | Mutable | Ordered | Allows duplicates | Constructor  | Example                        | Collection of   | Note                                                             | Category       |
+| --------- | ------- | ------- | ----------------- | ------------ | ------------------------------ | --------------- | ---------------------------------------------------------------- | -------------- |
+| `int`     | No      |         |                   | `int()`      | `-5`                           |                 | Note: `int` is a whole number                                    | data type      |
+| `float`   | No      |         |                   | `float()`    | `3.27`                         |                 | Note: `float` is a decimal number                                | data type      |
+| `complex` | No      |         |                   | `complex()`  | `1 + 2j`                       |                 | Note: `complex` is a complex number                              | data type      |
+| `bool`    | No      |         |                   | `bool()`     | `True`                         |                 | Note: `bool` is a boolean value; it's a subclass of `int`        | data type      |
+| `str`     | No      | Yes     | Yes               | `''` or `""` | `'hello'`                      | characters      | Note: `str` is a sequence of characters                          | data type      |
+| `list`    | Yes     | Yes     | Yes               | `[]`         | `[1, 'two', 3.0]`              | elements        | Note: lists are mutable sequences                                | data structure |
+| `tuple`   | No      | Yes     | Yes               | `()`         | `(1, 'two', 3.0)`              | elements        | Note: tuples are immutable lists                                 | data structure |
+| `set`     | Yes     | No      | No                | `{}`         | `{1, 2, 3}`                    | elements        | Note: set also uses `{}` but it does not contain key-value pairs | data structure |
+| `dict`    | Yes     | No      | No                | `{}`         | `{'key1': 1.0, 'key2': False}` | key-value pairs | Note: dict also uses `{}` but it does not contain elements       | data structure |
 
 ## Math Operations
 
