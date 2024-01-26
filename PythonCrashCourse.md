@@ -625,6 +625,9 @@ print(my_dict[(4, 5)])  # Output: 9
 Creating a set:
 
 ```python
+# CORRECT way
+
+# The most common way (Creating a set with multiple elements)
 my_set = {1, 2, 3, 1}
 print(my_set)  # Output: {1, 2, 3}; notice that the duplicate element is removed
 
@@ -635,8 +638,195 @@ print(my_set)  # Output: {1, 2, 3}; notice that the duplicate element is removed
 
 # or
 
+my_set = set("Hello")
+print(my_set)  # Output: {'e', 'H', 'l', 'o'}; notice that the duplicate element is removed; also, the elements are not ordered, because sets are unordered
+
+# or
+
 my_set = set()
 print(my_set)  # Output: set()
+
+# INCORRECT way (check previous example, and examples before for the correct way)
+my_set = {}  # This is wrong! This is an empty dictionary, not an empty set
+```
+
+Adding elements:
+
+```python
+my_set = {1, 2, 3}
+my_set.add(4)
+my_set.add(3)
+my_set.add(8)
+print(my_set)  # Output: {1, 2, 3, 4, 8}; notice that the duplicate element is not added
+print(my_set)
+```
+
+Removing elements:
+
+```python
+my_set = {1, 2, 3}
+my_set.remove(3)
+print(my_set)  # Output: {1, 2}
+# In case the element does not exist, remove() will raise an error
+
+# or
+
+my_set = {1, 2, 3}
+my_set.discard(3)
+print(my_set)  # Output: {1, 2}
+# In case the element does not exist, discard() will NOT raise an error
+
+# or (clearing a set)
+my_set = {1, 2, 3}
+my_set.clear()
+print(my_set)  # Output: set()
+
+# or (removing a random element)
+my_set = {1, 2, 3}
+print(my_set.pop())  # Output: 1; notice that the element removed is random
+```
+
+Iterating over a set:
+
+```python
+my_set = {1, 2, 3}
+for i in my_set:
+    print(i)  # Output: 1 2 3
+```
+
+Checking if an element exists:
+
+```python
+my_set = {1, 2, 3}
+if 1 in my_set:
+    print("yes")  # Output: yes
+else:
+    print("no")
+```
+
+Union and intersection:
+
+> `union()` will not modify the original set (it will return a new set), but `update()` will.
+>
+> > `update()` will add elements from the other set to the original set.
+> > Example: `my_set.update(other_set)` will add all elements from other_set to my_set.
+
+> `intersection()` will not modify the original set (it will return a new set), but `intersection_update()` will.
+>
+> > `intersection_update()` will remove all elements that are not in the other set from the original set.
+> > Example: `my_set.intersection_update(other_set)` will remove all elements from my_set that are not in other_set.
+
+```python
+odds = {1, 3, 5, 7, 9}
+evens = {0, 2, 4, 6, 8}
+primes = {2, 3, 5, 7}
+
+# Union
+u = odds.union(evens)
+print(u)  # Output: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}; if there are duplicates, they are removed
+
+# Intersection
+i = odds.intersection(evens)
+print(i)  # Output: set(); there are no common elements
+
+i = odds.intersection(primes)
+print(i)  # Output: {3, 5, 7}
+```
+
+Difference:
+
+> `difference()` will not modify the original set, (it will return a new set), but `difference_update()` will.
+>
+> > `difference_update()` will remove all elements that are in the other set from the original set
+> > Example: `odds.difference_update(primes)` will remove 3, 5, and 7 from odds.
+
+```python
+setA = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+setB = {1, 2, 3, 10, 11, 12}
+
+# Difference
+diff = setA.difference(setB) # or setA - setB; returns elements that are in setA but not in setB
+print(diff)  # Output: {4, 5, 6, 7, 8, 9}
+
+diff = setB.difference(setA) # or setB - setA; returns elements that are in setB but not in setA
+print(diff)  # Output: {10, 11, 12}
+```
+
+Symmetric difference:
+
+> `symmetric_difference()` will not modify the original set (it will return a new set), but `symmetric_difference_update()` will.
+>
+> > `symmetric_difference_update()` will remove all elements that are in both sets from the original set
+> > Example: `setA.symmetric_difference_update(setB)` will remove 1, 2, and 3 from setA.
+
+```python
+setA = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+setB = {1, 2, 3, 10, 11, 12}
+
+# Symmetric difference
+diff = setA.symmetric_difference(setB) # or setA ^ setB; returns elements that are in setA and setB but not in both
+print(diff)  # Output: {4, 5, 6, 7, 8, 9, 10, 11, 12}; notice that the elements that are in both sets are not included
+```
+
+Subset and superset:
+
+```python
+setA = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+setB = {1, 2, 3}
+
+# Subset
+print(setA.issubset(setB))  # Output: False; checks if all elements of setA are in setB
+print(setB.issubset(setA))  # Output: True
+
+# Superset
+print(setA.issuperset(setB))  # Output: True; checks if all elements of setB are in setA
+print(setB.issuperset(setA))  # Output: False
+```
+
+Disjoint:
+
+```python
+setA = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+setB = {1, 2, 3}
+setC = {10, 11, 12}
+
+# Disjoint
+print(setA.isdisjoint(setB))  # Output: False; checks if setA and setB have no common elements
+print(setA.isdisjoint(setC))  # Output: True
+```
+
+Copying a set:
+
+```python
+# NOT RECOMMENDED because it creates a reference to the original set
+original_set = {1, 2, 3}
+new_set = original_set  # new_set is a reference to original_set
+new_set.add(4) # modifying new_set affects original_set
+print(original_set)  # Output: {1, 2, 3, 4}
+```
+
+```python
+# RECOMMENDED because it creates a copy of the original set
+original_set = {1, 2, 3}
+new_set = original_set.copy()  # new_set is a copy of original_set
+new_set.add(4) # modifying new_set does NOT affect original_set
+print(original_set)  # Output: {1, 2, 3}
+
+# or
+
+original_set = {1, 2, 3}
+new_set = set(original_set)  # new_set is a copy of original_set
+new_set.add(4) # modifying new_set does NOT affect original_set
+print(original_set)  # Output: {1, 2, 3}
+```
+
+Frozen sets:
+
+> Frozen sets are immutable sets. They are created using the `frozenset()` constructor.
+
+```python
+my_set = frozenset([1, 2, 3, 4])
+my_set.add(5)  # Error: AttributeError: 'frozenset' object has no attribute 'add'
 ```
 
 **Questions:**
