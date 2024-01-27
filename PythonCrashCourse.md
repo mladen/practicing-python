@@ -412,12 +412,22 @@ Creating a dictionary:
 
 ```python
 my_dict = {'name': 'John', 'age': 30}
-print(my_dict['name'])  # Output: John; notice that we use square brackets for dictionaries!
+# print(my_dict['name']) # Output: John
+# Notice that we use square brackets for accessing elements,
+# just like for lists, but we use keys instead of indexes
 
 # or (using the `dict()` constructor)
 
 my_dict = dict(name='John', age=30) # Note: no quotes for the keys (only for the values)
+print(my_dict['name']) # Output: John
+```
+
+Accessing elements:
+
+```python
+my_dict = {'name': 'John', 'age': 30}
 print(my_dict['name'])  # Output: John
+# Notice that we use square brackets for accessing elements, just like for lists, but we use keys instead of indexes
 ```
 
 Iterating over a dictionary:
@@ -557,6 +567,8 @@ print(dict1)  # Output: {'name': 'John', 'age': 30, 'location': 'London'}
 dict1 = {'name': 'John', 'age': 30}
 dict2 = {'location': 'London'}
 dict3 = {**dict1, **dict2}
+# Notice: **dict1 unpacks the dictionary, so that we get the key-value pairs as keyword arguments
+# Note: If there are duplicate keys, the last one wins
 print(dict3)  # Output: {'name': 'John', 'age': 30, 'location': 'London'}
 ```
 
@@ -1695,3 +1707,7 @@ These answered questions aim to provide additional clarity and context to each c
 > **3. Can you create your own context manager in Python?**
 >
 > Yes, you can create a context manager by defining a class with `__enter__` and `__exit__` methods or by using the `contextlib` module's `contextmanager` decorator.
+
+```
+
+```
