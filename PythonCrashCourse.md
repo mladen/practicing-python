@@ -1190,16 +1190,113 @@ print(d)  # Output: deque([3, 2, 1, 4, 5, 6])
 
 ### Itertools
 
-- **Explanation**: Module providing fast, memory-efficient tools.
+- **Explanation**: Module providing fast, memory-efficient (advanced) tools for handling iterators.
+  > Iterators are data types that can be used in a `for` loop.\
+  > The most common iterator in Python is the list. The tools are: `product()`, `permutations()`, `combinations()`, `accumulate()`, `groupby()` and infinite iterators like `count()`, `cycle()`, `repeat()` etc.
 - **Syntax**: `from itertools import combinations`
 - **Used**: When dealing with iterators and combinatorial functions.
 - **Avoid**: For simple iteration over lists or ranges.
 
+Creating iterators:
+
+Product:
+
+> The Cartesian product of two sets A and B is the set of all ordered pairs (a, b) where a ∈ A and b ∈ B.
+
 ```python
-from itertools import combinations
-my_list = [1, 2, 3]
-comb = combinations(my_list, 2)
-print(list(comb))  # Output: [(1, 2), (1, 3), (2, 3)]
+from itertools import product
+a = [1, 2]
+b = [3, 4]
+prod = product(a, b) # this gives us a Cartesian product of the two lists
+print(list(prod))  # Output: [(1, 3), (1, 4), (2, 3), (2, 4)]; notice that the result is a list of tuples
+```
+
+Permutations:
+
+> Permutations are the different ways in which a collection of items can be arranged, where the order of the arrangement matters.
+
+```python
+from itertools import permutations
+a = [1, 2, 3]
+perm = permutations(a) # this gives us all the possible permutations of the list
+print(list(perm))  # Output: [(1, 2, 3), (1, 3, 2), (2, 1, 3), (2, 3, 1), (3, 1, 2), (3, 2, 1)]; notice that the result is a list of tuples
+
+# or (we can also specify the length of the permutation)
+perm = permutations(a, 2) # this gives us all the possible permutations of length 2
+print(list(perm))  # Output: [(1, 2), (1, 3), (2, 1), (2, 3), (3, 1), (3, 2)]; notice that the result is a list of tuples
+```
+
+Combinations:
+
+> Combinations are the different ways in which a collection of items can be selected, where order of selection does not matter.
+
+```python
+from itertools import combinations, combinations_with_replacement
+a = [1, 2, 3, 4]
+comb = combinations(a, 2) # this gives us all the possible combinations of length 2
+print(list(comb))  # Output: [(1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4)]; notice that the result is a list of tuples
+
+comb_wr = combinations_with_replacement(a, 2) # this gives us all the possible combinations with replacement of length 2
+print(list(comb_wr))  # Output: [(1, 1), (1, 2), (1, 3), (1, 4), (2, 2), (2, 3), (2, 4), (3, 3), (3, 4), (4, 4)]; notice that the result is a list of tuples
+```
+
+Accumulate:
+
+> `accumulate()` makes an iterator that returns accumulated sums, or accumulated results of other binary functions (specified via the optional func argument).
+
+```python
+from itertools import accumulate
+a = [1, 2, 3, 4]
+acc = accumulate(a) # this gives us the accumulated sums by default(!)
+print(list(acc))  # Output: [1, 3, 6, 10]; notice that the result is a list of integers
+
+# or (we can also specify the function)
+import operator
+acc = accumulate(a, func=operator.mul) # this gives us the accumulated products
+print(list(acc))  # Output: [1, 2, 6, 24]; notice that the result is a list of integers
+```
+
+Groupby:
+
+> `groupby()` makes an iterator that returns consecutive keys and groups from the iterable. The key is a function computing a key value for each element. If not specified or is `None`, key defaults to an identity function and returns the element unchanged. Generally, the iterable needs to already be sorted on the same key function.
+
+```python
+from itertools import groupby
+def smaller_than_3(x):
+    return x < 3
+
+a = [1, 2, 3, 4]
+group_obj = groupby(a, key=smaller_than_3) # this gives us the elements grouped by the key function
+for key, value in group_obj:
+    print(key, list(value))  # Output: True [1, 2]; False [3, 4]; notice that the result is a list of integers
+
+# or (we can also use lambda functions)
+group_obj = groupby(a, key=lambda x: x < 3) # this gives us the elements grouped by the key function
+for key, value in group_obj:
+    print(key, list(value))  # Output: True [1, 2]; False [3, 4]; notice that the result is a list of integers
+```
+
+Infinite iterators:
+
+> `count(start=0, step=1)` counts up infinitely from `start` by `step`.
+> `cycle(iterable)` infinitely iterates over elements of `iterable`.
+> `repeat(object, times=None)` repeats `object` infinitely, unless the `times` argument is specified.
+
+```python
+from itertools import count, cycle, repeat
+for i in count(10): # this will count up infinitely from 10
+    print(i)  # Output: 10 11 12 13 14 15 16 17 18 19 20 ...
+    if i == 15:
+        break
+
+a = [1, 2, 3]
+for i in cycle(a): # this will infinitely iterate over the elements of the list
+    print(i)  # Output: 1 2 3 1 2 3 1 2 3 1 2 3 ...
+    if i == 3:
+        break
+
+for i in repeat(1, 4): # this will repeat the element 1 four times
+    print(i)  # Output: 1 1 1 1
 ```
 
 **Questions:**

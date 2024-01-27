@@ -107,8 +107,8 @@ Practicing Python by going through several (free and paid) courses
   - [x] 3. Dictionaries (82K views, 4 years ago, 13:05)
   - [x] 4. Sets (28K views, 4 years ago, 16:19)
   - [x] 5. Strings (34K views, 4 years ago, 24:16)
-  - [ ] 6. Collections (83K views, 4 years ago, 14:10)
-  - [ ] 7. Itertools (47K views, 4 years ago, 15:23)
+  - [x] 6. Collections (83K views, 4 years ago, 14:10)
+  - [ ] 7. Itertools (47K views, 4 years ago, 15:23) [**watch again**]
   - [ ] 8. Lambda (44K views, 4 years ago, 12:21)
   - [ ] 9. Exceptions (22K views, 4 years ago, 16:20)
   - [ ] 10. Logging (50K views, 4 years ago, 22:29)
