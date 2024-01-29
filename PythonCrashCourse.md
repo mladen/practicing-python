@@ -422,7 +422,7 @@ my_dict = dict(name='John', age=30) # Note: no quotes for the keys (only for the
 print(my_dict['name']) # Output: John
 ```
 
-Accessing elements:
+Accessing values:
 
 ```python
 my_dict = {'name': 'John', 'age': 30}
@@ -430,27 +430,51 @@ print(my_dict['name'])  # Output: John
 # Notice that we use square brackets for accessing elements, just like for lists, but we use keys instead of indexes
 ```
 
-Iterating over a dictionary:
+Updating a dictionary:
 
 ```python
 my_dict = {'name': 'John', 'age': 30}
-for key in my_dict:
-    print(key, my_dict[key])  # Output: name John \n age 30
+my_dict['name'] = 'Max' # dictionaries are mutable, so we can update them
+print(my_dict)  # Output: {'name': 'Max', 'age': 30}
 
 # or
 
-for key, value in my_dict.items():
-    print(key, value)  # Output: name John \n age 30
+my_dict = {'name': 'John', 'age': 30, "email": "john@xyz.com"}
+my_dict.update({'name': 'Max', 'age': 30, city: "New York"})
+# my_dict.update(name='Max', age=30, city="New York")  # same as above
+print(my_dict)  # Output: {'name': 'Max', 'age': 30, 'email': 'john@xyz', 'city': 'New York'}
+# Notice: If there are duplicate keys, the last one wins
+```
+
+Deleting a key-value pair:
+
+```python
+my_dict = {'name': 'John', 'age': 30}
+del my_dict['name']
+print(my_dict)  # Output: {'age': 30}
 
 # or
 
-for value in my_dict.values():
-    print(value)  # Output: John \n 30
+# Deleting a specific key-value pair and returning the value
+my_dict = {'name': 'John', 'age': 30}
+my_dict.pop('name')
+print(my_dict)  # Output: {'age': 30}
+```
 
-# or
+Deleting all elements:
 
-for key in my_dict.keys():
-    print(key)  # Output: name \n age
+```python
+my_dict = {'name': 'John', 'age': 30}
+my_dict.clear()
+print(my_dict)  # Output: {}
+```
+
+Deleting the last inserted key-value pair (Python 3.7+):
+
+```python
+my_dict = {'name': 'John', 'age': 30}
+my_dict.popitem()
+print(my_dict)  # Output: {'name': 'John'}
 ```
 
 Checking if a key exists:
@@ -473,56 +497,27 @@ except KeyError:
     print("Error")
 ```
 
-Deleting a key-value pair:
+Iterating over a dictionary:
 
 ```python
 my_dict = {'name': 'John', 'age': 30}
-del my_dict['name']
-print(my_dict)  # Output: {'age': 30}
-```
+for key in my_dict:
+    print(key, my_dict[key])  # Output: name John \n age 30
 
-Deleting all elements:
+# or
 
-```python
-my_dict = {'name': 'John', 'age': 30}
-my_dict.clear()
-print(my_dict)  # Output: {}
-```
+for key, value in my_dict.items(): # items() returns a list of key-value pairs
+    print(key, value)  # Output: name John \n age 30
 
-Deleting the last inserted key-value pair:
+# or
 
-```python
-my_dict = {'name': 'John', 'age': 30}
-my_dict.popitem()
-print(my_dict)  # Output: {'name': 'John'}
-```
+for value in my_dict.values(): # values() returns a list of values in the dictionary
+    print(value)  # Output: John \n 30
 
-Getting the number of elements:
+# or
 
-```python
-my_dict = {'name': 'John', 'age': 30}
-print(len(my_dict))  # Output: 2
-```
-
-Getting a list of keys:
-
-```python
-my_dict = {'name': 'John', 'age': 30}
-print(my_dict.keys())  # Output: dict_keys(['name', 'age'])
-```
-
-Getting a list of values:
-
-```python
-my_dict = {'name': 'John', 'age': 30}
-print(my_dict.values())  # Output: dict_values(['John', 30])
-```
-
-Getting a list of key-value pairs:
-
-```python
-my_dict = {'name': 'John', 'age': 30}
-print(my_dict.items())  # Output: dict_items([('name', 'John'), ('age', 30)])
+for key in my_dict.keys(): # keys() returns a list of keys in the dictionary
+    print(key)  # Output: name \n age
 ```
 
 Copying a dictionary:
@@ -572,34 +567,10 @@ dict3 = {**dict1, **dict2}
 print(dict3)  # Output: {'name': 'John', 'age': 30, 'location': 'London'}
 ```
 
-Updating a dictionary:
-
-```python
-my_dict = {'name': 'John', 'age': 30}
-my_dict['name'] = 'Max'
-print(my_dict)  # Output: {'name': 'Max', 'age': 30}
-
-# or
-
-my_dict = {'name': 'John', 'age': 30}
-my_dict.update({'name': 'Max', 'age': 30})
-# my_dict.update(name='Max', age=30)  # same as above
-print(my_dict)  # Output: {'name': 'Max', 'age': 30}
-```
-
-Unpacking a dictionary:
-
-```python
-my_dict = {'name': 'John', 'age': 30}
-name, age = my_dict.items()
-print(name)  # Output: ('name', 'John')
-print(age)  # Output: ('age', 30)
-```
-
 Key types in dictionaries:
 
 > - Keys must be immutable (strings, numbers, or tuples with immutable elements).
-> - Lists cannot be used as keys because they are mutable.
+> - Lists cannot be used as keys because they are mutable, which means they can be modified after creation.
 
 ```python
 my_dict = {3: 9, 6: 36, 9: 81} # int as a key
@@ -609,6 +580,25 @@ print(my_dict[3])  # Output: 9
 
 my_dict = {(1, 2, 3): 6, (4, 5): 9} # tuple as a key
 print(my_dict[(4, 5)])  # Output: 9
+```
+
+Getting a list of keys, values, or key-value pairs:
+
+```python
+my_dict = {'name': 'John', 'age': 30}
+print(len(my_dict))  # Output: 2
+
+# Getting a list of keys:
+my_dict = {'name': 'John', 'age': 30}
+print(my_dict.keys())  # Output: dict_keys(['name', 'age'])
+
+# Getting a list of values:
+my_dict = {'name': 'John', 'age': 30}
+print(my_dict.values())  # Output: dict_values(['John', 30])
+
+# Getting a list of key-value pairs:
+my_dict = {'name': 'John', 'age': 30}
+print(my_dict.items())  # Output: dict_items([('name', 'John'), ('age', 30)])
 ```
 
 **Questions:**
