@@ -23,7 +23,7 @@
   - [Shallow vs Deep Copying](#shallow-vs-deep-copying)
   - [Context managers](#context-managers)
 
-### Lists
+## Lists
 
 - **Explanation**: Ordered, mutable collection of elements, allowing duplicates
 - **Syntax**: `my_list = [1, 2, 3]`, `my_list = list([1, 2, 3])`, `my_list = list()`, `my_list = []`
@@ -210,9 +210,7 @@ print(c)  # Output: [3, 4, 5]
 >
 > - List comprehensions provide a concise way to create lists. Example: `[x**2 for x in range(5)]`.
 
----
-
-### Tuples
+## Tuples
 
 - **Explanation**: Ordered, immutable (cannot be modified after creation) collection of elements. Also, it allows duplicates.
 - **Syntax**: `my_tuple = (1, 2, "Max")`, `my_tuple = 1, 2, "Max"`, `my_tuple = tuple([1, 2, "Max"])`, `my_tuple = tuple()`, `my_tuple = ()`
@@ -399,9 +397,7 @@ print(timeit.timeit(stmt="(1, 2, 3, 4, 5)", number=1000000))  # Output: 0.012 (s
 > - Tuples are used for parallel assignment, while lists cannot be used for parallel assignment.
 > - Tuples are used for returning multiple values from a function, while lists cannot be used for returning multiple values from a function.
 
----
-
-### Dictionaries
+## Dictionaries
 
 - **Explanation**: Unordered collection of key-value pairs. Allows duplicates. Keys must be unique but values can be duplicated. Mutable.
 - **Syntax**: `my_dict = {'key': 'value', 'name': 'Max'}`
@@ -615,9 +611,7 @@ print(my_dict.items())  # Output: dict_items([('name', 'John'), ('age', 30)])
 >
 > - You can use the `update()` method or dictionary unpacking: `merged_dict = {**dict1, **dict2}`.
 
----
-
-### Sets
+## Sets
 
 - **Explanation**: Unordered, mutable collection of unique elements.
 - **Syntax**: `my_set = {1, 2, 3}`; notice that we use curly brackets for sets, just like for dictionaries, but sets don't have key-value pairs.
@@ -845,9 +839,7 @@ my_set.add(5)  # Error: AttributeError: 'frozenset' object has no attribute 'add
 >
 > - No, sets can only contain hashable (immutable) elements.
 
----
-
-### Strings
+## Strings
 
 - **Explanation**: Ordered, immutable collection of characters.
 - **Syntax**: `my_string = "Hello"`
@@ -1055,9 +1047,7 @@ print(my_string)  # Output: the variable is Tom
 >
 > - Methods like `split()`, `strip()`, `replace()`, and formatting with `format()` or f-strings.
 
----
-
-### Collections
+## Collections
 
 - **Explanation**: Collection module providing specialized container datatypes and provides alternatives (with some additional functionalities) to Python's general purpose built-in containers, dict, list, set, and tuple. Those alternatives are Counter, namedtuple, OrderedDict, defaultdict, deque (as well as UserDict and ChainMap).
 - **Syntax**: `from collections import Counter, defaultdict`
@@ -1188,9 +1178,7 @@ print(d)  # Output: deque([3, 2, 1, 4, 5, 6])
 >
 > - `defaultdict` is used when you want a dictionary with default values for new keys.
 
----
-
-### Itertools
+## Itertools
 
 - **Explanation**: Module providing fast, memory-efficient (advanced) tools for handling iterators.
   > Iterators are data types that can be used in a `for` loop.\
@@ -1315,9 +1303,7 @@ for i in repeat(1, 4): # this will repeat the element 1 four times
 >
 > - `itertools.chain(iterable1, iterable2, ...)` combines multiple iterables into a single iterable.
 
----
-
-### Lambda Functions
+## Lambda Functions
 
 - **Explanation**: Anonymous, one-liner functions.
 - **Syntax**: `lambda x: x * 2`
@@ -1347,7 +1333,7 @@ This cheat sheet provides concise information about each concept, along with exa
 
 Certainly! Here's a Python cheat sheet for the mentioned concepts:
 
-### Exceptions and Errors
+## Exceptions and Errors
 
 - **Explanation**: Events that occur during program execution that disrupt normal flow.
 - **Syntax**:
@@ -1384,7 +1370,7 @@ Certainly! Here's a Python cheat sheet for the mentioned concepts:
 >
 > `except Exception` catches any exception, including built-in and custom exceptions. On the other hand, `except SomeSpecificException` catches only instances of the specified exception class, providing more targeted exception handling.
 
-### Logging
+## Logging
 
 - **Explanation**: Recording information about events for analysis.
 - **Syntax**:
@@ -1410,7 +1396,7 @@ Certainly! Here's a Python cheat sheet for the mentioned concepts:
 >
 > Log formatting allows you to define the structure of log messages. It includes information such as the timestamp, log level, and the actual log message. Proper log formatting improves readability and consistency in logs.
 
-### JSON
+## JSON
 
 - **Explanation**: Data interchange format based on JavaScript object syntax.
 - **Syntax**:
@@ -1436,7 +1422,7 @@ Certainly! Here's a Python cheat sheet for the mentioned concepts:
 >
 > By default, JSON can represent basic data types like strings, numbers, lists, and dictionaries. To represent custom objects, you may need to implement custom serialization using the `default` parameter of `json.dumps()`.
 
-### Random numbers
+## Random numbers
 
 - **Explanation**: Generating pseudo-random numbers.
 - **Syntax**:
@@ -1461,7 +1447,7 @@ Certainly! Here's a Python cheat sheet for the mentioned concepts:
 >
 > `random.seed()` initializes the random number generator with a given seed value. Using a seed ensures reproducibility, meaning the same sequence of random numbers will be generated if the seed is the same.
 
-### Decorators
+## Decorators
 
 - **Explanation**: Modify or extend the behavior of functions or methods.
 - **Syntax**:
@@ -1498,7 +1484,7 @@ Certainly! Here's a Python cheat sheet for the mentioned concepts:
 
 These answered questions aim to provide additional clarity and context to each concept.
 
-### Generators
+## Generators
 
 - **Explanation**: Specialized iterators that allow lazy, on-the-fly generation of values.
 - **Syntax**:
@@ -1524,7 +1510,7 @@ These answered questions aim to provide additional clarity and context to each c
 >
 > The `yield` keyword is used to produce a value from the generator and temporarily suspend its state until the next iteration.
 
-### Threading vs Multiprocessing
+## Threading vs Multiprocessing
 
 - **Explanation**: Concurrent execution using threads or processes.
 - **Syntax**:
@@ -1549,7 +1535,7 @@ These answered questions aim to provide additional clarity and context to each c
 >
 > The Global Interpreter Lock (GIL) in CPython prevents multiple native threads from executing Python bytecodes concurrently, limiting the effectiveness of multithreading for CPU-bound tasks.
 
-### Multithreading
+## Multithreading
 
 - **Explanation**: Concurrent execution using multiple threads within a single process.
 - **Syntax**:
@@ -1573,7 +1559,7 @@ These answered questions aim to provide additional clarity and context to each c
 >
 > The `threading.Lock` class is used to synchronize access to shared resources among multiple threads. It ensures that only one thread can acquire the lock at a time.
 
-### Multiprocessing
+## Multiprocessing
 
 - **Explanation**: Concurrent execution using multiple processes.
 - **Syntax**:
@@ -1597,7 +1583,7 @@ These answered questions aim to provide additional clarity and context to each c
 >
 > Inter-process communication (IPC) is a mechanism for processes to communicate and share data. In multiprocessing, it's essential for coordinating tasks and exchanging information between processes.
 
-### Function arguments
+## Function arguments
 
 - **Explanation**: Values passed to a function during its invocation.
 - **Syntax**:
@@ -1622,7 +1608,7 @@ These answered questions aim to provide additional clarity and context to each c
 >
 > Default values for function arguments can be specified in the function definition, providing a fallback when the argument is not explicitly passed.
 
-### The Asterisk (\*) operator
+## The Asterisk (\*) operator
 
 - **Explanation**: Performs various operations, such as unpacking.
 - **Syntax**:
@@ -1647,7 +1633,7 @@ These answered questions aim to provide additional clarity and context to each c
 >
 > The `*` operator can be nested to unpack elements from multiple nested iterables simultaneously.
 
-### Shallow vs Deep Copying
+## Shallow vs Deep Copying
 
 - **Explanation**: Creating copies of objects with different levels of depth.
 - **Syntax**:
@@ -1673,7 +1659,7 @@ These answered questions aim to provide additional clarity and context to each c
 >
 > Deep copy is necessary when you want a completely independent copy of an object, including all nested objects.
 
-### Context managers
+## Context managers
 
 - **Explanation**: Objects managing resources using the `with` statement.
 - **Syntax**:
