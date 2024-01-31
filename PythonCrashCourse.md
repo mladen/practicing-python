@@ -1305,17 +1305,87 @@ for i in repeat(1, 4): # this will repeat the element 1 four times
 
 ## Lambda Functions
 
-- **Explanation**: Anonymous, one-liner functions.
-- **Syntax**: `lambda x: x * 2`
-- **Used**: When a small function is needed for a short period.
+- **Explanation**: Anonymous (without a name), one-liner functions.
+- **Syntax**: `lambda arguments: expression` (which returns the result), e.g. `lambda x: x * 2`
+- **Used**: When a small function is needed for a short period (like one-time use) or it is used as an argument for a higher-order function like `map()`, `filter()`, `reduce()`, `sorted()`, `min()`, `max()`, `sum()`, `all()`, `any()`, `apply()`, `count()`, `enumerate()`, `len()`, `list()`, `round()`, `sorted()`, `zip()`, etc.
+  > Higher-order functions are functions that take other functions as arguments or return them as results.
 - **Avoid**: For complex logic or functions that require multiple lines.
+
+Creating a lambda function:
 
 ```python
 multiply_by_two = lambda x: x * 2
 print(multiply_by_two(3))  # Output: 6
+
+# With multiple arguments
+add_two_numbers = lambda x, y: x + y
+print(add_two_numbers(3, 4))  # Output: 7
+
+# With default arguments
+points2D = [(1, 2), (15, 1), (5, -1), (10, 4)]
+points2D_sorted = sorted(points2D) # this will sort the list of tuples based on the first element of each tuple
+print(points2D_sorted)  # Output: [(1, 2), (5, -1), (10, 4), (15, 1)]; sorted() uses the default sorting criteria (the first element of each tuple); of course, we can also use a lambda function for the sorting criteria
+
+# Here is an example of using a lambda function for the sorting criteria:
+
+# sorted() function takes a key argument, which is a function that is called on each list element before comparing it to other elements
+# For example, if we want to sort a list of tuples based on the second element of each tuple, we can do the following
+a = [(1, 2), (4, 1), (9, 10), (13, -3)]
+a.sort(key=lambda x: x[1]) # this will sort the list of tuples based on the second element of each tuple
+print(a)  # Output: [(13, -3), (4, 1), (1, 2), (9, 10)]
+
+# Now, we'll sort by the sum of each tuple:
+
+a = [(1, 2), (4, 1), (9, 10), (13, -3)]
+a.sort(key=lambda x: x[0] + x[1]) # this will sort the list of tuples based on the sum of each tuple
+print(a)  # Output: [(1, 2), (4, 1), (13, -3), (9, 10)]
 ```
 
-This cheat sheet provides concise information about each concept, along with examples for better understanding.
+map() function:
+
+> map() transforms each element with a function and returns an iterator of results.
+> map() transforms each element of an iterable based on a function and returns an iterator of results.
+> Syntax: `map(function, iterable)`; iterable can be a list, tuple, set, etc.
+
+```python
+original_list = [1, 2, 3, 4, 5]
+mapped_list = map(lambda x: x * 2, original_list) # this will multiply each element of the list by 2
+print(list(mapped_list))  # Output: [2, 4, 6, 8, 10]; we had to convert the iterator to a list to print it because the result of map() is an map object (iterator)
+
+# or (we can also achieve the same with a list comprehension)
+
+original_list = [1, 2, 3, 4, 5]
+mapped_list = [x * 2 for x in original_list]
+print(mapped_list)  # Output: [2, 4, 6, 8, 10]
+```
+
+filter() function:
+
+> filter() returns an iterator yielding those items of iterable for which function(item) returns true.
+
+```python
+original_list = [1, 2, 3, 4, 5]
+filtered_list = filter(lambda x: x % 2 == 0, original_list) # this will filter out the odd numbers
+print(list(filtered_list))  # Output: [2, 4]; we had to convert the iterator to a list to print it because the result of filter() is an filter object (iterator)
+
+# or (we can also achieve the same with a list comprehension)
+
+original_list = [1, 2, 3, 4, 5]
+filtered_list = [x for x in original_list if x % 2 == 0]
+print(filtered_list)  # Output: [2, 4]
+```
+
+reduce() function:
+
+> reduce() applies a rolling computation to sequential pairs of values in a list.
+> reduce() always has two arguments because it always works on two elements at a time.
+
+```python
+from functools import reduce
+original_list = [1, 2, 3, 4, 5]
+reduced_list = reduce(lambda x, y: x + y, original_list) # this will sum all the elements of the list
+print(reduced_list)  # Output: 15
+```
 
 **Questions:**
 
@@ -1330,8 +1400,6 @@ This cheat sheet provides concise information about each concept, along with exa
 > 3. **Are there any limitations or scenarios where lambda functions are not suitable?**
 >
 > - Lambdas are limited to a single expression, making them unsuitable for complex logic or functions with multiple statements. Use regular functions in such cases.
-
-Certainly! Here's a Python cheat sheet for the mentioned concepts:
 
 ## Exceptions and Errors
 
