@@ -443,8 +443,11 @@ Practicing Python by going through several (free and paid) courses
 
 ### Python game engines
 
-- https://www.pygame.org/news
-- https://www.ursinaengine.org/
+- [PyGame](https://www.pygame.org/news)
+- [Pyglet](https://pyglet.org/)
+- [Python Arcade](https://api.arcade.academy/en/latest/)
+- [Panda3D](https://www.panda3d.org/)
+- [Ursina](https://www.ursinaengine.org/)
 
 ## Python automation
 
