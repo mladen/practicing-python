@@ -291,6 +291,7 @@ Practicing Python by going through several (free and paid) courses
 
 ## Python project ideas (I'll do the most interesting ones)
 
+- [ ] [Anthony Madorsky - Pathfinding algorithm comparison: Dijkstra's vs. A\* (A-Star)](https://www.youtube.com/watch?v=BR4_SrTWbMw)
 - [ ] [Tech With Tim - Web Scraping 101: A Million Dollar Project Idea](https://www.youtube.com/watch?v=DJnH0jR8y5Q)
 - [ ] [Tech With Tim (playlist) - Mini Python Projects!](https://www.youtube.com/playlist?list=PLzMcBGfZo4-kBvY2DaxdSvoN_jGpzbw5V)
 
@@ -445,6 +446,7 @@ Practicing Python by going through several (free and paid) courses
 
 - [PyGame](https://www.pygame.org/news)
 - [Pyglet](https://pyglet.org/)
+  - [Pyglet is perhaps the BEST Game Engine for Python](https://www.youtube.com/watch?v=KbiRYkoBV34)
 - [Python Arcade](https://api.arcade.academy/en/latest/)
 - [Panda3D](https://www.panda3d.org/)
 - [Ursina](https://www.ursinaengine.org/)
