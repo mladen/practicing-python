@@ -10,6 +10,10 @@
   - [Itertools](#itertools)
   - [Lambda Functions](#lambda-functions)
   - [Exceptions and Errors](#exceptions-and-errors)
+    - [Syntax errors](#syntax-errors)
+    - [Exceptions](#exceptions)
+      - [Raising exceptions](#raising-exceptions)
+      - [Custom exceptions](#custom-exceptions)
   - [Logging](#logging)
   - [JSON](#json)
   - [Random numbers](#random-numbers)
@@ -1403,7 +1407,7 @@ print(reduced_list)  # Output: 15
 
 ## Exceptions and Errors
 
-- **Explanation**: Events that occur during program execution that disrupt normal flow.
+- **Explanation**: Events that occur during program execution that disrupt normal flow. Errors can be syntax errors or exceptions.
 - **Syntax**:
   ```python
   try:
@@ -1417,6 +1421,153 @@ print(reduced_list)  # Output: 15
   ```
 - **Used**: Handling unexpected situations to prevent program termination.
 - **Avoid**: Using exceptions for control flow.
+
+### Syntax errors
+
+Syntax errors occurs when the parses encounters an incorrect statement:
+
+```python
+a = 5 print(a)  # Error: SyntaxError: invalid syntax; missing a semicolon
+
+# or
+
+print("Hello World"  # Error: SyntaxError: unexpected EOF while parsing; missing a closing parenthesis
+```
+
+### Exceptions
+
+Even if a statement is syntactically correct, it may cause an error when executed. Errors detected during execution are called exceptions (or exception error) and are not unconditionally fatal. \
+There are several different error classes, all of which are subclasses of `BaseException`.
+
+```python
+# Trying to add a string and an integer; raises a TypeError
+a = 5 + "10"  # Error: TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+# or
+
+# Importing a module that does not exist; raises a ModuleNotFoundError (Python 3.6+)
+import somemodule  # Error: ModuleNotFoundError: No module named 'somemodule'
+
+# or
+
+# Accessing an undefined variable; raises a NameError
+print(b)  # Error: NameError: name 'b' is not defined
+
+# or
+
+# Opening a file that does not exist; raises a FileNotFoundError
+with open('file.txt') as f:  # Error: FileNotFoundError: [Errno 2] No such file or directory: 'file.txt'
+    print(f.read())
+
+# or
+
+# Trying to convert a string that is not a number to an integer; raises a ValueError
+# If a function, or operation, receives an argument of the correct type but an inappropriate value, it may still raise a ValueError
+a = [1, 2, 3]
+a.remove(4)  # Error: ValueError: list.remove(x): x not in list
+
+# or
+
+# Accessing a non-existent index in a list; raises an IndexError
+a = [1, 2, 3]
+print(a[4])  # Error: IndexError: list index out of range
+
+# Accessing a non-existent key in a dictionary; raises a KeyError
+my_dict = {"name": "John", "age": 30, "city": "New York"}
+print(my_dict["job"])  # Error: KeyError: 'job'
+
+# or
+
+# Division by zero; raises a ZeroDivisionError
+a = 5 / 0  # Error: ZeroDivisionError: division by zero
+```
+
+#### Raising exceptions
+
+If we want to raise an exception ourselves (when a certain condition is met), we can use the `raise` keyword:
+
+```python
+x = -5
+if x < 0:
+    # raising a BaseException
+    raise Exception("x should be positive")  # Error: Exception: x should be positive
+```
+
+Second way to raise an exception is using the `assert` statement:
+
+```python
+x = -5
+assert (x >= 0), "x should be positive"  # Error: AssertionError: x should be positive
+```
+
+If we want to handle exceptions, we can use the `try`, `except`, `else`, and `finally` blocks:
+
+```python
+try:
+    a = 5 / 0
+except ZeroDivisionError as e:
+    # The program will continue executing after the exception is handled
+    print("An error occurred:", e)  # Output: An error occurred: division by zero
+else:
+    print("No exceptions occurred")  # This will not be executed
+finally:
+    print("This will be executed no matter what")  # Output: This will be executed no matter what
+```
+
+> HINT: The `else` block is executed only if no exceptions are raised in the corresponding `try` block. It provides a way to specify code that should run when no exceptions occur.
+>
+> HINT: The `finally` block is always executed, regardless of whether an exception occurred or not. It provides a way to specify code that should run no matter what.
+
+We can also catch the type of exception:
+
+```python
+try:
+    a = 5 / 0
+except Exception as e:
+    print("An error occurred:", e)  # Output: An error occurred: division by zero
+    # The error "division by zero" is an instance of the ZeroDivisionError class
+```
+
+> HINT: It is a good practice to catch specific exceptions and handle them accordingly. Catching all exceptions with `except Exception` is not recommended. Basically, we need to know what exceptions we are catching and why.
+
+We can also have multiple statements in the `except` block:
+
+```python
+try:
+    a = 5 / 1
+    b = a + "10"
+except ZeroDivisionError as e:
+    print("An error occurred:", e)  # This will not be executed
+except TypeError as e:
+    print("An error occurred:", e)  # Output: An error occurred: unsupported operand type(s) for +: 'float' and 'str'
+```
+
+#### Custom exceptions
+
+We can define our own Error classes by subclassing the `BaseException` class:
+
+```python
+class ValueTooHighError(Exception): # 'Exception' is the base class for all exceptions
+    pass
+
+class ValueTooLowError(Exception):
+    def __init__(self, message, value):
+        self.message = message
+        self.value = value
+
+def test_value(x):
+    if x > 100:
+        raise ValueTooHighError("Value is too high")
+    if x < 5:
+        raise ValueTooLowError("Value is too low", x)
+
+try:
+    test_value(200)
+except ValueTooHighError as e:
+    print(e)  # Output: Value is too high
+except ValueTooLowError as e:
+    print(e.message, e.value)  # Output: Value is too low 3
+```
 
 **Questions:**
 
