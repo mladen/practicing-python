@@ -16,16 +16,11 @@
       - [Custom exceptions](#custom-exceptions)
   - [Logging](#logging)
   - [JSON](#json)
+    - [Converting Python dictionaries to JSON format](#converting-python-dictionaries-to-json-format)
+    - [Converting JSON data to Python dictionaries](#converting-json-data-to-python-dictionaries)
+    - [Encoding custom(!) objects to JSON (HINT: using the `default` parameter)](#encoding-custom-objects-to-json-hint-using-the-default-parameter)
+    - [Decoding custom(!) objects from JSON (HINT: using the `object_hook` parameter)](#decoding-custom-objects-from-json-hint-using-the-object_hook-parameter)
   - [Random numbers](#random-numbers)
-  - [Decorators](#decorators)
-  - [Generators](#generators)
-  - [Threading vs Multiprocessing](#threading-vs-multiprocessing)
-  - [Multithreading](#multithreading)
-  - [Multiprocessing](#multiprocessing)
-  - [Function arguments](#function-arguments)
-  - [The Asterisk (\*) operator](#the-asterisk--operator)
-  - [Shallow vs Deep Copying](#shallow-vs-deep-copying)
-  - [Context managers](#context-managers)
 
 ## Lists
 
@@ -1617,7 +1612,7 @@ except ValueTooLowError as e:
 
 ## JSON
 
-- **Explanation**: Data interchange format based on JavaScript object syntax.
+- **Explanation**: Data interchange format based on JavaScript object syntax. JSON is a shorthand for JavaScript Object Notation.
 - **Syntax**:
   ```python
   import json
@@ -1626,6 +1621,179 @@ except ValueTooLowError as e:
   ```
 - **Used**: Sending and receiving data between systems.
 - **Avoid**: Storing sensitive or large binary data.
+
+> NOTE: Python already has a built-in package for working with JSON, so you don't need to install anything to get started.
+
+Now we'll see how to encode and decode JSON data.
+
+JSON data looks similar to Python dictionaries, but there are some differences. For example, JSON keys must be strings, and JSON values must be one of the following data types: string, number, object (JSON object), array, boolean, null.
+Example:
+
+```python
+{
+    "name": "John",
+    "age": 30,
+    "is_student": true,
+    "courses": ["Math", "Physics", "Computer Science"],
+    "hobbies": ["Reading", "Hiking"],
+    "hasChildren": false,
+    "address": [
+        {
+            "type": "home",
+            "city": "New York",
+            "zip": "10001",
+            "street": "123 Main St"
+        },
+        {
+            "type": "work",
+            "city": "New York",
+            "zip": "10001",
+            "street": "456 Elm St"
+        }
+    ],
+}
+```
+
+SON supports primitive types (strings, numbers, boolean), as well as nested arrays and objects. Simple Python objects are translated to JSON according to the following conversion:
+
+| Python           | JSON   |
+| ---------------- | ------ |
+| dict             | object |
+| list, tuple      | array  |
+| str              | string |
+| int, long, float | number |
+| True             | true   |
+| False            | false  |
+| None             | null   |
+
+#### Converting Python dictionaries to JSON format
+
+We can convert Python dictionaries to JSON format using the `json.dumps()` function:
+
+> This is called serialization or encoding.
+
+```python
+import json
+data = {'name': 'John', 'age': 30, 'city': 'New York'}
+personJSON = json.dumps(data, indent=4, sort_keys=True)
+# the indent parameter is optional and makes the output more readable
+# the sort_keys parameter is optional and sorts the keys alphabetically
+# dumps stands for "dump string"
+
+print(personJSON)  # Output: {"age": 30, "city": "New York", "name": "John"}
+
+# We can also write the JSON data to a file
+with open('data.json', 'w') as file:
+    json.dump(data, file, indent=4, sort_keys=True)
+```
+
+#### Converting JSON data to Python dictionaries
+
+If we have a JSON data and we want to convert it to a Python object (dictionary), we can use the `json.loads()` function:
+
+> This is called deserialization or decoding.
+
+```python
+import json
+personJSON = '{"name": "John", "age": 30, "city": "New York"}'
+data = json.loads(personJSON) # loads stands for "load string"
+print(data)  # Output: {'name': 'John', 'age': 30, 'city': 'New York'}
+
+# We can also read the JSON data from a file
+with open('data.json', 'r') as file:
+    data = json.load(file)
+    print(data)  # Output: {'name': 'John', 'age': 30, 'city': 'New York'}
+```
+
+#### Encoding custom(!) objects to JSON (HINT: using the `default` parameter)
+
+So far we've worked with a dictionary but let's say we have a custom object and we want to convert/encode it to JSON. We can do that by using the `default` parameter of the `json.dumps()` function:
+
+```python
+import json
+
+class User:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+user = User('John', 30)
+
+# Version 1: We need to define a custom function to convert the object to a dictionary, because the default function does not know how to serialize the object
+def encode_user(o): # o is the object
+    if isinstance(o, User):
+        return {'name': o.name, 'age': o.age, o.__class__.__name__: True}
+    else:
+        raise TypeError('Object of type User is not JSON serializable')
+userJSON = json.dumps(user, default=encode_user) # we pass the custom function to the default parameter
+print(userJSON)  # Output: {"name": "John", "age": 30, "User": true}
+
+# Version 2: We can also use a custom JSONEncoder class
+from json import JSONEncoder
+class UserEncoder(JSONEncoder):
+    def default(self, o): # we override the default method
+        if isinstance(o, User):
+            return {'name': o.name, 'age': o.age, o.__class__.__name__: True}
+        return JSONEncoder.default(self, o)
+
+userJSON = json.dumps(user, cls=UserEncoder)
+
+# or (we can use an Encoder directly)
+# Version 3
+
+userJSON = UserEncoder().encode(user)
+print(userJSON)  # Output: {"name": "John", "age": 30, "User": true}
+
+# or (we can also use a lambda function)
+# Version 4
+userJSON = json.dumps(user, default=lambda o: o.__dict__) # this will convert the object to a dictionary
+print(userJSON)  # Output: {"name": "John", "age": 30}
+```
+
+#### Decoding custom(!) objects from JSON (HINT: using the `object_hook` parameter)
+
+If we have a JSON data and we want to convert/decode it to a custom object, we can do that by using the `object_hook` parameter of the `json.loads()` function:
+
+```python
+import json
+
+class User:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+userJSON = '{"name": "John", "age": 30}'
+user = json.loads(userJSON)
+print(user)  # Output: {'name': 'John', 'age': 30}
+
+# Version 1: We need to define a custom function to convert the dictionary to an object, because the default function does not know how to deserialize the object
+def decode_user(d): # d is the dictionary
+    if User.__name__ in d:
+        return User(name=d['name'], age=d['age']) # we create a new User object
+    return d
+user = json.loads(userJSON, object_hook=decode_user) # we pass the custom function to the object_hook parameter
+print(user)  # Output: <__main__.User object at 0x7f8e3c6b3a90>
+
+# Version 2: We can also use a custom JSONDecoder class
+from json import JSONDecoder
+class UserDecoder(JSONDecoder):
+    def decode(self, o): # we override the decode method
+        if User.__name__ in o:
+            return User(name=o['name'], age=o['age'])
+        return o
+
+user = json.loads(userJSON, cls=UserDecoder)
+
+# or (we can use a Decoder directly)
+# Version 3
+user = UserDecoder().decode(userJSON)
+print(user)  # Output: <__main__.User object at 0x7f8e3c6b3a90>
+
+# or (we can also use a lambda function)
+# Version 4
+user = json.loads(userJSON, object_hook=lambda d: User(**d)) # this will convert the dictionary to an object
+print(user)  # Output: <__main__.User object at 0x7f8e3c6b3a90>
+```
 
 **Questions:**
 
@@ -1649,6 +1817,9 @@ except ValueTooLowError as e:
   import random
   random_number = random.randint(1, 10)
   ```
+
+````
+
 - **Used**: Simulations, games, cryptographic applications.
 - **Avoid**: When true randomness is crucial.
 
@@ -1906,3 +2077,4 @@ These answered questions aim to provide additional clarity and context to each c
 ```
 
 ```
+````
