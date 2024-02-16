@@ -12,6 +12,7 @@ Practicing Python by going through several (free and paid) courses
   - [Advanced Python tutorials](#advanced-python-tutorials)
     - [Python design patterns, SOLID principles, refactoring, best practices, good code architecture](#python-design-patterns-solid-principles-refactoring-best-practices-good-code-architecture)
     - [Roadmaps](#roadmaps)
+  - [Books](#books)
   - [Playlists with various tutorials](#playlists-with-various-tutorials)
   - [Suggestions for a better code](#suggestions-for-a-better-code)
     - [Better Python code (Advices, Pydantic etc.)](#better-python-code-advices-pydantic-etc)
@@ -226,7 +227,7 @@ Practicing Python by going through several (free and paid) courses
     - Leetcode
     - Codewars
   - Books:
-    - Python Cookbook
+    - Python Cookbook (David Beazley) (NOTE: this is an older version of "Python Distilled" it seems)
     - Python Distilled
     - Fluent Python
     - Effective Python
@@ -250,6 +251,15 @@ Practicing Python by going through several (free and paid) courses
   - [ ] 16. Finally Understand Regular Expressions - In Just 7 Minutes! (497 views, 7 months ago, 7:26)
   - [ ] 17. CRUD Operations are Everywhere: DB and REST API Examples (445 views, 6 months ago, 4:31)
   - [ ] 18. Why You Struggle to Learn to Code (and How To Fix It) (254 views, 6 months ago, 4:28)
+
+## Books
+
+- Python Crash Course - Eric Matthes (2023, 3rd edition, 552 pages, No Starch Press)
+- Python Distilled - David Beazley (2021, 1st edition, 352 pages, Pearson) (NOTE: can be used as a reference book)
+- Fluent Python - Luciano Ramalho (2022, 2nd edition, 1012 pages, O'Reilly Media)
+- Impractical Python Projects - Lee Vaughan (2018, Illustrated edition, 424 pages, No Starch Press)
+- Automate the Boring Stuff with Python - Al Sweigart (2019, 2nd edition, 592 pages, No Starch Press)
+- Effective Python: 135 Specific Ways to Write Better Python - Brett Slatkin (March 28. 2024, 3rd edition, Addison-Wesley Professional)
 
 ## Playlists with various tutorials
 
@@ -426,8 +436,10 @@ Practicing Python by going through several (free and paid) courses
 - [ ] [Tech With Tim](https://www.youtube.com/watch?v=waY3LfJhQLY)
   - Tim has lots of tutorials for making games
 - [ ] [Goodgis - Making a Game in Python with No Experience](https://www.youtube.com/watch?v=H09PmP5tsy8)
+- [ ] [ButWhyLevin - Best Python Game Wins $10,000! - Kajam Game Jam](https://www.youtube.com/watch?v=UMytz_bziTc)
 - [ ] [DaFluffyPotato - ](https://www.youtube.com/playlist?list=PLX5fBCkxJmm07E9qQYYJMR2fPDkzdBZew)
   > 12 videos 16,075 views Last updated on 17 Jul 2023
+  >
   > Check out the Advanced playlist for even more topics: https://www.youtube.com/playlist?list=PLX5fBCkxJmm3s5GL0Cebm59m1GkAhCFoM
   - [ ] 1. How to ACTUALLY get into Gamedev (575K views, 2 years ago, 14:01)
   - [ ] 2. Pygame Platformer Tutorial - Full Course (161K views, 6 months ago, 6:05:12)
@@ -548,6 +560,7 @@ Practicing Python by going through several (free and paid) courses
 
 ## Good YouTube Channels
 
+- [Clear Code](https://www.youtube.com/@ClearCode)
 - CodeAestetic
 - MollyRocket
 - Programming with Mosh
@@ -556,9 +569,12 @@ Practicing Python by going through several (free and paid) courses
 
 ## Platform to practice coding on
 
-- Project Euler
-- Codewars
-- Leetcode
+- [Advent of Code](https://adventofcode.com/)
+- [Project Euler](https://projecteuler.net/)
+- [Codewars](https://www.codewars.com/)
+- [Codeforces](https://codeforces.com/)
+- [HackerRank](https://www.hackerrank.com/)
+- [LeetCode](https://leetcode.com/)
 
 ## Platforms for learning (coding, math etc.)
 
