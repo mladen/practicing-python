@@ -254,12 +254,25 @@ Practicing Python by going through several (free and paid) courses
 
 ## Books
 
+- Think Python: How to Think Like a Computer Scientist - Allen B. Downey (2024, 3rd edition, 320 pages, O'Reilly Media) (NOTE: not published yet)
+  - https://allendowney.github.io/ThinkPython/
+  - previous version had 4.7 stars from 586 ratings on Amazon
+- Effective Python: 135 Specific Ways to Write Better Python - Brett Slatkin (March 28. 2024, 3rd edition, Addison-Wesley Professional) (NOTE: not published yet)
+  - previous version had 4.7 stars from 408 ratings on Amazon
 - Python Crash Course - Eric Matthes (2023, 3rd edition, 552 pages, No Starch Press)
-- Python Distilled - David Beazley (2021, 1st edition, 352 pages, Pearson) (NOTE: can be used as a reference book)
+  - 4.7 stars from 754 ratings on Amazon
 - Fluent Python - Luciano Ramalho (2022, 2nd edition, 1012 pages, O'Reilly Media)
-- Impractical Python Projects - Lee Vaughan (2018, Illustrated edition, 424 pages, No Starch Press)
+  - 4.7 stars from 375 ratings on Amazon
+- Python Distilled - David Beazley (2021, 1st edition, 352 pages, Pearson) (NOTE: can be used as a reference book)
+  - 4.7 stars from 177 ratings on Amazon
 - Automate the Boring Stuff with Python - Al Sweigart (2019, 2nd edition, 592 pages, No Starch Press)
-- Effective Python: 135 Specific Ways to Write Better Python - Brett Slatkin (March 28. 2024, 3rd edition, Addison-Wesley Professional)
+  - 4.7 stars from 3,094 ratings on Amazon
+- The Big Book of Small Python Projects: 81 Easy Practice Programs - Al Sweigart (2021, 1st edition, 432 pages, No Starch Press)
+  - 4.6 stars from 196 ratings on Amazon
+- Impractical Python Projects - Lee Vaughan (2018, Illustrated edition, 424 pages, No Starch Press)
+  - 4.7 stars from 337 ratings on Amazon
+- Python Programming: An Introduction to Computer Science - John Zelle (2016, 3rd edition, 552 pages, Franklin, Beedle & Associates Inc)
+  - 4.6 stars from 411 ratings on Amazon
 
 ## Playlists with various tutorials
 
@@ -286,12 +299,19 @@ Practicing Python by going through several (free and paid) courses
   - Don't check for a type with `==`, use `isinstance` instead
 - [ ] [mCoding - 21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
 - [ ] [mCoding - You should put this in all your Python scripts | if **name** == '**main**': ...](https://www.youtube.com/watch?v=g_wlZ9IhbTs)
+- [ ] [mCoding - Which Python @dataclass is best? Feat. Pydantic, NamedTuple, attrs...](https://www.youtube.com/watch?v=vCLetdhswMg)
 - [ ] [Patrick Loeber - 11 Tips And Tricks To Write Better Python Code](https://www.youtube.com/watch?v=8OKTAedgFYg)
 - [ ] [Tech With Tim - Write Python Code Properly!](https://www.youtube.com/watch?v=D4_s3q038I0)
 - [ ] [UWCS - University of Warwick Computing Society - 5 Horrifying Python Techniques to get you fired - Andrew L](https://www.youtube.com/watch?v=t863QfAOmlY)
   > Notice: Check out UWCS - University of Warwick Computing Society's YouTube channell for more interesting talks
 - [ ] [Make Tkinter Look 10x Better in 5 Minutes (CustomTkinter)](https://www.youtube.com/watch?v=Miydkti_QVE)
-- [ ] [NeuralNice - Does Pydantic Replace Dataclasses in Python?](https://www.youtube.com/watch?v=Nlhp4EmE55I)
+- [ ] [NeuralNine - Does Pydantic Replace Dataclasses in Python?](https://www.youtube.com/watch?v=Nlhp4EmE55I)
+- [ ] [NeuralNine - Data Classes in Python Are The New Standard](https://www.youtube.com/watch?v=ojrbuVKblew)
+- [ ] [ArjanCodes - This Is Why Python Data Classes Are Awesome](https://www.youtube.com/watch?v=CvQ7e6yUtnw)
+- [ ] [ArjanCodes - Attrs, Pydantic, or Python Data Classes?](https://www.youtube.com/watch?v=zN4VCb0LbQI)
+- [ ] [ArjanCodes - Functions vs Classes: When to Use Which and Why?](https://www.youtube.com/watch?v=txRTzljmV0Q)
+- [ ] [Indently - THIS Is How You Should Be Making Getters & Setters In Python](https://www.youtube.com/watch?v=Sz9G0iwwHQI)
+- [ ] [Corey Schafer - Python OOP Tutorial 6: Property Decorators - Getters, Setters, and Deleters](https://www.youtube.com/watch?v=jCzT9XFZ5bw)
 
 ### Language agnostic suggestions for better code
 
@@ -498,6 +518,7 @@ Practicing Python by going through several (free and paid) courses
 - [ ] [Tech With Tim - These 7 Coding Skills Give You an UNFAIR Advantage](https://www.youtube.com/watch?v=bYYd_IlOb9k)
 - [ ] [Tech With Tim - 5 Coding Projects That Give You An UNFAIR Advantage](https://www.youtube.com/watch?v=V1hjSeSF4xg)
 - [ ] [Tech With Tim - Coding Was HARD Until I Learned These 3 Things...](https://www.youtube.com/watch?v=IlS1aR_gfzs)
+- [ ] [Bao Nguyen - How I Would Learn Python FAST in 2024 (from zero)](https://www.youtube.com/watch?v=a0rcq7HfzeA)
 
 ## Mathematics
 
