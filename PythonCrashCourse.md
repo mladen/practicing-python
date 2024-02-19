@@ -21,6 +21,15 @@
     - [Encoding custom(!) objects to JSON (HINT: using the `default` parameter)](#encoding-custom-objects-to-json-hint-using-the-default-parameter)
     - [Decoding custom(!) objects from JSON (HINT: using the `object_hook` parameter)](#decoding-custom-objects-from-json-hint-using-the-object_hook-parameter)
   - [Random numbers](#random-numbers)
+  - [Decorators](#decorators)
+  - [Generators](#generators)
+  - [Threading vs Multiprocessing](#threading-vs-multiprocessing)
+  - [Multithreading](#multithreading)
+  - [Multiprocessing](#multiprocessing)
+  - [Function arguments](#function-arguments)
+  - [The Asterisk (\*) operator](#the-asterisk--operator)
+  - [Shallow vs Deep Copying](#shallow-vs-deep-copying)
+  - [Context managers](#context-managers)
 
 ## Lists
 
@@ -1817,9 +1826,6 @@ print(user)  # Output: <__main__.User object at 0x7f8e3c6b3a90>
   import random
   random_number = random.randint(1, 10)
   ```
-
-````
-
 - **Used**: Simulations, games, cryptographic applications.
 - **Avoid**: When true randomness is crucial.
 
@@ -2073,8 +2079,3 @@ These answered questions aim to provide additional clarity and context to each c
 > **3. Can you create your own context manager in Python?**
 >
 > Yes, you can create a context manager by defining a class with `__enter__` and `__exit__` methods or by using the `contextlib` module's `contextmanager` decorator.
-
-```
-
-```
-````
