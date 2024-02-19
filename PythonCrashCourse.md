@@ -21,6 +21,9 @@
     - [Encoding custom(!) objects to JSON (HINT: using the `default` parameter)](#encoding-custom-objects-to-json-hint-using-the-default-parameter)
     - [Decoding custom(!) objects from JSON (HINT: using the `object_hook` parameter)](#decoding-custom-objects-from-json-hint-using-the-object_hook-parameter)
   - [Random numbers](#random-numbers)
+    - [Random module](#random-module)
+    - [Secrets module](#secrets-module)
+    - [Numpy random module](#numpy-random-module)
   - [Decorators](#decorators)
   - [Generators](#generators)
   - [Threading vs Multiprocessing](#threading-vs-multiprocessing)
@@ -1820,11 +1823,11 @@ print(user)  # Output: <__main__.User object at 0x7f8e3c6b3a90>
 
 ## Random numbers
 
-- **Explanation**: Generating pseudo-random numbers.
+- **Explanation**: Generating pseudo-random numbers. Python comes with different modules to generate random numbers: random module for pseudo-random numbers, and secrets module for cryptographically strong random numbers and the numpy random module for generating random numbers from various probability distributions (e.g., uniform, normal, binomial, etc.) which generates arrays of random numbers.
 - **Syntax**:
   ```python
   import random
-  random_number = random.randint(1, 10)
+  random_number = random.randint(1, 10) # generates a random integer in the inclusive range [1, 10]
   ```
 - **Used**: Simulations, games, cryptographic applications.
 - **Avoid**: When true randomness is crucial.
@@ -1842,6 +1845,111 @@ print(user)  # Output: <__main__.User object at 0x7f8e3c6b3a90>
 > **3. Explain the purpose of the `random.seed()` function.**
 >
 > `random.seed()` initializes the random number generator with a given seed value. Using a seed ensures reproducibility, meaning the same sequence of random numbers will be generated if the seed is the same.
+
+### Random module
+
+The `random` module provides functions for generating random numbers. Here are some of the most commonly used functions:
+
+- `random.random()`: Returns a random float in the range [0.0, 1.0).
+- `random.uniform()`: Returns a random float in the range [a, b). The result may include `a` but will not include `b`.
+- `random.randint(a, b)`: Returns a random integer in the inclusive range [a, b]. The result may include both `a` and `b`.
+- `random.normalvariate(mu, sigma)`: Returns a random float from the normal distribution with mean `mu` and standard deviation `sigma`. Example: `random.normalvariate(0, 1)` returns a random float from the standard normal distribution.
+- `random.choice(seq)`: Returns a random element from the non-empty sequence `seq`.
+- `random.shuffle(seq)`: Shuffles the sequence `seq` in place.
+- `random.sample(population, k)`: Returns a list of `k` unique elements from the population sequence.
+
+```python
+import random
+random_float = random.random()  # generates a random float in the range [0.0, 1.0)
+
+random_int = random.randint(1, 10)  # generates a random integer in the inclusive range [1, 10]
+
+my_list = [1, 2, 3, 4, 5]
+random_element_choice = random.choice(my_list)  # returns a random element from the list
+random_sample = random.sample(my_list, 3)  # returns a list of 3 unique elements from the list
+random_choices = random.choices(my_list, k=3)  # returns a list of 3 elements from the list with replacement. The elements may be repeated.
+
+random.shuffle(my_list)  # shuffles the list in place
+
+random_sample = random.sample(my_list, 3)  # returns a list of 3 unique elements from the list
+```
+
+These numbers generated with previous functions are pseudo-random numbers. They are not truly random, but they are generated in a way that is statistically indistinguishable from true randomness. They are reproducible if the same seed is used.
+
+```python
+import random
+
+random.seed(1)  # setting the seed to 1
+print(random.random())  # Output: 0.13436424411240122
+print(random.random())  # Output: 0.8474337369372327
+print(random.randint(1, 10))  # Output: 2
+
+random.seed(1)  # setting the seed to 1 again
+print(random.random())  # Output: 0.13436424411240122; the same number as before
+print(random.random())  # Output: 0.8474337369372327; the same number as before
+print(random.randint(1, 10))  # Output: 2; the same number as before
+```
+
+This is not recommended for cryptographic purposes, but it is useful for simulations and games.
+
+### Secrets module
+
+The `secrets` module provides functions for generating cryptographically strong random numbers. It is suitable for generating random numbers for security-sensitive applications, such as password generation, token generation, and cryptographic key generation. The `secrets` has only a few functions (three?), but they are designed to be cryptographically secure.
+The dissadvantage of the `secrets` module is that it is slower than the `random` module.
+
+```python
+import secrets
+
+random_int = secrets.randbelow(10)  # generates a random integer in the range [0, 10). The result may include 0 but will not include 10 (exclusive upper bound)
+random_k_random_bits = secrets.randbits(16)  # generates a random integer with 16 random bits
+
+random_choice = secrets.choice([1, 2, 3, 4, 5])  # returns a random element from the list
+
+random_hex = secrets.token_hex(16)  # generates a random hexadecimal string of 16 bytes
+random_url = secrets.token_urlsafe(16)  # generates a random URL-safe string of 16 bytes
+```
+
+### Numpy random module
+
+The `numpy.random` module provides functions for generating random numbers from various probability distributions, such as uniform, normal, binomial, etc. It is part of the `numpy` library, which is widely used for numerical computing in Python.
+
+```python
+import numpy as np
+
+random_float = np.random.random()  # generates a random float in the range [0.0, 1.0)
+
+random_int = np.random.randint(1, 10)  # generates a random integer in the inclusive range [1, 10]
+
+random_normal = np.random.normal(0, 1, 10)  # generates an array of 10 random floats from the standard normal distribution with mean 0 and standard deviation 1
+
+# array of random floats
+random_uniform = np.random.uniform(0, 1, 10)  # generates an array of 10 random floats in the range [0.0, 1.0)
+
+random_uniform = np.random.rand(3) # generates an array of 3 random floats in the range [0.0, 1.0)
+random_uniform = np.random.rand(3, 3)  # generates a 3x3 array of random floats in the range [0.0, 1.0)
+random_uniform = np.random.randint(1, 10, 10)  # generates an array of 10 random integers in the inclusive range [1, 10)
+random_uniform = np.random.randint(1, 10, (3, 4))  # generates a 3x4 array of random integers in the inclusive range [1, 10); we've used a tuple to specify the shape of the array
+
+# shuffle
+my_list = np.array([1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11, 12, 13, 14, 15])
+np.random.shuffle(my_list)  # shuffles the array in place; it shuffles the first axis of the array which means that it shuffles the rows
+```
+
+NOTE: Numpy random generator uses a different random number generator than the `random` module, so the results may be different.It also has a different seed function.
+
+```python
+import numpy as np
+
+np.random.seed(1)  # setting the seed to 1
+print(np.random.random())  # Output: 0.417022004702574
+print(np.random.random())  # Output: 0.7203244934421581
+print(np.random.randint(1, 10))  # Output: 6
+
+np.random.seed(1)  # setting the seed to 1 again
+print(np.random.random())  # Output: 0.417022004702574; the same number as before
+print(np.random.random())  # Output: 0.7203244934421581; the same number as before
+print(np.random.randint(1, 10))  # Output: 6; the same number as before
+```
 
 ## Decorators
 
