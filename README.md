@@ -13,14 +13,16 @@ Practicing Python by going through several (free and paid) courses
     - [Python design patterns, SOLID principles, refactoring, best practices, good code architecture](#python-design-patterns-solid-principles-refactoring-best-practices-good-code-architecture)
     - [Roadmaps](#roadmaps)
   - [Books](#books)
+  - [Python modules, libraries, frameworks](#python-modules-libraries-frameworks)
+  - [Automation, web crawling, web scraping, web automation](#automation-web-crawling-web-scraping-web-automation)
   - [Playlists with various tutorials](#playlists-with-various-tutorials)
   - [Suggestions for a better code](#suggestions-for-a-better-code)
     - [Better Python code (Advices, Pydantic etc.)](#better-python-code-advices-pydantic-etc)
     - [Language agnostic suggestions for better code](#language-agnostic-suggestions-for-better-code)
-  - [Python project ideas (I'll do the most interesting ones)](#python-project-ideas-ill-do-the-most-interesting-ones)
+  - [Python project ideas](#python-project-ideas)
     - [Python game ideas (PyGame)](#python-game-ideas-pygame)
-    - [Python game engines](#python-game-engines)
-  - [Python automation](#python-automation)
+      - [Python game engines](#python-game-engines)
+    - [Python automation project ideas](#python-automation-project-ideas)
   - [General](#general)
     - [General conference talks](#general-conference-talks)
     - [General advice](#general-advice)
@@ -59,9 +61,8 @@ Practicing Python by going through several (free and paid) courses
 - [ ] [Tech With Tim - The Truth About Learning Python in 2023](https://www.youtube.com/watch?v=qecsnAXtms4)
 - [ ] [Tech With Tim (shorts) - Django VS Flask - Which Should You Learn](https://www.youtube.com/shorts/Gj02l0R1drM)
 - [ ] [Tech With Tim (playlist) - Python MySQL Tutorial](https://www.youtube.com/playlist?list=PLzMcBGfZo4-l5kVSNVKGO60V6RkXAVtp-)
-- [ ] [Tech With Tim (playlist) - Python Selenium Tutorials](https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ)
 - [ ] [Glitcher - 🚀 Python in 20 Minutes! | Fastest Python Tutorial!](https://www.youtube.com/watch?v=T1HNtfL0R2I)
-- [x] Coinis Python course
+- [x] Coinis Python course (introductory course)
 - [ ] [CS50x 2023 - CS50x 2023 (part of the playlist) - Lecture 6 - Python](https://www.youtube.com/watch?v=5Jppcxc1Qzc&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=8&ab_channel=CS50)
 - [ ] [CS50P (playlist) - Introduction to Programming with Python (CS50P) 2022](https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V)
 - [ ] [freeCodeCamp - Mike Dane - Learn Python](https://www.youtube.com/watch?v=rfscVS0vtbw)
@@ -109,12 +110,12 @@ Practicing Python by going through several (free and paid) courses
   - [x] 4. Sets (28K views, 4 years ago, 16:19)
   - [x] 5. Strings (34K views, 4 years ago, 24:16)
   - [x] 6. Collections (83K views, 4 years ago, 14:10)
-  - [ ] 7. Itertools (47K views, 4 years ago, 15:23) [**watch again**]
-  - [ ] 8. Lambda (44K views, 4 years ago, 12:21)
-  - [ ] 9. Exceptions (22K views, 4 years ago, 16:20)
-  - [ ] 10. Logging (50K views, 4 years ago, 22:29)
-  - [ ] 11. JSON (29K views, 4 years ago, 17:35)
-  - [ ] 12. Random Numbers (10K views, 4 years ago, 14:57)
+  - [x] 7. Itertools (47K views, 4 years ago, 15:23) [**watch again**]
+  - [x] 8. Lambda (44K views, 4 years ago, 12:21)
+  - [x] 9. Exceptions (22K views, 4 years ago, 16:20)
+  - [x] 10. Logging (50K views, 4 years ago, 22:29) [**watch again**]
+  - [x] 11. JSON (29K views, 4 years ago, 17:35)
+  - [x] 12. Random Numbers (10K views, 4 years ago, 14:57)
   - [ ] 13. Decorators (37K views, 4 years ago, 21:24)
   - [ ] 14. Generators (19K views, 4 years ago, 18:12)
   - [ ] 15. Threading vs Multiprocessing (41K views, 4 years ago, 14:48)
@@ -128,7 +129,7 @@ Practicing Python by going through several (free and paid) courses
 - [ ] [Great learning - Data Structures & Algorithms (playlist) - check quality](https://www.youtube.com/playlist?list=PLlgLmuG_KgbbkdjHVm8WsQtkpiZD2ULBb)
   > 14 videos 29,734 views Last updated on 29 Nov 2022
   >
-  > Notice: Several videos are about Python (others are in C and Java)
+  > NOTE: Several videos are about Python (others are in C and Java)
 
 ## Advanced Python tutorials
 
@@ -274,6 +275,68 @@ Practicing Python by going through several (free and paid) courses
 - Python Programming: An Introduction to Computer Science - John Zelle (2016, 3rd edition, 552 pages, Franklin, Beedle & Associates Inc)
   - 4.6 stars from 411 ratings on Amazon
 
+## Python modules, libraries, frameworks
+
+- [x] [Tech With Tim - Top 18 Most Useful Python Modules](https://www.youtube.com/watch?v=Vi9Y9AL13Rc)
+
+  - I Web Development:
+
+    - Requests (HTTP requests; API; web scraping)
+    - NOTE: I would add FastAPI
+    - Django
+    - Flask
+    - Twisted (networking; web servers; chat servers; game servers)
+    - BeautifulSoup (web scraping)
+    - Selenium (web automation)
+
+  - II Data Science:
+
+    - Numpy
+    - Pandas
+    - Matplotlib
+    - Nltk (natural language toolkit)
+    - opencv
+
+  - III Machine Learning & AI:
+
+    - NOTE: I would add PyTorch
+    - TensorFlow
+    - Keras
+    - Sci-kit learn
+
+  - IV GUI:
+
+    - kivy
+    - PyQt5 [likely the best]
+    - Tkinter
+    - Pygame [does not fit any category]
+
+## Automation, web crawling, web scraping, web automation
+
+- [ ] [Tech With Tim (playlist) - Beautiful Soup 4 Tutorial](https://www.youtube.com/playlist?list=PLzMcBGfZo4-lSq2IDrA6vpZEV92AmQfJK)
+
+  > 4 videos 60,082 views Last updated on 18 Sept 2021
+  >
+  > Learn how to web scrape using Beautiful Soup 4 and Python!
+
+  - [ ] 1. Beautiful Soup 4 Tutorial #1 - Web Scraping With Python (428K views, 2 years ago, 17:01)
+  - [ ] 2. Beautiful Soup 4 Tutorial #2 - Searching and Filtering (121K views, 2 years ago, 11:5)
+  - [ ] 3. Beautiful Soup 4 Tutorial #3 - Navigating The HTML Tree (70K views, 2 years ago, 12:5)
+  - [ ] 4. Beautiful Soup 4 Tutorial #4 - Finding The Best GPU Prices (65K views, 2 years ago, 27:4)
+
+- [ ] [Tech With Tim (playlist) - Python Selenium Tutorials](https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ)
+
+  > 6 videos 682,056 views Last updated on 24 May 2020
+  >
+  > This python selenium tutorial is designed to teach you how to do website automation with python! This includes web scraping, creating bots and much more...
+
+  - [ ] 1. Python Selenium Tutorial #1 - Web Scraping, Bots & Testing (1.3M views, 3 years ago, 11:41)
+  - [ ] 2. Python Selenium Tutorial #2 - Locating Elements From HTML (662K views, 3 years ago, 16:12)
+  - [ ] 3. Python Selenium Tutorial #3 - Page Navigating and Clicking Elements (392K views, 3 years ago, 8:18)
+  - [ ] 4. Python Selenium Tutorial #4 - ActionChains & Automating Cookie Clicker! (209K views, 3 years ago, 13:45)
+  - [ ] 5. Python Selenium Tutorial #5 - UnitTest Framework (Part 1) (143K views, 3 years ago, 18:50)
+  - [ ] 6. Python Selenium Tutorial #6 - UnitTest Framework (Part 2) (82K views, 3 years ago, 19:15)
+
 ## Playlists with various tutorials
 
 - [ ] [Patrick Loeber - Crash Courses](https://www.youtube.com/playlist?list=PLqnslRFeH2UrZtzqlXDWHjI3OV3BK0UWI)
@@ -303,7 +366,7 @@ Practicing Python by going through several (free and paid) courses
 - [ ] [Patrick Loeber - 11 Tips And Tricks To Write Better Python Code](https://www.youtube.com/watch?v=8OKTAedgFYg)
 - [ ] [Tech With Tim - Write Python Code Properly!](https://www.youtube.com/watch?v=D4_s3q038I0)
 - [ ] [UWCS - University of Warwick Computing Society - 5 Horrifying Python Techniques to get you fired - Andrew L](https://www.youtube.com/watch?v=t863QfAOmlY)
-  > Notice: Check out UWCS - University of Warwick Computing Society's YouTube channell for more interesting talks
+  > NOTE: Check out UWCS - University of Warwick Computing Society's YouTube channell for more interesting talks
 - [ ] [Make Tkinter Look 10x Better in 5 Minutes (CustomTkinter)](https://www.youtube.com/watch?v=Miydkti_QVE)
 - [ ] [NeuralNine - Does Pydantic Replace Dataclasses in Python?](https://www.youtube.com/watch?v=Nlhp4EmE55I)
 - [ ] [NeuralNine - Data Classes in Python Are The New Standard](https://www.youtube.com/watch?v=ojrbuVKblew)
@@ -319,7 +382,9 @@ Practicing Python by going through several (free and paid) courses
 - [ ] [Creel - Branchless Programming: Why "If" is Sloowww... and what we can do about it!](https://www.youtube.com/watch?v=bVJ-mWWL7cE)
 - [ ] [In progress][Coderized - How principled coders outperform the competition](https://www.youtube.com/watch?v=q1qKv5TBaOA)
 
-## Python project ideas (I'll do the most interesting ones)
+## Python project ideas
+
+> NOTE: I'll do the most interesting ones
 
 - [ ] [Anthony Madorsky - Pathfinding algorithm comparison: Dijkstra's vs. A\* (A-Star)](https://www.youtube.com/watch?v=BR4_SrTWbMw)
 - [ ] [Tech With Tim - Web Scraping 101: A Million Dollar Project Idea](https://www.youtube.com/watch?v=DJnH0jR8y5Q)
@@ -474,7 +539,7 @@ Practicing Python by going through several (free and paid) courses
   - [ ] 11. Pygame CE - Better & Faster (23K views, 8 months ago, 6:29)
   - [ ] 12. Trigonometry in Game Development (49K views, 3 years ago, 11:26)
 
-### Python game engines
+#### Python game engines
 
 - [PyGame](https://www.pygame.org/news)
 - [Pyglet](https://pyglet.org/)
@@ -483,7 +548,7 @@ Practicing Python by going through several (free and paid) courses
 - [Panda3D](https://www.panda3d.org/)
 - [Ursina](https://www.ursinaengine.org/)
 
-## Python automation
+### Python automation project ideas
 
 - [ ] [Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
 - [ ] [Udemy - Al Sweigart - Automate the Boring Stuff with Python Programming (Rating: 4.6 out of 5 (108,503 ratings) 1,094,672 students, 9.5h, Last updated 2/2023)](https://www.udemy.com/course/automate/)
