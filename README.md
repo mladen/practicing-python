@@ -389,12 +389,9 @@ Practicing Python by going through several (free and paid) courses
 - [ ] [Anthony Madorsky - Pathfinding algorithm comparison: Dijkstra's vs. A\* (A-Star)](https://www.youtube.com/watch?v=BR4_SrTWbMw)
 - [ ] [Tech With Tim - Web Scraping 101: A Million Dollar Project Idea](https://www.youtube.com/watch?v=DJnH0jR8y5Q)
 - [ ] [Tech With Tim (playlist) - Mini Python Projects!](https://www.youtube.com/playlist?list=PLzMcBGfZo4-kBvY2DaxdSvoN_jGpzbw5V)
-
   - [ ] 1. Mini Python Project Tutorial - Password Generator (61K views, 10 months ago, 18:27)
   - [ ] 2. Mini Python Project Tutorial - Alarm Clock (52K views, 10 months ago, 13:24)
-
 - [ ] [Tech With Tim (playlist) - Programming Projects & Ideas](https://www.youtube.com/playlist?list=PLzMcBGfZo4-lkJOu1AWab-nFtjDw7aPek)
-
   - 5 Python Projects for Beginners (685K views, 4 years ago, 5:31)
   - 5 Intermediate Python Projects (409K views, 3 years ago, 7:49)
     - [ ] Website
@@ -453,19 +450,17 @@ Practicing Python by going through several (free and paid) courses
     - [ ] 3. Mobile Apps 8:26
     - [ ] 4. Internet of Things 11:35
     - [ ] 5. Libraries & Tools 14:10
-
 - [ ] [Tech With Tim (shorts) - How to Prepare For Big Programming Projects](https://www.youtube.com/shorts/LJmv_9EV7e8)
 - [ ] [Tech With Tim - Planet Simulation In Python - Tutorial](https://www.youtube.com/watch?v=WTLPmUHTPqo)
 - [ ] [Tech With Tim - Physics Simulations With Python and PyMunk](https://www.youtube.com/watch?v=tLsi2DeUsak)
 - [ ] [Tech With Tim - Impressive Python Resume Projects](https://www.youtube.com/watch?v=v68woFABJ5U)
-
   - [ ] 1. Artificial Intelligence Projects 01:20
   - [ ] 2. Web Development Project #1 02:53
   - [ ] 3. Web Development Project #2 04:53
   - [ ] 4. Data Science Projects 07:00
   - [ ] 5. Data Structure and Algorithm Visualizer 08:53
   - [ ] 6. Summary 10:31
-
+- [ ] [Tech With Tim - Data Collection Project Ideas & Demos](https://www.youtube.com/watch?v=Wx-gL-Dt5rI)
 - [ ] [ArjanCodes - 14 Ideas for Fun Python Free Time Projects](https://www.youtube.com/watch?v=54XyRw9y8oE)
   - [ ] 1. 2:22 Simple calculator
   - [ ] 2. 4:03 To-do list application
@@ -515,6 +510,14 @@ Practicing Python by going through several (free and paid) courses
   - [ ] 3. Adding OpenAPI to Backend
   - [ ] 4. Adding tests to a codebase (this is needed almost everywhere)
   - [ ] 5. Moving to NextJS 13
+- [ ] [freeCodeCamp - JimShapedCoding - Web Scraping with Python - Beautiful Soup Crash Course](https://www.youtube.com/watch?v=XVv6mJpFOb0)
+- [ ] [Make Data Useful - How to make money with Python](https://www.youtube.com/playlist?list=PLq1YsG1H2jMWSjtGMsfGH48DvPQX1VP-I)
+  - [ ] 1. Python web scraper $$$ - Easy step by step guide | How to make money with Python Episode 1(444K views, 3 years ago, 30:21)
+  - [ ] 2. Python Upwork web scraper - Easy step by step guide | How to make money with Python Episode 2(71K views, 3 years ago, 30:29)
+  - [ ] 3. Python YouTube scraper - Easy step by step guide | How to make money with Python Episode 3(34K views, 3 years ago, 33:56)
+  - [ ] 4. Python YouTube Scraper bonus - Easy step by step guide | How to make money with Python Episode 4(14K views, 3 years ago, 12:05)
+  - [ ] 5. How to scrape map data with Python | How to make money with Python Episode 5(37K views, 3 years ago, 37:24)
+  - [ ] 6. Python tutorial - Web scraping part 2(9.8K views, 4 years ago, 14:55)
 
 ### Python game ideas (PyGame)
 
