@@ -1,6 +1,7 @@
 # Python Crash Course (with the help of ChatGPT)
 
 - [Python Crash Course (with the help of ChatGPT)](#python-crash-course-with-the-help-of-chatgpt)
+  - [General Python](#general-python)
   - [Lists](#lists)
   - [Tuples](#tuples)
   - [Dictionaries](#dictionaries)
@@ -25,6 +26,8 @@
     - [Secrets module](#secrets-module)
     - [Numpy random module](#numpy-random-module)
   - [Decorators](#decorators)
+    - [Function decorators (working with arguments):](#function-decorators-working-with-arguments)
+    - [Class decorators:](#class-decorators)
   - [Generators](#generators)
   - [Threading vs Multiprocessing](#threading-vs-multiprocessing)
   - [Multithreading](#multithreading)
@@ -51,6 +54,7 @@ def greet_bob(greeter_func):
 print(greet_bob(say_hello))  # Output: Hello Bob
 print(greet_bob(be_awesome))  # Output: Yo Bob, together we are the awesomest!
 ```
+
 ## Lists
 
 - **Explanation**: Ordered, mutable collection of elements, allowing duplicates
@@ -1970,24 +1974,64 @@ print(np.random.randint(1, 10))  # Output: 6; the same number as before
 
 ## Decorators
 
-- **Explanation**: Modify or extend the behavior of functions or methods.
+- **Explanation**: Modify or extend the behavior of functions or methods. Decorators are functions that take another function as an argument and return a new function, usually adding some kind of functionality. There are function decorators (more common) and class decorators.
 - **Syntax**:
 
   ```python
-  def my_decorator(func):
+  def my_decorator(func): # 'func' is the function to be decorated
       def wrapper():
           print("Something is happening before the function is called.")
-          func()
+          func() # calling the original function which, in this case, is say_hello()
           print("Something is happening after the function is called.")
       return wrapper
 
   @my_decorator
   def say_hello():
       print("Hello!")
+
+  say_hello()  # Output: Something is happening before the function is called. Hello! Something is happening after the function is called.
   ```
 
 - **Used**: Code reuse, adding functionality to functions or methods.
 - **Avoid**: Overusing for simple tasks.
+
+### Function decorators (working with arguments):
+
+```python
+def my_decorator(func):
+    def wrapper(*args, **kwargs): # We can use as many arguments and keyword arguments as we want
+        print("Something is happening before the function is called.")
+        func(*args, **kwargs) # calling the original function with its arguments
+        print("Something is happening after the function is called.")
+    return wrapper
+
+@my_decorator
+def say_hello(name):
+    print(f"Hello, {name}!")
+
+say_hello("John")  # Output: Something is happening before the function is called. Hello, John! Something is happening after the function is called.
+```
+
+TODO: Check the example where we use the `functools.wraps` decorator to preserve the original function's metadata (such as docstring and name).
+
+### Class decorators:
+
+```python
+class my_decorator:
+    def __init__(self, func):
+        self.func = func
+
+    def __call__(self, *args, **kwargs):
+        print("Something is happening before the function is called.")
+        self.func(*args, **kwargs)
+        print("Something is happening after the function is called.")
+
+@my_decorator
+def say_hello(name):
+    print(f"Hello, {name}!")
+
+say_hello("John")  # Output: Something is happening before the function is called. Hello, John! Something is happening after the function is called.
+```
 
 **Questions:**
 
