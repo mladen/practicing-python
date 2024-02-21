@@ -26,7 +26,8 @@
     - [Secrets module](#secrets-module)
     - [Numpy random module](#numpy-random-module)
   - [Decorators](#decorators)
-    - [Function decorators (working with arguments):](#function-decorators-working-with-arguments)
+    - [Function decorators - working with arguments:](#function-decorators---working-with-arguments)
+    - [Function decorators - multiple decorators:](#function-decorators---multiple-decorators)
     - [Class decorators:](#class-decorators)
   - [Generators](#generators)
   - [Threading vs Multiprocessing](#threading-vs-multiprocessing)
@@ -1995,7 +1996,7 @@ print(np.random.randint(1, 10))  # Output: 6; the same number as before
 - **Used**: Code reuse, adding functionality to functions or methods.
 - **Avoid**: Overusing for simple tasks.
 
-### Function decorators (working with arguments):
+### Function decorators - working with arguments:
 
 ```python
 def my_decorator(func):
@@ -2013,6 +2014,39 @@ say_hello("John")  # Output: Something is happening before the function is calle
 ```
 
 TODO: Check the example where we use the `functools.wraps` decorator to preserve the original function's metadata (such as docstring and name).
+
+### Function decorators - multiple decorators:
+
+```python
+def my_decorator1(func):
+    def wrapper(*args, **kwargs):
+        print("Decorator 1: Something is happening before the function is called.")
+        func(*args, **kwargs)
+        print("Decorator 1: Something is happening after the function is called.")
+    return wrapper
+
+def my_decorator2(func):
+    def wrapper(*args, **kwargs):
+        print("Decorator 2: Something is happening before the function is called.")
+        func(*args, **kwargs)
+        print("Decorator 2: Something is happening after the function is called.")
+    return wrapper
+
+@my_decorator1
+@my_decorator2
+def say_hello(name):
+    print(f"Hello, {name}!")
+
+say_hello("John")
+# Output:
+# Decorator 1: Something is happening before the function is called.
+# Decorator 2: Something is happening before the function is called.
+# Hello, John!
+# Decorator 2: Something is happening after the function is called.
+# Decorator 1: Something is happening after the function is called.
+```
+
+Order of decorators matters, as they are applied from the innermost to the outermost.
 
 ### Class decorators:
 
