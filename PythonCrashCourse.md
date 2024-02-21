@@ -34,6 +34,23 @@
   - [Shallow vs Deep Copying](#shallow-vs-deep-copying)
   - [Context managers](#context-managers)
 
+## General Python
+
+Functions in Python are first class objects, meaning they can be passed around and used as arguments, just like any other object (string, int, float, list, and so on).
+
+```python
+def say_hello(name):
+    return f"Hello {name}"
+
+def be_awesome(name):
+    return f"Yo {name}, together we are the awesomest!"
+
+def greet_bob(greeter_func):
+    return greeter_func("Bob")
+
+print(greet_bob(say_hello))  # Output: Hello Bob
+print(greet_bob(be_awesome))  # Output: Yo Bob, together we are the awesomest!
+```
 ## Lists
 
 - **Explanation**: Ordered, mutable collection of elements, allowing duplicates
