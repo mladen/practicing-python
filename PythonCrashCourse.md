@@ -26,9 +26,11 @@
     - [Secrets module](#secrets-module)
     - [Numpy random module](#numpy-random-module)
   - [Decorators](#decorators)
-    - [Function decorators - working with arguments:](#function-decorators---working-with-arguments)
-    - [Function decorators - multiple decorators:](#function-decorators---multiple-decorators)
-    - [Class decorators:](#class-decorators)
+    - [Function decorators - working with arguments](#function-decorators---working-with-arguments)
+      - [Function decorators - alternative syntax](#function-decorators---alternative-syntax)
+    - [Function decorators - multiple decorators](#function-decorators---multiple-decorators)
+      - [Function decorators - multiple decorators - alternative syntax](#function-decorators---multiple-decorators---alternative-syntax)
+    - [Class decorators](#class-decorators)
   - [Generators](#generators)
   - [Threading vs Multiprocessing](#threading-vs-multiprocessing)
   - [Multithreading](#multithreading)
@@ -1996,7 +1998,7 @@ print(np.random.randint(1, 10))  # Output: 6; the same number as before
 - **Used**: Code reuse, adding functionality to functions or methods.
 - **Avoid**: Overusing for simple tasks.
 
-### Function decorators - working with arguments:
+### Function decorators - working with arguments
 
 ```python
 def my_decorator(func):
@@ -2015,22 +2017,41 @@ say_hello("John")  # Output: Something is happening before the function is calle
 
 TODO: Check the example where we use the `functools.wraps` decorator to preserve the original function's metadata (such as docstring and name).
 
-### Function decorators - multiple decorators:
+#### Function decorators - alternative syntax
+
+```python
+def my_decorator(func):
+    def wrapper(*args, **kwargs):
+        print("Something is happening before the function is called.")
+        func(*args, **kwargs)
+        print("Something is happening after the function is called.")
+    return wrapper
+
+def say_hello(name):
+    print(f"Hello, {name}!")
+
+say_hello = my_decorator(say_hello)  # manually applying the decorator
+say_hello("John")  # Output: Something is happening before the function is called. Hello, John! Something is happening after the function is called.
+```
+
+`say_hello` now refers to the result of applying the `my_decorator` to the original `say_hello` function, which is effectively the `wrapper` function returned by `my_decorator` wrapping around the original `say_hello` function.
+
+### Function decorators - multiple decorators
 
 ```python
 def my_decorator1(func):
-    def wrapper(*args, **kwargs):
+    def wrapper1(*args, **kwargs):
         print("Decorator 1: Something is happening before the function is called.")
         func(*args, **kwargs)
         print("Decorator 1: Something is happening after the function is called.")
-    return wrapper
+    return wrapper1
 
 def my_decorator2(func):
-    def wrapper(*args, **kwargs):
+    def wrapper2(*args, **kwargs):
         print("Decorator 2: Something is happening before the function is called.")
         func(*args, **kwargs)
         print("Decorator 2: Something is happening after the function is called.")
-    return wrapper
+    return wrapper2
 
 @my_decorator1
 @my_decorator2
@@ -2046,9 +2067,30 @@ say_hello("John")
 # Decorator 1: Something is happening after the function is called.
 ```
 
-Order of decorators matters, as they are applied from the innermost to the outermost.
+Order of decorators matters, as they are applied from the innermost to the outermost. In this case, `my_decorator2` is the inner decorator, and `my_decorator1` is the outer decorator.
 
-### Class decorators:
+#### Function decorators - multiple decorators - alternative syntax
+
+In Python, when you decorate a function using the `@decorator` syntax, it's essentially shorthand for reassigning the original function name to the wrapper function returned by the decorator.
+
+So, when you write:
+
+```python
+@my_decorator1
+@my_decorator2
+def say_hello(name):
+    print(f"Hello, {name}!")
+```
+
+It's equivalent to:
+
+```python
+say_hello = my_decorator1(my_decorator2(say_hello))
+```
+
+Therefore, `say_hello` (the part `say_hello = ...`) now refers to the result of applying both `my_decorator1` and `my_decorator2` to the original `say_hello` function, which is effectively the `wrapper1` function returned by `my_decorator1` wrapping around the `wrapper2` function returned by `my_decorator2`.
+
+### Class decorators
 
 ```python
 class my_decorator:
