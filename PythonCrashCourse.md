@@ -2053,10 +2053,10 @@ def my_decorator2(func):
         print("Decorator 2: Something is happening after the function is called.")
     return wrapper2
 
-@my_decorator1
-@my_decorator2
-def say_hello(name):
-    print(f"Hello, {name}!")
+@my_decorator1 # 2) Applies my_decorator1 to the function returned by my_decorator2 (wrapper2), resulting in a new function wrapped by wrapper1
+@my_decorator2 # 1) Applies my_decorator2 to the original say_hello function, resulting in a new function wrapped by wrapper2
+def say_hello(name): # The original function
+    print(f"Hello, {name}! I am {__name__}!")
 
 say_hello("John")
 # Output:
@@ -2068,6 +2068,8 @@ say_hello("John")
 ```
 
 Order of decorators matters, as they are applied from the innermost to the outermost. In this case, `my_decorator2` is the inner decorator, and `my_decorator1` is the outer decorator.
+
+NOTE: In `my_decorator1`, `func` refers to the `wrapper2` function returned by `my_decorator2` wrapping around the original `say_hello` function.
 
 #### Function decorators - multiple decorators - alternative syntax
 
@@ -2085,10 +2087,12 @@ def say_hello(name):
 It's equivalent to:
 
 ```python
-say_hello = my_decorator1(my_decorator2(say_hello))
+say_hello = my_decorator1(my_decorator2(say_hello)) # manually applying the decorators; first my_decorator2 is applied, then my_decorator1
 ```
 
 Therefore, `say_hello` (the part `say_hello = ...`) now refers to the result of applying both `my_decorator1` and `my_decorator2` to the original `say_hello` function, which is effectively the `wrapper1` function returned by `my_decorator1` wrapping around the `wrapper2` function returned by `my_decorator2`.
+
+NOTE: In `my_decorator1`, `func` refers to the `wrapper2` function returned by `my_decorator2` wrapping around the original `say_hello` function.
 
 ### Class decorators
 
