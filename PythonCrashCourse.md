@@ -1450,7 +1450,7 @@ print(reduced_list)  # Output: 15
   finally:
       # always executed
   ```
-- **Used**: Handling unexpected situations to prevent program termination.
+- **Used**: Handling unexpected situations to prevent program termination. In other words, error handling allows us to let the script continue running even if there is an error - except for fatal errors, when we raise an exception using `raise`.
 - **Avoid**: Using exceptions for control flow.
 
 ### Syntax errors
