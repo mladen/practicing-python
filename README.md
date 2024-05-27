@@ -6,7 +6,7 @@ Practicing Python by going through several (free and paid) courses
 
 - [Practicing Python](#practicing-python)
   - [Table of Contents](#table-of-contents)
-  - [Short Python tutorials (do these first)](#short-python-tutorials-do-these-first)
+  - [Short(er) Python tutorials (do these first)](#shorter-python-tutorials-do-these-first)
   - [Long(er) Python tutorials](#longer-python-tutorials)
   - [Intermediate Python tutorials](#intermediate-python-tutorials)
   - [Advanced Python tutorials](#advanced-python-tutorials)
@@ -17,6 +17,7 @@ Practicing Python by going through several (free and paid) courses
   - [Automation, web crawling, web scraping, web automation](#automation-web-crawling-web-scraping-web-automation)
   - [Playlists with various tutorials](#playlists-with-various-tutorials)
   - [Suggestions for a better code](#suggestions-for-a-better-code)
+    - [Notes](#notes)
     - [Better Python code (Advices, Pydantic etc.)](#better-python-code-advices-pydantic-etc)
     - [Language agnostic suggestions for better code](#language-agnostic-suggestions-for-better-code)
   - [Python project ideas](#python-project-ideas)
@@ -35,12 +36,13 @@ Practicing Python by going through several (free and paid) courses
   - [Platforms for learning (coding, math etc.)](#platforms-for-learning-coding-math-etc)
   - [Also check out](#also-check-out)
 
-## Short Python tutorials (do these first)
+## Short(er) Python tutorials (do these first)
 
 - [ ] [LearnXinYminutes - Python3](https://learnxinyminutes.com/docs/python3/)
 - [x] [Tech With Tim - Python As Fast as Possible - Learn Python in ~75 Minutes](https://www.youtube.com/watch?v=VchuKL44s6E)
   - See [this folder](./tech_with_tim-learn_python_in_75_minutes) for code
 - [ ] [Programming with Mosh - Python for Beginners - Learn Python in 1 Hour](https://www.youtube.com/watch?v=kqtD5dpn9C8)
+- [ ] [Yashmerino - How Python Tricks You Into Thinking You're Smart](https://www.youtube.com/watch?v=iFo61Aza2rk)
 
 ## Long(er) Python tutorials
 
@@ -59,23 +61,18 @@ Practicing Python by going through several (free and paid) courses
 - [ ] [Tech With Tim - Django Authentication & User Management - Full Tutorial](https://www.youtube.com/watch?v=WuyKxdLcw3w)
 - [ ] [Tech With Tim - STOP Making These Python Mistakes](https://www.youtube.com/watch?v=sXE5298aDPw)
 - [ ] [Tech With Tim - The Truth About Learning Python in 2023](https://www.youtube.com/watch?v=qecsnAXtms4)
-- [ ] [Tech With Tim (shorts) - Django VS Flask - Which Should You Learn](https://www.youtube.com/shorts/Gj02l0R1drM)
-- [ ] [Tech With Tim (playlist) - Python MySQL Tutorial](https://www.youtube.com/playlist?list=PLzMcBGfZo4-l5kVSNVKGO60V6RkXAVtp-)
+- [ ] [(shorts) Tech With Tim - Django VS Flask - Which Should You Learn](https://www.youtube.com/shorts/Gj02l0R1drM)
+- [ ] [(playlist) Tech With Tim - Python MySQL Tutorial](https://www.youtube.com/playlist?list=PLzMcBGfZo4-l5kVSNVKGO60V6RkXAVtp-)
 - [ ] [Glitcher - 🚀 Python in 20 Minutes! | Fastest Python Tutorial!](https://www.youtube.com/watch?v=T1HNtfL0R2I)
 - [x] Coinis Python course (introductory course)
-- [ ] [CS50x 2023 - CS50x 2023 (part of the playlist) - Lecture 6 - Python](https://www.youtube.com/watch?v=5Jppcxc1Qzc&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=8&ab_channel=CS50)
-- [ ] [CS50P (playlist) - Introduction to Programming with Python (CS50P) 2022](https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V)
+- [ ] [(part of the playlist) CS50x 2023 - CS50x 2023 - Lecture 6 - Python](https://www.youtube.com/watch?v=5Jppcxc1Qzc&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=8&ab_channel=CS50)
+- [ ] [(playlist) CS50P - Introduction to Programming with Python (CS50P) 2022](https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V)
 - [ ] [freeCodeCamp - Mike Dane - Learn Python](https://www.youtube.com/watch?v=rfscVS0vtbw)
 - [ ] [freeCodeCamp - Sanjeev Thiyagarajan - Python API Development - Comprehensive Course for Beginners](https://www.youtube.com/watch?v=0sOvCWFmrtA)
 - [ ] [freeCodeCamp - Web Scraping with Python - Beautiful Soup Crash Course](https://www.youtube.com/watch?v=XVv6mJpFOb0)
 - [ ] [TechWorld with Nana - Python Tutorial for Beginners - Learn Python in 5 Hours [FULL COURSE]](https://www.youtube.com/watch?v=t8pPdKYpowI)
 - [ ] [DougMercer - The Magic that Makes Python Tick](https://www.youtube.com/watch?v=LRIUg089W2c)
 - [ ] [SDET- QA Automation Techie](https://www.youtube.com/playlist?list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa)
-- [ ] [b001 (shorts) - ALL Python Programmers Should Know This!! #python #programming #coding](https://www.youtube.com/shorts/g9fIWtSexLs)
-- [ ] [b001 (playlist) - How To Python](https://www.youtube.com/playlist?list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
-  > 2 videos 2,411 views Last updated on 27 May 2023
-- [ ] [b001 - How To Python - Data Types And Variables](https://www.youtube.com/watch?v=j6h5zPJPfA0&list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
-- [ ] [b001 - Floats and Integers | How To Python](https://www.youtube.com/watch?v=77TsTM3XxmA&list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D&index=2)
 - [ ] [Python Programmer - Master python with this unique 5-in-1 python (YouTube) project](https://www.youtube.com/watch?v=dYNJrj835lc)
 - [ ] [Dave Gray (playlist) - Python Tutorials for Beginners](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6MQri81d012LwP5jvFZ_scc)
   > 24 videos 19,828 views Last updated on 24 Jul 2023
@@ -137,6 +134,7 @@ Practicing Python by going through several (free and paid) courses
 
 ### Python design patterns, SOLID principles, refactoring, best practices, good code architecture
 
+- [ ] [ArjanCodes - Why Use Design Patterns When Python Has Functions?](https://www.youtube.com/watch?v=vzTrLpxPF54)
 - [ ] [The lost art of software design by Simon Brown](https://www.youtube.com/watch?v=36OTe7LNd6M)
 - [ ] [DevTernity Conference - The Clean Architecture (Ian Cooper)](https://www.youtube.com/watch?v=SxJPQ5qXisw)
 - [ ] [Devoxx - Victor Rentea - Evolving a Clean, Pragmatic Architecture – A Software Crafter’s Guide](https://www.youtube.com/watch?v=tMHO7_RLxgQ)
@@ -158,7 +156,18 @@ Practicing Python by going through several (free and paid) courses
 - [ ] [DreamsofCode - Turn Python BLAZING FAST with these 6 secrets](https://www.youtube.com/watch?v=YsOYMrBNGq8)
 - [ ] [DougMercer - Python doesn't need to be slow](https://www.youtube.com/watch?v=umLZphwA-dw)
 - [ ] [Python Design Patterns by Brandon Rhodes](https://python-patterns.guide/)
-- [ ] [Refactoring Guru](https://refactoring.guru/)
+- [ ] [(site) Refactoring Guru](https://refactoring.guru/)
+- [ ] [(playlist) NeuralNine - Python Advanced Tutorials](https://www.youtube.com/playlist?list=PL7yh-TELLS1FuqLSjl5bgiQIEH25VEmIc)
+  - [ ] 1. Magic Methods & Dunder - Advanced Python Tutorial #1 (246K views, 3 years ago, 11:43)
+  - [ ] 2. Decorators - Advanced Python Tutorial #2 (85K views, 3 years ago, 17:51)
+  - [ ] 3. Generators - Advanced Python Tutorial #3 (51K views, 3 years ago, 9:59)
+  - [ ] 4. Argument Parsing - Advanced Python Tutorial #4 (76K views, 3 years ago, 15:51)
+  - [ ] 5. Encapsulation - Advanced Python Tutorial #5 (54K views, 3 years ago, 10:06)
+  - [ ] 6. Type Hinting - Advanced Python Tutorial #6 (56K views, 3 years ago, 8:06)
+  - [ ] 7. Factory Design Pattern - Advanced Python Tutorial #7 (93K views, 3 years ago, 11:24)
+  - [ ] 8. Proxy Design Pattern - Advanced Python Tutorial #8 (32K views, 3 years ago, 5:12)
+  - [ ] 9. Singleton Design Pattern - Advanced Python Tutorial #9 (55K views, 3 years ago, 10:22)
+  - [ ] 10. Composite Design Pattern - Advanced Python Tutorial #10 (29K views, 3 years ago, 9:48)
 
 ### Roadmaps
 
@@ -311,6 +320,8 @@ Practicing Python by going through several (free and paid) courses
     - Tkinter
     - Pygame [does not fit any category]
 
+  - [ ] [Bitfumes - FastAPI - A python framework | Full Course](https://www.youtube.com/watch?v=7t2alSnE2-I)
+
 ## Automation, web crawling, web scraping, web automation
 
 - [ ] [Tech With Tim (playlist) - Beautiful Soup 4 Tutorial](https://www.youtube.com/playlist?list=PLzMcBGfZo4-lSq2IDrA6vpZEV92AmQfJK)
@@ -348,6 +359,10 @@ Practicing Python by going through several (free and paid) courses
 
 ## Suggestions for a better code
 
+### Notes
+
+- NOTE: Avoid importing everything from a module (e.g. `from module import *`)
+
 ### Better Python code (Advices, Pydantic etc.)
 
 - [x] [mCoding - 25 nooby Python habits you need to ditch](https://www.youtube.com/watch?v=qUeud6DvOWI)
@@ -361,26 +376,73 @@ Practicing Python by going through several (free and paid) courses
   - We don't need to turn every single loop into a comprehension
   - Don't check for a type with `==`, use `isinstance` instead
 - [ ] [mCoding - 21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
-- [ ] [mCoding - You should put this in all your Python scripts | if **name** == '**main**': ...](https://www.youtube.com/watch?v=g_wlZ9IhbTs)
+- [x] [mCoding - You should put this in all your Python scripts | if **name** == '**main**': ...](https://www.youtube.com/watch?v=g_wlZ9IhbTs)
+
+  - NOTE: (My note) A file with this line can be used both as a standalone script **with executable code** and as an importable module **with reusable functions**.
+  - This is a good practice to prevent code from running when the script is imported as a module into another script.
+    > (In other words - this is useful when you want to be able to import the script as a module in another script without running the code in the script you're importing.)
+  - Not every file is a script (which is a file we intend to run), some are modules.
+  - The `if __name__ == "__main__"` is a "signal" to the Python interpreter (and to the reader of the code) that the script is being run as the main program.
+  - If we don't see this line than we can assume that the script is being imported as a module and that **we should NOT run the code** in it.
+  - We're using the `main` function to encapsulate the code that we want to run when the script is run as the main program. That way we don't have global variables and functions that can be accidentally called when the script is imported as a module.
+  - The syntax (placed in the **main** script) is as follows (NOTE: the `main` function is just a convention, it can be named differently):
+
+    ```python
+      def main():
+          # code here
+
+      if __name__ == "__main__":
+          main()
+    ```
+
 - [ ] [mCoding - Which Python @dataclass is best? Feat. Pydantic, NamedTuple, attrs...](https://www.youtube.com/watch?v=vCLetdhswMg)
+- [ ] [mCoding - Python Generators](https://www.youtube.com/watch?v=tmeKsb2Fras)
 - [ ] [Patrick Loeber - 11 Tips And Tricks To Write Better Python Code](https://www.youtube.com/watch?v=8OKTAedgFYg)
 - [ ] [Tech With Tim - Write Python Code Properly!](https://www.youtube.com/watch?v=D4_s3q038I0)
+- [ ] [Tech With Tim - 10 Python Comprehensions You SHOULD Be Using](https://www.youtube.com/watch?v=twxE0dEp3qQ)
 - [ ] [UWCS - University of Warwick Computing Society - 5 Horrifying Python Techniques to get you fired - Andrew L](https://www.youtube.com/watch?v=t863QfAOmlY)
   > NOTE: Check out UWCS - University of Warwick Computing Society's YouTube channell for more interesting talks
 - [ ] [Make Tkinter Look 10x Better in 5 Minutes (CustomTkinter)](https://www.youtube.com/watch?v=Miydkti_QVE)
 - [ ] [NeuralNine - Does Pydantic Replace Dataclasses in Python?](https://www.youtube.com/watch?v=Nlhp4EmE55I)
 - [ ] [NeuralNine - Data Classes in Python Are The New Standard](https://www.youtube.com/watch?v=ojrbuVKblew)
+- [ ] [ArjanCodes - 5 Tips For Object-Oriented Programming Done Well - In Python](https://www.youtube.com/watch?v=-ghD-XjjO2g)
 - [ ] [ArjanCodes - This Is Why Python Data Classes Are Awesome](https://www.youtube.com/watch?v=CvQ7e6yUtnw)
 - [ ] [ArjanCodes - Attrs, Pydantic, or Python Data Classes?](https://www.youtube.com/watch?v=zN4VCb0LbQI)
 - [ ] [ArjanCodes - Functions vs Classes: When to Use Which and Why?](https://www.youtube.com/watch?v=txRTzljmV0Q)
+- [ ] [ArjanCodes - Protocol Or ABC In Python - When to Use Which One?](https://www.youtube.com/watch?v=xvb5hGLoK0A)
 - [ ] [Indently - THIS Is How You Should Be Making Getters & Setters In Python](https://www.youtube.com/watch?v=Sz9G0iwwHQI)
+- [ ] [Indently - 5 Useful Python Decorators (ft. Carberra)](https://www.youtube.com/watch?v=3_P-dxrNCq8)
 - [ ] [Corey Schafer - Python OOP Tutorial 6: Property Decorators - Getters, Setters, and Deleters](https://www.youtube.com/watch?v=jCzT9XFZ5bw)
+- [x] [b001 (shorts) - ALL Python Programmers Should Know This!! #python #programming #coding](https://www.youtube.com/shorts/g9fIWtSexLs)
+- [x] [b001 - Python Lambda Functions??](https://www.youtube.com/watch?v=KR22jigJLok)
+- [x] [b001 - Python Yield Keyword??](https://www.youtube.com/watch?v=HnggP09mKpM)
+- [x] [b001 - What is Scope in Python??](https://www.youtube.com/watch?v=38uGbVYICwg)
+- [x] [b001 - Add THIS To Your Python Scripts! if **name** == "**main**"](https://www.youtube.com/watch?v=o4XveLyI6YU)
+
+  - Basically we're using `if __name__ == "__main__":` to prevent code from running when the script is imported as a module.
+  - The syntax (placed in the **main** script) is as follows (NOTE: the `main` function is just a convention, it can be named differently):
+
+    ```python
+      def main():
+          # code here
+
+      if __name__ == "__main__":
+          main()
+    ```
+
+- [x] [b001 (playlist) - How To Python](https://www.youtube.com/playlist?list=PLcJaUU702Pwi2goKFIHGIgECfYf0aIi_D)
+
+  > 2 videos 2,411 views Last updated on 27 May 2023
+
+  - [ ] 1. How To Python - Data Types And Variables (8.3K views, 1 year ago, 6:06)
+  - [ ] 2. Floats and Integers | How To Python (27K views, 11 months ago, 3:34)
 
 ### Language agnostic suggestions for better code
 
 - [x] [CodeAestetic - Why You Shouldn't Nest Your Code](https://www.youtube.com/watch?v=CFRhGnuXG-4)
 - [ ] [Creel - Branchless Programming: Why "If" is Sloowww... and what we can do about it!](https://www.youtube.com/watch?v=bVJ-mWWL7cE)
 - [ ] [In progress][Coderized - How principled coders outperform the competition](https://www.youtube.com/watch?v=q1qKv5TBaOA)
+- [ ] [Yashmerino - Why You Should Stop Using Clean Code](https://www.youtube.com/watch?v=HkFIau29-Yo)
 
 ## Python project ideas
 
@@ -511,7 +573,7 @@ Practicing Python by going through several (free and paid) courses
   - [ ] 4. Adding tests to a codebase (this is needed almost everywhere)
   - [ ] 5. Moving to NextJS 13
 - [ ] [freeCodeCamp - JimShapedCoding - Web Scraping with Python - Beautiful Soup Crash Course](https://www.youtube.com/watch?v=XVv6mJpFOb0)
-- [ ] [Make Data Useful - How to make money with Python](https://www.youtube.com/playlist?list=PLq1YsG1H2jMWSjtGMsfGH48DvPQX1VP-I)
+- [ ] [(playlist) Make Data Useful - How to make money with Python](https://www.youtube.com/playlist?list=PLq1YsG1H2jMWSjtGMsfGH48DvPQX1VP-I)
   - [ ] 1. Python web scraper $$$ - Easy step by step guide | How to make money with Python Episode 1(444K views, 3 years ago, 30:21)
   - [ ] 2. Python Upwork web scraper - Easy step by step guide | How to make money with Python Episode 2(71K views, 3 years ago, 30:29)
   - [ ] 3. Python YouTube scraper - Easy step by step guide | How to make money with Python Episode 3(34K views, 3 years ago, 33:56)
@@ -592,7 +654,7 @@ Practicing Python by going through several (free and paid) courses
 
 ### Math with Python
 
-- [ ] [Mr. P Solver - The Full Python Tutorial](https://www.youtube.com/playlist?list=PLkdGijFCNuVnGxo-1fSNcdHh5gZc17oRM)
+- [ ] [(playlist) Mr. P Solver - The Full Python Tutorial](https://www.youtube.com/playlist?list=PLkdGijFCNuVnGxo-1fSNcdHh5gZc17oRM)
   > 20 videos 67,841 views Last updated on 12 Feb 2023
   - [ ] Basics of Python: Part 1 - Introduction
   - [ ] Basics of Python: Part 2 - Lists, Tuples, Arrays
@@ -621,8 +683,8 @@ Practicing Python by going through several (free and paid) courses
 
 ## Various courses
 
-- [ ] [Bro Code - Full Courses (Python, JAVA, C++, C#, C, Data Structures and Algorithms...)](https://www.youtube.com/playlist?list=PLZPZq0r_RZON03iKBjYOsOKr1-TD7z2lH)
-- [ ] [pixegami - Python Tutorials](https://www.youtube.com/playlist?list=PLZJBfja3V3RvxooZ5SNOr7CMFzURr4NBs)
+- [ ] [(playlist) Bro Code - Full Courses (Python, JAVA, C++, C#, C, Data Structures and Algorithms...)](https://www.youtube.com/playlist?list=PLZPZq0r_RZON03iKBjYOsOKr1-TD7z2lH)
+- [ ] [(playlist) pixegami - Python Tutorials](https://www.youtube.com/playlist?list=PLZJBfja3V3RvxooZ5SNOr7CMFzURr4NBs)
   - [ ] 1. Why You Should Learn Python in 2023 (as your first programming language) (4K views,1 months ago, 14:33)
   - [ ] 2. How To Write Unit Tests in Python • Pytest Tutorial (106K views, year ago, 35:34)
   - [ ] 3. PyTest • REST API Integration Testing with Python (53K views, year ago, 37:24)
