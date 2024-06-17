@@ -11,6 +11,7 @@ Practicing Python by going through several (free and paid) courses
   - [Intermediate Python tutorials](#intermediate-python-tutorials)
   - [Advanced Python tutorials](#advanced-python-tutorials)
     - [Python design patterns, SOLID principles, refactoring, best practices, good code architecture](#python-design-patterns-solid-principles-refactoring-best-practices-good-code-architecture)
+    - [Data structures and algorithms](#data-structures-and-algorithms)
     - [Roadmaps](#roadmaps)
   - [Books](#books)
   - [Python modules, libraries, frameworks](#python-modules-libraries-frameworks)
@@ -98,7 +99,6 @@ Practicing Python by going through several (free and paid) courses
 ## Intermediate Python tutorials
 
 - [ ] [freeCodeCamp - Anil Kulkarni - Octallium - Learn Python by Thinking in Types - Full Course](https://www.youtube.com/watch?v=jH85McHenvw)
-- [ ] [freeCodeCamp - Aakash - Jovian - Data Structures and Algorithms in Python - Full Course for Beginners](https://www.youtube.com/watch?v=pkYVOmU3MgA)
 - [ ] [Patrick Loeber - Intermediate Python Programming Course (IMPORTANT!)](https://www.youtube.com/playlist?list=PLqnslRFeH2UqLwzS0AwKDKLrpYBKzLBy2)
 
   - [x] 1. Lists (187K views, 4 years ago, 15:51)
@@ -168,6 +168,30 @@ Practicing Python by going through several (free and paid) courses
   - [ ] 8. Proxy Design Pattern - Advanced Python Tutorial #8 (32K views, 3 years ago, 5:12)
   - [ ] 9. Singleton Design Pattern - Advanced Python Tutorial #9 (55K views, 3 years ago, 10:22)
   - [ ] 10. Composite Design Pattern - Advanced Python Tutorial #10 (29K views, 3 years ago, 9:48)
+- [ ] [Kantan Coding - Creational Design Patterns (Python)](https://www.youtube.com/playlist?list=PL7g1jYj15RUO-crQOgDV0_dVp2OaoSgye)
+  - [ ] 1. Builder Design Pattern Explained in 10 Minutes (23K views, 1 year ago, 10:44)
+  - [ ] 2. Abstract Factory Pattern Explained For Beginners (2.5K views, 1 year ago, 24:26)
+  - [ ] 3. Factory Method Pattern Visualized (7.4K views, 1 year ago, 23:54)
+
+### Data structures and algorithms
+
+- [ ] [freeCodeCamp - Aakash - Jovian - Data Structures and Algorithms in Python - Full Course for Beginners](https://www.youtube.com/watch?v=pkYVOmU3MgA)
+- [ ] [Kantan Coding - Learn Tree Traversal Algorithms By Building A Python CLI App](https://www.youtube.com/playlist?list=PL7g1jYj15RUMeIY778b8lvgUzdRFnEniI)
+  - [ ] 1. Python Algorithms Tutorial: CLI App Part 1 - App Skeleton (2.1K views, 3 years ago, 14:42)
+  - [ ] 2. Python Algorithms Tutorial: CLI App Part 2 - Queue, Binary Tree, Level Order Traversal (646 views, 3 years ago, 27:48)
+  - [ ] 3. Python Algorithms Tutorial: CLI App Part 3 - BFS Breadth First Search, DFS Depth First Search (442 views, 3 years ago, 33:42)
+  - [ ] 4. Python Algorithms Tutorial: CLI App Part 4 - DFS Depth First Search In-Order, Post-Order (328 views, 3 years ago, 22:11)
+  - [ ] 5. Python Algorithms Tutorial: CLI App Part 5 - Binary Search Tree, Binary Search (329 views, 3 years ago, 32:52)
+  - [ ] 6. Python Algorithms Tutorial: CLI App Part 6 - Packaging & Installing (393 views, 2 years ago, 8:10)
+- [ ] [Kantan Coding - ](https://www.youtube.com/playlist?list=PL7g1jYj15RUP_Mri9ym6BdUais6_jvhrS)
+  - [ ] 1. Data Structures for Python Developers (Flask API) #1: Intro & Setup (3.8K views, 3 years ago, 5:35)
+  - [ ] 2. Data Structures for Python Developers (Flask API) #2: Database & API Skeleton (1.9K views, 3 years ago, 24:34)
+  - [ ] 3. Data Structures for Python Developers (Flask API) #3: Linked List (1.4K views, 3 years ago, 45:10)
+  - [ ] 4. Data Structures for Python Developers (Flask API) #4: Linked List Continued (675 views, 3 years ago, 18:21)
+  - [ ] 5. Data Structures for Python Developers (Flask API) #5: Hash Table (713 views, 3 years ago, 24:36)
+  - [ ] 6. Data Structures for Python Developers (Flask API) #6: Hash Table Continued (424 views, 3 years ago, 12:01)
+  - [ ] 7. Data Structures for Python Developers (Flask API) #7: Binary Search Tree (647 views, 3 years ago, 34:12)
+  - [ ] 8. Data Structures for Python Developers (Flask API) #8: Stacks and Queues (708 views, 3 years ago, 33:01)
 
 ### Roadmaps
 
