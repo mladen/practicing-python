@@ -24,3 +24,11 @@ sl.append(4)
 # print(len([3, 2, 3]))
 # print(f"Number on 2nd position is: {sl.getNumberByPosition(1)}")
 print(f"Number on 2nd position is: {sl[1]}")
+
+# Checking if "SuperList" is the subclass of the "list"
+print(issubclass(SuperList, list))
+
+# Checking if "list" is the subclass of the "object"
+print(
+    issubclass(list, object)
+)  # "object" is the base object. NOTE: Everything in Python is an object.
