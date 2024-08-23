@@ -5,7 +5,7 @@ Practicing Python by going through several (free and paid) courses
 ### Table of Contents
 
 - [Practicing Python](#practicing-python)
-  - [Table of Contents](#table-of-contents)
+    - [Table of Contents](#table-of-contents)
   - [Short(er) Python tutorials (do these first)](#shorter-python-tutorials-do-these-first)
   - [Long(er) Python tutorials](#longer-python-tutorials)
   - [Intermediate Python tutorials](#intermediate-python-tutorials)
@@ -25,6 +25,9 @@ Practicing Python by going through several (free and paid) courses
     - [Python game ideas (PyGame)](#python-game-ideas-pygame)
       - [Python game engines](#python-game-engines)
     - [Python automation project ideas](#python-automation-project-ideas)
+  - [Python interview](#python-interview)
+    - [Python interview preparation](#python-interview-preparation)
+    - [Python interview questions](#python-interview-questions)
   - [General](#general)
     - [General conference talks](#general-conference-talks)
     - [General advice](#general-advice)
@@ -641,6 +644,17 @@ Practicing Python by going through several (free and paid) courses
 
 - [ ] [Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
 - [ ] [Udemy - Al Sweigart - Automate the Boring Stuff with Python Programming (Rating: 4.6 out of 5 (108,503 ratings) 1,094,672 students, 9.5h, Last updated 2/2023)](https://www.udemy.com/course/automate/)
+
+## Python interview
+
+### Python interview preparation
+
+- [x] [sahilandsarra - Use REACT in coding interviews](https://www.youtube.com/shorts/29LztOIqRpo)
+  - R - repeat the question, E - example(s), A - approach, C - code, T - test
+
+### Python interview questions
+
+- [x] [NeetCode - Python for Coding Interviews - Everything you need to Know](https://www.youtube.com/watch?v=0K_eZGS5NsU)
 
 ## General
 
