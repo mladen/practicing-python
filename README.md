@@ -655,6 +655,7 @@ Practicing Python by going through several (free and paid) courses
 ### Python interview questions
 
 - [x] [NeetCode - Python for Coding Interviews - Everything you need to Know](https://www.youtube.com/watch?v=0K_eZGS5NsU)
+- [x] [Kite - Python Technical Interviews - 5 Things you MUST KNOW](https://www.youtube.com/watch?v=Zee665ssm8Y)
 
 ## General
 
