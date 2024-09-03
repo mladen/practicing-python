@@ -2155,6 +2155,33 @@ These answered questions aim to provide additional clarity and context to each c
 >
 > The `yield` keyword is used to produce a value from the generator and temporarily suspend its state until the next iteration.
 
+NOTE: range() is a generator function that produces values on-the-fly, making it memory-efficient for large ranges. It does not store all values in memory at once (like a list does). The `yield` keyword in the `my_generator` function allows it to produce values lazily, one at a time.
+
+NOTE: Every generator is an iterator (for example: range, map, filter, zip, enumerate, etc.) but not every iterator is a generator (for example: list, tuple, dict, set, file objects, etc. are iterators but not generators)
+
+So:
+
+```python
+range() # does not store all values in memory at once;
+list(range()) # stores all values in memory at once;
+```
+
+`yield` pauses the function and saves the state of the function, so it can be resumed later by calling the `next()` function on the generator object. When the function is resumed, it continues from where it left off.
+If the function contains a `yield` statement, it becomes a generator function. When you call a generator function, it returns a generator object, which is an iterator.
+The memory contains only one value at a time, so it is memory-efficient for large or infinite sequences.
+
+```python
+def my_generator():
+    for i in range(5):
+        yield i
+
+gen = my_generator() # calling the generator function returns a generator object
+
+print(next(gen))  # Output: 0
+print(next(gen))  # Output: 1
+print(next(gen))  # Output: 2
+```
+
 ## Threading vs Multiprocessing
 
 - **Explanation**: Concurrent execution using threads or processes.
