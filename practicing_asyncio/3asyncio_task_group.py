@@ -20,9 +20,10 @@ async def main():
         for i, sleep_time in enumerate([2, 1, 3], start=1):
             task = tg.create_task(fetch_data(i, sleep_time))
             tasks.append(task)
-    # After the TaskGroup code block, all tasks have completed and we can move on
+    # After the TaskGroup code block, all tasks have completed (and the
+    # previous block of code will stop blocking) and we can move on!
 
-    results = [task.result() for task in tasks]
+    results = [task.result() for task in tasks]  # Retrieve the results from the tasks
 
     for result in results:
         print(f"Received results: {result}")
