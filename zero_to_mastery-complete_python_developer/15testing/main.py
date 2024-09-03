@@ -1,24 +1,38 @@
 import random
 
-min_value: int = 1
-max_value: int = 10
-answer = random.randint(min_value, max_value)
+
+def is_guess_in_range(guess: int) -> bool:
+    """
+    Check whether the guess is within the range of 1 and 10.
+
+    :param guess: an integer representing the guessed number
+    :return: a boolean indicating whether the guess is within range
+    """
+    return isinstance(guess, int) and 1 <= guess <= 10
 
 
-def guessedNumberInRange(min_value, max_value, guessedNumber: int):
-    return min_value <= guessedNumber <= max_value
+# -def is_guess_in_range(guessedNumber: int):
+# -    if type(guessedNumber) != int:
+# -        return False
+# -    return 1 <= guessedNumber <= 10
 
 
-def exactNumber(guess: int, answer=answer):
-    return guess == answer
+def is_exact_number(guess: int, answer: int) -> bool:
+    return (
+        guess == answer if isinstance(guess, int) and isinstance(answer, int) else False
+    )
+
+
+# -def is_exact_number(guess: int, answer: int):
+# -    return guess == answer
 
 
 def game():
     while True:
         try:
             guess = int(input("Guess the number between 1 and 10: "))
-            if guessedNumberInRange(min_value, max_value, guess):
-                if exactNumber(guess):
+            if is_guess_in_range(guess):
+                if is_exact_number(guess, answer):
                     print("You got it!")
                     break
             else:
@@ -30,4 +44,5 @@ def game():
 
 
 if __name__ == "__main__":
-    game()
+    answer = random.randint(1, 10)
+    game(answer)
