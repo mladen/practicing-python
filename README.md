@@ -21,13 +21,13 @@ Practicing Python by going through several (free and paid) courses
     - [Notes](#notes)
     - [Better Python code (Advices, Pydantic etc.)](#better-python-code-advices-pydantic-etc)
     - [Language agnostic suggestions for better code](#language-agnostic-suggestions-for-better-code)
+  - [Python interview](#python-interview)
+    - [Python interview preparation](#python-interview-preparation)
+    - [Python interview questions](#python-interview-questions)
   - [Python project ideas](#python-project-ideas)
     - [Python game ideas (PyGame)](#python-game-ideas-pygame)
       - [Python game engines](#python-game-engines)
     - [Python automation project ideas](#python-automation-project-ideas)
-  - [Python interview](#python-interview)
-    - [Python interview preparation](#python-interview-preparation)
-    - [Python interview questions](#python-interview-questions)
   - [General](#general)
     - [General conference talks](#general-conference-talks)
     - [General advice](#general-advice)
@@ -85,6 +85,7 @@ Practicing Python by going through several (free and paid) courses
 - [ ] [Bro Code - Python Full Course for free](https://www.youtube.com/watch?v=XKHEtdqhLK8)
 - [ ] [Clear Code - The complete guide to Python](https://www.youtube.com/watch?v=mDKM-JtUhhc)
 - [x] [Sundas Khalid - How to Learn Python FAST with ChatGPT?](https://www.youtube.com/watch?v=tEn5BjRY8Uw)
+- [ ] [Code with Josh - Object-Oriented Programming with Python in 2024 | 7-Hour FREE Course for Beginners](https://www.youtube.com/watch?v=-YhddS9_uus)
 
 - [ ] [Udemy - Jose Portilla - The Complete Python Bootcamp From Zero to Hero in Python (Rating: 4.6 out of 5 (472,187 ratings) 1,756,928 students, 22h, Last updated 7/2023)](https://www.udemy.com/course/complete-python-bootcamp/)
 - [ ] [Udemy - Mark Winderbottom - Build a Backend REST API with Python & Django - Advanced (Bestseller, Rating: 4.7 out of 5 (7,339 ratings) 39,737 students, 23h, Last updated 1/2023)](https://www.udemy.com/course/django-python-advanced/)
@@ -437,6 +438,9 @@ Practicing Python by going through several (free and paid) courses
 - [ ] [ArjanCodes - Attrs, Pydantic, or Python Data Classes?](https://www.youtube.com/watch?v=zN4VCb0LbQI)
 - [ ] [ArjanCodes - Functions vs Classes: When to Use Which and Why?](https://www.youtube.com/watch?v=txRTzljmV0Q)
 - [ ] [ArjanCodes - Protocol Or ABC In Python - When to Use Which One?](https://www.youtube.com/watch?v=xvb5hGLoK0A)
+- [ ] [Tech With Tim - Python 101: Learn the 5 Must-Know Concepts](https://www.youtube.com/watch?v=mMv6OSuitWw)
+- [ ] [Indently - 10 Important Python Concepts In 20 Minutes](https://www.youtube.com/watch?v=Gx5qb1uHss4)
+- [ ] [Indently - 5 Good Python Habits](https://www.youtube.com/watch?v=I72uD8ED73U)
 - [ ] [Indently - THIS Is How You Should Be Making Getters & Setters In Python](https://www.youtube.com/watch?v=Sz9G0iwwHQI)
 - [ ] [Indently - 5 Useful Python Decorators (ft. Carberra)](https://www.youtube.com/watch?v=3_P-dxrNCq8)
 - [ ] [Corey Schafer - Python OOP Tutorial 6: Property Decorators - Getters, Setters, and Deleters](https://www.youtube.com/watch?v=jCzT9XFZ5bw)
@@ -470,6 +474,19 @@ Practicing Python by going through several (free and paid) courses
 - [ ] [Creel - Branchless Programming: Why "If" is Sloowww... and what we can do about it!](https://www.youtube.com/watch?v=bVJ-mWWL7cE)
 - [ ] [In progress][Coderized - How principled coders outperform the competition](https://www.youtube.com/watch?v=q1qKv5TBaOA)
 - [ ] [Yashmerino - Why You Should Stop Using Clean Code](https://www.youtube.com/watch?v=HkFIau29-Yo)
+
+## Python interview
+
+### Python interview preparation
+
+- [x] [sahilandsarra - Use REACT in coding interviews](https://www.youtube.com/shorts/29LztOIqRpo)
+  - R - repeat the question, E - example(s), A - approach, C - code, T - test
+
+### Python interview questions
+
+- [x] [NeetCode - Python for Coding Interviews - Everything you need to Know](https://www.youtube.com/watch?v=0K_eZGS5NsU)
+- [x] [Kite - Python Technical Interviews - 5 Things you MUST KNOW](https://www.youtube.com/watch?v=Zee665ssm8Y)
+- [ ] [Keith Galli - Solving Leetcode Coding Interview Questions in Python!](https://www.youtube.com/watch?v=btdna5esLsI)
 
 ## Python project ideas
 
@@ -645,17 +662,7 @@ Practicing Python by going through several (free and paid) courses
 - [ ] [Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
 - [ ] [Udemy - Al Sweigart - Automate the Boring Stuff with Python Programming (Rating: 4.6 out of 5 (108,503 ratings) 1,094,672 students, 9.5h, Last updated 2/2023)](https://www.udemy.com/course/automate/)
 
-## Python interview
 
-### Python interview preparation
-
-- [x] [sahilandsarra - Use REACT in coding interviews](https://www.youtube.com/shorts/29LztOIqRpo)
-  - R - repeat the question, E - example(s), A - approach, C - code, T - test
-
-### Python interview questions
-
-- [x] [NeetCode - Python for Coding Interviews - Everything you need to Know](https://www.youtube.com/watch?v=0K_eZGS5NsU)
-- [x] [Kite - Python Technical Interviews - 5 Things you MUST KNOW](https://www.youtube.com/watch?v=Zee665ssm8Y)
 
 ## General
 
@@ -665,10 +672,10 @@ Practicing Python by going through several (free and paid) courses
 - [ ] [NDC Conferences - Lambda? You Keep Using that Letter - Kevlin Henney](https://www.youtube.com/watch?v=Y7StjYhXvpE)
 - [ ] [HowieCode - 7 Software Design Concepts from John Ousterhout](https://www.youtube.com/watch?v=xneSqeac9Pk)
 - [ ] [Talks at Google - A Philosophy of Software Design | John Ousterhout](https://www.youtube.com/watch?v=bmSAYlu0NcY)
+- [ ] [Agile LnL (Agile Lunch & Learn) - Can Great Programmers Be Taught? - John Ousterhout](https://www.youtube.com/watch?v=LtRWu9DErgU)
 - [ ] [Istanbul Tech Talks - ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers](https://www.youtube.com/watch?v=ZsHMHukIlJY)
 - [ ] [GOTO Conferences - Small Is Beautiful - Kevlin Henney - GOTO 2016](https://www.youtube.com/watch?v=B3b4tremI5o)
 - [ ] [GOTO Conferences - The Art of Software Development - Sander Mak - GOTO 2023](https://www.youtube.com/watch?v=fUVfkLUmII4)
-- [ ] [Agile LnL (Agile Lunch & Learn) - Can Great Programmers Be Taught? - John Ousterhout](https://www.youtube.com/watch?v=LtRWu9DErgU)
 - [ ] [Concurrency is not Parallelism by Rob Pike](https://www.youtube.com/watch?v=oV9rvDllKEg)
 
 ### General advice
