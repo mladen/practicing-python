@@ -120,6 +120,37 @@ Practicing Python by going through several (free and paid) courses
   - [ ] 13. Decorators (37K views, 4 years ago, 21:24)
   - [ ] 14. Generators (19K views, 4 years ago, 18:12)
   - [ ] 15. Threading vs Multiprocessing (41K views, 4 years ago, 14:48)
+    > DEFINITION: Process: An instance of a program (e.g. a Python interpreter, a web browser, a text editor)
+    >
+    >> Advantages of processes:
+    >> + Takes advantage of multiple CPUs and cores
+    >> + Separate memory space, each process has its own memory ->> Memory is not shared between processes
+    >> + Great for CPU-bound processing
+    >> + New process is started independently from the first process (from other processes)
+    >> + Processes are interruptible/killable
+    >> + One GIL (Global Interpreter Lock) for each process -> avoids GIL limitation
+    >
+    >> Disadvantages of processes:
+    >> - Heavyweight
+    >> - Starting a process is slower than starting a thread
+    >> - More memory
+    >> - IPC (Inter-process communication) is more complicated
+    >
+    > DEFINITION: Thread: An entity within a process that can be scheduled (for execution) (also known as a lightweight process)
+    > A process can spawn multiple threads
+    >
+    >> Advantages of threads:
+    >> + All threads within a process share the same memory
+    >> + Lightweight
+    >> + Starting a thread is faster than starting a process
+    >> + Great for I/O-bound tasks (like talking to a hard drive, a network connection, a database)
+    >
+    >> Disadvantages of threads:
+    >> - Threading is limited by GIL: Only one thread can execute Python code at once (even on a multi-core processor) so there is no actual parallelism
+    >> - No effect for CPU-bound tasks (like math calculations, image and video processing etc.)
+    >> - Not interruptible/killable
+    >> - Careful with race conditions
+
   - [ ] 16. Threading (43K views, 4 years ago, 23:42)
   - [ ] 17. Multiprocessing (48K views, 4 years ago, 22:47)
   - [ ] 18. Function arguments (39K views, 4 years ago, 24:21)
