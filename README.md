@@ -150,6 +150,19 @@ Practicing Python by going through several (free and paid) courses
     >> - No effect for CPU-bound tasks (like math calculations, image and video processing etc.)
     >> - Not interruptible/killable
     >> - Careful with race conditions
+    >
+    > DEFINITION: GIL (Global Interpreter Lock): A lock that allows only one thread at a time to execute in Python (even on a multi-core processor)
+    >> - It is needed because CPython (the reference implementation of Python) is not thread-safe. -> That means that multiple threads can't execute Python bytecodes at once.
+    >> - It is a performance bottleneck in CPU-bound tasks (like math calculations, image and video processing etc.)
+    >> - It is not a problem for I/O-bound tasks (like talking to a hard drive, a network connection, a database, a web server etc.)
+    >> - It is not a problem for multi-threaded C extensions (like NumPy, Pandas, OpenCV etc.)
+    >
+    > If we want to avoid the GIL but still want to use parallel computing we can use:
+    >> - multiprocessing module (for CPU-bound tasks)
+    >> - use a different, free-threaded Python implementation (like Jython, IronPython, PyPy)
+    >> - use Python as a wrapper for third-party libraries (like C++ libraries) -> this is how NumPy, Pandas, OpenCV etc. work
+    >> - asyncio module (for I/O-bound tasks) TODO: check this
+    >> - concurrent.futures module (for both CPU-bound and I/O-bound tasks) TODO: check this
 
   - [ ] 16. Threading (43K views, 4 years ago, 23:42)
   - [ ] 17. Multiprocessing (48K views, 4 years ago, 22:47)
