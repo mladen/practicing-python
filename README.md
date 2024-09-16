@@ -119,7 +119,7 @@ Practicing Python by going through several (free and paid) courses
   - [x] 12. Random Numbers (10K views, 4 years ago, 14:57)
   - [ ] 13. Decorators (37K views, 4 years ago, 21:24)
   - [ ] 14. Generators (19K views, 4 years ago, 18:12)
-  - [ ] 15. Threading vs Multiprocessing (41K views, 4 years ago, 14:48)
+  - [x] 15. Threading vs Multiprocessing (41K views, 4 years ago, 14:48)
     > DEFINITION: Process: An instance of a program (e.g. a Python interpreter, a web browser, a text editor)
     >
     >> Advantages of processes:
@@ -143,13 +143,13 @@ Practicing Python by going through several (free and paid) courses
     >> + All threads within a process share the same memory
     >> + Lightweight
     >> + Starting a thread is faster than starting a process
-    >> + Great for I/O-bound tasks (like talking to a hard drive, a network connection, a database)
+    >> + Great for I/O-bound tasks (When our program has to talk to slow devices like talking to a hard drive, a network connection, a database...our program can use the time waiting for these devices and then intelligently switch to another thread to do something else).
     >
     >> Disadvantages of threads:
     >> - Threading is limited by GIL: Only one thread can execute Python code at once (even on a multi-core processor) so there is no actual parallelism
-    >> - No effect for CPU-bound tasks (like math calculations, image and video processing etc.)
+    >> - NOTE: No effect for CPU-bound tasks (like math calculations, image and video processing etc.) because of GIL
     >> - Not interruptible/killable
-    >> - Careful with race conditions
+    >> - Careful with race conditions (when two or more threads try to modify the same variable at the same time - this can cause unexpected behavior, bugs or crashes)
     >
     > DEFINITION: GIL (Global Interpreter Lock): A lock that allows only one thread at a time to execute in Python (even on a multi-core processor)
     >> - It is needed because CPython (the reference implementation of Python) is not thread-safe. -> That means that multiple threads can't execute Python bytecodes at once.
@@ -163,6 +163,9 @@ Practicing Python by going through several (free and paid) courses
     >> - use Python as a wrapper for third-party libraries (like C++ libraries) -> this is how NumPy, Pandas, OpenCV etc. work
     >> - asyncio module (for I/O-bound tasks) TODO: check this
     >> - concurrent.futures module (for both CPU-bound and I/O-bound tasks) TODO: check this
+    >
+    >> QUESTION: Why is the GIL needed? \
+    >> A GIL is needed because in CPython there is a memory management that is not thread-safe. So, in CPython there is a technique called reference counting that is used to manage memory. This means that objects created in Python have a reference count variable that keeps track of the number of references that point to the object. When this count reaches zero, the memory occupied by the object is released. The problem now in multi-threading is that this reference count variable needs protection from race conditions where two threads increase or decrease the value simultaneously. So, if this happens it can either cause leaked memory that is never released or it can incorrectly release memory (that is still in use) while the reference to that object still exists. This is the reason why CPython has a GIL.
 
   - [ ] 16. Threading (43K views, 4 years ago, 23:42)
   - [ ] 17. Multiprocessing (48K views, 4 years ago, 22:47)
