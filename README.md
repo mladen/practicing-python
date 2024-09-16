@@ -22,6 +22,7 @@ Practicing Python by going through several (free and paid) courses
     - [Better Python code (Advices, Pydantic etc.)](#better-python-code-advices-pydantic-etc)
     - [Language agnostic suggestions for better code](#language-agnostic-suggestions-for-better-code)
   - [Python interview](#python-interview)
+    - [Advices about how to learn Python](#advices-about-how-to-learn-python)
     - [Python interview preparation](#python-interview-preparation)
     - [Python interview questions](#python-interview-questions)
   - [Python project ideas](#python-project-ideas)
@@ -523,6 +524,10 @@ Practicing Python by going through several (free and paid) courses
 - [ ] [Yashmerino - Why You Should Stop Using Clean Code](https://www.youtube.com/watch?v=HkFIau29-Yo)
 
 ## Python interview
+
+### Advices about how to learn Python
+
+- [ ] [Thu Vu data analytics - How I Would Learn Python FAST in 2024 (if I could start over)](https://www.youtube.com/watch?v=St48epdRDZw)
 
 ### Python interview preparation
 
