@@ -12,7 +12,13 @@ def square_numbers():
 if __name__ == "__main__":
     processes = []
     num_processes = os.cpu_count()
+
+    print(
+        f"\nRunning {num_processes} processes on {os.name} which has {os.cpu_count()} CPUs!"
+    )
+
     for i in range(num_processes):
+        print(f"Main    : create and start process {i}")
         p = Process(target=square_numbers)
         processes.append(p)
 
