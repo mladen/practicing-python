@@ -713,6 +713,7 @@ Practicing Python by going through several (free and paid) courses
 
 - [ ] [Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
 - [ ] [Udemy - Al Sweigart - Automate the Boring Stuff with Python Programming (Rating: 4.6 out of 5 (108,503 ratings) 1,094,672 students, 9.5h, Last updated 2/2023)](https://www.udemy.com/course/automate/)
+- [ ] [b001 - 3 EASY Python Project Ideas!! #python #programming #coding](https://www.youtube.com/shorts/ZqS_lnqSgeY)
 
 
 
