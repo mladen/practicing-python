@@ -85,6 +85,7 @@ Practicing Python by going through several (free and paid) courses
   > This Python playlist will take you from absolute beginner to a Python Programmer with knowledge of all of the fundamentals of the Python programming language.
 - [ ] [Bro Code - Python Full Course for free](https://www.youtube.com/watch?v=XKHEtdqhLK8)
 - [ ] [Clear Code - The complete guide to Python](https://www.youtube.com/watch?v=mDKM-JtUhhc)
+  - TODO: Check if this is good!
 - [x] [Sundas Khalid - How to Learn Python FAST with ChatGPT?](https://www.youtube.com/watch?v=tEn5BjRY8Uw)
 - [ ] [Code with Josh - Object-Oriented Programming with Python in 2024 | 7-Hour FREE Course for Beginners](https://www.youtube.com/watch?v=-YhddS9_uus)
 
@@ -669,6 +670,10 @@ Practicing Python by going through several (free and paid) courses
   - [ ] 4. Adding tests to a codebase (this is needed almost everywhere)
   - [ ] 5. Moving to NextJS 13
 - [ ] [freeCodeCamp - JimShapedCoding - Web Scraping with Python - Beautiful Soup Crash Course](https://www.youtube.com/watch?v=XVv6mJpFOb0)
+- [ ] [b001 - 3 EASY Python Project Ideas!! #python #programming #coding](https://www.youtube.com/shorts/ZqS_lnqSgeY)
+  - [ ] 1. File organizer
+  - [ ] 2. Unit converter
+  - [ ] 3. QR Code generator
 - [ ] [(playlist) Make Data Useful - How to make money with Python](https://www.youtube.com/playlist?list=PLq1YsG1H2jMWSjtGMsfGH48DvPQX1VP-I)
   - [ ] 1. Python web scraper $$$ - Easy step by step guide | How to make money with Python Episode 1(444K views, 3 years ago, 30:21)
   - [ ] 2. Python Upwork web scraper - Easy step by step guide | How to make money with Python Episode 2(71K views, 3 years ago, 30:29)
@@ -712,8 +717,10 @@ Practicing Python by going through several (free and paid) courses
 ### Python automation project ideas
 
 - [ ] [Internet Made Coder - 3 PYTHON AUTOMATION PROJECTS FOR BEGINNERS](https://www.youtube.com/watch?v=vEQ8CXFWLZU)
+  - [ ] 1. Image editor (Pillow)
+  - [ ] 2. YouTube video downloader
+  - [ ] 3. PDF merger (combine multiple PDFs into one)
 - [ ] [Udemy - Al Sweigart - Automate the Boring Stuff with Python Programming (Rating: 4.6 out of 5 (108,503 ratings) 1,094,672 students, 9.5h, Last updated 2/2023)](https://www.udemy.com/course/automate/)
-- [ ] [b001 - 3 EASY Python Project Ideas!! #python #programming #coding](https://www.youtube.com/shorts/ZqS_lnqSgeY)
 
 
 
